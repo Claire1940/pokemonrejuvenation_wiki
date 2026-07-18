@@ -1,14 +1,66 @@
 import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Download,
+	KeyRound,
+	MapPin,
+	Trophy,
+	ScrollText,
+	Users,
+} from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
+	key: string // 用于翻译键，如 'guide' -> t('nav.guide')
+	path: string // URL 路径，如 '/guide'
 	icon: LucideIcon // Lucide 图标组件
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置：暂时为空，由后续 part 根据实际内容类型填充
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// 导航配置：Pokémon Rejuvenation V14 内容分类（community 已移除）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'guide',
+		path: '/guide',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'download',
+		path: '/download',
+		icon: Download,
+		isContentType: true,
+	},
+	{
+		key: 'passwords',
+		path: '/passwords',
+		icon: KeyRound,
+		isContentType: true,
+	},
+	{
+		key: 'locations',
+		path: '/locations',
+		icon: MapPin,
+		isContentType: true,
+	},
+	{
+		key: 'teams',
+		path: '/teams',
+		icon: Trophy,
+		isContentType: true,
+	},
+	{
+		key: 'quests',
+		path: '/quests',
+		icon: ScrollText,
+		isContentType: true,
+	},
+	{
+		key: 'characters',
+		path: '/characters',
+		icon: Users,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(

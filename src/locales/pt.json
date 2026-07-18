@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guia",
+    "download": "Download",
+    "passwords": "Senhas",
+    "locations": "Locais",
+    "teams": "Equipes",
+    "quests": "Missões",
+    "characters": "Personagens"
+  }
+}

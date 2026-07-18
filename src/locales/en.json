@@ -10,7 +10,15 @@
       "twitterDescription": "V14 walkthroughs, Pokémon locations, quests, bosses, Field Effects, Crests, and route guides for Pokémon Rejuvenation."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "download": "Download",
+    "passwords": "Passwords",
+    "locations": "Locations",
+    "teams": "Teams",
+    "quests": "Quests",
+    "characters": "Characters"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -576,5 +584,146 @@
     "copyright": "© 2026 Pokémon Rejuvenation Wiki. Not affiliated with the developers of Pokémon Rejuvenation, Nintendo, Game Freak, or The Pokémon Company.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Pokémon Rejuvenation Guides",
+      "description": "Complete V14 walkthrough covering every story chapter, required steps, key NPCs, and map progression across the Aevium region.",
+      "metaTitle": "Pokémon Rejuvenation Guides - V14 Story Walkthrough",
+      "metaDescription": "Follow the full Pokémon Rejuvenation V14 walkthrough with chapter-by-chapter guides, story progression, and exploration tips for the Aevium region.",
+      "categoryLabel": "STORY WALKTHROUGH",
+      "whatIs": "What are the Story Guides?",
+      "whatIsDescription": "The story guides follow the main chapter-by-chapter progression of Pokémon Rejuvenation V14, covering required steps, key NPCs, map transitions, and the locations where players commonly get stuck. They focus on the critical path from the Prologue through Chapter 16 and do not duplicate optional sidequests.",
+      "why": "Why use the Story Guides?",
+      "whySteps": {
+        "step1Title": "Follow the chapter order",
+        "step1Description": "Track chapters 1 through 16 in sequence so you always know the next objective, which region to explore, and where the story continues after each arc.",
+        "step2Title": "Never miss a map transition",
+        "step2Description": "Each chapter notes the routes, cities, and dungeons you must enter to advance, so you avoid wandering into late-game areas before you are ready.",
+        "step3Title": "Solve common stuck points",
+        "step3Description": "Find clear directions for puzzles, NPC triggers, and event flags that halt progress in places like Goldenleaf Mansion, Valor Mountain, and Grand Dream City."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "download": {
+      "title": "Pokémon Rejuvenation Download",
+      "description": "Official V14 download links and installation guides for Windows, macOS, Linux, Kirin, and JoiPlay, plus save backup, migration, and updater instructions.",
+      "metaTitle": "Pokémon Rejuvenation Download - V14 Install Guide",
+      "metaDescription": "Download Pokémon Rejuvenation V14 for Windows, macOS, Linux, and mobile, with step-by-step installation, save migration, and updater instructions.",
+      "categoryLabel": "DOWNLOAD & INSTALL",
+      "whatIs": "What is the Download Guide?",
+      "whatIsDescription": "The download guide covers how to get Pokémon Rejuvenation V14 running on your platform, including the official download sources, extraction steps, the updater tool, save backup before upgrading from V13.5, and mobile options through Kirin and JoiPlay. V14 is a free standalone fan game and does not require a Pokémon ROM or emulator.",
+      "why": "Why use the Download Guide?",
+      "whySteps": {
+        "step1Title": "Install on the right platform",
+        "step1Description": "Follow platform-specific steps for Windows, macOS, Linux, Kirin, and JoiPlay, including extraction, permissions, and writable folder placement.",
+        "step2Title": "Back up your V13.5 save",
+        "step2Description": "Copy your complete save folder before opening V14 so the conversion can be retried without losing progress.",
+        "step3Title": "Keep your build current",
+        "step3Description": "Use the included updater to apply patches without reinstalling the full package, and avoid mixing files from different V14 builds."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Downloads"
+    },
+    "passwords": {
+      "title": "Pokémon Rejuvenation Passwords",
+      "description": "Every V14 password and code with input location, unlock effect, applicable version, and usage notes for difficulty, rewards, and battle rules.",
+      "metaTitle": "Pokémon Rejuvenation Passwords - V14 Code List",
+      "metaDescription": "Browse all Pokémon Rejuvenation V14 passwords and codes, including difficulty modifiers, reward items, level rules, and battle rule toggles.",
+      "categoryLabel": "PASSWORDS & CODES",
+      "whatIs": "What are Passwords?",
+      "whatIsDescription": "Passwords in Pokémon Rejuvenation V14 are entered during new-game setup or through the in-game password menu to customize difficulty, battle rules, rewards, and quality-of-life features. Some passwords change the entire ruleset, so keep a separate unmodified save before activating challenge passwords.",
+      "why": "Why use Passwords?",
+      "whySteps": {
+        "step1Title": "Tune the difficulty",
+        "step1Description": "Lower opposing team strength with lite mode, enforce no-item battles, or harden the level cap to match the run you want to play.",
+        "step2Title": "Unlock rewards early",
+        "step2Description": "Gain earlier access to the Exp. All system, Mega Evolution, Z-Crystals, and full IV Pokémon without waiting for their normal acquisition points.",
+        "step3Title": "Improve quality of life",
+        "step3Description": "Enable convenience passwords such as easy HMs and weather control to streamline traversal and team building."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Passwords"
+    },
+    "locations": {
+      "title": "Pokémon Rejuvenation Locations",
+      "description": "Where to find every Pokémon, gift, trade, egg, Aevian Form, and key item in V14, organized by region, chapter, time, and weather.",
+      "metaTitle": "Pokémon Rejuvenation Locations - Pokémon & Items Guide",
+      "metaDescription": "Find every Pokémon, Aevian Form, gift, trade, egg, Crest, TM, and key item location in Pokémon Rejuvenation V14, sorted by region and chapter.",
+      "categoryLabel": "LOCATIONS & ITEMS",
+      "whatIs": "What are the Location Guides?",
+      "whatIsDescription": "The location guides track where to obtain Pokémon and key items in Pokémon Rejuvenation V14, separating wild encounters from gifts, trades, eggs, static events, and regional Aevian Forms. They also cover Crests, TMs, and important held items, and clearly mark content added or relocated in V14.",
+      "why": "Why use the Location Guides?",
+      "whySteps": {
+        "step1Title": "Find every Pokémon",
+        "step1Description": "Search by region, chapter, time of day, and weather to locate wild encounters, gifts, trades, and Aevian Forms throughout Aevium.",
+        "step2Title": "Collect key items and Crests",
+        "step2Description": "Track Crests, Mega Stones, Z-Crystals, TMs, and evolution items, including those tied to missable sidequests.",
+        "step3Title": "Catch missables before leaving",
+        "step3Description": "Check each region before advancing the story so limited-time encounters and quest rewards are not lost permanently."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Locations"
+    },
+    "teams": {
+      "title": "Pokémon Rejuvenation Teams",
+      "description": "Best V14 team comps, starter picks, gym leader counters, boss strategies, and a tier list to evaluate any team member against current content.",
+      "metaTitle": "Pokémon Rejuvenation Teams - Best Team & Tier List",
+      "metaDescription": "Build the best Pokémon Rejuvenation V14 team with starter picks, gym leader counters, boss strategies, and a clear tier list framework.",
+      "categoryLabel": "TEAMS & BATTLES",
+      "whatIs": "What are the Team Guides?",
+      "whatIsDescription": "The team guides cover gym leaders, Team Xen, Rift Pokémon, and major story bosses, plus starter picks and team-building strategy for V14. Each entry notes the active Field Effect, the team archetype, type weaknesses to exploit, and a strategy direction, along with a tier list framework for judging any member.",
+      "why": "Why use the Team Guides?",
+      "whySteps": {
+        "step1Title": "Counter the active Field Effect",
+        "step1Description": "Read each gym and boss field so you can remove or exploit the conditions instead of losing favorable type matchups to shifted multipliers.",
+        "step2Title": "Pick the right starter",
+        "step2Description": "Choose a starter that matches the early-game Field Effects and gym types you want to handle most smoothly through the opening chapters.",
+        "step3Title": "Rank your team members",
+        "step3Description": "Use the tier list criteria to judge any member by availability, field synergy, boss performance, and long-term value."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Teams"
+    },
+    "quests": {
+      "title": "Pokémon Rejuvenation Quests",
+      "description": "Every optional sidequest and Help Center request in V14 with trigger conditions, steps, missable warnings, and rewards organized by chapter and town.",
+      "metaTitle": "Pokémon Rejuvenation Quests - Sidequest & Help Center Guide",
+      "metaDescription": "Complete Pokémon Rejuvenation V14 sidequest and Help Center guide with trigger locations, step-by-step solutions, missable warnings, and rewards.",
+      "categoryLabel": "SIDEQUESTS",
+      "whatIs": "What are the Quest Guides?",
+      "whatIsDescription": "The quest guides cover optional sidequests and Help Center requests in Pokémon Rejuvenation V14, including where to start each request, the required steps, missable conditions, and the final reward. They focus on optional content and do not repeat the main story walkthrough.",
+      "why": "Why use the Quest Guides?",
+      "whySteps": {
+        "step1Title": "Find every request",
+        "step1Description": "Locate each Help Center request and sidequest by chapter and town so nothing is skipped during exploration.",
+        "step2Title": "Follow clean step-by-step solutions",
+        "step2Description": "Resolve NPC requests, item deliveries, and trade objectives with clear instructions and the correct target NPCs.",
+        "step3Title": "Claim every reward",
+        "step3Description": "Collect items, Eggs, and Crests before leaving a region, since several quests become unavailable after the story advances."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quests"
+    },
+    "characters": {
+      "title": "Pokémon Rejuvenation Characters",
+      "description": "Detailed profiles for the key allies, rivals, and antagonists of V14, including their role, story arc, relationships, and battle relevance.",
+      "metaTitle": "Pokémon Rejuvenation Characters - Cast & Story Guide",
+      "metaDescription": "Explore the main characters of Pokémon Rejuvenation V14, including allies, rivals, Team Xen members, and their roles across the Aevium story.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are the Character Guides?",
+      "whatIsDescription": "The character guides profile the key figures of Pokémon Rejuvenation V14, including allies like Melia and Aelita, rivals, gym leaders, and Team Xen antagonists. Each profile covers their story role, relationships, Karma influence, and how they connect to the Paragon and Renegade routes.",
+      "why": "Why use the Character Guides?",
+      "whySteps": {
+        "step1Title": "Understand the story cast",
+        "step1Description": "Learn the role and arc of each ally, rival, and antagonist so the Aevium narrative and its twists make sense.",
+        "step2Title": "Track relationships and Karma",
+        "step2Description": "See how relationship points and Karma with each character shape dialogue, available allies, and route eligibility.",
+        "step3Title": "Prepare for character battles",
+        "step3Description": "Anticipate recurring trainers and bosses by learning their teams, themes, and the Field Effects they favor."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Characters"
+    }
+  }
 }

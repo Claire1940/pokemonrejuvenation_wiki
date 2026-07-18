@@ -1,1 +1,14 @@
-{}
+{
+  "en": {
+    "guide": [
+      {
+        "slug": "pokemon-rejuvenation-guide",
+        "file": "pokemon-rejuvenation-guide"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough",
+        "file": "pokemon-rejuvenation-walkthrough"
+      }
+    ]
+  }
+}
