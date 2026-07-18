@@ -10,14 +10,7 @@
       "twitterDescription": "V14 walkthroughs, Pokémon locations, quests, bosses, Field Effects, Crests, and route guides for Pokémon Rejuvenation."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
