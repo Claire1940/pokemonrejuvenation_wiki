@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Settings, ListChecks, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Versão Atual de Pokémon Rejuvenation: Configuração da V14 e Novos Recursos",
+  description: "Explore a versão atual do Pokémon Rejuvenation V14. Saiba mais sobre o Capítulo 16, adições da Gen 9, rotas Paragon e Renegade, e guias de instalação para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=V14+Current+Version+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **versão atual de Pokémon Rejuvenation**: O lançamento mais recente é a **V14**, apresentando uma reformulação massiva de conteúdo e a conclusão do Ato 2.
+- **Escopo do Conteúdo**: Inclui os Capítulos 1 a 16, integração completa de Pokémon da **Gen 9** e novas Formas de Aevium regionais.
+- **Sistema de Rotas**: Apresentando os caminhos **Paragon** e **Renegade**, que alteram significativamente o desfecho da história no Capítulo 16.
+- **Suporte de Plataforma**: Versões nativas estão disponíveis para Windows, macOS e Linux, com suporte móvel via JoiPlay e Kirin.
+- **Requisito Chave**: Sempre faça backup dos seus arquivos de salvamento da V13.5 antes de migrar para o diretório da V14 para evitar perda de dados.
+</Callout>
+
+<Section icon={Download} title="Instalação e Compatibilidade de Versões">
+
+A **versão atual de Pokémon Rejuvenation** (V14) é um RPG independente feito por fãs que não requer um emulador ou uma ROM base. Para aproveitar as atualizações mais recentes em 2026, os jogadores devem baixar o pacote completo projetado especificamente para seu sistema operacional. Ao contrário dos patches anteriores, a V14 é um arquivo de jogo completo, o que significa que você não deve simplesmente arrastar e soltar esses arquivos em uma pasta antiga da V13.5.
+
+| Plataforma | Método Recomendado | Migração de Salvamento | Notas |
+| :--- | :--- | :--- | :--- |
+| **Windows** | Extrair ZIP para uma nova pasta | Cópia manual para AppData | Execute como Admin se o texto estiver faltando |
+| **macOS** | Clique com o botão direito > Abrir | Caminho da Biblioteca do Sistema | O Gatekeeper pode bloquear a primeira inicialização |
+| **Linux** | Conceder Permissão de Executável | Diretório Home .local | Requer todas as pastas de dados intactas |
+| **JoiPlay** | Requer Plugin do RPG Maker | Caminho de armazenamento interno | O desempenho varia de acordo com a CPU do Android |
+| **Kirin** | Importar diretório do jogo | Pasta específica do runtime | Melhor para um jogo móvel estável |
+
+<Callout type="warning" title="Segurança do Arquivo de Salvamento">
+Antes de iniciar a V14, localize sua pasta de salvamento (geralmente em `Saved Games/Pokemon Rejuvenation`). Copie toda a pasta para uma unidade na nuvem ou USB externo. A V14 converte seus dados de salvamento permanentemente; se a conversão falhar, você precisará deste backup para tentar novamente ou reverter para a V13.5.
+</Callout>
+
+### Destaques do Histórico de Versões
+
+| Versão | Principais Adições | Status |
+| :--- | :--- | :--- |
+| **V14** | Capítulo 16, Gen 9, Ramificações de Rota, Novo Jogo+ | **Versão Atual** |
+| **V13.5** | Reformulação de Terajuma, Atualizações de Pokémon Rift | Legado |
+| **V13** | Expansão de Grand Dream City | Obsoleto |
+
+</Section>
+
+<Section icon={Sparkles} title="Principais Recursos e Atualizações da V14">
+
+A transição para a **versão atual de Pokémon Rejuvenation** trouxe mais do que apenas a progressão da história. Os desenvolvedores modernizaram a engine para incluir mecânicas das gerações oficiais mais recentes, mantendo a alta dificuldade pela qual a série é conhecida.
+
+<CardGrid cols={3}>
+  <Card title="Integração com a Gen 9">
+    Inclui Pokémon da região de Paldea, novas habilidades e conjuntos de movimentos (movepools) atualizados para todas as espécies existentes.
+  </Card>
+  <Card title="Rotas Ramificadas">
+    A história agora se divide formalmente nos caminhos **Paragon** (Heróico) e **Renegade** (Sombrio) com base no seu Karma e escolhas.
+  </Card>
+  <Card title="Novo Jogo+ (New Game+)">
+    Desbloqueável após completar marcos específicos, permitindo replays mais rápidos com itens ou Pokémon herdados.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Seleção de Rota">
+O jogo rastreia seus valores de "Karma" e "Relacionamento" ao longo de todos os 16 capítulos. Se você deseja vivenciar a rota Renegade, deve fazer escolhas implacáveis de forma consistente. Para a maioria dos jogadores, a rota Paragon é recomendada para a primeira jogada na V14 para entender a história principal.
+</Callout>
+
+### Principais Mudanças Mecânicas em 2026
+- **Formas de Aevium (Aevian Forms)**: Variantes regionais exclusivas com tipagens únicas, como Milotic de Aevium ou Froslass de Aevium.
+- **Dicas de Efeito de Campo**: Interface de usuário aprimorada que explica exatamente como o terreno atual modifica o poder dos movimentos e a eficácia dos tipos.
+- **Sistema de Crests (Brasões)**: Itens portados exclusivos que fornecem bônus massivos para Pokémon específicos, muitas vezes considerados fracos, como Fearow ou Ledian.
+
+</Section>
+
+<Section icon={Target} title="Detonado: Navegando pelos Capítulos 1-16">
+
+Progredir pela **versão atual de Pokémon Rejuvenation** requer uma abordagem estratégica para os 16 capítulos da história. Cada arco introduz novos quebra-cabeças ambientais e limites de nível (level caps) que impedem você de simplesmente subir de nível excessivamente para vencer de forma fácil.
+
+<Steps>
+  <Step num="1" title="O Arco de East Gearen">
+    Comece sua jornada em East Gearen City. Escolha seu inicial das gerações 1 a 9 e investigue a atividade da Team Xen em Goldenwood Forest. Concentre-se em construir uma equipe equilibrada para o primeiro Ginásio.
+  </Step>
+  <Step num="2" title="A Expedição Terajuma">
+    Viaje para a tropical Ilha Terajuma. Esta seção do meio do jogo é longa e apresenta a infame Valor Mountain. Certifique-se de ter cobertura de Gelo e Fogo de alto nível para os chefes regionais.
+  </Step>
+  <Step num="3" title="A Crise de Grand Dream City">
+    Entre na enorme metrópole de Grand Dream City. Este arco envolve intriga política pesada e a facção Bladestar. Complete o máximo de missões secundárias de distrito possível antes que a cidade entre em confinamento.
+  </Step>
+  <Step num="4" title="O Deserto e as Ruínas">
+    Explore as paisagens marcadas do passado de Aevium. Esta seção apresenta batalhas difíceis contra Pokémon Rift que exigem configurações defensivas específicas e manipulação de campo.
+  </Step>
+  <Step num="5" title="O Clímax do Capítulo 16">
+    Insira o conteúdo atual final. Dependendo de suas escolhas, você liderará seus aliados para um futuro promissor ou abraçará a destruição do caminho Renegade.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Exploração">
+Sempre verifique os "Help Centers" (Centros de Ajuda) em cada cidade importante. Essas missões secundárias frequentemente recomendam você com ovos de Pokémon raros, TMs ou as essenciais Células de Zygarde necessárias para picos de poder no final do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Senhas e Códigos de Qualidade de Vida">
+
+A **versão atual de Pokémon Rejuvenation** inclui um sistema robusto de senhas. Esses códigos podem ser inseridos no início de um novo jogo ou em terminais específicos para personalizar sua experiência, variando de ajustes de dificuldade à remoção de treinos repetitivos (grinding).
+
+| Senha | Categoria | Efeito |
+| :--- | :--- | :--- |
+| **easyhms** | QoL | Use movimentos de campo sem precisar ensiná-los aos Pokémon |
+| **hardcap** | Dificuldade | Os Pokémon não podem exceder o limite de nível atual |
+| **freeexpall** | Recompensa | Receba o item Exp. All imediatamente no início |
+| **litemode** | Dificuldade | Reduz a otimização da IA e das equipes inimigas |
+| **fullivs** | Atributos | Todos os Pokémon selvagens e de presente são gerados com 31 IVs |
+| **unrealtime** | Tempo | Permite manipular o relógio do jogo para eventos |
+
+<Callout type="info" title="Como Inserir os Códigos">
+As senhas são inseridas principalmente durante a configuração de um "Novo Jogo". Se você já estiver no meio de uma jogada, pode encontrar um Data Chip (Chip de Dados) e usá-lo em um PC ou com um NPC especializado em hotéis para atualizar suas regras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chefes e Estratégias de Efeito de Campo">
+
+O combate na **versão atual de Pokémon Rejuvenation** gira em torno do sistema de Efeitos de Campo. Cada grande batalha de chefe ocorre em um terreno único que oferece vantagens massivas ao arquétipo específico do oponente.
+
+| Tipo de Chefe | Campo Comum | Melhor Estratégia de Contra-ataque |
+| :--- | :--- | :--- |
+| **Líderes de Ginásio** | Temático de Tipo | Use movimentos que transformam ou destroem o campo |
+| **Pokémon Rift** | Dimensional | Foque em efeitos de status e pivôs defensivos |
+| **Team Xen** | Industrial/Sombrio | Traga tipos Fada e Lutador para lidar com o foco em Sombrio/Veneno |
+| **Angie (Gelo)** | Mundo Congelado | Requer itens de cura de congelamento e cobertura de Fogo/Aço |
+
+### Lista de Verificação Essencial para Iniciantes
+
+<Checklist
+  id="v14-beginner"
+  title="Objetivos do Início de Jogo da V14:"
+  items={[
+    "Obter o Mapa e o Pokegear em East Gearen",
+    "Coletar pelo menos 5 Células de Zygarde antes de partir para Terajuma",
+    "Registrar-se no Torneio de Grand Dream City",
+    "Identificar sua rota de história preferida (Paragon/Renegade)",
+    "Instalar as fontes mais recentes da V14 para corrigir problemas de exibição de texto"
+  ]}
+/>
+
+<Callout type="tip" title="Consciência de Campo">
+Se você achar um chefe impossível, leia as Notas de Campo no seu menu. Muitos campos podem sofrer um "curto-circuito". Por exemplo, usar um movimento Elétrico poderoso em uma superfície de Água pode eletrificar todo o campo, mudando as regras da batalha a seu favor.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a versão atual de Pokémon Rejuvenation para 2026?",
+    answer: "A versão atual é a V14, que inclui os Capítulos 1-16 e a lista completa da Gen 9. É uma grande atualização que conclui o segundo ato da história."
+  },
+  {
+    question: "Posso jogar a V14 no meu celular?",
+    answer: "Sim, você pode usar o Kirin runtime ou o JoiPlay com o plugin do RPG Maker. No entanto, certifique-se de que seu dispositivo tenha pelo menos 4 GB de RAM para uma experiência estável."
+  },
+  {
+    question: "Como faço para mudar da V13.5 para a V14?",
+    answer: "Baixe o pacote completo da V14, extraia-o em uma nova pasta e copie seus arquivos de salvamento do diretório antigo para o novo. O jogo converterá automaticamente o salvamento na primeira inicialização."
+  },
+  {
+    question: "Existem Pokémon que podem ser perdidos na V14?",
+    answer: "Sim, certos Pokémon de evento e formas regionais estão vinculados a missões secundárias que ficam indisponíveis quando você avança além de certos marcos da história, especialmente ao se mover entre o continente e Terajuma."
+  }
+]} />
+
+</Section>

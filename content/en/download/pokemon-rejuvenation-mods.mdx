@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Mods: V14 Custom Passwords & Setup Guide",
+  description: "Learn how to customize your Pokémon Rejuvenation V14 playthrough using built-in modifier passwords, third-party mods, and safe installation steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=Rejuvenation+Mods+Guide",
+  date: "2026-07-18",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Modifier System**: Pokémon Rejuvenation V14 features a powerful built-in password system that acts as official **pokemon rejuvenation mods** to customize your experience.
+- **Save Security**: Always back up your save files before installing any third-party scripts or updating your game client.
+- **QoL Features**: Use official passwords like `easyhms` and `freeexpall` to eliminate tedious grinding and move restrictions.
+- **Version Compatibility**: Avoid mixing older V13.5 mods with the V14 engine to prevent game-breaking script conflicts.
+- **Updater Tool**: Run the official launcher updater to keep your game stable and apply minor hotfixes automatically.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Customization in Pokémon Rejuvenation">
+
+Customizing your adventure in the Aevium region is highly encouraged, but the method you choose determines how stable your game remains. While traditional fan-made games rely heavily on external script editing, utilizing **pokemon rejuvenation mods** through the official in-game Password System is the safest and most integrated way to alter your experience. 
+
+The developer-supported Password System functions as a built-in mod engine. It allows you to toggle quality-of-life improvements, adjust difficulty scaling, and customize battle rules without editing core game files. If you choose to install external, community-developed scripts, you must understand how they interact with the game engine to prevent corrupted save files.
+
+| Customization Type | Ease of Use | Risk Level | Primary Function |
+| :--- | :--- | :--- | :--- |
+| Built-in Passwords | Excellent | Very Low | Toggle official rules, QoL, and stat adjustments |
+| Community Scripts | Moderate | Moderate | Visual updates, custom UI overlays, and sandbox tools |
+| Save File Editors | Complex | High | Manual inventory, party, and variable modification |
+
+<Callout type="info" title="Why Built-In Modifiers are Recommended">
+Using the built-in password system ensures your game remains eligible for future updates. External scripts often break whenever a new patch or hotfix is released by the development team.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="How to Safely Install Pokémon Rejuvenation Mods">
+
+To ensure your game runs smoothly without losing hours of story progression, you must follow a structured installation process. This is especially critical when transitioning from V13.5 to V14, as the game engine has undergone significant structural updates to support Generation 9 assets and optimized performance.
+
+**Video Highlights:**
+- No external video is currently available for this section. Please follow the structured step-by-step guide below for accurate installation instructions.
+
+<Steps>
+  <Step num="1" title="Back Up Your Existing Save Files">
+    Before making any changes, close both your old game client and V14 completely. Locate your save directory on your operating system. Copy the entire save folder to a secure backup directory on your desktop. Never move the files directly; always copy them to preserve the originals.
+  </Step>
+  <Step num="2" title="Perform a Clean V14 Installation">
+    Download the official V14 package from the [Pokémon Rejuvenation Download Page](https://www.rebornevo.com/rejuvdown/). Extract the complete ZIP archive into a new, dedicated folder. Do not extract or overwrite an existing V13.5 folder, as mixing older assets with V14 files will cause immediate runtime crashes.
+  </Step>
+  <Step num="3" title="Install Community Mods or Scripts">
+    If you are using community-developed visual or UI mods, navigate to your game's root directory. Locate the folder designated for modifications (typically named `Mods` or located within the `Data` directory). Place the compatible `.rb` or script files here. Ensure the mod is explicitly updated for V14.
+  </Step>
+  <Step num="4" title="Run the Game and Verify Saves">
+    Launch the game executable. If you are migrating a save, allow the game to convert your data. Once loaded, test your character movement, open your menus, and check if your custom settings or visual mods are functioning correctly.
+  </Step>
+</Steps>
+
+| Platform | Recommended Directory Path | Mod Folder Location | Save File Compatibility |
+| :--- | :--- | :--- | :--- |
+| Windows | C:/Games/Pokemon Rejuvenation | /Data/Mods | Fully compatible with V14 conversion |
+| macOS | Applications/Pokemon Rejuvenation | Contents/Resources/Data/Mods | Fully compatible with V14 conversion |
+| JoiPlay | Internal Storage/Pokemon Rejuvenation | /Data/Mods | Variable stability depending on runtime |
+
+<Callout type="warning" title="Antivirus Quarantine Warning">
+Some operating systems or antivirus programs may falsely flag the game executable or custom mod DLLs as suspicious. If your game fails to launch, check your antivirus quarantine log and restore the blocked files.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Essential Built-In Gameplay Modification Codes">
+
+The built-in password system provides an extensive suite of gameplay modifiers. These codes can be entered during the opening sequence of a new game or managed at designated PC terminals in-game. They allow you to craft a highly tailored experience, whether you want an extreme tactical challenge or a relaxed story-focused run.
+
+<CardGrid cols={3}>
+  <Card title="Quality of Life Mods">
+    - **easyhms**: Removes the need to teach HM moves to your active party.
+    - **unrealtime**: Allows manual control over the in-game clock.
+    - **weathermod**: Grants control over weather patterns for encounters.
+  </Card>
+  <Card title="Difficulty Modifiers">
+    - **litemode**: Automatically reduces the optimization of opposing bosses.
+    - **noitems**: Restricts the use of healing items during trainer battles.
+    - **hardcap**: Stops your team from gaining experience past the badge level cap.
+  </Card>
+  <Card title="Progression & Stats">
+    - **freeexpall**: Grants early access to the Exp. Share system.
+    - **fullivs**: Forces all wild and gift Pokémon to generate with perfect IVs.
+    - **freemegaz**: Unlocks early-game access to Mega Evolution mechanics.
+  </Card>
+</CardGrid>
+
+To help you choose the right modifications for your next playthrough, review the operational details of these popular codes:
+
+| Code | Category | Primary Mechanical Change | Practical Benefit |
+| :--- | :--- | :--- | :--- |
+| **easyhms** | Quality of Life | Bypasses traditional HM teaching requirements | Saves move slots on your core team |
+| **freeexpall** | Progression | Distributes experience points to the entire active party | Minimizes the need for repetitive grinding |
+| **hardcap** | Ruleset | Hard locks experience gain at the current badge level cap | Prevents accidental overleveling |
+| **litemode** | Difficulty | Adjusts opposing AI behavior and team stat values | Ideal for players focusing on the narrative |
+| **fullivs** | Stats | Forces perfect 31 IV generation on all caught species | Eliminates the need for tedious breeding |
+| **unrealtime** | Environment | Decouples the in-game clock from your computer system | Easily access time-gated events |
+
+<Callout type="success" title="Combining Codes for a Sandbox Experience">
+You can stack multiple passwords during character creation to build your ideal custom game mode. For example, combining `easyhms`, `freeexpall`, and `fullivs` creates a streamlined, competitive-ready sandbox.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for a Stable Modded Playthrough">
+
+To maintain game stability over a long playthrough, keep this checklist in mind. Pokémon Rejuvenation V14 is a massive RPG with over 100 hours of content, making proper file management essential to protecting your progress.
+
+<Checklist
+  id="stable-playthrough-checklist"
+  title="Maintenance and Stability Check:"
+  items={[
+    "Always run the official updater before installing new custom scripts.",
+    "Maintain a separate folder containing weekly backups of your save files.",
+    "Do not install the game client inside protected system directories like Program Files.",
+    "Verify that any downloaded community mod is explicitly labeled as V14 compatible.",
+    "Disable heavy background overlays or recording tools if you experience performance stutters."
+  ]}
+/>
+
+<Callout type="tip" title="Using the Built-In Updater">
+The updater tool located in your game directory is designed to fetch minor patches and hotfixes without wiping your custom configurations. Run it regularly to ensure your core client is up to date.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Are older V13.5 community mods compatible with V14?",
+    answer: "Generally, no. The V14 update introduced major engine upgrades, restructured data paths, and added Generation 9 assets. Attempting to run older scripts will likely result in immediate crashes or corrupted save data."
+  },
+  {
+    question: "Can I safely disable password mods midway through a playthrough?",
+    answer: "Most quality-of-life and difficulty passwords can be safely toggled off at in-game PC terminals. However, structural modifiers that affect level caps or stat generation should be left active to avoid scaling issues."
+  },
+  {
+    question: "Do built-in password modifications disable achievements or story routes?",
+    answer: "No. Using the built-in password system does not lock you out of any story paths, including the Paragon and Renegade routes, nor does it disable in-game achievements."
+  },
+  {
+    question: "Where can I find community-approved pokemon rejuvenation mods?",
+    answer: "The official Reborn Evolved Forums and the community Discord server host dedicated sections for player-made modifications, visual packs, and custom UI skins that are verified for the current version."
+  }
+]} />
+
+<Callout type="info" title="Need Additional Troubleshooting?">
+If you encounter persistent script errors, try running a completely clean installation of the game without any external modifications to determine if a community script is causing the conflict.
+</Callout>
+
+</Section>

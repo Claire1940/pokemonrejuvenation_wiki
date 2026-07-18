@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Contrôles de Pokémon Rejuvenation : Guide de configuration et d'attribution des touches",
+  description: "Maîtrisez les contrôles de Pokémon Rejuvenation pour clavier et manettes. Apprenez à configurer vos touches, à accélérer le jeu et à résoudre la latence d'entrée.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controls+and+Keybinds+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Configuration essentielle** : Les **contrôles par défaut de Pokémon Rejuvenation** associent les déplacements aux touches directionnelles (flèches), la confirmation aux touches Z, C ou Espace, et l'ouverture des menus aux touches X ou Échap.
+- **Accélération du jeu** : Utilisez la touche Alt ou le menu des options personnalisées pour accélérer les combats et l'exploration de la carte.
+- **Réinitialisation rapide (Soft Reset)** : Appuyez sur F12 pour déclencher une réinitialisation rapide, ce qui est extrêmement efficace pour la chasse aux Pokémon chromatiques (shines) et l'optimisation des statistiques.
+- **Support manette** : Configurez des manettes externes via Steam Input ou JoyToKey pour associer les boutons de la manette aux touches du clavier.
+</Callout>
+
+<Section icon={Map} title="Prise en main des contrôles de Pokémon Rejuvenation">
+
+Naviguer dans le monde vaste et exigeant d'Aevium nécessite une bonne compréhension des **contrôles par défaut de Pokémon Rejuvenation**. Comme ce fangame est développé sur le moteur robuste RPG Maker XP (en utilisant le kit Pokémon Essentials), son architecture d'entrée diffère légèrement des titres officiels sur console ou des hacks de ROM sur émulateur. Comprendre comment gérer vos attributions de touches, activer les raccourcis utilitaires et ajuster vos paramètres est crucial pour une exploration fluide, des combats rythmés et la résolution d'énigmes environnementales complexes.
+
+**Points clés de la vidéo :**
+- **Navigation dans le Temple Tylurique** : Exploration de la structure unique du temple et de ses mécaniques liées au vent.
+- **Systèmes de contrôle de la météo** : Activation d'interrupteurs pour harmoniser les conditions météo et déverrouiller des passages fermés.
+- **Combat contre le Carnivine Corrompu** : Conseils stratégiques pour ce combat de boss de niveau 45.
+- **Quête de l'Envahisseur Helojak** : Localisation de la zone de quête et désactivation des pistons à vapeur.
+
+<YouTubeEmbed videoId="ojGTl1qkkvE" title="Let's Play Pokémon Rejuvenation V13.5 #28 - Temple Tylurique, contrôle météo et Envahisseur Helojak" />
+
+Comprendre la configuration par défaut n'est que la première étape. En apprenant à personnaliser ces paramètres, vous pourrez réduire considérablement la fatigue des mains lors des longues sessions de jeu et optimiser vos itinéraires de farm.
+
+<Callout type="info" title="Compatibilité du moteur">
+Le moteur RPG Maker XP interprète les entrées du clavier via une interface de manette virtuelle. Cela signifie que des touches comme Z, C et Espace sont souvent associées au même bouton d'action virtuel (Bouton C), tandis que X et Échap sont associées au Bouton virtuel B.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration et personnalisation du clavier">
+
+La configuration par défaut du clavier propose plusieurs touches redondantes pour s'adapter à différentes positions des mains. Que vous préfériez jouer d'une seule main pour naviguer ou répartir vos contrôles sur vos deux mains, la configuration par défaut est extrêmement polyvalente.
+
+| Touche | Action | Fonction en jeu |
+| --- | --- | --- |
+| Touches directionnelles | Déplacement | Déplacer votre personnage vers le haut, le bas, la gauche et la droite |
+| Z / C / Espace | Confirmer | Interagir avec les PNJ, inspecter des objets et confirmer des choix dans les menus |
+| X / Échap | Annuler / Menu | Fermer les menus actifs, annuler des choix et ouvrir le menu principal |
+| Maj (Shift) | Courir | Maintenir enfoncé pour courir une fois les Chaussures de Sport obtenues |
+| F | Objet enregistré | Utilisation rapide des objets rares enregistrés comme la Bicyclette ou la Canne à Pêche |
+| D | Sauvegarde rapide | Sauvegarder instantanément votre progression sans ouvrir le menu principal |
+
+En plus des commandes de jeu standard, plusieurs touches utilitaires du système permettent de gérer les performances du client de jeu, la taille de la fenêtre et les réinitialisations d'urgence.
+
+| Touche | Fonction système | Description |
+| --- | --- | --- |
+| F1 | Propriétés du jeu | Ouvrir le panneau de configuration classique de RPG Maker pour ajuster les entrées |
+| F8 | Capture d'écran | Prendre une capture d'écran de haute qualité enregistrée directement dans le répertoire du jeu |
+| F12 | Réinitialisation rapide | Redémarrer instantanément le client de jeu pour revenir à l'écran titre principal |
+| Alt + Entrée | Plein écran | Alterner entre le mode fenêtré et le mode plein écran |
+
+<Callout type="tip" title="Bonne pratique de sauvegarde rapide">
+Prenez l'habitude d'appuyer régulièrement sur la touche **D**. Pokémon Rejuvenation propose des combats de boss difficiles et des rencontres inattendues ; sauvegarder rapidement avant d'entrer dans de nouvelles zones peut vous éviter de perdre des heures de progression.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration de la manette">
+
+Jouer avec une manette offre une expérience plus confortable, similaire à celle d'une console. Bien que le client de jeu dispose d'une détection de manette native de base, les manettes XInput modernes (comme les manettes Xbox Series X ou PlayStation 5) nécessitent souvent un utilitaire d'attribution pour fonctionner correctement sans latence d'entrée.
+
+<Steps>
+  <Step num="1" title="Connectez votre manette">
+    Assurez-vous que votre manette est connectée à votre PC via USB ou Bluetooth avant de lancer l'exécutable de Pokémon Rejuvenation.
+  </Step>
+  <Step num="2" title="Ajoutez le jeu à votre bibliothèque Steam">
+    Ouvrez Steam, cliquez sur **Ajouter un jeu** dans le coin inférieur gauche, et sélectionnez **Ajouter un jeu non-Steam**. Parcourez vos fichiers pour sélectionner le lanceur de Pokémon Rejuvenation.
+  </Step>
+  <Step num="3" title="Activez l'accès Steam Input">
+    Lancez Steam en mode Big Picture, accédez au jeu et ouvrez les paramètres de disposition de la manette. Activez Steam Input pour attribuer les boutons de votre manette directement aux touches par défaut du clavier.
+  </Step>
+  <Step num="4" title="Logiciels d'attribution alternatifs">
+    Si vous n'utilisez pas Steam, téléchargez un utilitaire tiers comme **JoyToKey** ou **Keysticks**. Associez la croix directionnelle de votre manette aux touches directionnelles du clavier, le bouton 'A' à la touche 'C', et le bouton 'B' à la touche 'X'.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Superposition des entrées">
+Évitez de faire fonctionner plusieurs utilitaires d'attribution simultanément. Utiliser Steam Input en même temps que JoyToKey peut provoquer des erreurs de double saisie, rendant la navigation dans les menus difficile.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Contrôles avancés : Accélération et Réinitialisations rapides">
+
+Pour simplifier les sessions d'entraînement (grinding) et rendre la chasse aux Pokémon chromatiques plus accessible, Pokémon Rejuvenation intègre des fonctionnalités de confort de jeu.
+
+<CardGrid cols={3}>
+  <Card title="Activer l'accélération">
+    - **Touche Alt par défaut**
+    - Accélère les animations de combat
+    - Accélère les déplacements sur la carte
+  </Card>
+  <Card title="Raccourci de réinitialisation">
+    - **Touche F12**
+    - Contourne le lanceur du jeu PC
+    - Accélère les réinitialisations de shasse
+  </Card>
+  <Card title="Raccourci d'objet enregistré">
+    - **Touche F pour accès rapide**
+    - Montée instantanée sur la bicyclette
+    - Utilisation rapide de la canne à pêche
+  </Card>
+</CardGrid>
+
+La fonction d'accélération est particulièrement personnalisable, permettant aux joueurs d'ajuster la vitesse d'exécution du jeu lorsque le raccourci est activé.
+
+| Mode de vitesse | Multiplicateur | Utilisation recommandée |
+| --- | --- | --- |
+| Vitesse normale | 1.0x | Dialogues de l'histoire, cinématiques et phases de plateforme précises |
+| Vitesse rapide | 3.0x | Entraînement de niveau (XP), rencontres sauvages et retours sur d'anciennes routes |
+| Vitesse ultra | 5.0x / Personnalisée | Boucles de reproduction, éclosion d'œufs et navigation dans de vastes zones ouvertes |
+
+<Callout type="success" title="Conseil de performance">
+Si vous rencontrez des saccades ou des baisses de framerate en utilisant l'accélération, réduisez la résolution de l'écran dans le menu Options ou désactivez les animations de combat détaillées.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Systèmes de contrôle environnemental en jeu">
+
+Dans Pokémon Rejuvenation, les « contrôles » dépassent les simples entrées au clavier pour englober des systèmes d'énigmes environnementales uniques en jeu. Tout au long de votre voyage, vous découvrirez des ruines et des temples complexes qui nécessitent de manipuler les mécaniques du terrain pour progresser. Un exemple parfait est la quête secondaire du Temple Tylurique, où les joueurs doivent interagir avec des systèmes de contrôle du vent et de la météo.
+
+| Élément d'énigme | Mécanisme de contrôle | Solution / Résultat |
+| --- | --- | --- |
+| Tourbillons | Interrupteur de direction du vent | Interagir avec des piliers de pierre redirige les courants d'air pour libérer des passages |
+| Bassins de magma | Capacité de terrain Dérive Magma | Permet à votre personnage de surfer sur la lave en fusion pour atteindre des zones cachées |
+| Barrières de pistons | Interrupteurs de stabilisation | Désactiver les réseaux électriques locaux arrête les pistons mobiles, donnant accès aux usines |
+
+Pour réussir ces énigmes environnementales, gardez en tête cette liste de tâches et de mécaniques actives.
+
+<Checklist
+  id="puzzle-checklist"
+  title="Étapes de progression des énigmes :"
+  items={[
+    "Localisez et interagissez avec tous les piliers de contrôle locaux pour modifier le flux du vent ou de l'eau.",
+    "Assurez-vous d'avoir les capacités de terrain requises (comme Dérive Magma ou Surf) actives dans votre équipe.",
+    "Observez les obstacles mobiles (comme les tourbillons ou les pistons) et synchronisez soigneusement vos déplacements.",
+    "Faites une sauvegarde rapide avant de tenter des séquences de plateforme complexes pour éviter de vous retrouver bloqué."
+  ]}
+/>
+
+<Callout type="info" title="Réinitialisation des énigmes">
+Si vous commettez une erreur lors d'une énigme complexe, quitter la pièce et y revenir réinitialisera les contrôles environnementaux à leur état par défaut, vous permettant de réessayer.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+Vous trouverez ci-dessous les réponses aux questions les plus fréquemment posées concernant la configuration des contrôles et la résolution des problèmes d'entrée.
+
+<FAQ items={[
+  {
+    question: "Comment corriger les touches qui ne répondent pas ou la latence d'entrée dans Pokémon Rejuvenation ?",
+    answer: "La latence d'entrée est souvent causée par une utilisation élevée du processeur ou des limites du moteur de jeu. Essayez d'appuyer sur F1 pour vérifier vos propriétés d'entrée, de réduire la taille de la fenêtre du jeu, ou de lancer le jeu en mode Administrateur."
+  },
+  {
+    question: "Puis-je personnaliser les contrôles par défaut de Pokémon Rejuvenation directement dans le jeu ?",
+    answer: "Oui. Bien que le menu classique F1 permette un mappage au niveau du système, le menu Options en jeu propose un sous-menu dédié aux « Contrôles » où vous pouvez réattribuer les touches d'action, d'annulation et d'objets enregistrés."
+  },
+  {
+    question: "Est-il possible de faire tourner le jeu sur Steam Deck avec des contrôles adaptés ?",
+    answer: "Tout à fait. Ajoutez le fichier .exe du jeu en tant que jeu non-Steam en mode Bureau, repassez en mode Gaming, puis sélectionnez une disposition de manette communautaire conçue pour les jeux RPG Maker."
+  },
+  {
+    question: "Que dois-je faire si ma touche de réinitialisation rapide F12 ne fonctionne pas ?",
+    answer: "Sur certains ordinateurs portables modernes, les touches de fonction nécessitent de maintenir la touche « Fn » enfoncée. Essayez d'appuyer sur Fn + F12, ou vérifiez les paramètres du BIOS de votre système pour modifier le comportement par défaut de la rangée des touches de fonction."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil">
+Gardez toujours votre client de jeu mis à jour vers la dernière version (comme la V13.5). L'équipe de développement publie fréquemment des correctifs qui résolvent les problèmes de compatibilité des manettes et les bugs d'entrée.
+</Callout>
+
+</Section>

@@ -1,13 +1,713 @@
 {
   "en": {
+    "characters": [
+      {
+        "slug": "pokemon-rejuvenation-aelita",
+        "file": "pokemon-rejuvenation-aelita"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ariana",
+        "file": "pokemon-rejuvenation-ariana"
+      },
+      {
+        "slug": "pokemon-rejuvenation-axel",
+        "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-griselda",
+        "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melia",
+        "file": "pokemon-rejuvenation-melia"
+      }
+    ],
+    "community": [
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
+      }
+    ],
+    "download": [
+      {
+        "slug": "pokemon-rejuvenation-android",
+        "file": "pokemon-rejuvenation-android"
+      },
+      {
+        "slug": "pokemon-rejuvenation-current-version",
+        "file": "pokemon-rejuvenation-current-version"
+      },
+      {
+        "slug": "pokemon-rejuvenation-download",
+        "file": "pokemon-rejuvenation-download"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mods",
+        "file": "pokemon-rejuvenation-mods"
+      },
+      {
+        "slug": "pokemon-rejuvenation-update",
+        "file": "pokemon-rejuvenation-update"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14",
+        "file": "pokemon-rejuvenation-v14"
+      }
+    ],
     "guide": [
+      {
+        "slug": "pokemon-rejuvenation-controls",
+        "file": "pokemon-rejuvenation-controls"
+      },
       {
         "slug": "pokemon-rejuvenation-guide",
         "file": "pokemon-rejuvenation-guide"
       },
       {
+        "slug": "pokemon-rejuvenation-gym-leaders",
+        "file": "pokemon-rejuvenation-gym-leaders"
+      },
+      {
+        "slug": "pokemon-rejuvenation-level-caps",
+        "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
         "slug": "pokemon-rejuvenation-walkthrough",
         "file": "pokemon-rejuvenation-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "pokemon-rejuvenation-aevian-pokemon",
+        "file": "pokemon-rejuvenation-aevian-pokemon"
+      },
+      {
+        "slug": "pokemon-rejuvenation-amulet-coin-location",
+        "file": "pokemon-rejuvenation-amulet-coin-location"
+      },
+      {
+        "slug": "pokemon-rejuvenation-link-heart",
+        "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-occa-berry",
+        "file": "pokemon-rejuvenation-occa-berry"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokemon-locations",
+        "file": "pokemon-rejuvenation-pokemon-locations"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-guide-thunder-punch",
+        "file": "pokemon-rejuvenation-tm-guide-thunder-punch"
+      },
+      {
+        "slug": "pokemon-rejuvenation-where-to-get-type-null",
+        "file": "pokemon-rejuvenation-where-to-get-type-null"
+      }
+    ],
+    "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-lavender-password",
+        "file": "pokemon-rejuvenation-lavender-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melias-password",
+        "file": "pokemon-rejuvenation-melias-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-passwords",
+        "file": "pokemon-rejuvenation-passwords"
+      },
+      {
+        "slug": "pokemon-rejuvenation-school-of-nightmares-password",
+        "file": "pokemon-rejuvenation-school-of-nightmares-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14-passwords",
+        "file": "pokemon-rejuvenation-v14-passwords"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "pokemon-rejuvenation-classified-information-quest",
+        "file": "pokemon-rejuvenation-classified-information-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-make-your-own-employee",
+        "file": "pokemon-rejuvenation-make-your-own-employee"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pictozumi-quest",
+        "file": "pokemon-rejuvenation-pictozumi-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-quests",
+        "file": "pokemon-rejuvenation-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-wall-of-shame-quest",
+        "file": "pokemon-rejuvenation-wall-of-shame-quest"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "pokemon-rejuvenation-best-starter",
+        "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-teams",
+        "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-starters",
+        "file": "pokemon-rejuvenation-starters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tier-list",
+        "file": "pokemon-rejuvenation-tier-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette",
+        "file": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "pokemon-rejuvenation-aelita",
+        "file": "pokemon-rejuvenation-aelita"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ariana",
+        "file": "pokemon-rejuvenation-ariana"
+      },
+      {
+        "slug": "pokemon-rejuvenation-axel",
+        "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-griselda",
+        "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melia",
+        "file": "pokemon-rejuvenation-melia"
+      }
+    ],
+    "community": [
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
+      }
+    ],
+    "download": [
+      {
+        "slug": "pokemon-rejuvenation-android",
+        "file": "pokemon-rejuvenation-android"
+      },
+      {
+        "slug": "pokemon-rejuvenation-current-version",
+        "file": "pokemon-rejuvenation-current-version"
+      },
+      {
+        "slug": "pokemon-rejuvenation-download",
+        "file": "pokemon-rejuvenation-download"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mods",
+        "file": "pokemon-rejuvenation-mods"
+      },
+      {
+        "slug": "pokemon-rejuvenation-update",
+        "file": "pokemon-rejuvenation-update"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14",
+        "file": "pokemon-rejuvenation-v14"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "pokemon-rejuvenation-controls",
+        "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-guide",
+        "file": "pokemon-rejuvenation-guide"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gym-leaders",
+        "file": "pokemon-rejuvenation-gym-leaders"
+      },
+      {
+        "slug": "pokemon-rejuvenation-level-caps",
+        "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough",
+        "file": "pokemon-rejuvenation-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "pokemon-rejuvenation-aevian-pokemon",
+        "file": "pokemon-rejuvenation-aevian-pokemon"
+      },
+      {
+        "slug": "pokemon-rejuvenation-amulet-coin-location",
+        "file": "pokemon-rejuvenation-amulet-coin-location"
+      },
+      {
+        "slug": "pokemon-rejuvenation-link-heart",
+        "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-occa-berry",
+        "file": "pokemon-rejuvenation-occa-berry"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokemon-locations",
+        "file": "pokemon-rejuvenation-pokemon-locations"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-guide-thunder-punch",
+        "file": "pokemon-rejuvenation-tm-guide-thunder-punch"
+      },
+      {
+        "slug": "pokemon-rejuvenation-where-to-get-type-null",
+        "file": "pokemon-rejuvenation-where-to-get-type-null"
+      }
+    ],
+    "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-lavender-password",
+        "file": "pokemon-rejuvenation-lavender-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melias-password",
+        "file": "pokemon-rejuvenation-melias-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-passwords",
+        "file": "pokemon-rejuvenation-passwords"
+      },
+      {
+        "slug": "pokemon-rejuvenation-school-of-nightmares-password",
+        "file": "pokemon-rejuvenation-school-of-nightmares-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14-passwords",
+        "file": "pokemon-rejuvenation-v14-passwords"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "pokemon-rejuvenation-classified-information-quest",
+        "file": "pokemon-rejuvenation-classified-information-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-make-your-own-employee",
+        "file": "pokemon-rejuvenation-make-your-own-employee"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pictozumi-quest",
+        "file": "pokemon-rejuvenation-pictozumi-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-quests",
+        "file": "pokemon-rejuvenation-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-wall-of-shame-quest",
+        "file": "pokemon-rejuvenation-wall-of-shame-quest"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "pokemon-rejuvenation-best-starter",
+        "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-teams",
+        "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-starters",
+        "file": "pokemon-rejuvenation-starters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tier-list",
+        "file": "pokemon-rejuvenation-tier-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette",
+        "file": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette"
+      }
+    ]
+  },
+  "fr": {
+    "characters": [
+      {
+        "slug": "pokemon-rejuvenation-aelita",
+        "file": "pokemon-rejuvenation-aelita"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ariana",
+        "file": "pokemon-rejuvenation-ariana"
+      },
+      {
+        "slug": "pokemon-rejuvenation-axel",
+        "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-griselda",
+        "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melia",
+        "file": "pokemon-rejuvenation-melia"
+      }
+    ],
+    "community": [
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
+      }
+    ],
+    "download": [
+      {
+        "slug": "pokemon-rejuvenation-android",
+        "file": "pokemon-rejuvenation-android"
+      },
+      {
+        "slug": "pokemon-rejuvenation-current-version",
+        "file": "pokemon-rejuvenation-current-version"
+      },
+      {
+        "slug": "pokemon-rejuvenation-download",
+        "file": "pokemon-rejuvenation-download"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mods",
+        "file": "pokemon-rejuvenation-mods"
+      },
+      {
+        "slug": "pokemon-rejuvenation-update",
+        "file": "pokemon-rejuvenation-update"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14",
+        "file": "pokemon-rejuvenation-v14"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "pokemon-rejuvenation-controls",
+        "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-guide",
+        "file": "pokemon-rejuvenation-guide"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gym-leaders",
+        "file": "pokemon-rejuvenation-gym-leaders"
+      },
+      {
+        "slug": "pokemon-rejuvenation-level-caps",
+        "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough",
+        "file": "pokemon-rejuvenation-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "pokemon-rejuvenation-aevian-pokemon",
+        "file": "pokemon-rejuvenation-aevian-pokemon"
+      },
+      {
+        "slug": "pokemon-rejuvenation-amulet-coin-location",
+        "file": "pokemon-rejuvenation-amulet-coin-location"
+      },
+      {
+        "slug": "pokemon-rejuvenation-link-heart",
+        "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-occa-berry",
+        "file": "pokemon-rejuvenation-occa-berry"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokemon-locations",
+        "file": "pokemon-rejuvenation-pokemon-locations"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-guide-thunder-punch",
+        "file": "pokemon-rejuvenation-tm-guide-thunder-punch"
+      },
+      {
+        "slug": "pokemon-rejuvenation-where-to-get-type-null",
+        "file": "pokemon-rejuvenation-where-to-get-type-null"
+      }
+    ],
+    "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-lavender-password",
+        "file": "pokemon-rejuvenation-lavender-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melias-password",
+        "file": "pokemon-rejuvenation-melias-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-passwords",
+        "file": "pokemon-rejuvenation-passwords"
+      },
+      {
+        "slug": "pokemon-rejuvenation-school-of-nightmares-password",
+        "file": "pokemon-rejuvenation-school-of-nightmares-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14-passwords",
+        "file": "pokemon-rejuvenation-v14-passwords"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "pokemon-rejuvenation-classified-information-quest",
+        "file": "pokemon-rejuvenation-classified-information-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-make-your-own-employee",
+        "file": "pokemon-rejuvenation-make-your-own-employee"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pictozumi-quest",
+        "file": "pokemon-rejuvenation-pictozumi-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-quests",
+        "file": "pokemon-rejuvenation-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-wall-of-shame-quest",
+        "file": "pokemon-rejuvenation-wall-of-shame-quest"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "pokemon-rejuvenation-best-starter",
+        "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-teams",
+        "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-starters",
+        "file": "pokemon-rejuvenation-starters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tier-list",
+        "file": "pokemon-rejuvenation-tier-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette",
+        "file": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "pokemon-rejuvenation-aelita",
+        "file": "pokemon-rejuvenation-aelita"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ariana",
+        "file": "pokemon-rejuvenation-ariana"
+      },
+      {
+        "slug": "pokemon-rejuvenation-axel",
+        "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-griselda",
+        "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melia",
+        "file": "pokemon-rejuvenation-melia"
+      }
+    ],
+    "community": [
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
+      }
+    ],
+    "download": [
+      {
+        "slug": "pokemon-rejuvenation-android",
+        "file": "pokemon-rejuvenation-android"
+      },
+      {
+        "slug": "pokemon-rejuvenation-current-version",
+        "file": "pokemon-rejuvenation-current-version"
+      },
+      {
+        "slug": "pokemon-rejuvenation-download",
+        "file": "pokemon-rejuvenation-download"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mods",
+        "file": "pokemon-rejuvenation-mods"
+      },
+      {
+        "slug": "pokemon-rejuvenation-update",
+        "file": "pokemon-rejuvenation-update"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14",
+        "file": "pokemon-rejuvenation-v14"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "pokemon-rejuvenation-controls",
+        "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-guide",
+        "file": "pokemon-rejuvenation-guide"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gym-leaders",
+        "file": "pokemon-rejuvenation-gym-leaders"
+      },
+      {
+        "slug": "pokemon-rejuvenation-level-caps",
+        "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough",
+        "file": "pokemon-rejuvenation-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "pokemon-rejuvenation-aevian-pokemon",
+        "file": "pokemon-rejuvenation-aevian-pokemon"
+      },
+      {
+        "slug": "pokemon-rejuvenation-amulet-coin-location",
+        "file": "pokemon-rejuvenation-amulet-coin-location"
+      },
+      {
+        "slug": "pokemon-rejuvenation-link-heart",
+        "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-occa-berry",
+        "file": "pokemon-rejuvenation-occa-berry"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokemon-locations",
+        "file": "pokemon-rejuvenation-pokemon-locations"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-guide-thunder-punch",
+        "file": "pokemon-rejuvenation-tm-guide-thunder-punch"
+      },
+      {
+        "slug": "pokemon-rejuvenation-where-to-get-type-null",
+        "file": "pokemon-rejuvenation-where-to-get-type-null"
+      }
+    ],
+    "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-lavender-password",
+        "file": "pokemon-rejuvenation-lavender-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-melias-password",
+        "file": "pokemon-rejuvenation-melias-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-passwords",
+        "file": "pokemon-rejuvenation-passwords"
+      },
+      {
+        "slug": "pokemon-rejuvenation-school-of-nightmares-password",
+        "file": "pokemon-rejuvenation-school-of-nightmares-password"
+      },
+      {
+        "slug": "pokemon-rejuvenation-v14-passwords",
+        "file": "pokemon-rejuvenation-v14-passwords"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "pokemon-rejuvenation-classified-information-quest",
+        "file": "pokemon-rejuvenation-classified-information-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-make-your-own-employee",
+        "file": "pokemon-rejuvenation-make-your-own-employee"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pictozumi-quest",
+        "file": "pokemon-rejuvenation-pictozumi-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-quests",
+        "file": "pokemon-rejuvenation-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-wall-of-shame-quest",
+        "file": "pokemon-rejuvenation-wall-of-shame-quest"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "pokemon-rejuvenation-best-starter",
+        "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-teams",
+        "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-starters",
+        "file": "pokemon-rejuvenation-starters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tier-list",
+        "file": "pokemon-rejuvenation-tier-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette",
+        "file": "pokemon-rejuvenation-which-evs-should-i-focus-on-golette"
       }
     ]
   }

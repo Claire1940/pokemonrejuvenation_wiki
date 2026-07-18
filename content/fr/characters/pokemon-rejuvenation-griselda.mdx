@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Griselda : Guide de Combat & d'Histoire",
+  description: "Maîtrisez le combat contre Griselda dans Pokémon Rejuvenation V14. Découvrez les stratégies de combat, les contres aux effets de terrain et les impacts sur l'histoire pour les routes Paragon et Renegade.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Griselda+Boss+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Pokémon Rejuvenation Griselda** : Un affrontement de boss crucial dans l'arc narratif de la V14 qui mettra à l'épreuve vos connaissances des effets de terrain et de la synergie d'équipe.
+- **Mécanique clé** : Griselda utilise souvent les terrains **Nouveau Monde** (New World) ou **Grotte Corrompue** (Corrupted Cave), nécessitant une manipulation immédiate du terrain ou des pivots défensifs spécialisés.
+- **Meilleure stratégie** : Utilisez les **Formes d'Aevium** (Aevian Forms) et les **Blasons** (Crests) pour combler l'écart de puissance, en vous concentrant sur le contrôle des statuts et les capacités de suppression de terrain comme Brume (Mist) ou Blizzard.
+- **Conseil critique** : Conservez toujours une sauvegarde séparée avant d'entamer la séquence de **Griselda**, car elle a un impact significatif sur votre **Karma** et la progression de votre route.
+- **Meilleur choix** : Les Pokémon dotés du talent **Inconscient** (Unaware) ou tenant des **Blasons** (comme les blasons de Méganium ou de Coxyclaque) offrent les performances les plus constantes.
+</Callout>
+
+<Section icon={Map} title="Rôle et Lore de Griselda en V14">
+
+Le personnage de **Griselda dans Pokémon Rejuvenation** représente l'un des fils conducteurs narratifs les plus complexes de la région d'Aevium. À mesure que les joueurs progressent dans les chapitres de la V14, en particulier vers le point culminant des derniers actes, Griselda émerge comme une figure liée aux prophéties anciennes et à la corruption sous-jacente qui ronge le monde. Contrairement aux champions d'arène classiques, sa présence se fait souvent ressentir à travers les événements de la **Prophétie de Griselda**, qui servent de passerelle vers les routes **Paragon** et **Renegade**.
+
+Dans la version actuelle de la V14, qui englobe les chapitres 1 à 16, l'implication de Griselda évolue en fonction de vos points de **Karma** accumulés. Les joueurs ayant suivi la voie du "bien" la trouveront être une adversaire redoutable mais potentiellement rachetable, tandis que ceux sur la route Renegade feront face à une version d'elle nettement plus impitoyable et optimisée pour la destruction.
+
+| Caractéristique | Description | Impact sur le Gameplay |
+| :--- | :--- | :--- |
+| **Arc Narratif** | Lié à l'Acte 3 et à la prophétie | Détermine la disponibilité des alliés en fin de partie |
+| **Préférence de Terrain** | Terrains à haute énergie ou corrompus | Boost les capacités de types Psy, Spectre et Ténèbres |
+| **Difficulté** | Extrême / Échelle de fin de partie | Nécessite des équipes entièrement entraînées aux EV |
+| **Embranchement de Route** | Point de décision majeur | Affecte la fin du Chapitre 16 |
+
+<Callout type="info" title="Note de mise à jour V14">
+La version 14 a introduit de nouveaux dialogues et des variantes de combat pour Griselda, ce qui rend indispensable l'utilisation d'équipes mises à jour plutôt que de s'appuyer sur les stratégies de la V13.5.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat contre Griselda">
+
+Vaincre **Griselda** nécessite plus que de simples avantages de type. Son équipe est construite autour de la synergie des **Effets de Terrain**, utilisant souvent le terrain pour atténuer ses faiblesses tout en doublant les dégâts de ses sweepers. Dans la V14, son IA est programmée pour changer de Pokémon de manière agressive si vous tentez de vous placer (setup), ce qui signifie que vous devez mener le combat avec des capacités de pivot comme Demi-Tour (U-Turn) ou Change Éclair (Volt Switch).
+
+Le combat se déroule généralement sur un terrain qui améliore les types **Psy** et **Spectre**. Si vous ne modifiez pas le terrain, son Pokémon de tête dépassera probablement et mettra KO vos attaquants en un coup. Utiliser des Pokémon dotés des talents **Crachin** (Drizzle) ou **Sécheresse** (Drought) peut aider, mais la méthode la plus efficace consiste à utiliser des capacités qui "court-circuitent" spécifiquement le terrain.
+
+| Catégorie | Contre Recommandé | Pourquoi ça fonctionne |
+| :--- | :--- | :--- |
+| **Contrôle du Terrain** | Feunard d'Alola (Voile Aurore) | Installe les protections et change la météo |
+| **Soutien de Statut** | Cornèbre / Ténéfix Farceur | Feu Follet ou Cage Éclair prioritaires |
+| **Puissance Brute** | Salarsen d'Aevium | Statistiques de base élevées et double type unique de la V14 |
+| **Tank** | Méganium avec le Blason Méganium | Buffs défensifs massifs et soins |
+| **Suppression de Terrain** | Chartor (Éruption/Canicule) | Peut brûler certains terrains herbeux ou corrompus |
+
+<CardGrid cols={2}>
+  <Card title="Approche Défensive">
+    Concentrez-vous sur le **Toxic stall** et l'utilisation de **Abri** (Protect). C'est la meilleure option pour la route Paragon, où vous disposerez de plus d'alliés défensifs pour encaisser les coups.
+  </Card>
+  <Card title="Blitz Offensif">
+    Utilisez des porteurs du **Mouchoir Choix** (Choice Scarf) avec une vitesse de base élevée pour dépasser ses sweepers. C'est risqué mais nécessaire si les effets de terrain sont trop écrasants pour temporiser.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement de combat">
+Le Pokémon signature de Griselda porte souvent une **Ceinture Force** (Focus Sash) ou possède une mécanique similaire à **Fermeté** (Sturdy). Ne vous attendez pas à un KO en un coup sans pièges d'entrée comme Piège de Roc (Stealth Rock) ou Picots (Spikes).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de préparation étape par étape">
+
+Pour garantir votre succès contre **Griselda**, vous devez suivre un protocole de préparation strict. Arriver avec un niveau insuffisant ou sans les bons objets mènera à une défaite rapide, en particulier dans les modes de difficulté supérieurs comme Intense.
+
+<Steps>
+  <Step num="1" title="Vérifier la limite de niveau (Level Cap)">
+    Avant d'entrer dans la zone de combat, assurez-vous que toute votre équipe a atteint la **limite de niveau basée sur les badges** actuelle. Utilisez le mot de passe `hardcap` si vous craignez de dépasser ce niveau, ce qui rendrait vos Pokémon désobéissants.
+  </Step>
+  <Step num="2" title="Équiper les Blasons et Méga-Gemmes">
+    La V14 met l'accent sur l'utilisation des **Blasons** (Crests). Des objets comme le **Blason Pingoléon** ou le **Blason Bastiodon** peuvent transformer des Pokémon de niveau moyen en tueurs de boss. Assurez-vous que votre Méga-Évolution est prête et que vos Cristaux Z sont attribués à votre attaquant principal.
+  </Step>
+  <Step num="3" title="Optimiser les capacités avec les CT">
+    Visitez le grand magasin de Grand Dream City ou les maîtres des capacités locaux pour enseigner des capacités de couverture à votre équipe. Griselda est particulièrement vulnérable aux couvertures spécialisées de types **Ténèbres** et **Acier** si vous parvenez à contourner les protections de son terrain.
+  </Step>
+  <Step num="4" title="Faire le plein d'objets de soin">
+    Comme il s'agit souvent d'une séquence de combats consécutifs, achetez au moins 20 **Guérisons** (Full Restores) et **Rappels** (Revives). Vous n'aurez pas accès à un Centre Pokémon entre les dialogues de l'histoire et le combat.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de pro">
+Si vous éprouvez des difficultés, utilisez le mot de passe `easyhms` pour vous assurer d'avoir les bonnes capacités de déplacement afin de trouver des objets cachés comme les **Restes** (Leftovers) ou l'**Orbe Vie** (Life Orb) dans les zones environnantes avant le combat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Impact de la route : Paragon vs Renegade">
+
+Votre interaction avec **Griselda** est un tournant majeur pour votre fichier de sauvegarde. Les choix que vous faites avant ce combat, ainsi que l'issue de l'affrontement lui-même, vous bloqueront sur des voies narratives spécifiques pour le Chapitre 16 et au-delà.
+
+| Route | Tempérament de Griselda | Issue |
+| :--- | :--- | :--- |
+| **Paragon** | En quête de rédemption / Conflictuelle | Elle peut survivre ou fournir des éléments de lore critiques |
+| **Renegade** | Antagoniste / Corrompue | Mène à un point culminant plus sombre au Chapitre 16 |
+| **Neutre** | Boss standard | Récompenses de base et progression standard de l'histoire |
+
+<CardGrid cols={3}>
+  <Card title="Focus Paragon">
+    - **Karma élevé requis**
+    - Débloque des dialogues exclusifs
+    - Préserve l'avenir d'Aevium
+  </Card>
+  <Card title="Focus Renegade">
+    - **Karma bas requis**
+    - Affrontez une version plus puissante du boss
+    - Zones différentes au Chapitre 16
+  </Card>
+  <Card title="Complétiste">
+    - **Plusieurs sauvegardes suggérées**
+    - Découvrez toutes les fins de la V14
+    - Collectionnez tous les objets uniques
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil stratégique">
+Sur la **route Renegade**, l'équipe de Griselda est souvent équipée de meilleurs objets tenus comme des **Orbes Vie** (Life Orbs) et des **Bandeaux Choix** (Choice Bands). Ajustez vos pivots défensifs en conséquence.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Récompenses et liste de contrôle post-combat">
+
+Après avoir vaincu **Griselda**, plusieurs nouvelles opportunités s'ouvrent dans la région d'Aevium. Selon votre version et votre route, vous pourrez accéder à des rencontres légendaires ou à de rares **Formes d'Aevium** qui étaient auparavant verrouillées derrière son arc narratif.
+
+<Checklist
+  id="griselda-post-battle"
+  title="Objectifs post-combat :"
+  items={[
+    "Vérifiez la présence de la récompense exclusive du Blason de Griselda dans votre inventaire",
+    "Visitez le Centre d'Aide local pour voir si de nouvelles quêtes secondaires ont été débloquées",
+    "Retournez sur le lieu de la prophétie pour récupérer les documents de lore manqués",
+    "Confirmez votre statut de Karma actuel auprès du PNJ à GDC",
+    "Mettez à jour votre sauvegarde de secours avant de passer au Chapitre 16"
+  ]}
+/>
+
+<Callout type="info" title="Note finale">
+Gagner le combat n'est que la moitié de l'objectif ; assurez-vous de lire attentivement les dialogues, car la V14 contient des indices sur la "Fin Cachée" qui nécessite des réponses spécifiques lors des événements qui suivent le combat contre Griselda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Griselda est-elle un boss obligatoire dans Pokémon Rejuvenation ?",
+    answer: "Oui, elle est un personnage central de la trame principale de la V14. Vous ne pouvez pas progresser vers les derniers chapitres de l'Acte 3 sans avoir terminé cet affrontement."
+  },
+  {
+    question: "Quel est le meilleur Pokémon à utiliser contre elle ?",
+    answer: "Les Formes d'Aevium aux doubles types uniques et les Pokémon tenant leurs Blasons spécifiques (comme Méganium ou Typhlosion) sont généralement les contres les plus efficaces grâce à leurs statistiques améliorées."
+  },
+  {
+    question: "Puis-je passer le combat de Griselda en utilisant des mots de passe ?",
+    answer: "Non. Bien que des mots de passe comme 'litemode' puissent faciliter le combat, il n'existe aucun mot de passe pour passer entièrement l'affrontement car il est vital pour le scénario."
+  },
+  {
+    question: "Le combat change-t-il sur la route Paragon ?",
+    answer: "Oui, les dialogues et les motivations de son équipe changent. Dans certaines versions, son équipe peut même avoir des capacités de couverture légèrement différentes pour refléter son état d'esprit."
+  }
+]} />
+
+</Section>

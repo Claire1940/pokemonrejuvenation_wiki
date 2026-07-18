@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, UserPlus, Building, Briefcase } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Créer son propre employé dans Pokémon Rejuvenation : Guide V14",
+  description: "Maîtrisez les mécaniques de personnalisation et de recrutement d'employés dans Pokémon Rejuvenation V14. Découvrez où trouver les quêtes, personnaliser les PNJ et débloquer les récompenses de GDC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Make+Your+Own+Employee+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation",
+  keywords: "Pokémon Rejuvenation, employé, recrutement, guide, V14, Grand Dream City"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mécanique principale** : Utilisez les fonctionnalités pour **créer votre propre employé dans Pokémon Rejuvenation**, principalement situées à Grand Dream City et via certaines requêtes du Centre d'Aide.
+- **Prérequis de la V14** : La plupart des options de recrutement avancées se débloquent durant les **Chapitres 9 à 12** dans les districts de Grand Dream City.
+- **Lieu clé** : Concentrez-vous sur le **Grand Magasin (Department Store)** et le **Marché Nocturne (Night Market)** pour trouver la plus grande concentration d'interactions de PNJ personnalisables.
+- **Avantage stratégique** : Les employés personnalisés offrent des **réductions uniques sur les objets**, des **pierres d'évolution** rares et un accès exclusif à des **maîtres des capacités (Move Tutors)**.
+- **Impact de la route** : Votre alignement sur les voies **Parangon (Paragon) ou Renégat (Renegade)** peut modifier quels PNJ accepteront de travailler pour vous.
+</Callout>
+
+<Section icon={Building} title="Comprendre le système de recrutement de la V14">
+
+La possibilité de recruter et de « créer votre propre employé » dans Pokémon Rejuvenation est une mécanique sophistiquée liée à l'expansion de la région d'Aevium. Contrairement aux RPG classiques où les PNJ sont statiques, la V14 introduit plusieurs niveaux d'interaction où vos choix, votre Karma et la complétion des quêtes influencent directement le personnel de votre base ou des installations associées à Grand Dream City (GDC).
+
+Dans la version actuelle de la V14, cette fonctionnalité est particulièrement mise en avant lors de la gestion des différents étages du Grand Magasin de GDC ou lors de la réalisation des séries de quêtes du « Centre d'Aide ». Les joueurs ne recrutent pas de simples PNJ aléatoires ; ils choisissent souvent des individus ayant des histoires uniques qui peuvent être « personnalisés » à travers des choix de dialogue et les résultats des quêtes.
+
+<CardGrid cols={3}>
+  <Card title="Spécialistes du Centre d'Aide">
+    - **Source** : Centres d'Aide régionaux
+    - **Avantage** : Débloque des caches d'objets régionales
+    - **Difficulté** : Facile à Moyenne
+  </Card>
+  <Card title="Vendeurs du Grand Magasin de GDC">
+    - **Source** : Grand Dream City
+    - **Avantage** : Meilleures réductions en magasin
+    - **Difficulté** : Difficile (Chapitre 9+)
+  </Card>
+  <Card title="Chercheurs d'installations">
+    - **Source** : Laboratoires cachés / Quêtes secondaires
+    - **Avantage** : Services de Maître des Capacités / Statistiques
+    - **Difficulté** : Extrême
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Note de version V14">
+Assurez-vous toujours de jouer sur la dernière version de la V14. Les guides plus anciens de la V13.5 peuvent indiquer des emplacements de PNJ différents, car de nombreuses rencontres urbaines à Grand Dream City ont été déplacées pour accueillir les nouveautés de la 9e génération et les Formes d'Aevium.
+</Callout>
+
+| Type d'employé | Lieu principal | Chapitre minimum | Condition principale |
+| :--- | :--- | :--- | :--- |
+| **Assistant de magasin** | Gearen Est | Chapitre 1 | Requête du Centre d'Aide 1 |
+| **Marchand du marché** | Village de Kakori | Chapitre 5 | Exploration de la Jungle de Terajuma terminée |
+| **Chef d'étage** | Grand Dream City | Chapitre 9 | Quête du Grand Magasin |
+| **Technicien de laboratoire** | Zone Zéro | Chapitre 13 | Projet de restauration |
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour recruter des employés personnalisés">
+
+Recruter le bon personnel demande un mélange d'exploration et d'ingénierie sociale. Suivez ces étapes pour ne pas rater les meilleures opportunités de création d'employés durant votre aventure en V14.
+
+<Steps>
+  <Step num="1" title="Compléter les tâches des Centres d'Aide régionaux">
+    Avant d'atteindre les hubs majeurs, vous devez vous forger une réputation. Complétez au moins 50 % des requêtes des Centres d'Aide de Gearen Est et du Village de Sheridan. Cela augmentera votre **Karma**, une statistique cachée nécessaire pour que de nombreux PNJ vous fassent confiance pour les employer.
+  </Step>
+  <Step num="2" title="Atteindre Grand Dream City (Chapitre 9)">
+    Les mécaniques principales de création d'employés sont verrouillées derrière l'arc de GDC. Une fois que vous avez accès au District Central, visitez le Grand Magasin. Parlez au gérant au rez-de-chaussée pour lancer la quête secondaire « Crise de personnel » (Staffing Crisis).
+  </Step>
+  <Step num="3" title="Localiser les candidats potentiels">
+    Les candidats sont dispersés à travers Aevium. Vous les trouverez dans le Marché Nocturne, le District Judiciaire et même cachés dans les Bois de Darchlight. Chaque candidat possède un « Trait » (ex. : Charismatique, Diligent ou Ingénieux) qui détermine son efficacité.
+  </Step>
+  <Step num="4" title="Finaliser la personnalisation par le dialogue">
+    Lorsque vous trouvez un candidat, vos choix de dialogue « définiront » son rôle. Par exemple, dire à un PNJ que « L'efficacité est la clé » peut en faire un fournisseur de réductions, tandis que « La variété est préférable » peut l'inciter à proposer des objets plus rares.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Attention : Contenu pouvant être manqué">
+Plusieurs options de recrutement à Grand Dream City sont **limitées dans le temps**. Si vous progressez dans l'histoire principale jusqu'aux chapitres de la « Crise de GDC » sans avoir finalisé votre personnel, certains PNJ risquent de devenir indisponibles ou de se déplacer vers les zones de la route Renégat où ils ne pourront pas être recrutés.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Options de personnalisation et avantages des employés">
+
+En vous engageant dans les mécaniques pour **créer votre propre employé dans Pokémon Rejuvenation**, vous construisez essentiellement un centre de services personnalisé. Les avantages augmentent avec le nombre de badges que vous possédez et les traits spécifiques attribués lors du recrutement.
+
+| Trait de l'employé | Service fourni | Condition d'amélioration | Bonus V14 |
+| :--- | :--- | :--- | :--- |
+| **Charismatique** | Réduction de 10 à 20 % en magasin | 12 Badges | Luxe Balls gratuites |
+| **Diligent** | Culture de Baies rares | 8 Badges | Accès aux Baies de la 9e Génération |
+| **Ingénieux** | Recherche de Pierres d'Évolution | 10 Badges | Réductions sur les Pierres Lien (Link Stones) |
+| **Technique** | Accès à l'Anamnésiste | Chapitre 11 terminé | Enseignement des Capacités d'Œuf (Egg Moves) |
+
+<Callout type="success" title="Stratégie d'optimisation">
+Si vous jouez dans un mode de difficulté supérieur, donnez la priorité aux employés **Techniques** et **Charismatiques**. La possibilité d'accéder tôt à l'anamnésiste et d'acheter des objets de soin à prix réduit est essentielle pour survivre aux combats de boss successifs au Mont Valeur (Valor Mountain) et à Kristiline.
+</Callout>
+
+### Comparaison des rôles d'employés
+Le tableau suivant compare la valeur à long terme des différents rôles d'employés que vous pouvez attribuer à vos PNJ personnalisés.
+
+| Rôle | Valeur en début de jeu | Valeur en fin de jeu | Facteur de risque |
+| :--- | :--- | :--- | :--- |
+| **Spécialiste des objets** | Élevée (Potions/Balls) | Faible | Aucun |
+| **Dresseur de combat** | Moyenne (Entraînement EV) | Élevée | Élevé (Nécessite des victoires) |
+| **Informateur d'histoire** | Faible (Lore) | Moyenne (Routes) | Aucun |
+| **Chercheur de Blasons (Crests)** | Faible | Extrême (Améliorations personnalisées) | Modéré |
+
+</Section>
+
+<Section icon={Swords} title="Impact des routes de l'histoire sur le recrutement">
+
+Votre choice entre la **Route Parangon** et la **Route Renégat** a un impact significatif sur votre capacité à « créer votre propre employé ». Dans la V14, l'histoire se sépare au Chapitre 16, mais les bases sont posées bien plus tôt à travers vos interactions avec les recrues potentielles.
+
+- **Route Parangon** : Axée sur le développement communautaire. Vous aurez accès à une plus grande variété de traits « Utiles ». Les PNJ recrutés sur cette route offrent souvent des services qui facilitent la flexibilité de l'équipe et la gestion des Effets de Terrain.
+- **Route Renégat** : Axée sur la puissance brute et l'efficacité. Les recrues peuvent être moins nombreuses, mais elles proposent des services plus « sombres », comme l'accès à des CT rares de type Poison/Ténèbres et à des objets habituellement réservés aux installations de la Team Xen.
+
+<Callout type="info" title="Vérification du Karma">
+De nombreux employés de haut niveau nécessitent un score de Karma positif. Si un PNJ refuse de rejoindre votre installation, vérifiez votre Karma auprès du médium local ou du PNJ complétiste. Vous devrez peut-être accomplir plus de quêtes secondaires « bénéfiques » pour les débloquer.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Recrutement Parangon">
+    - **Focus** : Large disponibilité
+    - **Avantage clé** : Boosts d'amitié / de bonheur
+    - **Exclusivité** : Chercheurs de Formes d'Aevium
+  </Card>
+  <Card title="Recrutement Renégat">
+    - **Focus** : Puissance brute
+    - **Avantage clé** : Objets tenus stratégiques
+    - **Exclusivité** : Spécialistes des Pokémon Obscurs
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Conseils avancés pour l'optimisation des employés">
+
+Pour maîtriser pleinement le système pour **créer votre propre employé dans Pokémon Rejuvenation**, vous devez aller au-delà du simple dialogue de recrutement de base. Il existe des interactions cachées qui peuvent améliorer encore plus les capacités de votre personnel.
+
+| Méthode d'amélioration | Effet | Coût / Condition |
+| :--- | :--- | :--- |
+| **Cellules Zygarde** | Améliore les employés de laboratoire | 10 à 50 cellules |
+| **PA (Points d'Accomplissement)** | Débloque les Traits Maîtres | 500+ PA |
+| **Blasons spécifiques** | Améliore les boutiques spécialisées | Trouver le Pokémon correspondant |
+| **Mots de passe de chapitre** | Recrutement instantané | Système de mots de passe V14 |
+
+<Callout type="tip" title="Raccourci par mot de passe">
+Si vous effectuez une deuxième partie et souhaitez éviter la phase de recrutement fastidieuse, utilisez le **système de mots de passe** de la V14 lors de la création de votre sauvegarde. Bien qu'il n'existe pas de code direct pour « débloquer tous les employés », certains mots de passe de confort rendent les quêtes préalables beaucoup plus rapides à accomplir.
+</Callout>
+
+<Checklist
+  id="employee-checklist"
+  title="Étapes clés du recrutement d'employés :"
+  items={[
+    "Débloquer la quête du gérant du Grand Magasin de GDC",
+    "Recruter un vendeur Charismatique pour le 4e étage",
+    "Trouver le chercheur caché dans les Bois de Darchlight",
+    "Atteindre 100 % de complétion au Centre d'Aide de Gearen Est",
+    "Améliorer votre installation principale en utilisant des Cellules Zygarde"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je modifier le trait d'un employé après l'avoir recruté ?",
+    answer: "En général, non. Dans Pokémon Rejuvenation V14, les traits que vous sélectionnez lors du dialogue initial sont permanents. Il est fortement recommandé de sauvegarder votre partie avant de parler à une recrue potentielle."
+  },
+  {
+    question: "Comment la fonctionnalité 'créer son propre employé' affecte-t-elle la limite de niveau (level cap) ?",
+    answer: "Recruter des employés ne modifie pas directement la limite de niveau, mais certains dresseurs de combat peuvent fournir des objets tels que des Super Bonbons ou des Bonbons Exp. qui vous aident à atteindre la limite actuelle plus rapidement."
+  },
+  {
+    question: "Y a-t-il des employés exclusifs à la V14 ?",
+    answer: "Oui, several marchands spécialisés de la 9e génération et chercheurs sur les Formes d'Aevium ont été ajoutés dans la V14, principalement situés dans les districts récemment agrandis de Grand Dream City."
+  },
+  {
+    question: "Qu'arrive-t-il à mes employés si je passe de la route Parangon à la route Renégat ?",
+    answer: "Si vous faites des choix qui mènent à la route Renégat, certains employés alignés sur la voie Parangon peuvent quitter votre installation ou cesser de fournir leurs services, reflétant l'évolution plus sombre de l'histoire."
+  }
+]} />
+
+</Section>

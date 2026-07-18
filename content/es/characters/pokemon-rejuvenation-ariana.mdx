@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ariana en Pokémon Rejuvenation: Estrategias de Batalla y Guía de Lore",
+  description: "Domina cada encuentro con Ariana en Pokémon Rejuvenation V14. Estrategias detalladas de jefes, composiciones de equipo e impactos en las rutas Paragon y Renegade.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2a1b3d/fff?text=Ariana+Boss+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, ariana, guía de jefe, estrategias, paragon, renegade, v14"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ariana en Pokémon Rejuvenation** es una antagonista recurrente y una Administradora de alto rango dentro de la organización villana, el Team Xen.
+- **Mecánica de Batalla**: Sus encuentros suelen presentar **Efectos de Campo** que potencian los movimientos de tipo Siniestro, Veneno y Psíquico, lo que requiere estrategias específicas de control de terreno.
+- **Impacto en la Ruta**: Las interacciones con Ariana pueden influir en tu **Karma** y en los valores de relación, que son críticos para desbloquear las rutas Paragon o Renegade del Capítulo 16.
+- **Actualizaciones de la V14**: En la versión más reciente, sus equipos han sido reequilibrados para incluir **Pokémon de la 9ª Generación** y sets de movimientos actualizados que aprovechan las nuevas mejoras de la IA.
+- **Mejor Estrategia**: Utiliza movimientos que cambien el campo como Neblina o Campo de Hierba para neutralizar sus ventajas ambientales durante los enfrentamientos al inicio y mitad del juego.
+</Callout>
+
+<Section icon={Target} title="Ariana: La Sombra del Team Xen">
+
+Ariana sirve como una de las amenazas más persistentes en la región de Aevium. Como Administradora del Team Xen, su papel implica supervisar operaciones de alto riesgo que a menudo la ponen directamente en el camino del jugador. Comprender a **Ariana en Pokémon Rejuvenation** requiere más que solo conocer a sus Pokémon; los jugadores deben entender sus motivaciones y la presión táctica que aplica durante los momentos más cruciales de la historia. En la V14, su arco de personaje se refina aún más, ofreciendo una visión más profunda de la jerarquía del Team Xen y el misterio general de la catástrofe Storm-9.
+
+<Callout type="tip" title="Nota de Lore">
+Ariana suele formar pareja con otros Administradores como Toren o Sirius. Presta mucha atención a sus diálogos, ya que con frecuencia presagian giros importantes en la trama relacionados con los "Elite 8" y el verdadero propósito de los Pokémon Rift.
+</Callout>
+
+| Atributo | Detalles |
+| :--- | :--- |
+| **Organización** | Team Xen (Administradora) |
+| **Tipos Principales** | Siniestro, Veneno, Psíquico |
+| **Encuentros Clave** | Bosque Goldenwood, Castillo Blacksteeple, Terajuma |
+| **Estado en V14** | Equipos totalmente actualizados con integración de la 9ª Gen |
+| **Relevancia en la Ruta** | Alta (Afecta al Karma y a las ramas Paragon/Renegade) |
+
+El estilo táctico de Ariana se centra en una presión ofensiva agresiva. Rara vez cambia a sus Pokémon de forma defensiva, optando en su lugar por abrumar al jugador usando movimientos con STAB (Bono de Ataque del Mismo Tipo) potenciados por el campo. Esto hace que sus batallas sean una "prueba de equipo" para los jugadores, asegurando que hayan entrenado adecuadamente a sus equipos hasta el límite de nivel actual antes de proceder.
+
+</Section>
+
+<Section icon={Map} title="Ubicaciones de Encuentros y Progresión de Capítulos">
+
+A lo largo de los 16 capítulos de la V14, te enfrentarás a Ariana en diversos entornos. Cada ubicación es elegida para darle una ventaja de local, generalmente a través de un Efecto de Campo específico que castiga a los equipos no preparados. Rastrear estos encuentros es esencial para los jugadores que buscan mantener una puntuación alta de Karma o aquellos que desean completar cada objetivo secundario.
+
+<Callout type="warning" title="Preparación para la Batalla">
+Guarda siempre tu partida antes de entrar en una instalación del Team Xen. Muchas de las batallas de Ariana forman parte de "secuencias consecutivas de jefes" donde no puedes acceder a un PC o centro de curación entre combates.
+</Callout>
+
+| Capítulo | Ubicación | Efecto de Campo | Amenaza Clave |
+| :--- | :--- | :--- | :--- |
+| **Capítulo 1** | Bosque Goldenwood | Campo de Bosque | Tipos Siniestro de inicio de juego |
+| **Capítulo 5** | Castillo Blacksteeple | Campo de Fábrica | Cobertura Acero/Veneno |
+| **Capítulo 8** | Isla Terajuma | Cima Volcánica | Atacantes de alta velocidad |
+| **Capítulo 12** | Grand Dream City | Campo Urbano/Ciudad | Adiciones optimizadas de la 9ª Gen |
+| **Capítulo 15** | Cuartel General Xen | Campo Dimensional | Influencia Legendaria/Rift |
+
+Al principio del juego, **Ariana en Pokémon Rejuvenation** actúa como un tutorial para el sistema de Efectos de Campo. Para cuando llegas a la mitad del juego en Terajuma, su equipo se vuelve significativamente más complejo, utilizando objetos equipados como Bandas Focus y Pañuelos Elección para pillar a los jugadores desprevenidos.
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Batalla y Composición de Equipo">
+
+Derrotar a Ariana requiere un equipo equilibrado que pueda manejar sus amenazas ofensivas de alta velocidad. Debido a que favorece los tipos Siniestro y Veneno, los Pokémon de tipo Hada y Tierra son tus mejores amigos. Sin embargo, en la V14, muchos de sus Pokémon llevan "movimientos de cobertura" diseñados específicamente para contrarrestar estas debilidades (como Cabeza de Hierro en sus tipos Siniestro para golpear a los tipos Hada).
+
+<Steps>
+  <Step num="1" title="Analiza el Campo">
+    Antes de atacar, revisa la descripción del Efecto de Campo. Si el campo potencia los movimientos de tipo Siniestro en 1.5x, tu primera prioridad debería ser usar un movimiento como **Adaptación** o **Neblina** para alterar o neutralizar el terreno.
+  </Step>
+  <Step num="2" title="Identifica al Líder">
+    Ariana a menudo lidera con un "colocador de entradas" rápido o un Pokémon con Ida y Vuelta/Voltiocambio. Usa un Pokémon líder con la habilidad **Foco Interno** o un movimiento de prioridad para interrumpir su impulso.
+  </Step>
+  <Step num="3" title="Gestiona el Nivel Máximo">
+    Asegúrate de que tu equipo esté al nivel máximo permitido para tu número actual de medallas. La IA de Ariana está optimizada para explotar incluso una desventaja de 2 niveles, especialmente en dificultad Intensa.
+  </Step>
+  <Step num="4" title="Contrarresta al As">
+    Su Pokémon "As" suele llevar una Megapiedra o un Cristal Z en los capítulos posteriores. Reserva tu propia Megaevolución o Movimiento Z específicamente para intercambiar golpes con el miembro más fuerte de su equipo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia Pro">
+Usar un Pokémon con la habilidad **Bromista** para colocar Reflejo o Pantalla de Luz puede reducir a la mitad el daño de Ariana, permitiéndote preparar a tus propios atacantes con seguridad.
+</Callout>
+
+| Pokémon Recomendado | Rol | Por qué funciona |
+| :--- | :--- | :--- |
+| **Gardevoir** | Atacante Especial | Su combinación Psíquico/Hada destruye su núcleo Veneno/Siniestro |
+| **Excadrill** | Atacante Físico | Los movimientos de Tierra golpean a sus tipos Veneno con un daño x4 |
+| **Formas de Aevium** | Utilidad | Los tipos únicos en Rejuvenation proporcionan resistencias inesperadas |
+| **Grimmsnarl** | Colocador de Pantallas | Las Pantallas con Bromista son esenciales para sobrevivir a su As |
+
+</Section>
+
+<Section icon={Sparkles} title="Paragon vs. Renegade: La Rama de Ariana">
+
+La forma en que interactúas con **Ariana en Pokémon Rejuvenation** puede tener efectos duraderos en el futuro de la región de Aevium. El juego rastrea tus elecciones a través de un sistema oculto de "Relación" y "Karma". En el Capítulo 16, estos valores determinan si sigues la ruta Paragon (el camino "bueno") o la ruta Renegade (el camino "oscuro").
+
+<CardGrid cols={2}>
+  <Card title="Impacto de la Ruta Paragon">
+    - **Misericordia**: Elegir perdonar o ayudar a Ariana puede aumentar tu Karma.
+    - **Aliados**: Los valores altos de relación podrían llevar a que ella te ayude en incursiones posteriores contra el Team Xen.
+    - **Resultado**: Se centra en la redención y la preservación del mundo.
+  </Card>
+  <Card title="Impacto de la Ruta Renegade">
+    - **Despiadado**: Las elecciones hostiles disminuyen significativamente tu Karma.
+    - **Conflicto**: Conduce a batallas más frecuentes y difíciles con ella.
+    - **Resultado**: Resulta en la destrucción de alianzas clave y un final más oscuro.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Decisión Importante">
+Algunas opciones de diálogo con Ariana son "puntos de no retorno". Si buscas un final específico, mantén varios archivos de guardado antes de los momentos importantes de la historia en Grand Dream City.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Preparación para las Batallas con Ariana">
+
+Antes de participar en cualquier clímax importante de la historia que involucre al Team Xen, asegúrate de haber completado los siguientes preparativos. Rejuvenation es conocido por sus picos de dificultad, y Ariana es a menudo el catalizador de estos desafíos.
+
+<Checklist
+  id="ariana-prep"
+  title="Requisitos Previos a la Batalla:"
+  items={[
+    "Verificar que el equipo esté al Nivel Máximo de la V14",
+    "Abastecerse de Ultra Pociones y Curas Totales",
+    "Equipar objetos (Restos, Vidasfera o potenciadores de tipo)",
+    "Revisar la sinergia del Efecto de Campo para los 6 miembros del equipo",
+    "Actualizar los sets de movimientos usando MTs encontradas en la región actual",
+    "Crear un archivo de guardado de respaldo en una ranura separada"
+  ]}
+/>
+
+<Callout type="info" title="Calidad de Vida en V14">
+Recuerda que puedes usar el **Sistema de Contraseñas** para ajustar la dificultad si encuentras un encuentro específico con Ariana demasiado frustrante. Contraseñas como `litemode` pueden ayudar a los jugadores centrados en la historia a progresar sin un entrenamiento intenso.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Ariana miembro de los Elite 8?",
+    answer: "No, Ariana es una Administradora del Team Xen. Aunque es poderosa, tiene un rango inferior a los Elite 8 y a los Ejecutivos de mayor rango como Madame X."
+  },
+  {
+    question: "¿Puedo capturar a los Pokémon de Ariana?",
+    answer: "No, no puedes capturar Pokémon que pertenezcan a otros entrenadores. Sin embargo, muchas de las especies que ella usa se pueden encontrar de forma salvaje o a través de misiones secundarias por todo Aevium."
+  },
+  {
+    question: "¿Cuál es el mejor inicial para usar contra Ariana?",
+    answer: "Los iniciales de tipo Fuego como Incineroar (por Intimidación) o los de tipo Agua con combinaciones secundarias de Hada/Psíquico suelen funcionar mejor contra sus equipos centrados en Veneno/Siniestro."
+  },
+  {
+    question: "¿Afecta mi relación con Ariana al final?",
+    answer: "Sí, tu relación y tus valores de Karma con todos los miembros del Team Xen, incluida Ariana, contribuyen a las rutas ramificadas en el Capítulo 16."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Pokemon Rejuvenation: Mapa de Teclas y Guía de Configuración",
+  description: "Domina los controles de Pokemon Rejuvenation para teclado y mandos. Aprende a configurar las teclas, usar el aumento de velocidad y resolver el retraso de entrada.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controls+and+Keybinds+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokemon Rejuvenation",
+  keywords: "pokemon rejuvenation, controles, configuración, mando, teclado, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Diseño Esencial**: Los **controles de pokemon rejuvenation** predeterminados asignan el movimiento a las teclas de dirección, la confirmación a Z, C o Espacio, y los menús a X o Escape.
+- **Alternar Velocidad**: Usa la tecla Alt o el menú de opciones personalizadas para acelerar las batallas y el desplazamiento por el mapa.
+- **Acción de Reinicio Suave (Soft Reset)**: Presiona F12 para activar un reinicio suave, lo cual es muy eficiente para la caza de shinies y el ajuste de estadísticas.
+- **Soporte para Mandos**: Configura controladores externos usando Steam Input o JoyToKey para mapear las entradas del mando a las acciones del teclado.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con los controles de Pokemon Rejuvenation">
+
+Navegar por el desafiante y extenso mundo de Aevium requiere una comprensión sólida de los **controles de pokemon rejuvenation** predeterminados. Debido a que este juego hecho por fans está construido sobre el robusto motor RPG Maker XP (utilizando el kit Pokemon Essentials), su arquitectura de entrada difiere ligeramente de los títulos oficiales de consola o los hackroms basados en emuladores. Entender cómo gestionar tus teclas, activar atajos de utilidad y ajustar tu configuración es crucial para una exploración fluida, batallas de ritmo rápido y la resolución de complejos acertijos ambientales.
+
+**Puntos destacados del video:**
+- **Navegación del Templo Tyluric**: Exploración del diseño único del templo y las mecánicas basadas en el viento.
+- **Sistemas de Control del Clima**: Activación de interruptores para alinear patrones climáticos y abrir caminos bloqueados.
+- **Batalla contra Carnivine Corrupto**: Consejos estratégicos de combate contra un jefe de nivel 45.
+- **Misión del Invasor Helojak**: Localización del área de la misión y desactivación de pistones de vapor.
+
+<YouTubeEmbed videoId="ojGTl1qkkvE" title="Let's Play Pokemon Rejuvenation V13.5 #28 - Templo Tyluric, Control del Clima e Invasor Helojak" />
+
+Comprender el mapeo predeterminado es solo el primer paso. Al aprender a personalizar estos parámetros, puedes reducir significativamente la fatiga manual durante las sesiones largas de juego y optimizar tus rutas de farmeo.
+
+<Callout type="info" title="Compatibilidad del Motor">
+El motor RPG Maker XP interpreta las entradas del teclado a través de una interfaz de mando virtual. Esto significa que teclas como Z, C y Espacio a menudo están vinculadas al mismo botón de acción virtual (Botón C), mientras que X y Escape están vinculadas al Botón B virtual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Diseño y personalización del teclado">
+
+El diseño de teclado predeterminado ofrece múltiples teclas redundantes para adaptarse a diferentes posiciones de las manos. Ya sea que prefieras usar una sola mano para la navegación o dividir tus controles entre ambas, la configuración predeterminada es muy versátil.
+
+| Tecla | Acción | Función del Juego |
+| --- | --- | --- |
+| Teclas de dirección | Movimiento | Mueve a tu personaje arriba, abajo, izquierda y derecha |
+| Z / C / Espacio | Confirmar | Interactúa con NPCs, inspecciona objetos y confirma opciones de menú |
+| X / Esc | Cancelar / Menú | Cierra menús activos, cancela opciones y abre el menú principal |
+| Shift | Correr | Mantén presionado para correr cuando obtengas las Deportivas |
+| F | Objeto Registrado | Uso rápido de objetos clave registrados como la Bicicleta o la Caña de pescar |
+| D | Guardado rápido | Guarda tu progreso instantáneamente sin abrir el menú principal |
+
+Además de las entradas estándar de juego, varias teclas de utilidad del sistema ayudan a gestionar el rendimiento del cliente, el escalado de la ventana y los reinicios de emergencia.
+
+| Tecla | Función del Sistema | Descripción |
+| --- | --- | --- |
+| F1 | Propiedades del Juego | Abre el panel de configuración heredado de RPG Maker para ajustar la entrada |
+| F8 | Captura de pantalla | Toma una captura de alta calidad guardada directamente en el directorio del juego |
+| F12 | Reinicio Suave | Reinicia instantáneamente el cliente del juego a la pantalla del título principal |
+| Alt + Enter | Pantalla Completa | Alterna entre el modo ventana y el modo pantalla completa |
+
+<Callout type="tip" title="Mejor Práctica de Guardado Rápido">
+Acostúmbrate a presionar la tecla **D** con regularidad. Pokemon Rejuvenation cuenta con combates contra jefes difíciles y encuentros inesperados; guardar rápido antes de entrar en nuevas zonas puede ahorrarte horas de progreso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuración del mando y controlador">
+
+Jugar con un mando ofrece una experiencia más cómoda y similar a la de una consola. Aunque el cliente del juego tiene una detección nativa básica de mandos, los controladores XInput modernos (como los de Xbox Series X o PlayStation 5) a menudo requieren una utilidad de mapeo para funcionar correctamente sin latencia de entrada.
+
+<Steps>
+  <Step num="1" title="Conecta tu Mando">
+    Asegúrate de que tu mando esté conectado a tu PC a través de USB o Bluetooth antes de iniciar el ejecutable de Pokemon Rejuvenation.
+  </Step>
+  <Step num="2" title="Añadir a la Biblioteca de Steam">
+    Abre Steam, haz clic en **Añadir un producto** en la esquina inferior izquierda y selecciona **Añadir un producto que no es de Steam**. Busca y selecciona el lanzador de Pokemon Rejuvenation.
+  </Step>
+  <Step num="3" title="Activar Steam Input">
+    Inicia Steam en modo Big Picture, navega hasta el juego y abre los ajustes de Disposición de mando. Activa Steam Input para mapear los botones de tu mando directamente a las teclas predeterminadas del teclado.
+  </Step>
+  <Step num="4" title="Software de Mapeo Alternativo">
+    Si no usas Steam, descarga una utilidad de terceros como **JoyToKey** o **Keysticks**. Mapea el D-pad de tu mando a las teclas de dirección del teclado, el botón 'A' a 'C' y el botón 'B' a 'X'.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Superposición de Entradas">
+Evita ejecutar múltiples utilidades de mapeo simultáneamente. Ejecutar Steam Input junto con JoyToKey puede causar errores de doble pulsación, dificultando la navegación por los menús.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Controles avanzados: Aumento de velocidad y reinicios suaves">
+
+Para agilizar el proceso de entrenamiento y hacer factible la caza de shinies, Pokemon Rejuvenation incluye funciones de control de calidad de vida integradas.
+
+<CardGrid cols={3}>
+  <Card title="Alternar Velocidad">
+    - **Tecla Alt (predeterminado)**
+    - Acelera las animaciones de batalla
+    - Agiliza el desplazamiento por el mapa
+  </Card>
+  <Card title="Atajo de Reinicio Suave">
+    - **Comando tecla F12**
+    - Omite el lanzador del juego de PC
+    - Acelera los reinicios para buscar shinies
+  </Card>
+  <Card title="Tecla Rápida de Objeto">
+    - **Acceso rápido tecla F**
+    - Montaje instantáneo de bicicleta
+    - Uso rápido de la caña de pescar
+  </Card>
+</CardGrid>
+
+La función de aumento de velocidad es especialmente personalizable, permitiendo a los jugadores ajustar qué tan rápido corre el juego cuando el interruptor está activo.
+
+| Modo de Velocidad | Multiplicador | Uso Recomendado |
+| --- | --- | --- |
+| Velocidad Normal | 1.0x | Diálogos de historia, cinemáticas y plataformas de precisión |
+| Velocidad Rápida | 3.0x | Entrenamiento de nivel, encuentros salvajes y retorno por rutas |
+| Velocidad Híper | 5.0x / Personalizado | Ciclos de crianza, eclosión de huevos y navegación por áreas masivas |
+
+<Callout type="success" title="Consejo de Rendimiento">
+Si experimentas tirones o caídas de frames al usar el aumento de velocidad, baja la resolución de pantalla en el menú de Opciones o desactiva las animaciones de batalla de alto detalle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de control ambiental en el juego">
+
+En Pokemon Rejuvenation, los "controles" se extienden más allá de las entradas del teclado hacia sistemas únicos de acertijos ambientales en el juego. A lo largo de tu viaje, encontrarás ruinas y templos complejos que requieren manipular mecánicas de campo para avanzar. Un ejemplo principal es la misión secundaria del Templo Tyluric, donde los jugadores deben interactuar con sistemas de control de clima y viento.
+
+| Elemento del Acertijo | Mecanismo de Control | Solución / Resultado |
+| --- | --- | --- |
+| Torbellinos | Interruptor de Dirección del Viento | Interactuar con pilares de piedra redirige las corrientes de aire para despejar caminos |
+| Pozas de Magma | Movimiento de Campo Magma Drift | Permite a tu personaje surfear sobre lava hirviendo para alcanzar áreas ocultas |
+| Barreras de Pistones | Interruptores Estabilizadores | Desactivar las redes eléctricas locales detiene los pistones móviles, permitiendo el acceso a las fábricas |
+
+Para completar con éxito estos acertijos ambientales, mantén una lista de verificación de las tareas y mecánicas activas en mente.
+
+<Checklist
+  id="puzzle-checklist"
+  title="Pasos de Progresión del Acertijo:"
+  items={[
+    "Localiza e interactúa con todos los pilares de control locales para alterar el flujo de viento o agua.",
+    "Asegúrate de tener los Movimientos de Campo necesarios (como Magma Drift o Surf) activos en tu equipo.",
+    "Observa los peligros móviles (como torbellinos o pistones) y sincroniza tus entradas de dirección cuidadosamente.",
+    "Guarda rápido antes de intentar secuencias complejas de plataformas para evitar quedarte atascado."
+  ]}
+/>
+
+<Callout type="info" title="Reinicio de Acertijos">
+Si cometes un error durante un acertijo complejo, salir de la habitación y volver a entrar restablecerá los controles ambientales a su estado predeterminado, permitiéndote intentarlo de nuevo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+A continuación se presentan respuestas a las preguntas más comunes sobre la configuración de entrada del juego y opciones de solución de problemas.
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono las teclas que no responden o el retraso de entrada en Pokemon Rejuvenation?",
+    answer: "El retraso de entrada a menudo es causado por un alto uso de la CPU o limitaciones del motor. Intenta presionar F1 para verificar tus propiedades de entrada, reduce el tamaño de la ventana del juego o ejecuta el juego en Modo Administrador."
+  },
+  {
+    question: "¿Puedo personalizar los controles predeterminados de pokemon rejuvenation directamente en el juego?",
+    answer: "Sí. Mientras que el menú F1 heredado permite el mapeo a nivel de sistema, el menú de Opciones dentro del juego presenta un submenú dedicado de 'Controles' donde puedes remapear las teclas de acción, cancelación y objetos registrados."
+  },
+  {
+    question: "¿Hay alguna forma de ejecutar el juego en Steam Deck con los controles adecuados?",
+    answer: "Absolutamente. Añade el archivo .exe del juego como un juego ajeno a Steam en el modo escritorio, vuelve al modo de juego y selecciona una plantilla de disposición de mando de la comunidad diseñada para juegos de RPG Maker."
+  },
+  {
+    question: "¿Qué debo hacer si mi tecla de reinicio suave F12 no funciona?",
+    answer: "En algunos portátiles modernos, las teclas de función requieren mantener presionada la tecla 'Fn'. Intenta presionar Fn + F12, o verifica la configuración de la BIOS de tu sistema para cambiar el comportamiento predeterminado de la fila de funciones."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Mantén siempre tu cliente de juego actualizado a la última versión (como la V13.5). El equipo de desarrollo lanza frecuentemente parches que resuelven problemas de compatibilidad de mandos y errores de entrada.
+</Callout>
+
+</Section>

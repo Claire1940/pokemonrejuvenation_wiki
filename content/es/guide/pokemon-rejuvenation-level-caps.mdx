@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Límites de Nivel en Pokémon Rejuvenation: Guía de Progresión 2026",
+  description: "Domina los límites de nivel de Pokémon Rejuvenation con nuestra guía de 2026. Aprende los hitos de medallas, gestión de experiencia y estrategias para picos de dificultad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Level+Caps+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, límites de nivel, medallas, guía de progresión, caramelos inversos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los límites de nivel de Pokémon Rejuvenation** son restricciones estrictas impuestas por el sistema de medallas para mantener el equilibrio del juego.
+- **Las mecánicas de obediencia** se activan inmediatamente si un Pokémon supera el límite actual, lo que provoca que ignoren las órdenes.
+- **Los Caramelos Inversos** son objetos esenciales utilizados para reducir el nivel de un Pokémon si sube de nivel accidentalmente.
+- **Los modos de dificultad** (Casual, Normal, Intenso) afectan significativamente la rigurosidad con la que se aplican estos límites durante las batallas contra jefes.
+- **La planificación estratégica** implica gestionar la distribución de EXP en todo un equipo en lugar de subir demasiado de nivel a un solo Pokémon "carry".
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema de Límite de Nivel Estricto">
+
+En el desafiante mundo de Aevium, los **límites de nivel de Pokémon Rejuvenation** sirven como la principal mecánica de equilibrio. A diferencia de los títulos oficiales de Pokémon donde los límites de nivel solo afectan a los Pokémon intercambiados, esta obra maestra hecha por fans aplica estos límites a cada criatura de tu equipo. Si el nivel de tu Pokémon supera el límite establecido por tu medalla más reciente, dejará de obedecer órdenes en batalla, a menudo usando movimientos no deseados o simplemente holgazaneando. Este sistema garantiza que los jugadores no puedan simplemente "farmear" para superar a los difíciles Líderes de Gimnasio, forzando la dependencia en la estrategia, la composición del equipo y el dominio de los efectos de campo.
+
+**Puntos destacados del video:**
+- Discusión sobre la frustración de los límites de nivel bajos durante las batallas contra jefes al principio del juego.
+- El impacto de los límites de nivel en batallas específicas como el encuentro contra Keta en solitario.
+- Sugerencias para aumentar los límites de nivel para mejorar el ritmo del juego.
+- La necesidad de usar objetos específicos para gestionar los niveles del equipo de manera efectiva.
+
+<YouTubeEmbed videoId="aNEi_PGKncw" title="Discusión sobre el Límite de Nivel en Pokémon Rejuvenation" />
+
+<Callout type="warning" title="Advertencia Crítica">
+Entrar en una batalla de Líder de Gimnasio con un Pokémon incluso un nivel por encima del límite puede llevar a una derrota inmediata. Las tasas de desobediencia aumentan drásticamente por cada nivel sobre el límite, lo que hace imposible ejecutar estrategias complejas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de Límites de Nivel por Medalla">
+
+La progresión de los **límites de nivel de Pokémon Rejuvenation** está ligada directamente al progreso de tu historia. Según el meta de 2026, se recomienda mantenerse exactamente en el límite para el modo "Intenso" más difícil, mientras que los jugadores de "Casual" tienen un poco más de margen de maniobra. A continuación se muestra la progresión estándar para los hitos del inicio y mitad del juego.
+
+| Medalla / Hito | Límite de Nivel | Encuentro Jefe Clave | Nivel de Equipo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Sin Medallas** | 20 | Venam | 18-20 |
+| **1ª Medalla** | 25 | Keta | 23-25 |
+| **2ª Medalla** | 30 | Marianette | 28-30 |
+| **3ª Medalla** | 35 | Narcissa | 33-35 |
+| **4ª Medalla** | 40 | Valerie | 38-40 |
+| **5ª Medalla** | 45 | Crawford | 43-45 |
+
+<Callout type="tip" title="Estrategia Pro">
+Si te encuentras cerca de un límite antes de una batalla importante, considera rotar a los Pokémon del banquillo. Esto evita que tu equipo principal suba demasiado de nivel mientras construyes una lista diversa de counters para diferentes tipos de Gimnasio.
+</Callout>
+
+Más allá de la quinta medalla, los límites continúan aumentando en incrementos de 5 a 10 niveles. Para cuando llegues a los capítulos finales del juego, tu equipo estará acercándose al nivel 80 y más allá.
+
+| Hito del Final del Juego | Límite de Nivel | Amenaza Principal | Ubicación |
+| :--- | :--- | :--- | :--- |
+| **8ª Medalla** | 60 | Angie | Monte Valor |
+| **10ª Medalla** | 70 | Amber | Mansión Fiore |
+| **12ª Medalla** | 80 | Erick | Historia de la V13 |
+| **Medallas Finales** | 90-100 | Elite 8 / Post-juego | Núcleo de Aevium |
+
+</Section>
+
+<Section icon={Zap} title="Gestión de Experiencia y Modos de Dificultad">
+
+La forma en que los **límites de nivel de Pokémon Rejuvenation** interactúan con tu partida depende en gran medida de la dificultad elegida. El juego ofrece tres formas distintas de experimentar la historia, cada una manejando el tope de nivel de manera diferente.
+
+<CardGrid cols={3}>
+  <Card title="Modo Casual">
+    - **Límites Flexibles**: Los topes son más altos o se aplican con menos rigor.
+    - **Ritmo más Fácil**: Menos necesidad de una gestión constante del nivel.
+    - **Enfoque**: Historia y exploración.
+  </Card>
+  <Card title="Modo Normal">
+    - **Límites Estándar**: Los límites estrictos se aplican rigurosamente.
+    - **Juego Equilibrado**: Requiere una distribución estratégica de EXP.
+    - **Enfoque**: Desafío clásico.
+  </Card>
+  <Card title="Modo Intenso">
+    - **Aplicación Estricta**: No hay margen de error.
+    - **Alta Dificultad**: Los jefes a menudo tienen niveles que alcanzan el límite exacto.
+    - **Enfoque**: Juego competitivo extremo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Objeto">
+Lleva siempre un montón de **Caramelos Inversos** en tu mochila. Estos objetos reducen el nivel de un Pokémon en 1, lo que te permite devolver a un Pokémon por debajo del límite si ganó demasiada EXP en una batalla contra un entrenador.
+</Callout>
+
+Para gestionar el crecimiento de tu equipo, sigue estos pasos para asegurarte de nunca entrar en un Gimnasio con Pokémon desobedientes:
+
+<Steps>
+  <Step num="1" title="Monitorea las Barras de EXP">
+    Revisa la pantalla de estado de tus Pokémon con frecuencia. Se debe vigilar la "EXP para el siguiente nivel" antes de entrar en cualquier serie de combates obligatorios.
+  </Step>
+  <Step num="2" title="Utiliza la Caja del PC">
+    Si un Pokémon está a 1 nivel del límite, cámbialo por un Pokémon de nivel más bajo durante las batallas menores contra entrenadores o encuentros salvajes.
+  </Step>
+  <Step num="3" title="Aplica Caramelos Inversos">
+    Si un Pokémon alcanza el límite (por ejemplo, Nivel 31 cuando el límite es 30), usa un Caramelo Inverso inmediatamente. Estos se venden habitualmente en los Grandes Almacenes o los proporcionan NPCs específicos en Pueblo Sheraton.
+  </Step>
+  <Step num="4" title="Alterna el Repartir Experiencia">
+    Usa el objeto Repartir Experiencia estratégicamente. Desactívalo si tu Pokémon líder está cerca del límite pero tu retaguardia aún necesita entrenamiento.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Impacto Estratégico en las Batallas contra Jefes">
+
+Los **límites de nivel de Pokémon Rejuvenation** son más notables durante los infames picos de dificultad del juego. Los jefes como Keta o Angie están diseñados para ser combatidos exactamente en el límite de nivel. Estar incluso ligeramente por debajo del nivel te pone en una desventaja masiva de estadísticas, mientras que estar por encima del nivel vuelve a tus Pokémon inútiles debido a la desobediencia.
+
+| Jefe | Tipo | Efecto de Campo | Estrategia para el Límite |
+| :--- | :--- | :--- | :--- |
+| **Keta** | Lucha | Pico / Montaña | Usa tipos Volador; mantente en Nivel 25. |
+| **Marianette** | Normal | Campo Santo | Evita movimientos Siniestros; límite en Nivel 30. |
+| **Narcissa** | Fantasma | Campo Encantado | Usa movimientos de prioridad; límite en Nivel 35. |
+| **Valerie** | Agua | Bajo el Agua | Usa Eléctrico/Planta; límite en Nivel 40. |
+
+<Callout type="info" title="Información Mecánica">
+En algunas versiones del juego, entrar en una batalla con Pokémon que superan el nivel sincronizará automáticamente sus niveles hacia abajo hasta el límite durante la duración del combate. Sin embargo, esto depende de la configuración específica del juego y de la versión (v13.5 frente a versiones anteriores).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión">
+
+Para mantenerte a la vanguardia y dominar los **límites de nivel de Pokémon Rejuvenation**, sigue esta lista de verificación esencial para cada nuevo capítulo de tu viaje.
+
+<Checklist
+  id="rejuvenation-progression"
+  title="Lista de Verificación de Gestión de Nivel:"
+  items={[
+    "Compra al menos 10 Caramelos Inversos en cada ciudad principal",
+    "Identifica el límite de nivel del próximo Líder de Gimnasio antes de comenzar su misión",
+    "Rota al menos 8-10 Pokémon para distribuir la experiencia de manera uniforme",
+    "Desactiva el Repartir Experiencia antes de entrar en mazmorras largas si estás cerca del límite",
+    "Guarda la partida antes de batallas importantes para comprobar problemas de obediencia"
+  ]}
+/>
+
+<Callout type="tip" title="Ajuste de Nivel">
+Como sugieren los jugadores veteranos, si encuentras el juego demasiado restrictivo, consulta el menú de "Opciones" o habla con NPCs específicos que podrían ofrecer interruptores de "Límite de Nivel" en parches nuevos o mediante mods protegidos por contraseña.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite de nivel máximo en Pokémon Rejuvenation?",
+    answer: "El límite de nivel final alcanza el Nivel 100 durante el contenido del final del juego y el post-juego de la V13.5 en adelante. Sin embargo, durante la mayor parte de la historia principal, jugarás entre los niveles 20 y 90."
+  },
+  {
+    question: "¿Dónde puedo comprar Caramelos Inversos?",
+    answer: "Los Caramelos Inversos se encuentran comúnmente en los Grandes Almacenes de GDC, o en vendedores especializados en Pueblo Hoja Dorada y Westgate. Son esenciales para gestionar los límites de nivel de Pokémon Rejuvenation."
+  },
+  {
+    question: "¿Por qué mi Pokémon me ignora incluso si está en el límite?",
+    answer: "Si tu Pokémon está exactamente en el límite (por ejemplo, Nivel 30 cuando el límite es 30), debería obedecer. Si te ignora, es posible que haya alcanzado el Nivel 31 a mitad de la batalla, o que estés jugando en una configuración de dificultad personalizada que reduce el umbral de obediencia."
+  },
+  {
+    question: "¿Puedo desactivar los límites de nivel por completo?",
+    answer: "En el juego estándar, los límites de nivel estrictos no se pueden desactivar por completo, ya que son fundamentales para el equilibrio. Sin embargo, jugar en el modo 'Casual' proporciona mucha más indulgencia, y ciertas contraseñas introducidas al inicio del juego pueden modificar cómo se gana la experiencia."
+  }
+]} />
+
+</Section>

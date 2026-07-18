@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Actualización de Pokémon Rejuvenation: Guía de la Ciudad de East Gearen V14",
+  description: "Domina la última actualización de Pokémon Rejuvenation con nuestra guía completa de misiones de la Ciudad de East Gearen, secretos ocultos y mecánicas de juego de la V14.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=V14+Update+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **actualización de Pokémon Rejuvenation** V14 introduce cambios narrativos significativos y líneas de misiones expandidas en el distrito de la Ciudad de East Gearen.
+- Las **Misiones del Centro de Ayuda** son la fuente principal de progresión en el juego temprano, ofreciendo objetos raros como Escamas Corazón (Heart Scales) y Piedras Evolutivas.
+- Los **Secretos de la Biblioteca Oculta** requieren interactuar con NPCs específicos por toda la ciudad para desbloquear el lore sobre la civilización Garufa.
+- Los **Encuentros Raros** como Shuppet y Dedenne dependen del tiempo, lo que requiere que los jugadores gestionen eficazmente el ciclo de día/noche del juego.
+- El **Sistema de PA (Puntos de Logro)** permite a los jugadores realizar un seguimiento de los logros y canjear puntos por recompensas de alto nivel como Repartir Exp (XP All) y Tarjetas de PE (EV Cards).
+</Callout>
+
+<Section icon={Map} title="Ciudad de East Gearen: Resumen de la Actualización V14">
+
+La última **actualización de Pokémon Rejuvenation** trae un aspecto renovado y una mayor complejidad mecánica a la Ciudad de East Gearen. A medida que los jugadores naveguen por este bullicioso centro urbano, descubrirán que la ciudad está dividida en distintos distritos, cada uno de los cuales alberga NPCs, apartamentos y secretos únicos. A diferencia de las regiones tradicionales, la región de Aevium cuenta con los **Ocho Élite** en lugar del Alto Mando estándar de cuatro miembros, lo que enfatiza el aumento de la dificultad y la profundidad del equipo requeridas para el éxito competitivo.
+
+**Puntos Destacados del Vídeo:**
+- **Progresión de Misiones**: Un vistazo detallado a la Plaza de Ayuda (Help Plaza) y cómo reclamar recompensas por las peticiones completadas.
+- **Interacciones con NPCs**: Guía del encuentro con Rorrim B en el sótano del Hotel Chrysola.
+- **Exploración**: Navegando por el Edificio Esmeralda (Emerald Building) y descubriendo los secretos nocturnos del tercer piso.
+- **Mecánicas de Combate**: Estrategias para batallas al inicio del juego contra entrenadores con equipos completos de seis Pokémon.
+
+<YouTubeEmbed videoId="oIMq45mwuck" title="Guía de la Ciudad de East Gearen en Pokémon Rejuvenation V14" />
+
+<Callout type="tip" title="Preparación para el Gimnasio">
+Los líderes de gimnasio en la región de Aevium siempre llevan un equipo completo de seis Pokémon. Antes de desafiar a Saki Blakey u otros líderes, asegúrate de que tu equipo esté al nivel máximo actual (Nivel 18 para el contenido inicial de la V14) y equipado con objetos.
+</Callout>
+
+| Ubicación | Características Clave | NPCs Destacados |
+| :--- | :--- | :--- |
+| **Plaza de Ayuda (Help Plaza)** | Tablón de misiones, Mostrador de recompensas | Empleado del Centro de Ayuda |
+| **Edificio Esmeralda** | Acceso al ascensor, Batallas nocturnas | Zumi (Artista Digital) |
+| **Hotel Chrysola** | Salón recreativo, Batallas en la azotea | Rorrim B, Recepcionista |
+| **Laboratorio Gearen** | Pokémon iniciales, Investigación | Profesor Jenner |
+| **Muelle Oceana** | Servicios de ferry, Salón secreto | Sasha, Rosa |
+
+</Section>
+
+<Section icon={Target} title="Guías de Misiones del Centro de Ayuda">
+
+El Centro de Ayuda sigue siendo el corazón de la progresión en la **actualización de Pokémon Rejuvenation**. Completar estas peticiones es obligatorio para los jugadores que deseen adquirir Pokémon raros y objetos de utilidad esenciales. El lanzamiento de la V14 presenta varias misiones de varias partes que requieren viajar entre diferentes complejos de apartamentos y el Muelle Oceana.
+
+<Steps>
+  <Step num="1" title="Aceptar la Petición de la Madre Desaparecida">
+    Visita el tablón de la Plaza de Ayuda y acepta la petición de Sasha. Se encuentra en el Salón Pétalo (Petal Salon) y está preocupada por su madre, Rosa, que no ha regresado de sus citas de peluquería.
+  </Step>
+  <Step num="2" title="Investigar los Apartamentos">
+    Busca a Rosa en las siguientes ubicaciones: Apartamentos Aqua (Piso 2), Apartamentos Terciopelo (Velvet Apartments) y Apartamentos Esmeralda (Emerald Apartments). Habla con los clientes de cada edificio para seguir los pasos de Rosa hacia el Muelle Oceana.
+  </Step>
+  <Step num="3" title="Confrontación en el Muelle Oceana">
+    Viaja a las instalaciones de almacenamiento en el Muelle Oceana. Descubrirás el salón secreto de Rosa para los menos afortunados. Derrota a la antagonista, Stella, en una batalla para proteger el negocio y completar la misión.
+  </Step>
+  <Step num="4" title="Reclamar Recompensas">
+    Regresa a la Plaza de Ayuda para recibir tu recompensa. Esta misión otorga una cantidad significativa de dinero y desbloquea el servicio de "Corte de pelo gratis" en el salón.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Misiones con Límite de Tiempo">
+Algunas misiones, como "Música miserable" (Wretched Music), solo están disponibles durante la noche (después de las 8:00 PM hora del juego). Revisa el reloj de tu Pokégear con frecuencia para asegurarte de no perderte estas ventanas específicas.
+</Callout>
+
+| Nombre de la Misión | Objetivo Principal | Recompensa Clave |
+| :--- | :--- | :--- |
+| **Salvar a Starly** | Rescatar al Pokémon en la Ruta 2 | Dinero para el juego temprano |
+| **Madre Desaparecida** | Localizar a Rosa en el muelle | Servicio de corte de pelo, Dinero |
+| **Música miserable** | Detener el ruido en el hotel | Encuentro con Rorrim B |
+| **Biblioteca Oculta** | Recopilar lore de 3 NPCs | Progresión de la historia |
+
+</Section>
+
+<Section icon={Sparkles} title="Biblioteca Oculta y Lore Antiguo">
+
+Los cazadores de lore encontrarán la **actualización de Pokémon Rejuvenation** particularmente gratificante. El misterio de la Biblioteca Oculta involucra a la tribu Garufa, una antigua civilización que una vez habitó la región de Aevium. Acceder a este conocimiento requiere un descendiente de la tribu o derivaciones mecánicas específicas que se encuentran en los Túneles Giran.
+
+<CardGrid cols={3}>
+  <Card title="La Tribu Garufa">
+    Antiguos arquitectos de la región de Aevium. Su tecnología y las dimensiones de sus Pokémon siguen siendo en su mayoría inaccesibles para los investigadores modernos.
+  </Card>
+  <Card title="Túneles Giran">
+    Una vasta red subterránea que podría albergar la entrada a la biblioteca sumergida. La exploración requiere la MO Fuerza (HM Strength).
+  </Card>
+  <Card title="El Descendiente">
+    El lore sugiere que solo un descendiente directo puede abrir las puertas selladas de la biblioteca. Presta atención a los NPCs clave de la historia para obtener pistas.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Conocimiento Sumergido">
+Las investigaciones actuales en East Gearen sugieren que la biblioteca podría estar sumergida bajo el agua o escondida en "áreas desconocidas" que aún no han sido cartografiadas por el gobierno local. Esto prepara el terreno para las mecánicas de buceo a mitad del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Encuentros con Pokémon Raros en la V14">
+
+La **actualización de Pokémon Rejuvenation** puebla la Ciudad de East Gearen con Pokémon raros que a menudo aparecen fuera de la tradicional hierba alta. Muchos de estos encuentros están vinculados a tareas específicas de NPCs o a activadores según la hora del día.
+
+**Lista de Verificación de Encuentros Destacados:**
+- Captura a **Dedenne** en la Ruta 2 durante el día para la misión de Zumi.
+- Encuentra a **Shuppet** en el tercer piso del Edificio Esmeralda por la noche.
+- Compra más de 10 Poké Balls al vendedor específico para activar el evento de **Voltorb**.
+- Completa la misión "Salvar a Starly" para desbloquear el encuentro con **Pichu**.
+
+| Pokémon | Ubicación | Condición | Movimiento Huevo |
+| :--- | :--- | :--- | :--- |
+| **Shuppet** | Edificio Esmeralda 3F | Solo de noche | Rayo Confuso (Confuse Ray) |
+| **Dedenne** | Ruta 2 | Solo de día | Moflete Estático (Nuzzle) |
+| **Pichu** | Plaza de Ayuda | Recompensa de misión | Sorpresa (Fake Out) |
+| **Voltorb** | Boutique de Poké Balls | Comprar más de 10 Poké Balls | Chispa (Spark) |
+| **Paras** | Laberinto del Parque Gearen | Cualquier momento | Espora (Spore) |
+
+<Callout type="success" title="Inicios de Alto Nivel">
+El Pichu obtenido a través de la Plaza de Ayuda a menudo viene con el movimiento **Sorpresa (Fake Out)** y el potencial de aprender Viento Hielo (Icy Wind), lo que lo convierte en una opción de primer nivel para el control de velocidad y el daño progresivo en el juego temprano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistema de Logros y Recompensas de PA">
+
+La V14 introduce un sistema de Puntos de Logro (PA) más robusto. Los jugadores pueden recoger una Tarjeta de Logros en el salón recreativo del Hotel Chrysola, que realiza un seguimiento de su progreso a través de varios hitos. Estos puntos se pueden canjear por objetos que reducen significativamente el "farmeo" asociado con los RPGs creados por fans.
+
+<Checklist
+  id="ap-milestones"
+  title="Prioridades Principales de Recompensas de PA:"
+  items={[
+    "Repartir Exp (XP All): Comparte la experiencia con todo el equipo (Prioridad Alta)",
+    "Tarjetas de PE (EV Cards): Simplifica el entrenamiento de puntos de esfuerzo en el Laboratorio",
+    "Tarjeta de Socio de PA: Desbloquea niveles superiores en la tienda del salón recreativo",
+    "Tabla de Surf Dorada: Permite surfear sin necesidad de la MO Surf",
+    "Caramelos Raros: Aumentos rápidos de nivel para alcanzar el nivel máximo"
+  ]}
+/>
+
+<Callout type="tip" title="Colección de Partes">
+No vendas tus partes azules, rojas o verdes (shards). Se utilizarán más adelante en la actualización para la tutoría de movimientos y evoluciones de intercambio específicas que de otro modo serían difíciles de obtener.
+</Callout>
+
+| Objeto | Coste (PA) | Utilidad |
+| :--- | :--- | :--- |
+| **Repartir Exp (XP All)** | 500 PA | Entrenamiento para todo el equipo |
+| **Tarjeta de PE (EV Card)** | 200 PA | Optimización de estadísticas |
+| **Caramelo Raro** | 50 PA | Subida de nivel instantánea |
+| **Cápsula Habilidad** | 100 PA | Cambiar la habilidad de un Pokémon |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo las misiones de la actualización V14 de Pokémon Rejuvenation?",
+    answer: "La mayoría de las nuevas misiones se activan al visitar la Plaza de Ayuda en la Ciudad de East Gearen. Asegúrate de haber avanzado en la historia principal más allá de la secuencia inicial del laboratorio para desbloquear el tablón completo."
+  },
+  {
+    question: "¿Dónde puedo encontrar la Biblioteca Oculta?",
+    answer: "Aunque se rumorea que la entrada física está en los Túneles Giran o bajo el agua, primero debes hablar con tres NPCs específicos en East Gearen (el bibliotecario, el profesor de historia y el investigador) para avanzar en la línea de misiones."
+  },
+  {
+    question: "¿Cuál es el nivel máximo en el inicio de la actualización V14?",
+    answer: "El nivel máximo inicial para el segmento de la Ciudad de East Gearen es el Nivel 18. Los Pokémon que superen este nivel no obedecerán en combate hasta que ganes la Medalla de Gimnasio correspondiente."
+  },
+  {
+    question: "¿Cómo consigo el Pichu con Sorpresa (Fake Out)?",
+    answer: "Completa las primeras peticiones del Centro de Ayuda. Una vez que tengas una reputación lo suficientemente alta, el empleado te ofrecerá un Pichu que a menudo lleva Sorpresa como movimiento huevo."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+La **actualización de Pokémon Rejuvenation** es un proyecto enorme. Si te encuentras atascado, vuelve a visitar la Plaza de Ayuda o habla con los NPCs en el Edificio Esmeralda; a menudo proporcionan las pistas sutiles necesarias para avanzar en la compleja narrativa de la V14.
+</Callout>
+
+</Section>

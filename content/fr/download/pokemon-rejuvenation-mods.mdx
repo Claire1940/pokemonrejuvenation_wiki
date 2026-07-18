@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mods Pokémon Rejuvenation : Mots de passe personnalisés V14 et Guide d'installation",
+  description: "Découvrez comment personnaliser votre partie de Pokémon Rejuvenation V14 à l'aide de mots de passe de modification intégrés, de mods tiers et d'étapes d'installation sécurisées.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=Rejuvenation+Mods+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Système de modificateurs** : Pokémon Rejuvenation V14 propose un puissant système de mots de passe intégré qui fait office de **mods officiels pour Pokémon Rejuvenation** afin de personnaliser votre expérience.
+- **Sécurité des sauvegardes** : Sauvegardez toujours vos fichiers de sauvegarde avant d'installer des scripts tiers ou de mettre à jour votre client de jeu.
+- **Fonctionnalités de confort (QoL)** : Utilisez des mots de passe officiels comme `easyhms` et `freeexpall` pour éliminer le farm fastidieux et les restrictions de capacités (CS).
+- **Compatibilité des versions** : Évitez de mélanger les anciens mods de la V13.5 avec le moteur de la V14 afin de prévenir les conflits de scripts majeurs.
+- **Outil de mise à jour** : Lancez le programme de mise à jour officiel pour maintenir votre jeu stable et appliquer automatiquement les correctifs mineurs.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre la personnalisation dans Pokémon Rejuvenation">
+
+Personnaliser votre aventure dans la région d'Aevium est vivement encouragé, mais la méthode que vous choisissez détermine la stabilité de votre jeu. Alors que les fangames traditionnels reposent fortement sur la modification de scripts externes, l'utilisation de **mods de Pokémon Rejuvenation** via le système officiel de mots de passe en jeu est le moyen le plus sûr et le plus intégré de modifier votre expérience. 
+
+Le système de mots de passe pris en charge par les développeurs fonctionne comme un moteur de mods intégré. Il vous permet d'activer des améliorations de confort, d'ajuster la difficulté et de personnaliser les règles de combat sans modifier les fichiers principaux du jeu. Si vous choisissez d'installer des scripts externes développés par la communauté, vous devez comprendre comment ils interagissent avec le moteur de jeu afin d'éviter la corruption de vos fichiers de sauvegarde.
+
+| Type de personnalisation | Facilité d'utilisation | Niveau de risque | Fonction principale |
+| :--- | :--- | :--- | :--- |
+| Mots de passe intégrés | Excellente | Très bas | Activer des règles officielles, du confort de jeu et des ajustements de statistiques |
+| Scripts de la communauté | Modérée | Modéré | Mises à jour visuelles, interfaces personnalisées et outils sandbox |
+| Éditeurs de sauvegarde | Complexe | Élevé | Modification manuelle de l'inventaire, de l'équipe et des variables |
+
+<Callout type="info" title="Pourquoi les modificateurs intégrés sont recommandés">
+L'utilisation du système de mots de passe intégré garantit que votre jeu reste compatible avec les futures mises à jour. Les scripts externes cessent souvent de fonctionner dès qu'un nouveau patch ou correctif est publié par l'équipe de développement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comment installer en toute sécurité des mods pour Pokémon Rejuvenation">
+
+Pour vous assurer que votre jeu fonctionne correctement sans perdre des heures de progression dans l'histoire, vous devez suivre un processus d'installation structuré. Cela est particulièrement crucial lors du passage de la V13.5 à la V14, car le moteur de jeu a subi d'importantes mises à jour structurelles pour prendre en charge les ressources de la 9e génération et optimiser les performances.
+
+**Points clés de la vidéo :**
+- Aucune vidéo externe n'est actuellement disponible pour cette section. Veuillez suivre le guide étape par étape structuré ci-dessous pour obtenir des instructions d'installation précises.
+
+<Steps>
+  <Step num="1" title="Sauvegardez vos fichiers de sauvegarde existants">
+    Avant d'effectuer des modifications, fermez complètement votre ancien client de jeu et la V14. Localisez le répertoire de vos sauvegardes sur votre système d'exploitation. Copiez l'intégralité du dossier de sauvegarde dans un répertoire de secours sécurisé sur votre bureau. Ne déplacez jamais les fichiers directement ; copiez-les toujours pour préserver les originaux.
+  </Step>
+  <Step num="2" title="Effectuez une installation propre de la V14">
+    Téléchargez le package officiel de la V14 sur la [page de téléchargement de Pokémon Rejuvenation](https://www.rebornevo.com/rejuvdown/). Extrayez l'archive ZIP complète dans un nouveau dossier dédié. N'extrayez pas et n'écrasez pas un dossier V13.5 existant, car mélanger d'anciennes ressources avec les fichiers de la V14 provoquera des plantages immédiats du jeu.
+  </Step>
+  <Step num="3" title="Installez les mods ou scripts de la communauté">
+    Si vous utilisez des mods visuels ou d'interface développés par la communauté, accédez au répertoire racine de votre jeu. Localisez le dossier destiné aux modifications (généralement nommé `Mods` ou situé dans le répertoire `Data`). Placez-y les fichiers `.rb` ou scripts compatibles. Assurez-vous que le mod est explicitement mis à jour pour la V14.
+  </Step>
+  <Step num="4" title="Lancez le jeu et vérifiez les sauvegardes">
+    Lancez l'exécutable du jeu. Si vous migrez une sauvegarde, laissez le jeu convertir vos données. Une fois chargé, testez les déplacements de votre personnage, ouvrez vos menus et vérifiez si vos paramètres personnalisés ou vos mods visuels fonctionnent correctement.
+  </Step>
+</Steps>
+
+| Plateforme | Chemin d'accès recommandé | Emplacement du dossier de mods | Compatibilité des fichiers de sauvegarde |
+| :--- | :--- | :--- | :--- |
+| Windows | C:/Games/Pokemon Rejuvenation | /Data/Mods | Entièrement compatible avec la conversion V14 |
+| macOS | Applications/Pokemon Rejuvenation | Contents/Resources/Data/Mods | Entièrement compatible avec la conversion V14 |
+| JoiPlay | Stockage interne/Pokemon Rejuvenation | /Data/Mods | Stabilité variable selon l'environnement d'exécution |
+
+<Callout type="warning" title="Avertissement de mise en quarantaine par l'antivirus">
+Certains systèmes d'exploitation ou programmes antivirus peuvent faussement signaler l'exécutable du jeu ou les DLL de mods personnalisés comme suspects. Si votre jeu ne se lance pas, vérifiez le journal de quarantaine de votre antivirus et restaurez les fichiers bloqués.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Codes de modification de gameplay intégrés essentiels">
+
+Le système de mots de passe intégré offre une suite complète de modificateurs de gameplay. Ces codes peuvent être saisis lors de la séquence d'introduction d'une nouvelle partie ou gérés sur des terminaux PC dédiés en jeu. Ils vous permettent de concevoir une expérience sur mesure, que vous recherchiez un défi tactique extrême ou une aventure détendue axée sur l'histoire.
+
+<CardGrid cols={3}>
+  <Card title="Mods de confort (QoL)">
+    - **easyhms** : Supprime la nécessité d'enseigner des capacités CS à votre équipe active.
+    - **unrealtime** : Permet de contrôler manuellement l'horloge interne du jeu.
+    - **weathermod** : Permet de contrôler la météo pour les rencontres de Pokémon.
+  </Card>
+  <Card title="Modificateurs de difficulté">
+    - **litemode** : Réduit automatiquement l'optimisation des boss adverses.
+    - **noitems** : Limite l'utilisation d'objets de soin pendant les combats de dresseurs.
+    - **hardcap** : Empêche votre équipe de gagner de l'expérience au-delà de la limite de niveau du badge.
+  </Card>
+  <Card title="Progression et Statistiques">
+    - **freeexpall** : Donne un accès anticipé au Multi Exp.
+    - **fullivs** : Force tous les Pokémon sauvages et offerts à être générés avec des IV parfaits.
+    - **freemegaz** : Débloque l'accès en début de jeu aux mécaniques de la Méga-Évolution.
+  </Card>
+</CardGrid>
+
+Pour vous aider à choisir les bonnes modifications pour votre prochaine partie, examinez les détails de fonctionnement de ces codes populaires :
+
+| Code | Catégorie | Modification mécanique principale | Avantage pratique |
+| :--- | :--- | :--- | :--- |
+| **easyhms** | Confort (QoL) | Contourne les exigences traditionnelles d'apprentissage des CS | Économise des emplacements de capacités pour votre équipe principale |
+| **freeexpall** | Progression | Distribue les points d'expérience à toute l'équipe active | Réduit le besoin de farm répétitif |
+| **hardcap** | Règles | Bloque strictement le gain d'expérience à la limite de niveau du badge actuel | Évite de monter de niveau accidentellement |
+| **litemode** | Difficulté | Ajuste le comportement de l'IA adverse et les statistiques de son équipe | Idéal pour les joueurs concentrés sur le scénario |
+| **fullivs** | Statistiques | Force la génération de 31 IV parfaits sur toutes les espèces capturées | Élimine le besoin de reproduction fastidieuse |
+| **unrealtime** | Environnement | Découple l'horloge du jeu de celle de votre ordinateur | Accédez facilement aux événements liés à l'heure |
+
+<Callout type="success" title="Combiner les codes pour une expérience Sandbox">
+Vous pouvez cumuler plusieurs mots de passe lors de la création de votre personnage pour concevoir votre mode de jeu personnalisé idéal. Par exemple, combiner `easyhms`, `freeexpall` et `fullivs` crée un mode sandbox fluide et prêt pour la compétition.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle pour une partie moddée stable">
+
+Pour maintenir la stabilité du jeu tout au long d'une longue partie, gardez cette liste de contrôle à l'esprit. Pokémon Rejuvenation V14 est un RPG colossal offrant plus de 100 heures de contenu, ce qui rend la gestion rigoureuse des fichiers essentielle pour protéger votre progression.
+
+<Checklist
+  id="stable-playthrough-checklist"
+  title="Contrôle de maintenance et de stabilité :"
+  items={[
+    "Lancez toujours le programme de mise à jour officiel avant d'installer de nouveaux scripts personnalisés.",
+    "Conservez un dossier distinct contenant des sauvegardes hebdomadaires de vos fichiers de sauvegarde.",
+    "N'installez pas le client de jeu dans des répertoires système protégés comme Program Files.",
+    "Vérifiez que tout mod communautaire téléchargé est explicitement étiqueté comme compatible avec la V14.",
+    "Désactivez les superpositions d'arrière-plan gourmandes ou les outils d'enregistrement si vous rencontrez des saccades de performances."
+  ]}
+/>
+
+<Callout type="tip" title="Utiliser l'outil de mise à jour intégré">
+L'outil de mise à jour situé dans le répertoire de votre jeu est conçu pour récupérer les correctifs mineurs sans effacer vos configurations personnalisées. Lancez-le régulièrement pour vous assurer que votre client principal est à jour.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Les anciens mods communautaires de la V13.5 sont-ils compatibles avec la V14 ?",
+    answer: "En général, non. La mise à jour V14 a introduit des améliorations majeures du moteur, restructuré les chemins d'accès des données et ajouté les ressources de la 9e génération. Tenter d'exécuter des scripts plus anciens entraînera probablement des plantages immédiats ou la corruption de vos données de sauvegarde."
+  },
+  {
+    question: "Puis-je désactiver en toute sécurité les mods de mots de passe au milieu d'une partie ?",
+    answer: "La plupart des mots de passe de confort et de difficulté peuvent être désactivés en toute sécurité depuis les terminaux PC du jeu. Cependant, les modificateurs structurels qui affectent les limites de niveau ou la génération de statistiques doivent rester actifs pour éviter des problèmes d'équilibrage."
+  },
+  {
+    question: "Les modifications par mots de passe intégrés désactivent-elles les succès ou certaines routes de l'histoire ?",
+    answer: "Non. L'utilisation du système de mots de passe intégré ne vous bloque l'accès à aucune route de l'histoire, y compris les routes Paragon et Renegade, et ne désactive pas non plus les succès en jeu."
+  },
+  {
+    question: "Où puis-je trouver des mods approuvés par la communauté pour Pokémon Rejuvenation ?",
+    answer: "Les forums officiels de Reborn Evolved et le serveur Discord de la communauté hébergent des sections dédiées aux modifications créées par les joueurs, aux packs visuels et aux thèmes d'interface personnalisés vérifiés pour la version actuelle."
+  }
+]} />
+
+<Callout type="info" title="Besoin d'aide supplémentaire pour le dépannage ?">
+Si vous rencontrez des erreurs de script persistantes, essayez de lancer une installation complètement propre du jeu sans aucune modification externe afin de déterminer si un script communautaire est à l'origine du conflit.
+</Callout>
+
+</Section>

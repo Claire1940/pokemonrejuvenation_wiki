@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Limites de niveau de Pokémon Rejuvenation : Guide de progression 2026",
+  description: "Maîtrisez les limites de niveau de Pokémon Rejuvenation avec notre guide 2026. Découvrez les paliers de badges, la gestion de l'expérience et les stratégies pour surmonter les pics de difficulté.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Level+Caps+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **limites de niveau de Pokémon Rejuvenation** sont des restrictions strictes imposées par le système de badges pour maintenir l'équilibre du jeu.
+- Les **mécaniques d'obéissance** se déclenchent immédiatement si un Pokémon dépasse la limite actuelle, ce qui l'amène à ignorer vos ordres.
+- Les **Reverse Candies** (Super Bonbons Inverses) sont des objets essentiels utilisés pour réduire le niveau d'un Pokémon s'il dépasse accidentellement la limite.
+- Les **modes de difficulté** (Décontracté, Normal, Intense) ont un impact significatif sur la rigueur avec laquelle ces limites sont appliquées lors des combats de boss.
+- La **planification stratégique** implique de gérer la distribution de l'EXP sur l'ensemble de l'équipe plutôt que de sur-entraîner un seul Pokémon \"carry\".
+</Callout>
+
+<Section icon={Map} title="Comprendre le système de limite stricte de niveau">
+
+Dans le monde exigeant d'Aevium, les **limites de niveau de Pokémon Rejuvenation** servent de principale mécanique d'équilibrage. Contrairement aux jeux Pokémon officiels où les limites de niveau n'affectent que les Pokémon échangés, ce chef-d'œuvre créé par des fans applique ces restrictions à toutes les créatures de votre équipe. Si le niveau de votre Pokémon dépasse la limite fixée par votre badge le plus récent, il cessera d'obéir aux ordres en combat, utilisant souvent des capacités non désirées ou choisissant simplement de paresser. Ce système garantit que les joueurs ne peuvent pas simplement \"grinder\" pour dépasser les Champions d'Arène difficiles, forçant ainsi à s'appuyer sur la stratégie, la composition d'équipe et la maîtrise des effets de terrain.
+
+**Points clés de la vidéo :**
+- Discussion sur la frustration liée aux limites de niveau basses lors des combats de boss en début de partie.
+- L'impact des limites de niveau sur des combats spécifiques comme la rencontre en solo contre Keta.
+- Suggestions pour augmenter les limites de niveau afin d'améliorer le rythme du jeu.
+- La nécessité d'utiliser des objets spécifiques pour gérer efficacement les niveaux de l'équipe.
+
+<YouTubeEmbed videoId="aNEi_PGKncw" title="Discussion sur les limites de niveau de Pokémon Rejuvenation" />
+
+<Callout type="warning" title="Avertissement critique">
+Entrer dans un combat de Champion d'Arène avec un Pokémon ayant ne serait-ce qu'un niveau de plus que la limite peut mener à une défaite immédiate. Le taux de désobéissance augmente considérablement pour chaque niveau au-delà de la limite, rendant impossible l'exécution de stratégies complexes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Détail des limites de niveau badge par badge">
+
+La progression des **limites de niveau de Pokémon Rejuvenation** est directement liée à votre avancée dans l'histoire. Selon la méta de 2026, il est souvent recommandé de rester exactement à la limite pour le mode \"Intense\" (le plus difficile), tandis que les joueurs du mode \"Décontracté\" disposent d'un peu plus de marge de manœuvre. Voici la progression standard pour les étapes du début et du milieu de partie.
+
+| Badge / Étape | Limite de niveau | Boss clé | Niveau d'équipe recommandé |
+| :--- | :--- | :--- | :--- |
+| **Aucun badge** | 20 | Venam | 18-20 |
+| **1er badge** | 25 | Keta | 23-25 |
+| **2e badge** | 30 | Marianette | 28-30 |
+| **3e badge** | 35 | Narcissa | 33-35 |
+| **4e badge** | 40 | Valerie | 38-40 |
+| **5e badge** | 45 | Crawford | 43-45 |
+
+<Callout type="tip" title="Stratégie de pro">
+Si vous vous approchez d'une limite avant un combat majeur, pensez à faire tourner les Pokémon de votre PC. Cela évite que votre équipe principale ne dépasse la limite tout en vous permettant de constituer un effectif diversifié de contres pour différents types d'Arènes.
+</Callout>
+
+Au-delà du cinquième badge, les limites continuent d'augmenter par paliers de 5 à 10 niveaux. Au moment où vous atteindrez les chapitres de fin de partie, votre équipe approchera du niveau 80 et plus.
+
+| Étape de fin de partie | Limite de niveau | Menace principale | Lieu |
+| :--- | :--- | :--- | :--- |
+| **8e badge** | 60 | Angie | Mont Valor |
+| **10e badge** | 70 | Amber | Manoir Fiore |
+| **12e badge** | 80 | Erick | Scénario V13 |
+| **Derniers badges** | 90-100 | Élite 8 / Fin de partie | Cœur d'Aevium |
+
+</Section>
+
+<Section icon={Zap} title="Gestion de l'expérience et modes de dfficulté">
+
+La façon dont les **limites de niveau de Pokémon Rejuvenation** interagissent avec votre gameplay dépend fortement de la difficulté choisie. Le jeu propose trois manières distinctes de vivre l'histoire, chacune gérant le plafond de niveau différemment.
+
+<CardGrid cols={3}>
+  <Card title="Mode Décontracté">
+    - **Limites flexibles** : Les plafonds sont plus élevés ou appliqués de manière moins stricte.
+    - **Rythme plus facile** : Moins besoin de gérer constamment les niveaux.
+    - **Focus** : Histoire et exploration.
+  </Card>
+  <Card title="Mode Normal">
+    - **Limites standards** : Les plafonds stricts sont rigoureusement appliqués.
+    - **Jeu équilibré** : Nécessite une distribution stratégique de l'EXP.
+    - **Focus** : Défi classique.
+  </Card>
+  <Card title="Mode Intense">
+    - **Application stricte** : Aucune marge d'erreur.
+    - **Difficulté élevée** : Les boss ont souvent des niveaux atteignant la limite exacte.
+    - **Focus** : Jeu compétitif hardcore.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Astuce d'objet">
+Gardez toujours une pile de **Reverse Candies** dans votre sac. Ces objets réduisent le niveau d'un Pokémon de 1, vous permettant de ramener un Pokémon sous la limite s'il a gagné trop d'EXP lors d'un combat de dresseur.
+</Callout>
+
+Pour gérer la croissance de votre équipe, suivez ces étapes afin de ne jamais entrer dans une Arène avec des Pokémon désobéissants :
+
+<Steps>
+  <Step num="1" title="Surveiller les barres d'EXP">
+    Vérifiez fréquemment l'écran de statut de vos Pokémon. L'indicateur \"EXP avant le prochain niveau\" doit être surveillé avant d'entamer des séries de combats de dresseurs obligatoires.
+  </Step>
+  <Step num="2" title="Utiliser la boîte PC">
+    Si un Pokémon est à 1 niveau de la limite, remplacez-le par un Pokémon de niveau inférieur lors des combats de dresseurs mineurs ou des rencontres sauvages.
+  </Step>
+  <Step num="3" title="Appliquer des Reverse Candies">
+    Si un Pokémon atteint la limite (par exemple, niveau 31 alors que la limite est de 30), utilisez immédiatement un Reverse Candy. Ceux-ci sont généralement vendus dans les grands magasins ou fournis par certains PNJ dans le Village Sheraton.
+  </Step>
+  <Step num="4" title="Activer/Désactiver le Multi Exp">
+    Utilisez l'objet Multi Exp de manière stratégique. Désactivez-le si votre Pokémon de tête approche de la limite alors que vos Pokémon de soutien ont encore besoin d'entraînement.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Impact stratégique sur les combats de boss">
+
+Les **limites de niveau de Pokémon Rejuvenation** sont particulièrement notables lors des célèbres pics de dfficulté du jeu. Les boss comme Keta ou Angie sont conçus pour être affrontés exactement à la limite de niveau. Être même légèrement en dessous du niveau requis vous handicape lourdement au niveau des statistiques, tandis qu'être au-dessus rend vos Pokémon inutilisables en raison de la désobéissance.
+
+| Boss | Type | Effet de terrain | Stratégie pour la limite |
+| :--- | :--- | :--- | :--- |
+| **Keta** | Combat | Sommet / Montagne | Utiliser des types Vol ; rester au niveau 25. |
+| **Marianette** | Normal | Terrain Sacré | Éviter les capacités Ténèbres ; limite au niveau 30. |
+| **Narcissa** | Spectre | Terrain Hanté | Utiliser des capacités prioritaires ; limite au niveau 35. |
+| **Valerie** | Eau | Sous-marin | Utiliser l'Électrik/Plante ; limite au niveau 40. |
+
+<Callout type="info" title="Aperçu mécanique">
+Dans certaines versions du jeu, entrer en combat avec des Pokémon de niveau supérieur à la limite synchronisera automatiquement leur niveau vers le bas pour la durée du combat. Cependant, cela dépend de vos paramètres de jeu spécifiques et de la version (v13.5 par rapport aux versions plus anciennes).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Aide-mémoire de progression">
+
+Pour garder une longueur d'avance et maîtriser les **limites de niveau de Pokémon Rejuvenation**, suivez cette liste de contrôle essentielle à chaque nouveau chapitre de votre aventure.
+
+<Checklist
+  id="rejuvenation-progression"
+  title="Aide-mémoire pour la gestion des niveaux :"
+  items={[
+    "Acheter au moins 10 Reverse Candies dans chaque grande ville",
+    "Identifier la limite de niveau du prochain Champion d'Arène avant de commencer sa quête",
+    "Faire tourner au moins 8 à 10 Pokémon pour répartir l'expérience équitablement",
+    "Désactiver le Multi Exp avant d'entrer dans de longs donjons si vous êtes proche de la limite",
+    "Sauvegarder avant les combats majeurs pour vérifier d'éventuels problèmes d'obéissance"
+  ]}
+/>
+
+<Callout type="tip" title="Ajustement de niveau">
+Comme le suggèrent les joueurs vétérans, si vous trouvez le jeu trop restrictif, consultez le menu \"Options\" ou parlez à certains PNJ qui peuvent proposer des options d'ajustement de limite de niveau dans les nouveaux patchs ou via des mods protégés par mot de passe.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la limite de niveau maximale dans Pokémon Rejuvenation ?",
+    answer: "La limite de niveau finale atteint le niveau 100 pendant le contenu de fin de jeu et de post-jeu de la V13.5 et au-delà. Cependant, pour la majeure partie de l'histoire principale, vous jouerez entre les niveaux 20 et 90."
+  },
+  {
+    question: "Où puis-je acheter des Reverse Candies ?",
+    answer: "Les Reverse Candies se trouvent couramment dans le Grand Magasin de GDC, ou auprès de vendeurs spécialisés à Goldenleaf Town et Westgate. Ils sont essentiels pour gérer les limites de niveau de Pokémon Rejuvenation."
+  },
+  {
+    question: "Pourquoi mon Pokémon m'ignore-t-il même s'il est pile à la limite ?",
+    answer: "Si votre Pokémon est exactement à la limite (par exemple, niveau 30 quand la limite est de 30), il devrait obéir. S'il vous ignore, il a peut-être atteint le niveau 31 en plein combat, ou vous jouez peut-être avec un paramètre de difficulté personnalisé qui abaisse le seuil d'obéissance."
+  },
+  {
+    question: "Puis-je désactiver complètement les limites de niveau ?",
+    answer: "Dans le jeu standard, les limites de niveau strictes ne peuvent pas être entièrement désactivées car elles sont au cœur de l'équilibrage. Cependant, jouer en mode 'Décontracté' offre beaucoup plus de souplesse, et certains mots de passe saisis au début du jeu peuvent modifier la façon dont l'expérience est gagnée."
+  }
+]} />
+
+</Section>

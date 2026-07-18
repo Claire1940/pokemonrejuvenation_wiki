@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Meilleures équipes de Pokémon Rejuvenation : Tier List & Builds V14",
+  description: "Créez les meilleures équipes dans Pokémon Rejuvenation V14. Découvrez le classement des starters, les équipes de début de jeu et les synergies de fin de jeu pour vaincre les boss les plus difficiles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Best+Teams+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Stratégie principale** : Créer les **meilleures équipes de Pokémon Rejuvenation** nécessite de s'adapter aux Effets de Terrain plutôt que de se fier uniquement aux statistiques brutes.
+- **Mécanique clé** : Tirez parti des **Blasons (Crests)** et des **Formes d'Aevium** pour transformer des Pokémon sous-évalués en menaces de premier ordre.
+- **Meilleure stratégie** : Gardez toujours une **équipe en rotation** de 10 à 12 Pokémon pour contrer les terrains spécifiques des Champions d'Arène.
+- **Conseil crucial** : Respectez la **limite de niveau des badges** pour éviter que vos attaquants principaux ne désobéissent en combat.
+</Callout>
+
+<Section icon={Sparkles} title="Meilleures équipes de Pokémon Rejuvenation - Sélection du Starter">
+
+Choisir votre starter est la décision la plus critique dans Pokémon Rejuvenation V14. Contrairement aux jeux officiels, les pics de difficulté massifs et les Effets de Terrain complexes signifient que votre starter doit remplir un rôle mécanique précis. Avec les starters des générations 1 à 9 entièrement accessibles au Laboratoire de Gearen au Chapitre 1, vous disposez de 27 options pour ancrer votre équipe de début de jeu.
+
+Les **meilleures équipes de Pokémon Rejuvenation** sont construites autour de starters capables de manipuler le terrain ou de balayer les premières Arènes malgré des terrains désavantageux. Par exemple, les starters de type Feu comme Poussifeu (Brasegali avec Turbo) et Chochodile (Flâmigator avec Inconscient) excellent pour contourner les augmentations de statistiques et percer les murs physiques ou spéciaux. De son côté, Gobou (Laggron) reste un excellent pivot eau défensif qui s'en sort incroyablement bien face aux pièges de type poison et roche du début de jeu.
+
+| Type de Starter | Meilleurs Choix de Gen | Synergie de Terrain Clé | Rôle dans l'Équipe |
+|---|---|---|---|
+| **Feu** | Poussifeu, Chochodile | Forêt, Prairie | Sweeper Physique, Wallbreaker Inconscient |
+| **Eau** | Gobou, Grenousse | Eau, Marais | Pivot Bulky, Utilitaire Protéen |
+| **Plante** | Vipélierre, Brindibou | Herbeux, Forêt | Sweeper Contestation, Pivot Spectre |
+
+<Callout type="tip" title="Recommandation de Starter">
+Pour la V14, Chochodile est fortement recommandé. Sa capacité signature, Chant Flamboyant, augmente son Attaque Spéciale à chaque utilisation, tandis que son talent caché Inconscient ignore complètement les augmentations de statistiques défensives que les boss du début de jeu adorent accumuler.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Pivots de Milieu de Jeu & Archétypes d'Équipe">
+
+Après avoir dépassé le Village Sheridan et vous être dirigé vers l'Île Terajuma, les compositions d'équipe standard commencent à faiblir. Le milieu de jeu introduit des combats doubles brutaux et des environnements comme le domaine gelé d'Angie, qui punissent activement les équipes manquant de contrôle de vitesse ou de synergie défensive. Vous devez faire pivoter votre effectif pour y inclure des unités utilitaires spécialisées.
+
+Pour conserver un avantage compétitif, les joueurs expérimentés s'appuient sur trois archétypes d'équipe principaux. Plutôt que de vous en tenir à une seule équipe rigide de six membres, vous devriez développer un vivier de 10 à 12 Pokémon correspondant à ces archétypes, et les échanger en fonction de l'Effet de Terrain du Champion d'Arène à venir.
+
+<CardGrid cols={3}>
+  <Card title="Hyper Offense">
+    - **Sweepers avec Turbo** comme Sharpedo
+    - **Poseurs de Vent Arrière** pour le contrôle de la vitesse
+    - Attaques STAB à hauts dégâts
+  </Card>
+  <Card title="Stall Défensif">
+    - **Pics Toxik** et poseurs d'obstacles
+    - **Murs avec Inconscient** pour ignorer les boosts des boss
+    - Poseurs de protections comme Mystigryph
+  </Card>
+  <Card title="Manipulation de Terrain">
+    - **Modificateurs de terrain** via Brume ou Blizzard
+    - **Poseurs de climat** pour annuler les bonus d'arène
+    - Utilisateurs de Force Nature pour l'utilité du terrain
+  </Card>
+</CardGrid>
+
+| Pokémon | Meilleur Chapitre | Rôle | Capacités Recommandées |
+|---|---|---|---|
+| **Hariyama** | Chapitres 2-5 | Attaquant Cran | Bluff, Close Combat, Sabotage |
+| **Mystigryph** | Chapitres 1-4 | Poseur de Protections Farceur | Protection, Mur Lumière, Psyko |
+| **Tritosor** | Chapitres 5-8 | Tank Lavabo | Soin, Ébullition, Telluriforce |
+
+<Callout type="warning" title="Dangers du Terrain">
+N'entrez jamais dans une arène de boss de milieu de jeu sans vérifier les règles de l'Effet de Terrain. Un terrain actif peut augmenter la puissance des capacités de l'adversaire jusqu'à 1,5x, transformant des attaques neutres en K.O. immédiats.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Monstres de Fin de Jeu & Synergies de Blasons">
+
+Dans les chapitres de fin de jeu menant à la crise de Grand Dream City et aux routes du Chapitre 16, les Pokémon standards sont souvent surpassés par les équipes ennemies aux IV, EV et objets tenus optimisés. Pour rééquilibrer la donne, vous devez utiliser deux des mécaniques uniques de Rejuvenation : les Blasons (Crests) et les Formes d'Aevium.
+
+Les Blasons sont des objets tenus uniques dispersés à travers Aevium qui confèrent des augmentations de statistiques massives et personnalisées ou des modifications mécaniques à certains Pokémon sous-utilisés. Pour exemple, le Blason Méganium confère à Méganium le type Dragon additionnel et booste ses capacités défensives, transformant un starter Plante médiocre en un pivot d'élite pour la fin de jeu. De même, les Formes d'Aevium offrent des combinaisons de types et des pools de capacités totalement inédits qui peuvent surprendre les boss de fin de jeu.
+
+| Pokémon | Emplacement du Blason | Effet du Blason | Valeur dans l'Équipe |
+|---|---|---|---|
+| **Momartik d'Aevium** | Événement de Milieu de Jeu | Boost les capacités Plante/Spectre | Utilitaire rapide, modificateur de terrain |
+| **Bastiodon** | Quête de Fin de Jeu | Scaling sur Big Splash | Mur physique increvable |
+| **Méganium** | Quête de Milieu de Jeu | Ajoute le type Dragon | Pivot défensif, soutien avec protections |
+
+<Callout type="success" title="Optimisation des Blasons">
+Priorisez la réalisation des quêtes secondaires du Centre d'Aide dès qu'elles sont disponibles. Beaucoup des Blasons les plus puissants de fin de jeu sont verrouillés derrière des séries de quêtes optionnelles qui peuvent être facilement manquées si vous progressez trop rapidement dans l'histoire principale.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégie de Construction d'Équipe Étape par Étape">
+
+Se préparer pour les combats de boss majeurs, comme les Pokémon Rifts ou les Champions d'Arène, nécessite une approche méthodique. Suivez ce processus étape par étape pour analyser, construire et optimiser votre équipe pour n'importe quel affrontement dans la V14.
+
+<Steps>
+  <Step num="1" title="Analyser l'Effet de Terrain">
+    Lisez le manuel des Effets de Terrain dans votre PokéMatos. Identifiez quels types sont boostés, quelles capacités changent de type, et s'il y a des dégâts passifs que vous pouvez exploiter ou devez éviter.
+  </Step>
+  <Step num="2" title="Sélectionner votre Utilitaire Clé">
+    Choisissez au moins un Pokémon capable de modifier ou de supprimer entièrement le terrain (en utilisant Brume, Blizzard ou Hurlement des Roches) pour priver le boss de son avantage à domicile.
+  </Step>
+  <Step num="3" title="Ajuster les Paliers de Vitesse">
+    Vérifiez la limite de niveau pour votre badge actuel. Utilisez des objets d'aide au calcul de vitesse ou des EV pour vous assurer que vos sweepers dépassent les menaces signatures du boss, ou amenez des utilisateurs de capacités prioritaires pour contourner totalement les tests de vitesse.
+  </Step>
+  <Step num="4" title="Équiper les Objets Tenus et utiliser les Mots de Passe">
+    Distribuez des Restes, des objets de choix ou des Blasons pour maximiser l'efficacité. Si vous préférez une expérience simplifiée, utilisez des mots de passe comme `fullivs` ou `hardcap` lors de la création de la sauvegarde pour éviter le farm fastidieux des statistiques.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Raccourci de Gain d'Expérience">
+Utiliser le mot de passe `freeexpall` au début de votre partie vous permet de faire monter rapidement en niveau les membres de votre réserve, ce qui facilite grandement le changement d'équipe à la volée sans perdre des heures à combattre des Pokémon sauvages.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des Étapes Essentielles">
+
+Pour vous assurer que votre équipe est toujours prête pour le prochain chapitre, gardez une trace de ces étapes de progression cruciales. Manquer ces objets ou rencontres clés peut grandement limiter vos options de construction d'équipe en fin de jeu.
+
+<Checklist
+  id="team-prep-milestones"
+  title="Liste d'Optimisation de l'Équipe :"
+  items={[
+    "Obtenir le Multi Exp ou activer freeexpall avant la première Arène",
+    "Capturer un Psystigri/Mystigryph avec Farceur à Gearen Est pour des protections rapides",
+    "Terminer les quêtes secondaires du Village Sheridan pour débloquer des objets d'échange précieux",
+    "Sécuriser le Blason Méganium ou Bastiodon avant d'entrer à Grand Dream City",
+    "Maintenir au moins trois membres de réserve pour gérer les variations de limites de niveau"
+  ]}
+/>
+
+<Callout type="tip" title="Flexibilité de l'Effectif">
+N'hésitez pas à mettre votre starter sur le banc si un match-up d'arène spécifique est terrible. La flexibilité est votre meilleur atout pour surmonter les difficultés les plus élevées de Pokémon Rejuvenation.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+Voici les questions les plus fréquentes des joueurs qui cherchent à optimiser leur équipe pour les défis de fin de jeu.
+
+<FAQ items={[
+  {
+    question: "Comment construire les meilleures équipes de Pokémon Rejuvenation pour le mode Intense ?",
+    answer: "Pour le mode Intense, vous devez vous concentrer entièrement sur la manipulation des Effets de Terrain et le contrôle de la vitesse. Utilisez des poseurs de protections avec Farceur, Vent Arrière, et des capacités modifiant le terrain comme Brume pour désactiver les avantages de terrain personnalisés de l'IA avant de tenter un sweep."
+  },
+  {
+    question: "Puis-je terminer la V14 en utilisant uniquement des Pokémon standards sans Blason ?",
+    answer: "Oui, mais c'est nettement plus difficile. Les équipes standards doivent s'appuyer fortement sur des répartitions d'EV optimisées, des IV parfaits et des stratégies compétitives comme les équipes basées sur la Pluie ou le Soleil pour compenser l'inflation des statistiques des boss de fin de jeu."
+  },
+  {
+    question: "Que sont les Formes d'Aevium et valent-elles le coup d'être utilisées ?",
+    answer: "Les Formes d'Aevium sont des variantes régionales uniques à la région d'Aevium. Elles présentent des types, des talents et des pools de capacités entièrement repensés. Beaucoup d'entre elles, comme Momartik d'Aevium ou Manternel d'Aevium, sont des combattants de premier ordre qui s'intègrent facilement dans les équipes compétitives de fin de jeu."
+  }
+]} />
+
+<Callout type="info" title="Note de Mise à Jour de Version">
+Toutes les stratégies et recommandations d'équipe de ce guide ont été vérifiées par rapport aux derniers changements d'équilibrage introduits dans la mise à jour V14.
+</Callout>
+
+</Section>

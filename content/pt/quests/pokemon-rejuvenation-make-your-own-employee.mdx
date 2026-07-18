@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, UserPlus, Building, Briefcase } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation: Guia de Criação de Funcionários V14",
+  description: "Domine a customização de funcionários e as mecânicas de recrutamento em Pokémon Rejuvenation V14. Aprenda onde encontrar missões, customizar NPCs e desbloquear recompensas em GDC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/fff?text=Make+Your+Own+Employee+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokémon Rejuvenation",
+  keywords: "Pokémon Rejuvenation, funcionários, recrutamento, V14, guia, GDC, customização"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Use os recursos de **criar seu próprio funcionário (make your own employee)** encontrados principalmente em Grand Dream City e em solicitações específicas do Centro de Ajuda.
+- **Requisitos da V14**: A maioria das opções avançadas de recrutamento é desbloqueada durante os **Capítulos 9-12** nos distritos de Grand Dream City.
+- **Localização Chave**: Foque na **Loja de Departamentos (Department Store)** e no **Mercado Noturno (Night Market)** para a maior densidade de interações customizáveis com NPCs.
+- **Benefício Estratégico**: Funcionários personalizados oferecem **descontos em itens** exclusivos, **pedras de evolução** raras e acesso a **tutores de movimentos (move tutors)** exclusivos.
+- **Impacto da Rota**: Sua posição nas rotas **Paragon ou Renegade** pode alterar quais NPCs estão dispostos a trabalhar para você.
+</Callout>
+
+<Section icon={Building} title="Entendendo o Sistema de Recrutamento na V14">
+
+A habilidade de recrutar e "criar seu próprio funcionário" em Pokémon Rejuvenation é uma mecânica sofisticada ligada à expansão da região de Aevium. Ao contrário dos RPGs padrão onde os NPCs são estáticos, a V14 introduz várias camadas de interação onde suas escolhas, Karma e conclusão de missões influenciam diretamente a força de trabalho de sua base ou instalações associadas em Grand Dream City (GDC).
+
+Na build atual da V14, este recurso é mais proeminente ao gerenciar os vários andares da Loja de Departamentos de GDC ou ao completar as linhas de missão do "Centro de Ajuda". Os jogadores não estão apenas contratando NPCs aleatórios; eles geralmente selecionam indivíduos com histórias específicas que podem ser "customizadas" através de escolhas de diálogo e resultados de missões.
+
+<CardGrid cols={3}>
+  <Card title="Especialistas do Centro de Ajuda">
+    - **Fonte**: Centros de Ajuda Regionais
+    - **Benefício**: Desbloqueia estoques de itens regionais
+    - **Dificuldade**: Baixa a Moderada
+  </Card>
+  <Card title="Balconistas de GDC">
+    - **Fonte**: Grand Dream City
+    - **Benefício**: Melhores descontos em compras
+    - **Dificuldade**: Alta (Capítulo 9+)
+  </Card>
+  <Card title="Pesquisadores de Instalação">
+    - **Fonte**: Laboratórios Escondidos/Missões Secundárias
+    - **Benefício**: Serviços de Tutor/Stats
+    - **Dificuldade**: Extrema
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Nota da Versão V14">
+Sempre certifique-se de estar jogando a build mais recente da V14. Guias antigos da V13.5 podem listar localizações de NPCs diferentes, pois muitos encontros urbanos em Grand Dream City foram realocados para acomodar as novas adições da Gen 9 e Formas de Aevium.
+</Callout>
+
+| Tipo de Funcionário | Localização Principal | Capítulo Inicial | Requisito Principal |
+| :--- | :--- | :--- | :--- |
+| **Assistente de Loja** | East Gearen | Capítulo 1 | Pedido 1 do Centro de Ajuda |
+| **Comerciante de Mercado** | Vila Kakori | Capítulo 5 | Limpar Selva Terajuma |
+| **Gerente de Andar** | Grand Dream City | Capítulo 9 | Missão da Loja de Departamentos |
+| **Técnico de Laboratório** | Zona Zero | Capítulo 13 | Projeto de Restauração |
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Recrutar Funcionários Personalizados">
+
+Recrutar a equipe certa requer uma mistura de exploração e engenharia social. Siga estes passos para garantir que você não perca as melhores oportunidades de "criar seu próprio funcionário" durante sua jornada na V14.
+
+<Steps>
+  <Step num="1" title="Complete as Tarefas do Centro de Ajuda Regional">
+    Antes de chegar aos grandes centros, você deve estabelecer uma reputação. Complete pelo menos 50% das solicitações do Centro de Ajuda em East Gearen e Sheridan Village. Isso aumenta seu **Karma**, que é um atributo oculto necessário para que muitos NPCs confiem em você para um emprego.
+  </Step>
+  <Step num="2" title="Chegue a Grand Dream City (Capítulo 9)">
+    As mecânicas centrais de "criar seu próprio funcionário" estão bloqueadas atrás do arco de GDC. Assim que ganhar acesso ao Distrito Central, visite a Loja de Departamentos. Fale com o gerente no térreo para iniciar a missão secundária "Crise de Pessoal" (Staffing Crisis).
+  </Step>
+  <Step num="3" title="Localize Candidatos Potenciais">
+    Os candidatos estão espalhados por Aevium. Você os encontrará no Mercado Noturno, no Distrito Judiciário e até escondidos na Floresta Darchlight. Cada candidato tem um "Traço" (ex: Carismático, Diligente ou Engenhoso) que determina sua eficácia.
+  </Step>
+  <Step num="4" title="Finalize a Customização via Diálogo">
+    Quando encontrar um candidato, suas escolhas de diálogo irão "definir" o papel dele. Por exemplo, dizer a um NPC que "Eficiência é a chave" pode transformá-lo em um provedor de descontos, enquanto "Variedade é melhor" pode fazê-lo estocar itens mais raros.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Conteúdo Perdível">
+Várias opções de recrutamento em Grand Dream City são **sensíveis ao tempo**. Se você progredir na história principal para os capítulos da "Crise de GDC" sem finalizar sua equipe, certos NPCs podem ficar indisponíveis ou se mudar para áreas da rota Renegade, onde não podem ser recrutados.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Opções de Customização e Benefícios dos Funcionários">
+
+Ao se envolver com as mecânicas de **criar seu próprio funcionário** em Pokémon Rejuvenation, você está essencialmente construindo um centro de utilidades personalizado. Os benefícios escalam com o número de insígnias que você possui e os traços específicos atribuídos durante o recrutamento.
+
+| Traço do Funcionário | Serviço Prestado | Requisito de Melhoria | Bônus da V14 |
+| :--- | :--- | :--- | :--- |
+| **Carismático** | 10-20% de Desconto na Loja | 12 Insígnias | Luxury Balls Grátis |
+| **Diligente** | Cultivo de Berries Raras | 8 Insígnias | Acesso a Berries da Gen 9 |
+| **Engenhoso** | Localizador de Pedras de Evolução | 10 Insígnias | Descontos em Link Stones |
+| **Técnico** | Acesso ao Reaprendedor de Movimentos | Conclusão do Cap. 11 | Tutor de Egg Moves |
+
+<Callout type="success" title="Estratégia de Otimização">
+Se você estiver jogando em um modo de dificuldade mais alto, priorize funcionários **Técnicos** e **Carismáticos**. A habilidade de acessar reaprendedores de movimentos cedo e comprar itens de cura com desconto é vital para sobreviver às batalhas consecutivas contra chefes na Valor Mountain e Kristiline.
+</Callout>
+
+### Comparação de Papéis de Funcionários
+A tabela a seguir compara o valor a longo prazo dos diferentes papéis que você pode atribuir aos seus NPCs personalizados.
+
+| Papel | Valor no Início do Jogo | Valor no Final do Jogo | Fator de Risco |
+| :--- | :--- | :--- | :--- |
+| **Especialista em Itens** | Alto (Poções/Balls) | Baixo | Nenhum |
+| **Treinador de Combate** | Médio (Treino de EV) | Alto | Alto (Requer Vitórias) |
+| **Informante de História** | Baixo (Lore) | Médio (Rotas) | Nenhum |
+| **Pesquisador de Brasão** | Baixo | Extremo (Buffs Customizados) | Moderado |
+
+</Section>
+
+<Section icon={Swords} title="Impacto das Rotas da História no Recrutamento">
+
+Sua escolha entre a **Rota Paragon** e a **Rota Renegade** impacta significativamente sua habilidade de "criar seu próprio funcionário". Na V14, a história se ramifica no Capítulo 16, mas as sementes são plantadas muito antes através de suas interações com potenciais recrutas.
+
+- **Rota Paragon**: Foca na construção da comunidade. Você terá acesso a uma variedade maior de traços "Úteis". NPCs recrutados nesta rota frequentemente oferecem serviços que ajudam na flexibilidade da equipe e no gerenciamento de Efeitos de Campo.
+- **Rota Renegade**: Foca em poder e eficiência. Os recrutas podem ser menos numerosos, mas oferecem serviços "Sombrios", como acesso a TMs raros do tipo Venenoso/Sombrio e itens normalmente restritos às instalações da Team Xen.
+
+<Callout type="info" title="Verificação de Karma">
+Muitos funcionários de alto nível exigem uma pontuação de Karma positiva. Se você encontrar um NPC se recusando a se juntar à sua instalação, verifique seu Karma no vidente local ou com o NPC de completismo. Você pode precisar completar mais missões secundárias "boas" para desbloqueá-los.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Recrutamento Paragon">
+    - **Foco**: Ampla disponibilidade
+    - **Vantagem Principal**: Aumentos de Amizade/Felicidade
+    - **Exclusivo**: Pesquisadores de Formas de Aevium
+  </Card>
+  <Card title="Recrutamento Renegade">
+    - **Foco**: Poder Bruto
+    - **Vantagem Principal**: Itens competitivos
+    - **Exclusivo**: Especialistas em Pokémon Shadow
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Dicas Avançadas para Otimização de Funcionários">
+
+Para dominar verdadeiramente o sistema de **criar seu próprio funcionário** em Pokémon Rejuvenation, você precisa olhar além do diálogo básico de recrutamento. Existem interações ocultas que podem aprimorar ainda mais as capacidades de sua equipe.
+
+| Método de Aprimoramento | Efeito | Custo/Requisito |
+| :--- | :--- | :--- |
+| **Células Zygarde** | Melhora Funcionários de Laboratório | 10-50 Células |
+| **AP (Pontos de Conquista)** | Desbloqueia Traços Mestres | 500+ AP |
+| **Brasões Específicos** | Melhora Lojas Especializadas | Encontre o Pokémon correspondente |
+| **Senhas de Capítulo** | Recrutamento Instantâneo | Sistema de Senhas da V14 |
+
+<Callout type="tip" title="Atalho de Senha">
+Se você estiver em um segundo gameplay e quiser pular o processo de recrutamento, use o **sistema de senhas** da V14 durante a criação do save. Embora não exista um código direto para "desbloquear todos os funcionários", certas senhas de qualidade de vida tornam as missões de pré-requisito muito mais rápidas de completar.
+</Callout>
+
+<Checklist
+  id="employee-checklist"
+  title="Marcos de Recrutamento de Funcionários:"
+  items={[
+    "Desbloquear a missão do gerente da Loja de Departamentos de GDC",
+    "Recrutar um balconista Carismático para o 4º andar",
+    "Encontrar o pesquisador escondido na Floresta Darchlight",
+    "Alcançar 100% de conclusão no Centro de Ajuda de East Gearen",
+    "Melhorar sua instalação principal usando Células Zygarde"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso mudar o traço de um funcionário após recrutá-lo?",
+    answer: "Geralmente não. Em Pokémon Rejuvenation V14, os traços selecionados durante o diálogo inicial são permanentes. É altamente recomendado salvar o jogo antes de falar com um recruta em potencial."
+  },
+  {
+    question: "Como o recurso de 'criar seu próprio funcionário' afeta o limite de nível?",
+    answer: "Recrutar funcionários não altera diretamente o limite de nível (level cap), mas certos Treinadores de Combate podem fornecer itens como Rare Candy ou Exp. Candies que ajudam você a atingir o limite atual mais rápido."
+  },
+  {
+    question: "Existem funcionários exclusivos da V14?",
+    answer: "Sim, vários comerciantes especializados da Gen 9 e pesquisadores de Formas de Aevium foram adicionados na V14, localizados principalmente nos distritos recém-expandidos de Grand Dream City."
+  },
+  {
+    question: "O que acontece com meus funcionários se eu mudar de Paragon para Renegade?",
+    answer: "Se você fizer escolhas que levem à rota Renegade, alguns funcionários alinhados com a rota Paragon podem deixar sua instalação ou parar de prestar serviços, refletindo a mudança sombria da história."
+  }
+]} />
+
+</Section>

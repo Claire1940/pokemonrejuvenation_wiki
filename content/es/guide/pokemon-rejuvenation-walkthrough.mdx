@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Pokémon Rejuvenation: Misiones Secundarias de East Gearen",
+  description: "Domina las misiones secundarias iniciales de Ciudad East Gearen, encuentra Pokémon ocultos como Voltorb y Shuppet, y derrota a Rorrim B con nuestra guía paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=East+Gearen+Walkthrough",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal de la Guía**: Completa todas las solicitudes de la Plaza de Ayuda de Ciudad East Gearen para desbloquear objetos cruciales del inicio del juego y encuentros con Pokémon raros.
+- **Ruta de Misión Clave**: Aborda la misión de la Madre Perdida visitando los apartamentos Aqua, Velvet y Emerald antes de dirigirte al Muelle Oceana.
+- **Combate contra Rorrim B**: Derrota a Rorrim B en el sótano del Hotel Chrysola usando atacantes físicos rápidos o movimientos de estado como la parálisis.
+- **Encuentros Ocultos**: Compra suficientes Poké Balls para recibir un Voltorb gratis, y atrapa a Shuppet en el Edificio Emerald por la noche.
+- **Gestión de Nivel**: Mantén a tu equipo cerca del límite de nivel inicial de 18 para enfrentarte cómodamente a los combates contra jefes opcionales.
+</Callout>
+
+<Section icon={Map} title="Misiones de la Plaza de Ayuda y Descripción General de Ciudad East Gearen">
+
+Ciudad East Gearen sirve como tu primer gran centro en la región de Aevium, lleno de secretos, objetos ocultos y misiones secundarias esenciales. Navegar por este extenso paisaje urbano requiere un enfoque estructurado para maximizar el crecimiento de tu equipo antes de enfrentarte al Líder de Gimnasio local. Esta **guía de Pokémon Rejuvenation** se centra en optimizar tu viaje a través de la Plaza de Ayuda de la ciudad, asegurar encuentros salvajes raros y ganar valiosos Puntos de Logro (AP) en las recreativas del Hotel Chrysola.
+
+**Puntos Destacados del Vídeo:**
+- **Navegación de la Plaza de Ayuda**: Aprende a aceptar y entregar las solicitudes del inicio del juego.
+- **Encuentro con Shuppet**: Descubre el espeluznante secreto del tercer piso del Edificio Emerald.
+- **Enfrentamiento en el Muelle Oceana**: Completa la misión de la Madre Perdida y rescata a Rosa.
+- **Combate contra Rorrim B**: Mira la estrategia completa para derrotar al jefe amante de la música.
+
+<YouTubeEmbed videoId="oIMq45mwuck" title="Guía de Pokémon Rejuvenation V14 Parte 2" />
+
+La Plaza de Ayuda es el sistema central para adquirir misiones secundarias en Ciudad East Gearen. Completar estas tareas te recompensa con dinero, objetos y partes, que son fundamentales para el progreso al inicio del juego. A diferencia de otras regiones, Aevium cuenta con los Ocho Élite en lugar del Alto Mando, por lo que se recomienda encarecidamente la preparación temprana y la creación de un equipo sólido.
+
+| Nombre de la Misión | Recompensa | Requisitos Previos | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Salvar a Starly** | Dinero, Partes | Ninguno | Fácil |
+| **Madre Perdida** | Corte de pelo gratis, Poké Dólares | Ninguno | Media |
+| **Música Despreciable** | Poké Dólares, Puntos AP | Solo por la noche | Difícil |
+| **Combate en la Azotea** | Carameloraro, EXP | Nivel 20 Recomendado | Difícil |
+
+<Callout type="tip" title="Consejo sobre la Tarjeta de Socio de las Recreativas">
+Visita las recreativas del Hotel Chrysola para recoger una Tarjeta de Socio AP. Acumular Puntos de Logro (AP) te permite comprar increíbles objetos de utilidad, como el Repartir Experiencia o tarjetas de entrenamiento de EV, directamente en el Laboratorio Gearen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de la Misión: La Madre Perdida">
+
+La misión de la Madre Perdida es una de las misiones secundarias iniciales con mayor carga narrativa en Ciudad East Gearen. Te presenta a Sasha, una trabajadora de la peluquería local cuya madre, Rosa, ha desaparecido tras una serie de citas privadas. Para completar esta misión con éxito, debes investigar varios complejos de apartamentos por toda la ciudad antes de rastrear a Rosa hasta una ubicación remota.
+
+<Steps>
+  <Step num="1" title="Acepta la Solicitud">
+    Visita el tablón de la Plaza de Ayuda en Ciudad East Gearen y acepta la solicitud de la **Madre Perdida** publicada por Sasha. Dirígete a la peluquería local para hablar con ella e iniciar la búsqueda.
+  </Step>
+  <Step num="2" title="Investiga los Apartamentos Aqua">
+    Ve a los Apartamentos Aqua y sube al segundo piso. Habla con el PNJ femenino que lleva un vestido rosa. Ella revela que Rosa completó su cita de peluquería pero se fue rápidamente para visitar los Apartamentos Velvet.
+  </Step>
+  <Step num="3" title="Busca en los Apartamentos Velvet">
+    Dirígete a los Apartamentos Velvet y sube al tercer piso. Habla con la residente de pelo largo y castaño. Ella confirma que Rosa estuvo allí pero salió corriendo a su última cita en los Apartamentos Emerald.
+  </Step>
+  <Step num="4" title="Visita los Apartamentos Emerald y el Muelle Oceana">
+    Entra en el vestíbulo de los Apartamentos Emerald. La recepcionista te informa de que Rosa se dejó accidentalmente su cepillo para el pelo y mencionó que se dirigía al **Muelle Oceana** para ocuparse de un asunto urgente.
+  </Step>
+  <Step num="5" title="Derrota a la Chantajista Stella">
+    Dirígete al Muelle Oceana y entra en el almacén. Descubrirás que Rosa dirige una peluquería secreta y gratuita para la población sin hogar de Ciudad Grand Dream. Derrota a Stella en un combate para evitar que chantajee la operación de Rosa.
+  </Step>
+</Steps>
+
+| Ubicación del Apartamento | Piso Objetivo | Contacto Clave | Pista Proporcionada |
+| :--- | :--- | :--- | :--- |
+| **Apartamentos Aqua** | Piso 2 | Residente con Vestido Rosa | Rosa se fue a los Apartamentos Velvet |
+| **Apartamentos Velvet** | Piso 3 | Residente de Pelo Castaño | Rosa se fue a los Apartamentos Emerald |
+| **Apartamentos Emerald** | Vestíbulo | Recepcionista | Rosa se dejó el cepillo, fue al Muelle Oceana |
+
+<Callout type="warning" title="Preparación para el Combate contra Stella">
+Stella usa un equipo de nivel bajo, pero sus Pokémon pueden pillarte desprevenido si tu equipo está debilitado por el viaje. Cura a tu equipo en el Centro Pokémon local antes de entrar al almacén del Muelle Oceana.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate contra Rorrim B y Música Despreciable">
+
+Una vez que cae la noche en Ciudad East Gearen (8:00 PM hora del juego), una nueva solicitud titulada **Música Despreciable** pasa a estar disponible en la Plaza de Ayuda. El recepcionista del Hotel Chrysola se queja de una música alta y extraña que hace temblar los cimientos del hotel desde el sótano. Investigar este disturbio lleva a un encuentro con el excéntrico entrenador amante de la música, Rorrim B.
+
+Para resolver la situación pacíficamente, primero debes combatir contra Rorrim B y luego ayudarlo a encontrar dos nuevos miembros para unirse a su grupo de baile.
+
+| Pokémon de Rorrim B | Nivel | Tipo Principal | Estrategia y Counters |
+| :--- | :--- | :--- | :--- |
+| **Litleo** | 8 | Fuego / Normal | Usa movimientos de tipo Agua o Lucha como Doble Patada. |
+| **Rockruff** | 8 | Roca | Vulnerable a Planta, Agua, Lucha y Acero. |
+| **Passimian** | 8 | Lucha | Ataque físico alto. Usa movimientos de tipo Volador o Psíquico. |
+
+Para satisfacer los requisitos de Rorrim B y conseguir que abandone el sótano del hotel, localiza a estos dos aspirantes a bailarines escondidos dentro del Hotel Chrysola:
+
+1. **La Aspirante a Bailarina**: Se encuentra en una de las habitaciones estándar del hotel. Expresa inmediatamente su deseo de escapar de su aburrida rutina y unirse al grupo.
+2. **El Botones**: Ubicado cerca del vestíbulo principal. Admite sentir una conexión profunda y espiritual con los ritmos de Rorrim B y deja su puesto para bailar.
+
+<Callout type="success" title="Recompensa por Completar la Misión">
+Después de reclutar a ambos miembros, regresa al sótano del hotel para ver su transformación. Rorrim B se marchará felizmente y el recepcionista del hotel te recompensará. Reclama tu pago final en el mostrador de la Plaza de Ayuda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Encuentros Opcionales y Ubicaciones de Pokémon Ocultos">
+
+Tomarse el tiempo para explorar cada callejón y edificio en Ciudad East Gearen otorga recompensas increíbles. Se pueden adquirir varios Pokémon raros a través de interacciones únicas en el mapa en lugar de la tradicional búsqueda en la hierba.
+
+<CardGrid cols={3}>
+  <Card title="Shuppet">
+    - **Ubicación**: Edificio Emerald (Piso 3)
+    - **Condición**: Solo por la noche
+    - **Estrategia**: Activa el espeluznante evento en el mapa, resiste la tentación de darte la vuelta y combate contra el tipo Fantasma.
+  </Card>
+  <Card title="Voltorb">
+    - **Ubicación**: Vendedor del Callejón de Gearen
+    - **Condición**: Compra suficientes Poké Balls
+    - **Estrategia**: Compra Poké Balls estándar al vendedor del callejón específico hasta que te regale su Voltorb oculto.
+  </Card>
+  <Card title="Pichu">
+    - **Ubicación**: Recompensa de la Plaza de Ayuda
+    - **Condición**: Completa las misiones iniciales
+    - **Estrategia**: Muy recomendado por sus movimientos de huevo competitivos como Sorpresa y Viento Hielo.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Ubicación del Vendedor de Voltorb">
+El vendedor de Poké Balls se encuentra en uno de los estrechos callejones del sur de Ciudad East Gearen. Comprarle Poké Balls estándar es una excelente manera de abastecerse de recursos de captura mientras aseguras un rápido tipo Eléctrico para tu equipo.
+</Callout>
+
+<Checklist
+  id="east-gearen-checklist"
+  title="Lista de Verificación de Exploración de East Gearen:"
+  items={[
+    "Derrota al entrenador del puesto de peaje del puente para abrir el camino del norte",
+    "Recoge la Parte Azul oculta en los cubos de basura de los callejones del sur",
+    "Activa el espeluznante evento nocturno en el tercer piso del Edificio Emerald",
+    "Compra suficientes Poké Balls para recibir el Voltorb gratis del vendedor del callejón",
+    "Consigue la Tarjeta de Socio AP en las recreativas del Hotel Chrysola"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Enfrentamiento en la Azotea: Combatiendo contra la Entrenadora Nove">
+
+Para los jugadores que buscan poner a prueba sus límites tácticos, una entrenadora errante llamada **Nove** espera en la azotea del Hotel Chrysola. Te desafía a un combate de alto riesgo con un nivel recomendado de 20. Debido a que esta pelea se sitúa ligeramente por encima del límite de nivel inicial de 18, utilizar problemas de estado y tipos inteligentes es esencial para asegurar la victoria.
+
+| Pokémon de Nove | Nivel | Comportamientos Clave | Counter Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Rockruff** | 20 | Atacante físico rápido | Combusken con Doble Patada |
+| **Passimian** | 20 | Gran daño físico | Shuppet con Fuego Fatuo |
+
+Para derrotar a Nove, lidera con un Pokémon capaz de infligir problemas de estado. Un Shuppet salvaje capturado que utilice **Fuego Fatuo** es muy efectivo aquí, ya que quemar a Passimian reduce su enorme poder de ataque físico a la mitad. Alternativamente, utilizar el **Chispa** de Voltorb para conseguir una parálisis puede devolverte la ventaja de velocidad, permitiendo que tu Pokémon inicial acabe con las amenazas restantes.
+
+<Callout type="warning" title="Restricción del Límite de Nivel">
+Recuerda que Pokémon Rejuvenation impone un estricto sistema de límite de nivel. Si tus Pokémon superan el límite actual de 18 antes de derrotar al primer Líder de Gimnasio, desobedecerán tus órdenes en combate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empiezo la guía de las misiones secundarias de East Gearen en Pokémon Rejuvenation?",
+    answer: "Comienza visitando la Plaza de Ayuda en el centro de Ciudad East Gearen. Interactúa con el tablón de anuncios para aceptar solicitudes activas como Salvar a Starly, Madre Perdida y Música Despreciable."
+  },
+  {
+    question: "¿Dónde está el tercer piso del Edificio Emerald y cómo accedo a él?",
+    answer: "El Edificio Emerald se encuentra en Ciudad East Gearen. Para acceder al ascensor y llegar al tercer piso, primero debes derrotar al guardia del ascensor en un combate Pokémon estándar."
+  },
+  {
+    question: "¿Cuál es el límite de nivel en Ciudad East Gearen durante estas misiones secundarias?",
+    answer: "El límite de nivel al inicio del juego está fijado en 18. Si tus Pokémon suben de nivel más allá del 18 antes de ganar tu primera Medalla de Gimnasio, comenzarán a desobedecer tus órdenes en combate."
+  },
+  {
+    question: "¿Cómo consigo el Voltorb secreto en Ciudad East Gearen?",
+    answer: "Localiza al vendedor de Poké Balls que se encuentra en los callejones del sur de la ciudad. Cómprale una cantidad determinada de Poké Balls estándar y, con el tiempo, te regará su Voltorb."
+  }
+]} />
+
+</Section>

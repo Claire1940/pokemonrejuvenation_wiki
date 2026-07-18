@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Sprout, ShoppingCart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Baya Caoca en Pokémon Rejuvenation: Mejores Ubicaciones y Usos Estratégicos",
+  description: "Domina el uso de la Baya Caoca en Pokémon Rejuvenation V14. Encuentra todas las ubicaciones de árboles de bayas, disponibilidad en tiendas y estrategias contra jefes para Efectos de Campo de tipo Fuego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Occa+Berry+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, baya caoca, occa berry, guía, ubicaciones, v14"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Baya Caoca en Pokémon Rejuvenation**: Un objeto consumible que reduce el daño recibido de un único movimiento de tipo Fuego súper eficaz en un 50%.
+- **Utilidad Principal**: Esencial para sobrevivir a ataques de Fuego de alto daño en **Campos Ardientes (Burning Fields)** o **Campos de Cima Volcánica (Volcanic Top Fields)**.
+- **Disponibilidad en la V14**: Obtenible a través de árboles de bayas específicos en la **Ruta 2** y **Terajuma**, o comprada en la Tienda de Bayas de **Ciudad Gran Sueño (Grand Dream City)**.
+- **Mejor Estrategia**: Equipar en Pokémon de tipo Planta, Bicho o Acero para sobrevivir a un golpe letal y contraatacar con un movimiento de refuerzo o un contraataque.
+- **Consejo de Cultivo**: Usa las **Macetas de Bayas (Berry Pots)** obtenidas en Pueblo Sheridan para mantener un suministro constante sin tener que volver a los árboles.
+</Callout>
+
+<Section icon={Map} title="Introducción a la Baya Caoca en Aevium">
+
+En el desafiante mundo de Pokémon Rejuvenation V14, la supervivencia suele depender de tu capacidad para mitigar daños extremos. La **baya caoca de Pokémon Rejuvenation** se erige como una de las herramientas defensivas más críticas en el arsenal de un entrenador. A diferencia de los juegos estándar de Pokémon donde los movimientos de Fuego son manejables, la región de Aevium cuenta con numerosos **Efectos de Campo** que multiplican el daño de tipo Fuego a niveles letales.
+
+La Baya Caoca funciona identificando un ataque de tipo Fuego súper eficaz entrante y reduciendo instantáneamente su potencia a la mitad. En un juego donde la IA está optimizada para explotar tus debilidades, esta baya proporciona una estrecha ventana de oportunidad para ejecutar una estrategia que de otro modo sería imposible. Ya sea que estés navegando por los desafíos del inicio del juego en Pueblo Sheridan o las crisis del final del juego en Ciudad Gran Sueño, entender cuándo y dónde desplegar este objeto es primordial.
+
+| Atributo | Dato |
+| :--- | :--- |
+| **Tipo de Objeto** | Objeto equipado / Baya |
+| **Efecto Principal** | Reduce el daño de Fuego súper eficaz en un 50% |
+| **Consumo** | Un solo uso por batalla (a menos que se recicle) |
+| **Potencia de Lanzamiento** | 10 |
+| **Tipo de Don Natural** | Fuego (80 de Potencia) |
+
+<Callout type="tip" title="Sinergia de Campo">
+Los movimientos de tipo Fuego reciben aumentos masivos en campos como el **Campo Ardiente** o el **Campo de Cima Volcánica**. La Baya Caoca calcula su reducción *después* de los multiplicadores de campo, lo que la hace aún más efectiva para prevenir KOs de un solo golpe (OHKOs).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ubicaciones y Métodos de Obtención en la V14">
+
+Encontrar la **baya caoca en Pokémon Rejuvenation** requiere exploración a través de múltiples capítulos. Aunque algunas bayas son regaladas por NPCs, la forma más fiable de asegurarlas es a través de los árboles de bayas naturales dispersos por el mapa de Aevium. En la V14, la distribución de objetos se ha ajustado ligeramente para adaptarse mejor a la progresión del elenco que incluye la Generación 9.
+
+<CardGrid cols={3}>
+  <Card title="Árboles Silvestres">
+    - **Ruta 2**: Acceso al inicio del juego
+    - **Selva Terajuma**: Recolección a mitad del juego
+    - **Bosque Hoja Dorada**: Apariciones ocasionales
+  </Card>
+  <Card title="Compras en Tiendas">
+    - **Tienda de Bayas GDC**: Stock infinito al final del juego
+    - **Recompensas del Centro de Ayuda**: Paquetes de bayas aleatorios
+    - **Grandes Almacenes**: Disponibilidad en pisos superiores
+  </Card>
+  <Card title="Hallazgos Ocultos">
+    - **Habilidad Recogida**: Probabilidad rara a niveles altos
+    - **Objetos Ocultos**: Usa el Buscaobjetos en cuevas
+    - **Intercambios NPC**: Peticiones específicas en Sheridan
+  </Card>
+</CardGrid>
+
+| Región | Ubicación Específica | Capítulo | Método |
+| :--- | :--- | :--- | :--- |
+| **Aevium Oriental** | Ruta 2 (Camino Norte) | Capítulo 2 | Árbol de Bayas |
+| **Isla Terajuma** | Cerca de la entrada de Pueblo Kakori | Capítulo 5 | Árbol de Bayas |
+| **Aevium Occidental** | Bosque Hoja Dorada (Este) | Capítulo 3 | Árbol de Bayas |
+| **Ciudad Gran Sueño** | Puesto de Bayas del Mercado | Capítulo 9 | Compra (200-500 Pokédólares) |
+| **Final del Juego** | Alrededores de la Zona Cero | Capítulo 13 | Objeto Oculto en el suelo |
+
+<Callout type="warning" title="Regeneración de Bayas">
+Los árboles de bayas en Rejuvenation funcionan con un reloj en tiempo real. Si tienes activa la contraseña `unrealtime`, asegúrate de entender cómo afecta a la tasa de reaparición de estos recursos para evitar quedarte sin ellos antes de un jefe importante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Implementación Estratégica para Batallas contra Jefes">
+
+El verdadero valor de la **baya caoca de Pokémon Rejuvenation** se materializa durante los brutales encuentros contra jefes del juego. Varios Líderes de Gimnasio y Ejecutivos del Team Xen utilizan cobertura de tipo Fuego o Efectos de Campo específicos que castigan a los tipos Planta, Acero e Hielo. Al equipar una Baya Caoca, puedes transformar una derrota garantizada en una victoria estratégica.
+
+**Enfrentamientos Recomendados:**
+- **Valarie (Isla Terajuma)**: Aunque es una líder de tipo Agua, sus interacciones de campo a veces pueden provocar daños inesperados de tipo Fuego o potenciadores de Escaldar que actúan de forma similar.
+- **Pokémon Rift de tipo Fuego**: Estos colosos suelen poseer estadísticas ofensivas masivas. Una Baya Caoca permite que tu tanque de tipo Acero sobreviva lo suficiente como para asestar un Tóxico o un movimiento pesado de tipo Tierra.
+- **Ejecutivos del Team Xen**: Muchos ejecutivos usan a Houndoom, Incineroar o Magmortar. Estos Pokémon suelen llevar movimientos con alta probabilidad de crítico que la Baya Caoca puede ayudar a mitigar.
+
+| Jefe / Encuentro | Amenaza Principal | Portador Recomendado | Objetivo Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Galvantula Rift** | Cobertura de tipo Fuego | Ferrothorn / Scizor | Colocar Trampas / Trampa Rocas |
+| **Angie (Kristiline)** | Movimientos de Fuego Ocultos | Sandslash de Alola | Sobrevivir para usar Velo Aurora |
+| **Madelis del Team Xen** | Houndoom / Incineroar | Venusaur | Somnífero / Drenadoras |
+| **Torneo de GDC** | Cobertura de Fuego Diversa | Metagross | Asestar un Terremoto crítico |
+
+<Callout type="success" title="Estrategia Pro: El Cebo y Cambio">
+Equipa una Baya Caoca en un Pokémon que la IA perciba como una "baja fácil" con un movimiento de Fuego. La IA priorizará el ataque, permitiéndote sobrevivir y usar **Danza Dragón** o **Danza Espada**, volviendo su agresividad contra ellos de manera efectiva.
+</Callout>
+
+</Section>
+
+<Section icon={Sprout} title="Cultivo y Gestión de Bayas">
+
+Para asegurar que nunca te quedes sin la **baya caoca en Pokémon Rejuvenation**, debes utilizar las mecánicas de cultivo introducidas en los primeros capítulos. Confiar únicamente en los árboles silvestres es ineficiente para el juego a largo plazo, especialmente si juegas en dificultades más altas donde los objetos se consumen con frecuencia.
+
+<Steps>
+  <Step num="1" title="Obtener las Macetas de Bayas">
+    Habla con el NPC en Pueblo Sheridan que se encarga de las peticiones agrícolas. Completar una pequeña tarea te otorgará las Macetas de Bayas (Berry Pots), permitiéndote cultivar bayas en cualquier lugar.
+  </Step>
+  <Step num="2" title="Adquirir Abono">
+    Visita las floristerías en Gearen Oriental o Ciudad Gran Sueño para comprar **Abono Crecimiento** o **Abono Húmedo**. Esto acelera significativamente el proceso de maduración de tus Bayas Caoca.
+  </Step>
+  <Step num="3" title="Plantar y Regar">
+    Planta tu Baya Caoca en la maceta y riégala regularmente. En la V14, la mecánica de riego se ha simplificado, pero el descuido seguirá resultando en una cosecha menor.
+  </Step>
+  <Step num="4" title="Cosechar y Repetir">
+    Una vez que el árbol esté completamente crecido, cosecha las bayas. Una maceta bien cuidada puede rendir de 3 a 5 bayas por ciclo, proporcionando un stock sostenible para todo el arco del Team Xen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Atajos de Contraseñas">
+Si el cultivo de bayas te resulta tedioso, considera usar la contraseña `easyhms` u otras de calidad de vida que podrían ayudar en la gestión de recursos, aunque el juego estándar recompensa a quienes interactúan con los sistemas internos del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación Defensiva: Caoca vs. Otras Bayas">
+
+Aunque la **baya caoca de Pokémon Rejuvenation** es vital, forma parte de una familia más amplia de bayas reductoras de daño. Saber cuándo cambiar la Baya Caoca por una Baya Yache o Shuca es la marca de un entrenador experto.
+
+| Baya | Tipo Reducido | Escenario de Uso Común |
+| :--- | :--- | :--- |
+| **Baya Caoca** | Fuego | Contra Campos Ardientes / Cobertura de Fuego |
+| **Baya Yache** | Hielo | Contra Angie / Supervivencia de tipos Dragón |
+| **Baya Shuca** | Tierra | Para tipos Eléctricos contra Terremoto |
+| **Baya Coba** | Volador | Contra las amenazas de tipo Volador de Terajuma |
+| **Baya Payapa** | Psíquico | Contra Pokémon Rift con movimientos Psíquicos |
+
+<Checklist
+  id="berry-prep"
+  title="Lista de Verificación de Bayas Pre-Jefe:"
+  items={[
+    "Identificar los tipos principales y de cobertura del jefe.",
+    "Comprobar si el Efecto de Campo activo potencia el daño de tipo Fuego.",
+    "Equipar Bayas Caoca en Pokémon con debilidad x4 (p. ej., Scizor, Ferrothorn).",
+    "Asegurarse de tener bayas de repuesto en la bolsa para múltiples intentos.",
+    "Verificar si la habilidad del Pokémon (como Nerviosismo) impide el uso de bayas."
+  ]}
+/>
+
+<Callout type="warning" title="Alerta de Nerviosismo">
+Ten cuidado cuando te enfrentes a oponentes con la habilidad **Nerviosismo (Unnerve)**. Esta habilidad impide que tu Pokémon coma la baya que lleva equipada, haciendo que la Baya Caoca sea inútil. Siempre investiga la habilidad del oponente antes de comprometerte con una estrategia basada en bayas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde es el mejor lugar para cultivar la baya caoca en la V14?",
+    answer: "El método más consistente es comprarlas en la Tienda de Bayas de Ciudad Gran Sueño una vez que llegas al Capítulo 9. Para el inicio del juego, el árbol de la Ruta 2 es tu mejor fuente."
+  },
+  {
+    question: "¿Funciona la Baya Caoca si el movimiento de Fuego no es súper eficaz?",
+    answer: "No, la Baya Caoca solo se activa cuando el movimiento de tipo Fuego entrante es súper eficaz contra los tipos actuales del portador."
+  },
+  {
+    question: "¿Puedo usar Reciclaje para recuperar la baya?",
+    answer: "Sí, movimientos como Reciclaje o habilidades como Cosecha pueden permitir que un Pokémon use la Baya Caoca varias veces en una sola batalla, lo cual es una estrategia muy efectiva para batallas largas contra Rifts."
+  },
+  {
+    question: "¿La Baya Caoca reduce el daño residual del Campo Ardiente?",
+    answer: "No, solo reduce el daño de ataques directos. No mitiga el daño recibido por peligros en el campo, estados alterados como Quemaduras o daño ambiental."
+  }
+]} />
+
+</Section>

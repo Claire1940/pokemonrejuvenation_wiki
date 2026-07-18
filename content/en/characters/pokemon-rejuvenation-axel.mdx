@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "pokemon rejuvenation axel: V14 Battle Strategy & Team Counters",
+  description: "Master the pokemon rejuvenation axel Gym Leader battle in V14. Get detailed team rosters, Field Effect strategies, and recommended counters.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Axel+Gym+Guide",
+  date: "2026-07-18",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Defeat Gym Leader Axel**: Conquer the challenging pokemon rejuvenation axel Ground-type gym battle in Grand Dream City.
+- **Counter the Weather**: Axel relies heavily on Sandstorm synergy and Sand Rush sweepers to outspeed your team.
+- **Manipulate the Field**: The battle takes place on the Desert Field, which weakens Water-type attacks and boosts Ground-type moves.
+- **Level Cap Warning**: Ensure your team is strictly at or below the Level 85 cap to avoid disobedience during the match.
+- **Key Counter Types**: Bring Grass, Ice, and Flying-type Pokémon with Levitate to neutralize his heavy-hitting physical attackers.
+</Callout>
+
+<Section icon={Map} title="Axel Gym Battle Overview">
+
+Defeating the Grand Dream City Ground-type Gym Leader, Axel, is one of the major milestones in Chapter 11 of the V14 storyline. Located deep within the Grand Dream City tournament facilities, this battle acts as a strict gatekeeper to the late-game content of eastern Aevium. Axel is known for running a highly optimized sand-based offense team that punishes unprepared players with high-speed physical sweeps and terrain-boosted attacks.
+
+Before stepping onto the battlefield, you must prepare your team to handle both a permanent weather hazard and a highly restrictive level cap. In V14, overleveling past the badge limit will cause your Pokémon to ignore commands, making team level management essential.
+
+| Battle Detail | Specification |
+|---|---|
+| **Gym Leader** | Axel |
+| **Specialty Type** | Ground |
+| **Location** | Grand Dream City Arena |
+| **V14 Level Cap** | Level 85 |
+| **Badge Reward** | Terra Badge |
+| **Primary Field** | Desert Field |
+
+<Callout type="warning" title="Level Cap Enforcement">
+If you are playing with the `hardcap` password active, your Pokémon will automatically stop gaining experience once they hit Level 85. If you do not have this password enabled, double-check your team's levels before initiating the fight to prevent your key sweepers from disobeying you.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Axel V14 Team Roster and Movesets">
+
+Axel's team in V14 is built around physical bulk, weather control, and speed doubling. He utilizes a classic Sandstorm archetype, leading with a durable weather setter to immediately establish passive damage and activate the abilities of his primary sweepers. His team features high-tier Ground-types equipped with competitive held items, optimized EVs, and perfect IVs.
+
+| Pokémon | Type | Ability | Held Item | Key Threat Move |
+|---|---|---|---|---|
+| **Hippowdon** | Ground | Sand Stream | Smooth Rock | Stealth Rock / Yawn |
+| **Excadrill** | Ground / Steel | Sand Rush | Life Orb | Iron Head / Earthquake |
+| **Krookodile** | Ground / Dark | Moxie | Choice Scarf | Crunch / Close Combat |
+| **Mamoswine** | Ice / Ground | Thick Fat | Focus Sash | Ice Shard / Icicle Crash |
+| **Golurk** | Ground / Ghost | Iron Fist | Assault Vest | Shadow Punch / Drain Punch |
+| **Mega Steelix** | Steel / Ground | Sand Force | Steelixite | Heavy Slam / Stone Edge |
+
+His lead, Hippowdon, is designed to set up hazards and force switches using Yawn. Once the Sandstorm is established, Excadrill becomes an immediate threat, doubling its speed and utilizing a Life Orb-boosted attack set to sweep through fragile teams. Krookodile acts as a late-game cleaner, using Choice Scarf to outspeed natural threats and building attack momentum with Moxie.
+
+<Callout type="tip" title="Stat Optimization">
+To compete with Axel's perfect stats, consider using the `fullivs` password when setting up your save. This ensures your captured Pokémon generate with maximum individual values, preventing you from being naturally outsped or overpowered by his trained team.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Analyzing the Desert Field Mechanics">
+
+The battle against Axel is fought entirely on the **Desert Field**, a unique environment that heavily favors Ground, Rock, and Fire-type Pokémon while actively punishing Water-types. Understanding the passive modifiers of this field is crucial to formulating a winning strategy, as standard type advantages are shifted.
+
+Under the Desert Field, Water-type moves have their damage output halved, meaning your traditional Water-type counters will fail to secure one-hit knockouts. Conversely, Ground and Rock-type moves receive a 1.5x power multiplier, turning Axel's Earthquakes into devastating, team-wiping attacks.
+
+| Move Type / Hazard | Field Modifier Effect |
+|---|---|
+| **Ground-type Moves** | Power multiplied by 1.5x |
+| **Rock-type Moves** | Power multiplied by 1.5x |
+| **Water-type Moves** | Power reduced by 50% (Evaporated) |
+| **Fire-type Moves** | Power multiplied by 1.2x |
+| **Sandstorm Weather** | Boosts Rock-type Special Defense by 1.5x |
+| **Arena Hazards** | Spikes and Stealth Rock damage is increased |
+
+To bypass these restrictions, you must either bring Pokémon that naturally benefit from the field modifiers or use specific moves to alter the terrain entirely. Moves like Blizzard, Rain Dance, or Grassy Terrain can temporarily freeze, wash away, or cover the desert floor, neutralizing Axel's environmental advantage.
+
+<Callout type="info" title="Field Transformation">
+Using Blizzard or Ice Beam on the Desert Field will not permanently change it, but it will temporarily mitigate the Water-type penalty for a few turns. Utilizing a dedicated terrain-changing move is the most reliable way to strip Axel of his offensive buffs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Battle Strategy">
+
+Defeating Axel requires a structured approach that prioritizes weather control, hazard removal, and targeted physical defense. Follow this tactical sequence to dismantle his sand synergy and secure the Terra Badge.
+
+<Steps>
+  <Step num="1" title="Neutralize the Hippowdon Lead">
+    Axel always leads with Hippowdon to set up Sandstorm and Stealth Rock. Do not lead with a fragile sweeper. Instead, lead with a bulky Grass-type or a Pokémon equipped with Taunt to prevent him from laying hazards or using Yawn. Knock out Hippowdon as quickly as possible to limit the duration of the weather.
+  </Step>
+  <Step num="2" title="Clear the Sandstorm Weather">
+    Once Hippowdon is down, immediately change the weather. Use a Pokémon with Snow Warning (like Abomasnow or Alolan Ninetales) or Drizzle (like Pelipper) to override the Sandstorm. This instantly cuts Excadrill's speed in half, rendering his primary sweeper manageable.
+  </Step>
+  <Step num="3" title="Bypass Earthquakes with Levitate">
+    Axel's team relies heavily on Ground-type attacks. Keep at least two Flying-type Pokémon or Levitate users in your active rotation. Switching a Levitate user into a predicted Earthquake grants you a free turn to set up screens, use status moves, or initiate a counter-attack.
+  </Step>
+  <Step num="4" title="Dismantle Mega Steelix">
+    Mega Steelix is Axel's defensive anchor. It possesses massive physical defense, making physical attacks useless. Save your strongest Special Attackers, such as a Fire-type utilizing the Desert Field's 1.2x boost, to melt through its health bar before it can setup Iron Defense.
+  </Step>
+</Steps>
+
+Selecting the correct team members is vital to executing this strategy. The table below lists the most effective counter options available in V14 before Chapter 11.
+
+| Counter Pokémon | Recommended Role | Optimal Moveset | Strategy Contribution |
+|---|---|---|---|
+| **Alolan Ninetales** | Weather Setter / Screen Support | Aurora Veil, Blizzard, Moonblast | Sets Snow Warning, halves incoming damage, and hits Ground-types hard. |
+| **Rotom-Wash** | Pivot / Physical Wall | Hydro Pump, Will-O-Wisp, Volt Switch | Immune to Ground via Levitate, burns physical attackers, and pivots safely. |
+| **Togekiss** | Special Sweeper / Flinch Utility | Air Slash, Nasty Plot, Roost | Immune to Ground, resists Dark/Fighting, and sweeps with Serene Grace flinches. |
+| **Rillaboom** | Terrain Setter / Priority Attacker | Grassy Glide, Wood Hammer, U-turn | Overwrites the Desert Field with Grassy Terrain, boosting Grass moves. |
+
+<Callout type="success" title="Crest Synergy">
+If you have collected any character-specific Crests during your exploration of eastern Aevium, check if they apply to your counter team. Crests can provide unique stat boosts that allow lower-tier Pokémon to easily out-stat Axel's optimized team.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Post-Battle Progression and Rewards">
+
+Defeating Axel unlocks crucial progression paths in the V14 story and provides powerful tools to optimize your team for the upcoming challenges in Darchlight Woods and the Grand Dream City Underground.
+
+<CardGrid cols={3}>
+  <Card title="The Terra Badge">
+    - **Raises Level Cap**: Increases the maximum obedience level cap to Level 90.
+    - **Story Progression**: Unlocks access to restricted districts in Grand Dream City.
+    - **HM Traversal**: Allows the use of advanced field moves in the overworld.
+  </Card>
+  <Card title="TM Reward">
+    - **High-Damage Ground TM**: Grants you a powerful Ground-type physical move.
+    - **Broad Distribution**: Can be taught to a wide variety of physical attackers.
+    - **Competitive Viability**: Essential for late-game coverage against Steel and Fire.
+  </Card>
+  <Card title="Grand Dream City Unlocks">
+    - **New Sidequests**: Unlocks advanced requests at the local Help Center.
+    - **Boutique Access**: Grants access to high-end item shops and evolutionary stones.
+    - **New Wild Encounters**: Opens up previously blocked routes around the city.
+  </Card>
+</CardGrid>
+
+Once the battle is finished, make sure to complete the following checklist before moving on to the next chapter of the walkthrough.
+
+<Checklist
+  id="axel-post-battle"
+  title="Post-Axel Objectives:"
+  items={[
+    "Collect the TM reward from Axel in the arena lobby",
+    "Heal your team and save in a separate slot to preserve progress",
+    "Visit the Grand Dream City Help Center to accept newly unlocked sidequests",
+    "Purchase upgraded healing items and competitive held items from the unlocked boutiques",
+    "Prepare your team for the Darchlight Woods infiltration sequence"
+  ]}
+/>
+
+<Callout type="tip" title="Branching Path Warning">
+As you progress past Axel, the decisions you make regarding relationships and faction conflicts will begin to lock in your alignment for the Paragon or Renegade story routes. Maintain multiple backup saves to ensure you can experience both paths without restarting the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is my Water-type Pokémon doing so little damage to Axel's team?",
+    answer: "The battle against Axel takes place on the Desert Field, which automatically reduces the power of all Water-type moves by 50%. Even with a type advantage, Water-type attacks will feel significantly weaker unless you change the field first."
+  },
+  {
+    question: "How do I stop Axel's Excadrill from outspeeding my entire team?",
+    answer: "Excadrill has the Sand Rush ability, which doubles its speed in a Sandstorm. You can counter this by changing the weather using moves like Rain Dance, Sunny Day, or by switching in a Pokémon with an automatic weather ability like Snow Warning or Drizzle."
+  },
+  {
+    question: "What is the best starter Pokémon to use against the pokemon rejuvenation axel battle?",
+    answer: "Grass-type starters like Rillaboom (with Grassy Surge) or Decidueye are excellent choices. Rillaboom is particularly effective because it automatically overwrites the Desert Field with Grassy Terrain, removing Axel's terrain buffs while boosting its own Grass-type attacks."
+  },
+  {
+    question: "Can I use competitive passwords to make the Axel fight easier?",
+    answer: "Yes, you can use passwords like 'litemode' during game setup to reduce the optimization of Axel's team, or 'fullivs' to ensure your own Pokémon have maximized individual values to match his stats."
+  }
+]} />
+
+<Callout type="info" title="Community Support">
+If you are still struggling to defeat Axel, head over to the official Reborn Evolved Discord or the Pokémon Rejuvenation Reddit community. Players frequently share custom team compositions, budget-friendly strategies, and save-file troubleshooting tips for V14.
+</Callout>
+
+</Section>

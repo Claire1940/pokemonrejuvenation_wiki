@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Champions d'Arène de Pokémon Rejuvenation : Guide de Combat et de Terrain V14",
+  description: "Maîtrisez chaque combat grâce à notre guide des champions d'arène de Pokémon Rejuvenation pour la V14. Découvrez les stratégies d'effets de terrain, les faiblesses des équipes et les limites de niveau pour les chapitres 1 à 16.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=Gym+Leaders+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **champions d'arène de Pokémon Rejuvenation** sont les principales étapes de progression dans la région d'Aevium, avec des équipes optimisées et des effets de terrain uniques.
+- Les **effets de terrain** constituent la mécanique la plus cruciale ; ils peuvent amplifier certains types de capacités de 1,5x ou même 2x tout en appliquant des effets de statut secondaires.
+- Les **limites de niveau** (Level Caps) sont strictement imposées par les badges ; dépasser cette limite empêche vos Pokémon de gagner de l'expérience ou peut les amener à désobéir.
+- Les **mises à jour de la V14** incluent des Pokémon de la 9e génération et des ajustements d'équilibrage qui nécessitent de nouvelles stratégies par rapport aux anciens guides de la V13.
+- La **rotation d'équipe** est essentielle ; compter sur une seule équipe de six membres est rarement viable pour l'ensemble du parcours des 18 arènes.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre les Mécaniques d'Arène et les Effets de Terrain">
+
+Maîtriser les **champions d'arène de Pokémon Rejuvenation** exige une compréhension approfondie de l'environnement autant que des Pokémon eux-mêmes. Dans la V14, chaque affrontement de boss majeur se déroule sur un effet de terrain spécifique qui modifie fondamentalement les règles du combat. Ces terrains ne sont pas de simples éléments cosmétiques ; ils peuvent changer le type des capacités, booster des statistiques spécifiques et même se transformer lorsqu'ils sont touchés par certaines attaques.
+
+Votre réussite à Aevium dépend de votre capacité à exploiter le terrain du champion ou à le remplacer par vos propres capacités. Par exemple, utiliser « Blizzard » sur un terrain aquatique peut geler l'eau, créant ainsi un terrain glacé (Icy Field) qui profite à différents types d'attaquants.
+
+| Fonctionnalité | Description | Impact Stratégique |
+| :--- | :--- | :--- |
+| **Limite de Niveau** | Le niveau maximum autorisé pour le badge actuel | Empêche le sur-entraînement / Impose une profondeur tactique |
+| **Bulle d'aide du terrain** | Description en jeu des règles du terrain actif | Essentielle pour identifier les boosts de capacités cachés |
+| **Graine de Terrain** | Objets qui confèrent des bonus spécifiques sur certains terrains | Peut offrir +1 dans toutes les stats ou des protections uniques |
+| **Effectif Gen 9** | Inclusion de Pokémon et de talents de Paldea | Introduit de nouveaux contres et interactions de terrain |
+
+<Callout type="tip" title="Stratégie Pro : Contrôle du Terrain">
+Ayez toujours sur vous au moins un Pokémon capable d'utiliser des capacités comme Brume (Mist), Champ Herbu (Grassy Terrain) ou Gravité (Gravity). Ces capacités peuvent souvent neutraliser ou transformer l'avantage à domicile du champion d'arène en un état neutre ou favorable pour votre équipe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Défis de Début de Jeu : Chapitres 1 à 4">
+
+Les premiers **champions d'arène de Pokémon Rejuvenation** servent d'introduction à la difficulty du jeu. En commençant à East Gearen City et en traversant Sheridan Village, les joueurs rencontrent des champions spécialisés dans les types Normal, Plante et Combat. Cependant, ne vous laissez pas tromper par leurs types « simples » ; leurs équipes sont entièrement entraînées aux EV et tiennent des objets qui punissent les challengers non préparés.
+
+<CardGrid cols={3}>
+  <Card title="Venam (Poison)">
+    - **Terrain** : Terrain Corrosif (Corrosive Field)
+    - **Menace Clé** : Pics Toxik et capacités boostées par le Poison.
+    - **Contre** : Types Acier ou capacités Sol.
+  </Card>
+  <Card title="Keta (Combat)">
+    - **Terrain** : Arène de Sheridan (Sheridan Arena)
+    - **Menace Clé** : STAB Combat à haute vitesse et attaques physiques boostées par le terrain.
+    - **Contre** : Types Psy, Vol ou Fée.
+  </Card>
+  <Card title="Marianette (Normal)">
+    - **Terrain** : Terrain Sacré (Holy Field)
+    - **Menace Clé** : Capacités Normal devenant de type Fée ou bénéficiant de boosts massifs.
+    - **Contre** : Types Combat (si le terrain est neutralisé) ou Acier/Poison.
+  </Card>
+</CardGrid>
+
+Le combat contre Keta à Sheridan Village est souvent le premier « mur » majeur pour les nouveaux joueurs. L'arène de Sheridan booste considérablement les capacités de type Combat, rendant même les attaques résistées dévastatrices.
+
+<Callout type="warning" title="Attention à la Limite de Niveau">
+Avant de défier l'arène de Sheridan, assurez-vous que votre équipe est à la limite de niveau de 25. Si vous rencontrez des difficultés, pensez à utiliser le mot de passe `hardcap` pour éviter un sur-entraînement accidentel pendant votre préparation.
+</Callout>
+
+| Champion d'Arène | Badge | Limite de Niveau | Terrain Principal | Contres Recommandés |
+| :--- | :--- | :--- | :--- | :--- |
+| **Venam** | Poison | 20 | Terrain Corrosif | Sol, Acier, Psy |
+| **Keta** | Combat | 25 | Arène de Sheridan | Vol, Psy, Fée |
+| **Marianette** | Normal | 30 | Terrain Sacré | Combat, Ténèbres, Spectre |
+| **Narcissa** | Spectre | 35 | Terrain Hanté | Ténèbres, Spectre, Immunité Normal |
+
+</Section>
+
+<Section icon={Map} title="Escalade en Milieu de Jeu : Terajuma et Kristiline">
+
+À mesure que l'histoire se déplace vers l'île de Terajuma et finalement vers la colonie gelée de Kristiline, les **champions d'arène de Pokémon Rejuvenation** deviennent nettement plus complexes. Cet arc introduit des synergies basées sur la météo et des effets de terrain qui infligent des dégâts environnementaux à chaque tour.
+
+Le combat contre Angie à Kristiline is largement considéré comme l'un des affrontements les plus difficiles de l'histoire principale de la V14. Son terrain « Cold Truth » (Vérité Froide) provoque le statut de gel et booste les capacités de type Glace à des niveaux astronomiques.
+
+**Étapes de préparation pour Angie :**
+
+<Steps>
+  <Step num="1" title="Faites le plein de soins de statut">
+    Achetez autant de Baies Willia (Aspear Berries) et de Total Soins (Full Heals) que possible dans les boutiques de Kristiline. Le statut de gel est une menace constante.
+  </Step>
+  <Step num="2" title="Obtenez une couverture Feu/Acier">
+    Même si le terrain punit le type Feu, certains types Acier dotés d'une défense physique élevée peuvent encaisser les coups de son Beldeneige (Frosmoth) ou de son Dimoret (Weavile).
+  </Step>
+  <Step num="3" title="Vérifiez les Blasons (Crests)">
+    La V14 propose des Blasons (Crests) qui améliorent des Pokémon spécifiques. Vérifiez si l'un de vos Pokémon PC possède un Blason qui lui confère une résistance à la Glace ou des boosts de type Feu.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Synergie des Blasons">
+Les Blasons (Crests) sont des objets tenus uniques qui offrent des boosts de statistiques massifs ou des modifications de talents à des Pokémon spécifiques. Par exemple, le Blason de Typhlosion (Typhlosion Crest) lui permet d'ignorer certaines pénalités de terrain, ce qui en fait un choix viable contre Angie malgré le terrain gelé.
+</Callout>
+
+| Champion d'Arène | Type | Limite de Niveau | Stratégie Clé |
+| :--- | :--- | :--- | :--- |
+| **Valerie** | Eau | 45 | Utilisez Électrik/Plante ; attention aux capacités perforantes |
+| **Crawli** | Insecte | 50 | Utilisez Feu/Vol ; évitez de brûler le terrain forestier |
+| **Angie** | Glace | 55 | Réchauffez le terrain ou utilisez des pivots Isograisse/Acier |
+| **Amber** | Feu | 60 | Contrôlez la température ; utilisez le STAB Roche/Sol |
+
+</Section>
+
+<Section icon={Trophy} title="Grand Dream City et le Chemin vers le Chapitre 16">
+
+L'entrée à Grand Dream City (GDC) marque le début de la phase de fin de jeu. Les **champions d'arène de Pokémon Rejuvenation** ici sont souvent liés à des conflits majeurs entre factions, comme la lutte contre Bladestar. Ces combats utilisent des terrains « Urbain » (Urban) et « Acier » (Steel) qui favorisent des styles de jeu très techniques et des sweepers de placement.
+
+À ce stade, votre équipe doit être flexible. Vous devrez alterner entre différentes Méga-Évolutions et Cristaux Z (obtenables via le mot de passe `freemegaz` si vous préférez un accès anticipé) pour faire face à la puissance croissante de l'élite d'Aevium.
+
+<Checklist
+  id="late-game-prep"
+  title="Liste de contrôle de préparation aux combats de fin de jeu :"
+  items={[
+    "Entraîner complètement aux EV une équipe de base de plus de 12 Pokémon",
+    "Récupérer toutes les CT accessibles dans les districts de GDC",
+    "Identifier quels Pokémon bénéficient des derniers Blasons de la V14",
+    "Créer un fichier de sauvegarde séparé avant l'embranchement du Chapitre 16",
+    "S'assurer que tous les objets tenus sont optimisés pour l'effet de terrain actuel"
+  ]}
+/>
+
+<Callout type="success" title="Paragon vs Renegade">
+Les champions d'arène que vous affronterez dans le Chapitre 16 et la composition spécifique de leurs équipes peuvent varier en fonction de vos choix de Karma et de Route. La route Renegade propose généralement des variantes plus agressives et infligeant plus de dégâts des boss de fin de jeu.
+</Callout>
+
+| Champion d'Arène | Chapitre | Effet de Terrain | Changement Notable de la V14 |
+| :--- | :--- | :--- | :--- |
+| **Erick** | 10 | Champ Électrifié | Ajout de types Électrik de la 9e génération |
+| **Saki** | 12 | Terrain Usine | Synergie Acier/Électrik optimisée |
+| **Adam** | 14 | Terrain Désertique | Pression de la Tempête de Sable/Roche renforcée |
+| **Champion Final** | 16 | Varie selon la Route | Rencontres légendaires exclusives à la Route |
+
+</Section>
+
+<Section icon={Target} title="Stratégies de Combat Avancées et Conseils">
+
+Pour vaincre régulièrement les **champions d'arène de Pokémon Rejuvenation** dans les niveaux de difficulté supérieurs, vous devez regarder au-delà des simples avantages de type. L'IA de la V14 est conçue pour prédire vos switchs et utiliser efficacement des capacités de pivot comme Demi-Tour (U-turn) et Change Éclair (Volt Switch).
+
+**Stratégies clés pour réussir :**
+
+1.  **Transformation du terrain** : Utilisez des capacités comme « Jalousie Brûlante » (Burning Jealousy) sur un Champ Herbu pour le transformer en Terrain Brûlé, infligeant des dégâts continus à l'adversaire à chaque tour.
+2.  **Pièges d'entrée** : Les capacités comme Piège de Roc (Stealth Rock) et Toile Gluante (Sticky Web) sont inestimables contre les champions d'arène qui changent fréquemment de Pokémon pour maintenir l'avantage du type.
+3.  **Capacités prioritaires** : De nombreux champions utilisant des sweepers très rapides, disposer de capacités prioritaires comme Vitesse Extrême (Extreme Speed), Coup Bas (Sucker Punch) ou Aqua-Jet / Poing Jet (Jet Punch - Gen 9) peut sauver un combat mal engagé.
+4.  **Gestion des objets** : Ne gardez pas vos objets en réserve. Utilisez des Ceintures Force (Focus Sashes) sur vos « glass cannons » et des Restes (Leftovers) ou Casques Bruts (Rocky Helmets) sur vos tanks.
+
+<Callout type="tip" title="Aide par Mots de Passe">
+Si un boss spécifique vous semble impossible à battre, vous pouvez utiliser le mot de passe `litemode` lors de la configuration initiale pour réduire légèrement l'optimisation de l'IA adverse sans altérer l'expérience de l'histoire principale.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je vérifier la limite de niveau actuelle pour le prochain champion d'arène ?",
+    answer: "Vous pouvez vérifier votre Carte de Dresseur dans le menu. Elle liste vos badges actuels et le niveau maximum auquel les Pokémon vous obéiront. De plus, le jeu vous informera lorsque vous atteindrez une nouvelle limite après un événement de l'histoire."
+  },
+  {
+    question: "Quel est le meilleur starter pour battre les premiers champions d'arène de Pokémon Rejuvenation ?",
+    answer: "Bien que tous les starters soient viables, les types Feu comme Chochodile (Fuecoco - Gen 9) ou Poussifeu (Torchic) sont excellents pour le milieu de jeu, tandis que les types Eau comme Grenousse (Froakie) aident considérablement à contrôler la vitesse en début de partie."
+  },
+  {
+    question: "Puis-je modifier l'effet de terrain pendant un combat d'arène ?",
+    answer: "Oui. Des capacités comme Blizzard, Séisme (Earthquake) et diverses capacités de terrain (Électrik/Herbu/Psychique/Brumeux) peuvent souvent transformer ou remplacer le terrain existant, annulant ainsi l'avantage du champion."
+  },
+  {
+    question: "Y a-t-il des combats de champions d'arène manquables dans la V14 ?",
+    answer: "Non, les 18 badges d'arène sont tous requis pour progresser dans l'histoire. Cependant, certains combats de boss optionnels et rencontres de Pokémon de Faille (Rift Pokémon) peuvent être manqués si vous avancez trop rapidement dans l'histoire sans explorer."
+  }
+]} />
+
+</Section>

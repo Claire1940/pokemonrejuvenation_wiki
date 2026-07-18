@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Gym Leaders: V14 Battle & Field Guide",
+  description: "Master every battle with our Pokemon Rejuvenation gym leaders guide for V14. Learn field effect strategies, team weaknesses, and level caps for Chapters 1-16.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=Gym+Leaders+Guide",
+  date: "2026-07-18",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon rejuvenation gym leaders** are the primary progression milestones in the Aevium region, featuring optimized teams and unique Field Effects.
+- **Field Effects** are the most critical mechanic; they can amplify certain move types by 1.5x or even 2x while providing secondary status effects.
+- **Level Caps** are strictly enforced by badges; exceeding the cap causes your Pokémon to stop gaining experience or potentially disobey.
+- **V14 Updates** include Gen 9 Pokémon and balance changes that require new strategies compared to older V13 guides.
+- **Team Rotation** is essential; relying on a single six-member team is rarely viable for the entire 18-gym journey.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Gym Mechanics and Field Effects">
+
+Mastering the **pokemon rejuvenation gym leaders** requires a deep understanding of the environment as much as the Pokémon themselves. In V14, every major boss encounter takes place on a specific Field Effect that fundamentally alters the rules of battle. These fields are not just cosmetic; they can change move types, boost specific stats, and even transform when hit by certain attacks.
+
+Success in Aevium depends on your ability to either exploit the leader's field or overwrite it with your own moves. For example, using "Blizzard" on a water-based field might freeze the water, creating an Icy Field that benefits different types of attackers.
+
+| Feature | Description | Strategic Impact |
+| :--- | :--- | :--- |
+| **Level Cap** | The maximum level allowed for the current badge | Prevents over-leveling / Forces tactical depth |
+| **Field Tooltip** | In-game description of active field rules | Essential for identifying hidden move boosts |
+| **Field Seed** | Items that provide specific buffs on certain fields | Can provide +1 to all stats or unique protections |
+| **Gen 9 Roster** | Inclusion of Paldean Pokémon and abilities | Introduces new counters and field interactions |
+
+<Callout type="tip" title="Pro Strategy: Field Control">
+Always carry at least one Pokémon that can use moves like Mist, Grassy Terrain, or Gravity. These moves can often neutralize or transform a Gym Leader's home-field advantage into a neutral or favorable state for your team.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Early Game Challenges: Chapters 1 to 4">
+
+The first few **pokemon rejuvenation gym leaders** serve as an introduction to the game's difficulty. Starting in East Gearen City and moving through Sheridan Village, players encounter leaders who specialize in Normal, Grass, and Fighting types. However, do not be fooled by their "simple" typings; their teams are fully EV-trained and hold items that punish unprepared challengers.
+
+<CardGrid cols={3}>
+  <Card title="Venam (Poison)">
+    - **Field**: Corrosive Field
+    - **Key Threat**: Toxic Spikes and Poison-boosted moves.
+    - **Counter**: Steel types or Ground moves.
+  </Card>
+  <Card title="Keta (Fighting)">
+    - **Field**: Sheridan Arena
+    - **Key Threat**: High-speed Fighting STAB and field-boosted physical hits.
+    - **Counter**: Psychic, Flying, or Fairy types.
+  </Card>
+  <Card title="Marianette (Normal)">
+    - **Field**: Holy Field
+    - **Key Threat**: Normal moves becoming Fairy-type or gaining massive boosts.
+    - **Counter**: Fighting types (if field is neutralized) or Steel/Poison.
+  </Card>
+</CardGrid>
+
+The battle against Keta in Sheridan Village is often the first major "wall" for new players. The Sheridan Arena significantly boosts Fighting-type moves, making even resisted hits feel devastating. 
+
+<Callout type="warning" title="Level Cap Awareness">
+Before challenging the Sheridan gym, ensure your team is at the level cap of 25. If you find yourself struggling, consider using the `hardcap` password to prevent accidental over-leveling while training.
+</Callout>
+
+| Gym Leader | Badge | Level Cap | Primary Field | Recommended Counters |
+| :--- | :--- | :--- | :--- | :--- |
+| **Venam** | Poison | 20 | Corrosive Field | Ground, Steel, Psychic |
+| **Keta** | Fighting | 25 | Sheridan Arena | Flying, Psychic, Fairy |
+| **Marianette** | Normal | 30 | Holy Field | Fighting, Dark, Ghost |
+| **Narcissa** | Ghost | 35 | Haunted Field | Dark, Ghost, Normal-immune |
+
+</Section>
+
+<Section icon={Map} title="Mid-Game Escalation: Terajuma and Kristiline">
+
+As the story moves to Terajuma Island and eventually the frozen settlement of Kristiline, the **pokemon rejuvenation gym leaders** become significantly more complex. This arc introduces weather-based synergies and field effects that cause environmental damage every turn.
+
+The battle against Angie in Kristiline is widely regarded as one of the most difficult encounters in the V14 main story. Her "Cold Truth" field causes freeze status and boosts Ice-type moves to astronomical levels.
+
+**Preparation Steps for Angie:**
+
+<Steps>
+  <Step num="1" title="Stockpile Status Heals">
+    Purchase as many Aspear Berries and Full Heals as possible from the Kristiline shops. Freeze status is a constant threat.
+  </Step>
+  <Step num="2" title="Acquire Fire/Steel Coverage">
+    Even though the field punishes Fire, certain Steel types with high physical defense can tank hits from her Frosmoth or Weavile.
+  </Step>
+  <Step num="3" title="Check for Crests">
+    V14 features Crests that buff specific Pokémon. Check if any of your boxed Pokémon have a Crest that grants Ice resistance or Fire boosts.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Crest Synergy">
+Crests are unique held items that provide massive stat buffs or ability changes to specific Pokémon. For example, the Typhlosion Crest allows it to ignore certain field penalties, making it a viable pick against Angie despite the cold field.
+</Callout>
+
+| Gym Leader | Type | Level Cap | Key Strategy |
+| :--- | :--- | :--- | :--- |
+| **Valerie** | Water | 45 | Use Electric/Grass; watch for Piercing moves |
+| **Crawli** | Bug | 50 | Use Fire/Flying; avoid Forest Field burn-outs |
+| **Angie** | Ice | 55 | Heat the field or use Thick Fat/Steel pivots |
+| **Amber** | Fire | 60 | Control the temperature; use Rock/Ground STAB |
+
+</Section>
+
+<Section icon={Trophy} title="Grand Dream City and the Path to Chapter 16">
+
+Entering Grand Dream City (GDC) marks the beginning of the late-game phase. The **pokemon rejuvenation gym leaders** here are often tied to major faction conflicts, such as the struggle against Bladestar. These battles utilize "Urban" and "Steel" fields that favor highly technical playstyles and set-up sweepers.
+
+By this stage, your team should be flexible. You will need to rotate between different Mega Evolutions and Z-Crystals (obtainable via the `freemegaz` password if you prefer early access) to match the escalating power of the Aevium elite.
+
+<Checklist
+  id="late-game-prep"
+  title="Late-Game Battle Readiness Checklist:"
+  items={[
+    "Fully EV-train a core roster of 12+ Pokémon",
+    "Collect all accessible TMs from GDC districts",
+    "Identify which Pokémon benefit from the latest V14 Crests",
+    "Set up a separate save file before the Chapter 16 branch",
+    "Ensure all held items are optimized for the current Field Effect"
+  ]}
+/>
+
+<Callout type="success" title="Paragon vs Renegade">
+The gym leaders you face in Chapter 16 and their specific team compositions may vary based on your Karma and Route choices. The Renegade route generally features more aggressive, higher-damage variants of late-game bosses.
+</Callout>
+
+| Gym Leader | Chapter | Field Effect | Notable V14 Change |
+| :--- | :--- | :--- | :--- |
+| **Erick** | 10 | Electric Terrain | Added Gen 9 Electric types |
+| **Saki** | 12 | Factory Field | Optimized Steel/Electric synergy |
+| **Adam** | 14 | Desert Field | Enhanced Sandstorm/Rock pressure |
+| **Final Leader** | 16 | Varies by Route | Route-exclusive legendary encounters |
+
+</Section>
+
+<Section icon={Target} title="Advanced Battle Strategies and Tips">
+
+To consistently defeat **pokemon rejuvenation gym leaders** on higher difficulties, you must look beyond basic type advantages. The AI in V14 is designed to predict your switches and utilize pivot moves like U-turn and Volt Switch effectively.
+
+**Key Strategies for Success:**
+
+1.  **Field Transformation**: Use moves like "Burning Jealousy" on a Grassy Field to turn it into a Burnt Field, dealing chip damage to the opponent every turn.
+2.  **Entry Hazards**: Moves like Stealth Rock and Sticky Web are invaluable against gym leaders who frequently switch to maintain type advantage.
+3.  **Priority Moves**: With many leaders using high-speed sweepers, having priority moves like Extreme Speed, Sucker Punch, or Jet Punch (Gen 9) can save a failing run.
+4.  **Item Management**: Don't hoard your items. Use Focus Sashes on your glass cannons and Leftovers/Rocky Helmets on your tanks.
+
+<Callout type="tip" title="Password Assistance">
+If a specific boss feels impossible, you can use the `litemode` password during the opening setup to slightly reduce opposing AI optimization without changing the core story experience.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I check the current level cap for the next gym leader?",
+    answer: "You can check your Trainer Card in the menu. It lists your current badges and the maximum level Pokémon will obey. Additionally, the game will notify you when you reach a new cap after a story event."
+  },
+  {
+    question: "What is the best starter to beat the early pokemon rejuvenation gym leaders?",
+    answer: "While all starters are viable, Fire-types like Fuecoco (Gen 9) or Torchic are excellent for the mid-game, while Water-types like Froakie help significantly with early-game speed control."
+  },
+  {
+    question: "Can I change the field effect during a gym battle?",
+    answer: "Yes. Moves like Blizzard, Earthquake, and various Terrain moves (Electric/Grassy/Psychic/Misty) can often transform or overwrite the existing field, removing the leader's advantage."
+  },
+  {
+    question: "Are there any missable gym leader battles in V14?",
+    answer: "No, all 18 gym badges are required for story progression. However, certain optional boss battles and Rift Pokémon encounters can be missed if you advance the story too quickly without exploring."
+  }
+]} />
+
+</Section>

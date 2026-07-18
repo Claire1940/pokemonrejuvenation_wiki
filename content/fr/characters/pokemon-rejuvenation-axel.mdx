@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Axel : Stratégie de Combat V14 & Contres d'Équipe",
+  description: "Maîtrisez le combat contre Axel, Champion d'Arène dans la V14 de Pokémon Rejuvenation. Obtenez les compositions d'équipe détaillées, les stratégies d'Effet de Terrain et les meilleurs contres.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Axel+Gym+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, axel, guide d'arène, v14, stratégie, terrain désertique"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Vaincre le Champion Axel** : Relevez le défi du combat d'Arène de type Sol à Grand Dream City dans Pokémon Rejuvenation.
+- **Contrer la Météo** : Axel s'appuie fortement sur la synergie de la Tempête de Sable et les sweepers avec Baigne Sable pour dépasser votre équipe.
+- **Manipuler le Terrain** : Le combat se déroule sur le Terrain Désertique, qui affaiblit les attaques de type Eau et booste les capacités de type Sol.
+- **Avertissement sur la Limite de Niveau** : Assurez-vous que votre équipe est strictement au niveau 85 ou moins pour éviter la désobéissance durant le match.
+- **Types de Contres Clés** : Apportez des Pokémon de type Plante, Glace et Vol avec Lévitation pour neutraliser ses puissants attaquants physiques.
+</Callout>
+
+<Section icon={Map} title="Aperçu du combat d'Arène contre Axel">
+
+Vaincre Axel, le Champion d'Arène de type Sol de Grand Dream City, est l'une des étapes majeures du Chapitre 11 de l'histoire de la V14. Situé au cœur des installations de tournoi de Grand Dream City, ce combat sert de gardien strict pour accéder au contenu de fin de jeu de l'est d'Aevium. Axel est connu pour utiliser une équipe offensive basée sur le sable hautement optimisée, qui punit les joueurs non préparés avec des balayages physiques à haute vitesse et des attaques boostées par le terrain.
+
+Avant de monter sur le champ de bataille, vous devez préparer votre équipe à gérer à la fois un danger météorologique permanent et une limite de niveau très restrictive. Dans la V14, dépasser la limite imposée par le badge fera que vos Pokémon ignoreront vos ordres, rendant la gestion du niveau de votre équipe essentielle.
+
+| Détail du Combat | Spécification |
+|---|---|
+| **Champion d'Arène** | Axel |
+| **Spécialité** | Sol |
+| **Lieu** | Arène de Grand Dream City |
+| **Limite de Niveau V14** | Niveau 85 |
+| **Récompense de Badge** | Badge Terra |
+| **Terrain Principal** | Terrain Désertique |
+
+<Callout type="warning" title="Application de la Limite de Niveau">
+Si vous jouez avec le mot de passe `hardcap` activé, vos Pokémon cesseront automatiquement de gagner de l'expérience une fois le niveau 85 atteint. Si vous n'avez pas activé ce mot de passe, vérifiez deux fois les niveaux de votre équipe avant d'engager le combat pour éviter que vos sweepers clés ne vous désobéissent.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Composition de l'Équipe d'Axel V14 et Capacités">
+
+L'équipe d'Axel dans la V14 est construite autour de la robustesse physique, du contrôle météo et du doublement de la vitesse. Il utilise un archétype classique de Tempête de Sable, commençant par un poseur de météo résistant pour établir immédiatement des dégâts passifs et activer les talents de ses sweepers principaux. Son équipe comprend des types Sol de haut niveau équipés d'objets tenus compétitifs, d'EV optimisés et d'IV parfaits.
+
+| Pokémon | Type | Talent | Objet Tenu | Capacité Menaçante |
+|---|---|---|---|---|
+| **Hippodocus** | Sol | Sable Volant | Roche Lisse | Piège de Roc / Bâillement |
+| **Minotaupe** | Sol / Acier | Baigne Sable | Orbe Vie | Tête de Fer / Séisme |
+| **Crocorible** | Sol / Ténèbres | Impudence | Mouchoir Choix | Mâchouille / Close Combat |
+| **Mamoswine** | Glace / Sol | Isograisse | Ceinture Force | Éclats Glace / Chute de Glace |
+| **Golemastoc** | Sol / Spectre | Poing de Fer | Veste de Combat | Poing Ombre / Vampipoing |
+| **Méga-Steelix** | Acier / Sol | Force Sable | Steelixite | Tacle Lourd / Lame de Roc |
+
+Son premier Pokémon, Hippodocus, est conçu pour poser des pièges de terrain et forcer les changements avec Bâillement. Une fois la Tempête de Sable établie, Minotaupe devient une menace immédiate, doublant sa vitesse et utilisant un set d'attaques boosté par l'Orbe Vie pour balayer les équipes fragiles. Crocorible agit comme un nettoyeur de fin de partie, utilisant le Mouchoir Choix pour dépasser les menaces naturelles et accumuler de la puissance offensive grâce à Impudence.
+
+<Callout type="tip" title="Optimisation des Statistiques">
+Pour rivaliser avec les statistiques parfaites d'Axel, envisagez d'utiliser le mot de passe `fullivs` lors de la configuration de votre sauvegarde. Cela garantit que vos Pokémon capturés sont générés avec des valeurs individuelles maximales, vous évitant d'être naturellement dépassé en vitesse ou en puissance par son équipe entraînée.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Analyse des Mécaniques du Terrain Désertique">
+
+Le combat contre Axel se déroule entièrement sur le **Terrain Désertique**, un environnement unique qui favorise grandement les Pokémon de type Sol, Roche et Feu tout en punissant activement les types Eau. Comprendre les modificateurs passifs de ce terrain est crucial pour formuler une stratégie gagnante, car les avantages de types standards sont modifiés.
+
+Sur le Terrain Désertique, les capacités de type Eau voient leurs dégâts divisés par deux, ce qui signifie que vos contres traditionnels de type Eau échoueront à obtenir des K.O. en un coup. À l'inverse, les capacités de type Sol et Roche reçoivent un multiplicateur de puissance de 1,5x, transformant les Séismes d'Axel en attaques dévastatrices capables de décimer votre équipe.
+
+| Type de Capacité / Danger | Effet du Modificateur de Terrain |
+|---|---|
+| **Capacités de type Sol** | Puissance multipliée par 1,5x |
+| **Capacités de type Roche** | Puissance multipliée par 1,5x |
+| **Capacités de type Eau** | Puissance réduite de 50 % (Évaporée) |
+| **Capacités de type Feu** | Puissance multipliée par 1,2x |
+| **Météo Tempête de Sable** | Booste la Défense Spéciale du type Roche de 1,5x |
+| **Dangers d'Arène** | Les dégâts de Picots et Piège de Roc sont augmentés |
+
+Pour contourner ces restrictions, vous devez soit apporter des Pokémon qui bénéficient naturellement des modificateurs de terrain, soit utiliser des capacités spécifiques pour altérer totalement le terrain. Des capacités comme Blizzard, Danse Pluie ou Champ Herbu peuvent temporairement geler, laver ou recouvrir le sol désertique, neutralisant l'avantage environnemental d'Axel.
+
+<Callout type="info" title="Transformation du Terrain">
+Utiliser Blizzard ou Laser Glace sur le Terrain Désertique ne le changera pas de façon permanente, mais atténuera temporairement la pénalité du type Eau pendant quelques tours. Utiliser une capacité dédiée au changement de terrain est le moyen le plus fiable de priver Axel de ses bonus offensifs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégie de Combat Étape par Étape">
+
+Vaincre Axel nécessite une approche structurée qui donne la priorité au contrôle météo, au retrait des dangers de terrain et à une défense physique ciblée. Suivez cette séquence tactique pour démanteler sa synergie de sable et obtenir le Badge Terra.
+
+<Steps>
+  <Step num="1" title="Neutraliser le Hippodocus de tête">
+    Axel commence toujours avec Hippodocus pour poser la Tempête de Sable et les Pièges de Roc. Ne commencez pas avec un sweeper fragile. Utilisez plutôt un type Plante robuste ou un Pokémon équipé de Provoc pour l'empêcher de poser des pièges ou d'utiliser Bâillement. Mettez Hippodocus K.O. le plus rapidement possible pour limiter la durée de la météo.
+  </Step>
+  <Step num="2" title="Dissiper la Tempête de Sable">
+    Une fois Hippodocus hors de combat, changez immédiatement la météo. Utilisez un Pokémon avec Alerte Neige (comme Blizzaroi ou Feunard d'Alola) ou Crachin (comme Bekipan) pour écraser la Tempête de Sable. Cela divise instantanément la vitesse de Minotaupe par deux, rendant son sweeper principal gérable.
+  </Step>
+  <Step num="3" title="Contrer les Séismes avec Lévitation">
+    L'équipe d'Axel repose lourdement sur les attaques de type Sol. Gardez au moins deux Pokémon de type Vol ou des utilisateurs de Lévitation dans votre rotation active. Envoyer un utilisateur de Lévitation sur un Séisme prédit vous offre un tour gratuit pour poser des écrans, utiliser des capacités de statut ou lancer une contre-attaque.
+  </Step>
+  <Step num="4" title="Démanteler Méga-Steelix">
+    Méga-Steelix est l'ancre défensive d'Axel. Il possède une défense physique massive, rendant les attaques physiques inutiles. Gardez vos attaquants spéciaux les plus puissants, comme un type Feu utilisant le boost de 1,2x du Terrain Désertique, pour faire fondre sa barre de vie avant qu'il ne puisse utiliser Mur de Fer.
+  </Step>
+</Steps>
+
+Sélectionner les bons membres d'équipe est vital pour exécuter cette stratégie. Le tableau ci-dessous liste les options de contre les plus efficaces disponibles dans la V14 avant le Chapitre 11.
+
+| Pokémon de Contre | Rôle Recommandé | Set de Capacités Optimal | Contribution Stratégique |
+|---|---|---|---|
+| **Feunard d'Alola** | Poseur de Météo / Soutien Écrans | Voile Aurore, Blizzard, Pouvoir Lunaire | Pose Alerte Neige, divise les dégâts reçus par deux et frappe fort les types Sol. |
+| **Motisma-Lavage** | Pivot / Mur Physique | Hydrocanon, Feu Follet, Change-Éclair | Immunisé au Sol via Lévitation, brûle les attaquants physiques et pivote en sécurité. |
+| **Togekiss** | Sweeper Spécial / Utilitaire de Flinch | Lame d'Air, Machination, Atterrissage | Immunisé au Sol, résiste aux types Ténèbres/Combat et sweep avec les flinchs de Sérénité. |
+| **Gorythmic** | Poseur de Terrain / Attaquant Prioritaire | Gliss'Herbe, Martobois, Demi-Tour | Remplace le Terrain Désertique par le Champ Herbu, boostant les capacités Plante. |
+
+<Callout type="success" title="Synergie des Crests">
+Si vous avez collecté des Crests spécifiques à certains personnages lors de votre exploration de l'est d'Aevium, vérifiez s'ils s'appliquent à votre équipe de contre. Les Crests peuvent fournir des boosts de statistiques uniques qui permettent à des Pokémon de rang inférieur de surpasser facilement l'équipe optimisée d'Axel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression et Récompenses Post-Combat">
+
+Vaincre Axel débloque des chemins de progression cruciaux dans l'histoire de la V14 et fournit des outils puissants pour optimiser votre équipe pour les défis à venir dans les Bois de Darchlight et les souterrains de Grand Dream City.
+
+<CardGrid cols={3}>
+  <Card title="Le Badge Terra">
+    - **Augmente la limite de niveau** : Porte la limite d'obéissance maximale au niveau 90.
+    - **Progression de l'histoire** : Débloque l'accès aux districts restreints de Grand Dream City.
+    - **Traversée CS** : Permet l'utilisation de capacités de terrain avancées dans le monde extérieur.
+  </Card>
+  <Card title="Récompense CT">
+    - **CT Sol à hauts dégâts** : Vous octroie une puissante capacité physique de type Sol.
+    - **Large distribution** : Peut être enseignée à une grande variété d'attaquants physiques.
+    - **Viabilité compétitive** : Essentielle pour la couverture de fin de jeu contre l'Acier et le Feu.
+  </Card>
+  <Card title="Déblocages à Grand Dream City">
+    - **Nouvelles quêtes annexes** : Débloque des requêtes avancées au Centre d'Aide local.
+    - **Accès aux Boutiques** : Permet d'accéder aux magasins d'objets haut de gamme et aux pierres d'évolution.
+    - **Nouvelles rencontres sauvages** : Ouvre des routes précédemment bloquées autour de la ville.
+  </Card>
+</CardGrid>
+
+Une fois le combat terminé, assurez-vous de compléter la liste de contrôle suivante avant de passer au chapitre suivant de la soluce.
+
+<Checklist
+  id="axel-post-battle"
+  title="Objectifs Post-Axel :"
+  items={[
+    "Récupérer la CT de récompense auprès d'Axel dans le hall de l'arène",
+    "Soigner votre équipe et sauvegarder sur un emplacement séparé pour préserver votre progression",
+    "Visiter le Centre d'Aide de Grand Dream City pour accepter les nouvelles quêtes annexes",
+    "Acheter des objets de soin améliorés et des objets tenus compétitifs dans les boutiques débloquées",
+    "Préparer votre équipe pour la séquence d'infiltration des Bois de Darchlight"
+  ]}
+/>
+
+<Callout type="tip" title="Avertissement sur les Chemins Divergents">
+Au fur et à mesure que vous progressez après Axel, les décisions que vous prenez concernant les relations et les conflits de factions commenceront à verrouiller votre alignement pour les routes Paragon ou Renegade. Maintenez plusieurs sauvegardes de secours pour vous assurer de pouvoir vivre les deux chemins sans recommencer le jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi mon Pokémon de type Eau inflige-t-il si peu de dégâts à l'équipe d'Axel ?",
+    answer: "Le combat contre Axel se déroule sur le Terrain Désertique, qui réduit automatiquement la puissance de toutes les capacités de type Eau de 50 %. Même avec un avantage de type, les attaques Eau sembleront nettement plus faibles à moins que vous ne changiez le terrain au préalable."
+  },
+  {
+    question: "Comment empêcher le Minotaupe d'Axel de dépasser toute mon équipe ?",
+    answer: "Minotaupe possède le talent Baigne Sable, qui double sa vitesse sous la Tempête de Sable. Vous pouvez contrer cela en changeant la météo avec des capacités comme Danse Pluie, Zénith, ou en envoyant un Pokémon avec un talent météo automatique comme Alerte Neige ou Crachin."
+  },
+  {
+    question: "Quel est le meilleur Pokémon de départ à utiliser contre Axel ?",
+    answer: "Les starters de type Plante comme Gorythmic (avec Créa-Herbe) ou Archéduc sont d'excellents choix. Gorythmic est particulièrement efficace car il remplace automatiquement le Terrain Désertique par le Champ Herbu, supprimant les bonus de terrain d'Axel tout en boostant ses propres attaques Plante."
+  },
+  {
+    question: "Puis-je utiliser des mots de passe compétitifs pour faciliter le combat contre Axel ?",
+    answer: "Oui, vous pouvez utiliser des mots de passe comme 'litemode' lors de la configuration du jeu pour réduire l'optimisation de l'équipe d'Axel, ou 'fullivs' pour garantir que vos propres Pokémon ont des valeurs individuelles maximales afin de rivaliser avec ses statistiques."
+  }
+]} />
+
+<Callout type="info" title="Soutien de la Communauté">
+Si vous avez toujours du mal à vaincre Axel, rendez-vous sur le Discord officiel de Reborn Evolved ou sur la communauté Reddit de Pokémon Rejuvenation. Les joueurs y partagent fréquemment des compositions d'équipe personnalisées, des stratégies économiques et des conseils de dépannage de sauvegarde pour la V14.
+</Callout>
+
+</Section>

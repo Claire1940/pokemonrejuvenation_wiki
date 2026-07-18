@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Axel em Pokémon Rejuvenation: Estratégia de Batalha V14 e Counters de Equipe",
+  description: "Domine a batalha contra o Líder de Ginásio Axel em Pokémon Rejuvenation V14. Obtenha detalhes dos times, estratégias de Efeito de Campo e counters recomendados.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/fff?text=Axel+Gym+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Derrote o Líder de Ginásio Axel**: Conquiste a desafiadora batalha de ginásio do tipo Terrestre contra o Axel em Pokémon Rejuvenation, localizada em Grand Dream City.
+- **Combata o Clima**: Axel depende fortemente da sinergia de Tempestade de Areia (Sandstorm) e atacantes com Ímpeto de Areia (Sand Rush) para ultrapassar sua equipe em velocidade.
+- **Manipule o Campo**: A batalha ocorre no Campo de Deserto (Desert Field), que enfraquece ataques do tipo Água e fortalece movimentos do tipo Terrestre.
+- **Aviso de Limite de Nível**: Certifique-se de que sua equipe esteja estritamente no nível 85 ou abaixo para evitar desobediência durante a partida.
+- **Tipos Counters Chave**: Traga Pokémon do tipo Planta, Gelo e Voador com Levitação (Levitate) para neutralizar seus atacantes físicos de alto impacto.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Batalha de Ginásio do Axel">
+
+Derrotar o Líder de Ginásio do tipo Terrestre de Grand Dream City, Axel, é um dos marcos mais importantes no Capítulo 11 da história da V14. Localizada nas profundezas das instalações de torneio de Grand Dream City, esta batalha atua como um porteiro rigoroso para o conteúdo de final de jogo do leste de Aevium. Axel é conhecido por usar uma equipe ofensiva baseada em areia altamente otimizada, que pune jogadores despreparados com varreduras físicas de alta velocidade e ataques fortalecidos pelo terreno.
+
+Antes de pisar no campo de batalha, você deve preparar sua equipe para lidar tanto com uma condição climática permanente quanto com um limite de nível altamente restritivo. Na V14, ultrapassar o limite de nível da insígnia fará com que seus Pokémon ignorem comandos, tornando essencial o gerenciamento do nível da equipe.
+
+| Detalhe da Batalha | Especificação |
+|---|---|
+| **Líder de Ginásio** | Axel |
+| **Tipo de Especialidade** | Terrestre |
+| **Localização** | Arena de Grand Dream City |
+| **Limite de Nível V14** | Nível 85 |
+| **Recompensa de Insígnia** | Insígnia Terra |
+| **Campo Primário** | Campo de Deserto |
+
+<Callout type="warning" title="Aplicação do Limite de Nível">
+Se você estiver jogando com a senha `hardcap` ativa, seus Pokémon pararão automaticamente de ganhar experiência assim que atingirem o Nível 85. Se você não tiver essa senha ativada, verifique novamente os níveis da sua equipe antes de iniciar a luta para evitar que seus principais atacantes desobedeçam a você.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elenco da Equipe e Movesets de Axel na V14">
+
+A equipe de Axel na V14 é construída em torno de resistência física, controle climático e duplicação de velocidade. Ele utiliza um arquétipo clássico de Tempestade de Areia (Sandstorm), liderando com um invocador de clima durável para estabelecer imediatamente dano passivo e ativar as habilidades de seus principais atacantes. Sua equipe apresenta tipos Terrestre de alto nível equipados com itens competitivos, EVs otimizados e IVs perfeitos.
+
+| Pokémon | Tipo | Habilidade | Item Equipado | Movimento de Maior Ameaça |
+|---|---|---|---|---|
+| **Hippowdon** | Terrestre | Sand Stream | Smooth Rock | Stealth Rock / Yawn |
+| **Excadrill** | Terrestre / Aço | Sand Rush | Life Orb | Iron Head / Earthquake |
+| **Krookodile** | Terrestre / Sombrio | Moxie | Choice Scarf | Crunch / Close Combat |
+| **Mamoswine** | Gelo / Terrestre | Thick Fat | Focus Sash | Ice Shard / Icicle Crash |
+| **Golurk** | Terrestre / Fantasma | Iron Fist | Assault Vest | Shadow Punch / Drain Punch |
+| **Mega Steelix** | Aço / Terrestre | Sand Force | Steelixite | Heavy Slam / Stone Edge |
+
+Seu líder, Hippowdon, foi projetado para colocar armadilhas e forçar trocas usando Yawn. Uma vez estabelecida a Tempestade de Areia (Sandstorm), Excadrill se torna uma ameaça imediata, dobrando sua velocidade e utilizando um conjunto de ataques fortalecidos por Life Orb para varrer equipes frágeis. Krookodile atua como um finalizador de fim de jogo, usando Choice Scarf para ultrapassar ameaças naturais em velocidade e acumular poder de ataque com Moxie.
+
+<Callout type="tip" title="Otimização de Atributos">
+Para competir com os atributos perfeitos de Axel, considere usar a senha `fullivs` ao iniciar seu jogo salvo. Isso garante que seus Pokémon capturados sejam gerados com valores individuais (IVs) máximos, evitando que você seja naturalmente ultrapassado em velocidade ou dominado pela equipe treinada dele.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análise das Mecânicas do Campo de Deserto">
+
+A batalha contra Axel é travada inteiramente no **Campo de Deserto (Desert Field)**, um ambiente único que favorece fortemente Pokémon dos tipos Terrestre, Rocha e Fogo, enquanto pune ativamente os tipos Água. Compreender os modificadores passivos deste campo é crucial para formular uma estratégia vencedora, já que as vantagens de tipo padrão são alteradas.
+
+Sob o Campo de Deserto, os movimentos do tipo Água têm seu dano reduzido pela metade, o que significa que seus counters tradicionais de Água falharão em garantir nocautes de um único golpe. Por outro lado, movimentos do tipo Terrestre e Rocha recebem um multiplicador de poder de 1,5x, transformando os Earthquakes de Axel em ataques devastadores capazes de varrer sua equipe.
+
+| Tipo de Movimento / Hazard | Efeito do Modificador de Campo |
+|---|---|
+| **Movimentos do tipo Terrestre** | Poder multiplicado por 1,5x |
+| **Movimentos do tipo Rocha** | Poder multiplicado por 1,5x |
+| **Movimentos do tipo Água** | Poder reduzido em 50% (Evaporado) |
+| **Movimentos do tipo Fogo** | Poder multiplicado por 1,2x |
+| **Clima de Tempestade de Areia** | Aumenta a Defesa Especial de tipos Rocha em 1,5x |
+| **Hazards de Arena** | O dano de Spikes e Stealth Rock é aumentado |
+
+Para burlar essas restrições, você deve trazer Pokémon que se beneficiem naturalmente dos modificadores de campo ou usar movimentos específicos para alterar o terreno por completo. Movimentos como Blizzard, Rain Dance ou Grassy Terrain podem congelar, inundar ou cobrir temporariamente o chão do deserto, neutralizando a vantagem ambiental de Axel.
+
+<Callout type="info" title="Transformação de Campo">
+Usar Blizzard ou Ice Beam no Campo de Deserto não o mudará permanentemente, mas mitigará temporariamente a penalidade do tipo Água por alguns turnos. Utilizar um movimento dedicado à mudança de terreno é a maneira mais confiável de tirar os bônus ofensivos de Axel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Batalha Passo a Passo">
+
+Derrotar Axel requer uma abordagem estruturada que priorize o controle do clima, a remoção de hazards e uma defesa física direcionada. Siga esta sequência tática para desmantelar a sinergia de areia dele e garantir a Insígnia Terra.
+
+<Steps>
+  <Step num="1" title="Neutralize o Líder Hippowdon">
+    Axel sempre lidera com Hippowdon para ativar Sandstorm e Stealth Rock. Não lidere com um atacante frágil. Em vez disso, lidere com um tipo Planta resistente ou um Pokémon equipado com Taunt para evitar que ele coloque armadilhas ou use Yawn. Nocauteie Hippowdon o mais rápido possível para limitar a duração do clima.
+  </Step>
+  <Step num="2" title="Limpe o Clima de Tempestade de Areia">
+    Assim que Hippowdon for derrotado, mude o clima imediatamente. Use um Pokémon com Snow Warning (como Abomasnow ou Alolan Ninetales) ou Drizzle (como Pelipper) para anular a Tempestade de Areia. Isso corta instantaneamente a velocidade de Excadrill pela metade, tornando seu principal atacante controlável.
+  </Step>
+  <Step num="3" title="Evite Earthquakes com Levitação (Levitate)">
+    A equipe de Axel depende fortemente de ataques do tipo Terrestre. Mantenha pelo menos dois Pokémon do tipo Voador ou usuários de Levitate em sua rotação ativa. Trocar para um usuário de Levitate em um Earthquake previsto garante a você um turno livre para configurar barreiras (screens), usar movimentos de status ou iniciar um contra-ataque.
+  </Step>
+  <Step num="4" title="Desmantele o Mega Steelix">
+    Mega Steelix é a âncora defensiva de Axel. Ele possui uma defesa física massiva, tornando os ataques físicos inúteis. Guarde seus atacantes especiais mais fortes, como um tipo Fogo utilizando o bônus de 1,2x do Campo de Deserto, para derreter a barra de vida dele antes que ele possa usar Iron Defense.
+  </Step>
+</Steps>
+
+Selecionar os membros corretos da equipe é vital para executar esta estratégia. A tabela abaixo lista as opções de counter mais eficazes disponíveis na V14 antes do Capítulo 11.
+
+| Pokémon Counter | Função Recomendada | Moveset Ideal | Contribuição Estratégica |
+|---|---|---|---|
+| **Alolan Ninetales** | Invocador de Clima / Suporte de Barreiras | Aurora Veil, Blizzard, Moonblast | Ativa Snow Warning, reduz o dano recebido pela metade e atinge tipos Terrestre com força. |
+| **Rotom-Wash** | Pivot / Barreira Física | Hydro Pump, Will-O-Wisp, Volt Switch | Imune a Terrestre via Levitate, queima atacantes físicos e faz pivot com segurança. |
+| **Togekiss** | Atacante Especial / Utilitário de Flinch | Air Slash, Nasty Plot, Roost | Imune a Terrestre, resiste a Sombrio/Lutador e varre com flinches de Serene Grace. |
+| **Rillaboom** | Invocador de Terreno / Atacante com Prioridade | Grassy Glide, Wood Hammer, U-turn | Substitui o Campo de Deserto por Grassy Terrain, fortalecendo movimentos de Planta. |
+
+<Callout type="success" title="Sinergia de Crests">
+Se você coletou algum Crest específico de personagem durante sua exploração do leste de Aevium, verifique se eles se aplicam à sua equipe de counters. Os Crests podem fornecer aumentos de atributos únicos que permitem que Pokémon de tier mais baixo superem facilmente as estatísticas otimizadas de Axel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão Pós-Batalha e Recompensas">
+
+Derrotar Axel desbloqueia caminhos cruciais de progressão na história da V14 e fornece ferramentas poderosas para otimizar sua equipe para os próximos desafios em Darchlight Woods e no Subterrâneo de Grand Dream City.
+
+<CardGrid cols={3}>
+  <Card title="A Insígnia Terra">
+    - **Aumenta o Limite de Nível**: Aumenta o limite máximo de nível de obediência para o Nível 90.
+    - **Progressão da História**: Desbloqueia o acesso a distritos restritos em Grand Dream City.
+    - **Travessia com HM**: Permite o uso de movimentos de campo avançados no mapa do jogo.
+  </Card>
+  <Card title="Recompensa de TM">
+    - **TM Terrestre de Alto Dano**: Concede a você um poderoso movimento físico do tipo Terrestre.
+    - **Ampla Distribuição**: Pode ser ensinado a uma ampla variedade de atacantes físicos.
+    - **Viabilidade Competitiva**: Essencial para cobertura de fim de jogo contra Aço e Fogo.
+  </Card>
+  <Card title="Desbloqueios em Grand Dream City">
+    - **Novas Missões Secundárias**: Desbloqueia pedidos avançados no Centro de Ajuda local.
+    - **Acesso a Boutiques**: Concede acesso a lojas de itens de alto nível e pedras de evolução.
+    - **Novos Encontros Selvagens**: Abre rotas anteriormente bloqueadas ao redor da cidade.
+  </Card>
+</CardGrid>
+
+Assim que a batalha terminar, certifique-se de concluir a lista de tarefas abaixo antes de prosseguir para o próximo capítulo do detonado.
+
+<Checklist
+  id="axel-post-battle"
+  title="Objetivos Pós-Axel:"
+  items={[
+    "Colete a recompensa de TM com Axel no saguão da arena",
+    "Cure sua equipe e salve em um slot separado para preservar o progresso",
+    "Visite o Centro de Ajuda de Grand Dream City para aceitar as missões secundárias recém-desbloqueadas",
+    "Compre itens de cura aprimorados e itens competitivos das boutiques desbloqueadas",
+    "Prepare sua equipe para a sequência de infiltração em Darchlight Woods"
+  ]}
+/>
+
+<Callout type="tip" title="Aviso de Caminhos Alternativos">
+Conforme você avança além de Axel, as decisões que você toma em relação a relacionamentos e conflitos de facções começarão a definir seu alinhamento para as rotas da história Paragon ou Renegade. Mantenha vários salvamentos de backup para garantir que você possa experimentar ambos os caminhos sem reiniciar o jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que meu Pokémon do tipo Água está causando tão pouco dano à equipe de Axel?",
+    answer: "A batalha contra Axel ocorre no Campo de Deserto (Desert Field), que reduz automaticamente o poder de todos os movimentos do tipo Água em 50%. Mesmo com vantagem de tipo, os ataques de Água parecerão significativamente mais fracos, a menos que você mude o campo primeiro."
+  },
+  {
+    question: "Como faço para impedir que o Excadrill de Axel ultrapasse toda a minha equipe em velocidade?",
+    answer: "Excadrill possui a habilidade Sand Rush, que dobra sua velocidade em uma Tempestade de Areia. Você pode combater isso mudando o clima usando movimentos como Rain Dance, Sunny Day, ou trocando por um Pokémon com uma habilidade climática automática como Snow Warning ou Drizzle."
+  },
+  {
+    question: "Qual é o melhor Pokémon inicial para usar contra a batalha de Axel em Pokémon Rejuvenation?",
+    answer: "Iniciais do tipo Planta como Rillaboom (com Grassy Surge) ou Decidueye são excelentes escolhas. Rillaboom é particularmente eficaz porque substitui automaticamente o Campo de Deserto por Grassy Terrain, removendo os bônus de terreno de Axel enquanto fortalece seus próprios ataques do tipo Planta."
+  },
+  {
+    question: "Posso usar senhas competitivas para facilitar a luta contra o Axel?",
+    answer: "Sim, você pode usar senhas como 'litemode' durante a configuração do jogo para reduzir a otimização da equipe de Axel, ou 'fullivs' para garantir que seus próprios Pokémon tenham valores individuais máximos para se equipararem aos atributos dele."
+  }
+]} />
+
+<Callout type="info" title="Suporte da Comunidade">
+Se você ainda estiver com dificuldades para derrotar o Axel, acesse o Discord oficial do Reborn Evolved ou a comunidade de Pokémon Rejuvenation no Reddit. Os jogadores frequentemente compartilham composições de equipe personalizadas, estratégias acessíveis e dicas de solução de problemas de arquivos de salvamento para a V14.
+</Callout>
+
+</Section>

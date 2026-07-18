@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cœur de Lien Pokémon Rejuvenation : Guide du Cœur de la Terre et de la Purification",
+  description: "Maîtrisez les mécaniques du Cœur de Lien dans Pokémon Rejuvenation. Apprenez à naviguer dans le Cœur de la Terre, à résoudre les énigmes garufiennes et à vaincre Groudon Primo en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Link+Heart+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Utilité du Cœur de Lien** : Objets essentiels utilisés pour **purifier les Pokémon Obscurs** et déclencher des évolutions spécifiques normalement liées aux échanges sans avoir à échanger.
+- **Emplacement du Cœur de la Terre** : Situé dans les profondeurs des **Ruines Garufiennes** sous le Mont Cotos, gardé par un puissant Groudon.
+- **Mécaniques d'énigmes** : Résoudre les ruines nécessite de connaître le **Braille** et des schémas de déplacement spécifiques (énigmes de style Hoenn).
+- **Stratégie de Boss** : Vaincre le gardien du Cœur de la Terre nécessite de gérer la météo **Sécheresse** et de se préparer à une potentielle **Primo-Résurgence**.
+- **Avantages de la Purification** : Les Pokémon purifiés ont accès à des **capacités exclusives** et à une meilleure croissance de statistiques par rapport à leurs formes Obscures.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre le système de Cœur de Lien dans Pokémon Rejuvenation">
+
+Dans le monde complexe d'Aevium, le **cœur de lien (Link Heart)** sert de mécanique à double usage qui comble le fossé entre l'histoire et l'utilité du gameplay. Principalement, ces objets sont essentiels au processus de purification, permettant aux dresseurs de réparer les âmes brisées des Pokémon Obscurs rencontrés tout au long de l'histoire. Au-delà de la purification, les Cœurs de Lien agissent comme une solution locale pour les évolutions qui nécessitent traditionnellement un échange, permettant ainsi aux joueurs solo de compléter leur Pokédex.
+
+**Points forts de la vidéo :**
+- **Exploration des Ruines Garufiennes** : Naviguer dans la décharge toxique du Mont Cotos pour trouver l'entrée.
+- **Solutions des énigmes en Braille** : Comment contourner les sceaux anciens en utilisant des capacités de terrain spécifiques comme Flash.
+- **Affrontement du Boss Groudon** : Un aperçu détaillé du combat en deux étapes contre le gardien du Cœur de la Terre.
+- **Dynamique d'équipe** : Aperçu des interactions entre Alita, Eldest et le sbire de la Team Xen, Tommen.
+
+<YouTubeEmbed videoId="d9HxdLmX1mo" title="GARDIEN DU CŒUR DE LA TERRE : GROUDON !!! Pokémon Rejuvenation" />
+
+<Callout type="tip" title="Conseil de Pro">
+Gardez toujours au moins deux Cœurs de Lien dans votre sac. Vous ne savez jamais quand vous pourriez rencontrer un Pokémon Obscur rare nécessitant une purification immédiate pour être viable lors des prochains combats d'Arène.
+</Callout>
+
+| Type d'utilité | Fonction principale | Condition |
+| :--- | :--- | :--- |
+| **Purification** | Retire le statut Obscur des Pokémon | Chambre de Purification ou Pierre Relique |
+| **Évolution** | Déclenche les évolutions par échange | Monter de niveau en tenant l'objet |
+| **Objet de quête** | Fait progresser l'histoire de PNJ spécifiques | Livrer aux chercheurs de Gearen City |
+
+</Section>
+
+<Section icon={Map} title="Emplacements et méthodes d'obtention des Cœurs de Lien">
+
+Trouver un **cœur de lien** dans Pokémon Rejuvenation nécessite une exploration minutieuse de la région d'Aevium. Bien que certains soient donnés au cours de la quête principale, beaucoup sont cachés derrière des quêtes secondaires ou des récompenses de haut niveau au Casino. Depuis les mises à jour de 2026, les développeurs ont ajouté d'autres moyens de les obtenir via la boutique de Points de Succès (AP) afin de réduire le farm pour les joueurs compétitifs.
+
+<Callout type="warning" title="Gestion des ressources">
+Les Cœurs de Lien sont semi-limités en début de partie. Évitez de les utiliser sur des Pokémon communs qui peuvent être capturés sous leur forme normale plus tard. Réservez-les pour les rencontres uniques de Pokémon Obscurs.
+</Callout>
+
+| Emplacement | Méthode | Difficulté |
+| :--- | :--- | :--- |
+| **Gearen City** | Récompense des quêtes du Centre d'Aide | Facile |
+| **Sheridan Village** | Caché derrière la maison du Sensei (nécessite Surf) | Moyen |
+| **Goldenleaf Town** | Échange contre 500 AP à la boutique de Points de Succès | Difficile |
+| **Mont Cotos** | Trouvé dans les Ruines Garufiennes près du Cœur de la Terre | Moyen |
+| **Kristiline Town** | Récompense pour avoir terminé la quête secondaire « Building Bridges » | Moyen |
+
+</Section>
+
+<Section icon={Target} title="Solution du Cœur de la Terre : Énigme des Ruines Garufiennes">
+
+Le voyage vers le Cœur de la Terre est l'un des segments les plus difficiles du milieu de partie. Située sous le Mont Cotos, cette zone oblige les joueurs à résoudre des énigmes qui rappellent les chambres des Regis de Hoenn. Vous devrez vous coordonner avec des PNJ comme Alita et le sbire repenti de la Team Xen, Tommen, pour désactiver les sceaux anciens.
+
+<Steps>
+  <Step num="1" title="Naviguer dans la décharge toxique">
+    Descendez dans les niveaux inférieurs du Mont Cotos. Vous rencontrerez des dangers toxiques et des coulées de lave. Assurez-vous que votre équipe est soignée après avoir combattu les Servantes d'Angie.
+  </Step>
+  <Step num="2" title="Décoder les sceaux en Braille">
+    Atteignez les ruines garufiennes. Le premier sceau vous demande de lire le Braille et d'effectuer une action spécifique—généralement courir autour du périmètre de la pièce et utiliser la capacité **Flash** ou un objet Taser.
+  </Step>
+  <Step num="3" title="Énigme d'alignement des statues">
+    Dans la deuxième chambre, vous devez déplacer les statues de Latias, Ténéfix, Feunard et Séléroc dans leurs coins respectifs. Suivez les indices visuels sur les dalles du sol pour faire correspondre les symboles anciens.
+  </Step>
+  <Step num="4" title="Activation de la double plateforme">
+    Coordonnez-vous avec Alita et Tommen. Deux personnes doivent se tenir debout sur les plaques de pression dans des pièces séparées simultanément pour déverrouiller la porte finale menant au Cœur de la Terre.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Récompense de l'énigme">
+Résoudre correctement l'énigme d'alignement des statues donne accès à un coffre caché contenant un **Cœur de Lien** et la CT Trépignement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Vaincre le gardien du Cœur de la Terre : Groudon">
+
+Le point culminant de la quête du Cœur de la Terre est une confrontation brutale avec un Groudon dont le niveau est adapté au vôtre. Ce combat est unique car le terrain renforce considérablement les capacités de type Feu et Sol tout en pénalisant les attaques de type Eau en raison du talent permanent **Sécheresse**.
+
+<CardGrid cols={2}>
+  <Card title="Phase 1 : Groudon standard">
+    - **Talent** : Sécheresse (Capacités Feu / Force Soleil renforcées).
+    - **Menaces clés** : Tacle Feu et Lames Giga.
+    - **Stratégie** : Utilisez des cycles d'**Intimidation** pour baisser son Attaque.
+  </Card>
+  <Card title="Phase 2 : Primo-Résurgence">
+    - **Talent** : Terre Finale (Les capacités Eau échouent complètement).
+    - **Menaces clés** : Dégâts Feu accrus et grande robustesse physique.
+    - **Stratégie** : Fiez-vous à des capacités de type Sol ou Roche comme **Souffle Tempête** (qui inflige des coups critiques garantis).
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mécanique de Combat">
+Sur le terrain des Ruines Garufiennes, les capacités comme **Plaquage** et **Souffle Tempête** reçoivent un boost de puissance significatif. Utilisez des Pokémon comme Mysdibule ou Mackogneur pour tirer parti de ces bonus.
+</Callout>
+
+| Pokémon recommandé | Rôle | Stratégie |
+| :--- | :--- | :--- |
+| **Mysdibule** | Lead Intimidation | Faire des allers-retours pour affaiblir les statistiques d'Attaque de Groudon |
+| **Mackogneur** | Attaquant physique | Utilise Souffle Tempête pour des coups critiques garantis |
+| **Démolosse** | Support Aboiement | Baisse l'Attaque Spéciale et résiste aux capacités Feu |
+| **Tritosor** | Tank | Peut survivre aux coups si Sécheresse est gérée, mais à éviter en Phase 2 |
+
+</Section>
+
+<Section icon={Shield} title="Liste de contrôle pour la Purification et l'Évolution">
+
+Une fois que vous avez obtenu un **cœur de lien**, vous devez décider de la meilleure façon de l'utiliser. La purification ne consiste pas seulement à retirer le statut Obscur ; il s'agit de libérer le véritable potentiel de votre Pokémon.
+
+<Checklist
+  id="purification-prep"
+  title="Essentiels de la Purification :"
+  items={[
+    "Réduire la jauge de cœur du Pokémon Obscur à zéro par le combat et le toilettage",
+    "Se rendre à la Pierre Relique de Sheridan Village ou utiliser la Chambre de Purification",
+    "S'assurer d'avoir un Cœur de Lien dans son inventaire pour le rituel final",
+    "Vérifier si le Pokémon apprend une « Capacité Purifiée » (ex. Permutcœur ou Soulagement)",
+    "Vérifier si le Pokémon est éligible pour une évolution par Cœur de Lien (ex. Spectrum en Ectoplasma)"
+  ]}
+/>
+
+<Callout type="warning" title="Note sur l'Évolution">
+L'utilisation d'un Cœur de Lien pour l'évolution consomme l'objet. Contrairement à une Pierre Soleil ou une Pierre Lune, ceux-ci sont plus rares, alors donnez la priorité aux Pokémon essentiels à la composition de votre équipe actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je obtenir plus de Cœurs de Lien si je n'en ai plus ?",
+    answer: "Oui, vous pouvez les acheter à la boutique de Points de Succès (AP) de Gearen City ou en trouver comme récompenses rares dans certains Antres de Raid de haut niveau en fin de partie."
+  },
+  {
+    question: "Le Groudon du Cœur de la Terre possède-t-il sa forme Primo ?",
+    answer: "Oui, dans la deuxième phase du combat, Groudon subit une Primo-Résurgence déclenchée par le terrain, activant Terre Finale et augmentant considérablement ses statistiques."
+  },
+  {
+    question: "Quelle est la meilleure façon de résoudre les énigmes en Braille dans les ruines ?",
+    answer: "Les énigmes nécessitent généralement d'utiliser Flash ou d'interagir avec des dalles murales spécifiques après avoir déplacé des statues. Reportez-vous à la section étape par étape ci-dessus pour la séquence d'alignement des statues."
+  },
+  {
+    question: "Les Cœurs de Lien sont-ils requis pour toutes les évolutions ?",
+    answer: "Non, uniquement pour les Pokémon qui nécessitent traditionnellement un échange. Les autres Pokémon évoluent toujours par niveau, pierres ou bonheur comme dans les jeux officiels."
+  }
+]} />
+
+<Callout type="tip" title="Conseil Final">
+Si vous éprouvez des difficultés avec le combat contre Groudon, pensez à entraîner votre équipe jusqu'à la limite de niveau actuelle chez l'éleveur de Kristiline Town avant de tenter à nouveau le Cœur de la Terre.
+</Callout>
+
+</Section>

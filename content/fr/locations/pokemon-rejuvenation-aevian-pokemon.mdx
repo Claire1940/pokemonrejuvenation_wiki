@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon d'Aevium dans Pokémon Rejuvenation : Localisations & Évolutions",
+  description: "Guide complet V14 des Pokémon d'Aevium de Pokémon Rejuvenation. Découvrez toutes les localisations des formes régionales, les méthodes d'évolution et les stratégies de combat à Aevium.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Aevian+Pokemon+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Pokémon Rejuvenation",
+  keywords: "Pokémon Rejuvenation, Pokémon d'Aevium, formes régionales, localisations, évolutions, V14"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les Pokémon d'Aevium de Pokémon Rejuvenation** sont des variantes régionales exclusives à la région d'Aevium, dotées de types, de talents et de capacités uniques.
+- **Les mises à jour V14** ont redistribué plusieurs formes d'Aevium et introduit la compatibilité avec la 9ème Génération pour l'équilibrage compétitif.
+- **Les méthodes d'évolution** nécessitent souvent des objets spécifiques exclusifs à Aevium ou des déclencheurs environnementaux absents des jeux officiels.
+- **La synergie des Blasons** est vitale, car de nombreuses formes d'Aevium n'atteignent leur plein potentiel (Rang S) qu'en tenant leur Blason Pokémon spécifique.
+- **L'acquisition** varie entre les rencontres sauvages, les événements statiques, les Œufs Mystères et les récompenses de quêtes secondaires complexes.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre les Pokémon d'Aevium de Pokémon Rejuvenation">
+
+Les formes d'Aevium représentent l'apogée de l'adaptation régionale au sein de la région d'Aevium. Contrairement aux variantes régionales standard des titres officiels, les **Pokémon d'Aevium de Pokémon Rejuvenation** sont spécifiquement conçus pour interagir avec les Effets de Terrain complexes du jeu et les combats de boss de haute difficulté. Dans la version V14 actuelle, ces formes sont bien plus que de simples changements cosmétiques ; elles offrent une couverture de types essentielle qui peut déterminer le succès d'une partie en route Paragon ou Renegade.
+
+Ces Pokémon échangent souvent leurs faiblesses traditionnelles contre des profils défensifs entièrement nouveaux. Par exemple, une forme d'Aevium pourrait transformer un type Plante fragile en une variante robuste de type Acier ou Poison, lui permettant de survivre aux assauts des officiers de la Team Xen. Comprendre où trouver ces formes et comment déclencher leurs évolutions est une exigence fondamentale pour tout joueur visant à terminer l'histoire de 16 chapitres.
+
+<Callout type="tip" title="Conseil de l'Équipe Wiki">
+Vérifiez toujours l'infobulle de l'Effet de Terrain lors des combats impliquant des formes d'Aevium. Beaucoup de ces Pokémon possèdent des talents qui leur octroient des bonus de statistiques massifs ou des immunités spécifiquement sur les terrains exclusifs d'Aevium.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Types d'Aevium">
+    - **Combinaisons Uniques** : Présente des duos de types rarement vus dans les jeux standard.
+    - **Synergie de Terrain** : Conçu pour exploiter les plus de 30 Effets de Terrain d'Aevium.
+  </Card>
+  <Card title="Acquisition">
+    - **Événements Statiques** : Beaucoup se trouvent via des énigmes environnementales.
+    - **Œufs Mystères** : Des formes d'Aevium de grande valeur sont souvent cachées dans les œufs récompenses de quêtes.
+  </Card>
+  <Card title="Avantage Compétitif">
+    - **Movepools Personnalisés** : Accès à des capacités couvrant leurs nouvelles faiblesses de type.
+    - **Support de Blason** : Objets exclusifs offrant des bonus mécaniques uniques.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Localisations des Formes d'Aevium par Chapitre">
+
+Trouver chaque **Pokémon d'Aevium de Pokémon Rejuvenation** nécessite une exploration minutieuse à travers plusieurs îles et dimensions. La disponibilité est strictement liée à la progression de l'histoire, ce qui signifie que certaines formes sont accessibles dès Gearen Est, tandis que d'autres nécessitent l'accès au Désert ou à la Zone Zéro en fin de jeu.
+
+Dans la V14, plusieurs tables de rencontres ont été mises à jour pour inclure les influences de la 9ème Génération. Cela signifie que les anciens guides de la V13.5 peuvent lister des emplacements incorrects ou des prérequis manquants. Utilisez le tableau ci-dessous pour suivre la disponibilité la plus précoce des variantes clés d'Aevium.
+
+| Groupe de Pokémon | Région Principale | Chapitre | Méthode | Statut V14 |
+|:--- |:--- |:--- |:--- |:--- |
+| **Variantes de début** | Gearen Est / Route 2 | 1-3 | Sauvage / Événement | Taux d'apparition mis à jour |
+| **Formes insulaires** | Jungle de Terajuma | 5-8 | Statique / Cadeau | Nouvelles interactions Gen 9 |
+| **Aeviens Urbains** | Grand Dream City | 9-12 | Échange / Quête | Chaînes de quêtes révisées |
+| **Formes Ruinées** | Désert / Zone Zéro | 13-15 | Exploration | Zones V14 ajoutées |
+| **Légendaires/Rift** | Partout à Aevium | 16 | Climax de l'histoire | Accès spécifique à la route |
+
+<Callout type="warning" title="Contenu Manquable">
+Certaines formes d'Aevium sont liées à des quêtes secondaires au Village Kakori ou à Kristiline. Si vous avancez l'histoire jusqu'à Grand Dream City sans les avoir terminées, vous pourriez être bloqué pour certaines rencontres jusqu'au post-game ou au New Game+.
+</Callout>
+
+### Répartition des Rencontres Régionales
+
+La distribution des formes d'Aevium est conçue pour fournir aux joueurs des solutions face aux Champions d'Arène spécifiques de chaque arc. Par exemple, les formes d'Aevium trouvées près du Village Sheridan possèdent souvent des traits qui aident à gérer la pression des types Combat prévalente dans ce chapitre.
+
+| Région | Types d'Aevium Vedettes | Méthode de Rencontre Commune |
+|:--- |:--- |:--- |
+| **Forêt de Goldenwood** | Plante, Insecte, Poison | Caché dans les hautes herbes / Événements statiques |
+| **Grotte Améthyste** | Roche, Sol, Ténèbres | Apparitions au sol / Éclate-Roc |
+| **Île de Terajuma** | Feu, Eau, Vol | Pêche / Exploration de la jungle |
+| **Bois de Darchlight** | Spectre, Fée, Psy | Événements nocturnes uniquement |
+
+</Section>
+
+<Section icon={Target} title="Comment Obtenir et Faire Évoluer les Pokémon d'Aevium">
+
+Obtenir un **Pokémon d'Aevium de Pokémon Rejuvenation** n'est que la première étape. Beaucoup de ces Pokémon utilisent l'« Évolution d'Aevium », qui ignore les mécanismes classiques de montée de niveau au profit d'objets spécifiques ou de seuils d'amitié atteints au sein de la région d'Aevium.
+
+<Steps>
+  <Step num="1" title="Localiser la Forme de Base">
+    Consultez les tables de rencontres régionales pour la forme de base d'Aevium spécifique. Beaucoup sont des rencontres statiques, apparaissant comme des sprites dans le monde avec lesquels vous devez interagir pour lancer le combat.
+  </Step>
+  <Step num="2" title="Identifier les Déclencheurs d'Évolution">
+    Contrairement aux formes standard, les variantes d'Aevium peuvent nécessiter des pierres exclusives à Aevium (comme la Pierre Glace à Kristiline) ou l'atteinte d'un niveau d'amitié élevé à un moment précis de la journée.
+  </Step>
+  <Step num="3" title="Acquérir le Blason Correspondant">
+    Visitez les différents Centres d'Aide à travers Aevium. De nombreuses formes d'Aevium ne deviennent « viables » pour les combats de boss de fin de jeu qu'une fois leur Blason spécifique obtenu, celui-ci offrant des multiplicateurs de stats ou des changements de talents uniques.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil d'Évolution">
+Si un Pokémon n'évolue pas par montée de niveau, essayez d'utiliser un Cœur de Lien ou vérifiez si un Effet de Terrain spécifique doit être actif pendant le processus. La V14 a ajouté davantage de déclencheurs d'évolution environnementaux.
+</Callout>
+
+### Tableau des Prérequis d'Évolution
+
+| Espèce d'Aevium | Méthode d'Évolution | Objet / Condition Requis |
+|:--- |:--- |:--- |
+| **Paras d'Aevium** | Montée de niveau | Amitié Élevée + Niveau 24 |
+| **Barpau d'Aevium** | Montée de niveau | Beauté Max ou Bel'Écaille |
+| **Feuforêve d'Aevium** | Utiliser Objet | Pierre Nuit |
+| **Funécire d'Aevium** | Montée de niveau | Niveau 30 dans les zones sombres |
+| **Colimucus d'Aevium** | Montée de niveau | Niveau 50 sous la Pluie/Brouillard |
+
+</Section>
+
+<Section icon={Shield} title="Stratégie de Combat et Intégration d'Équipe">
+
+Intégrer des **Pokémon d'Aevium de Pokémon Rejuvenation** dans votre équipe nécessite un changement de stratégie. Parce que ces formes sont conçues pour la méta d'Aevium, elles fonctionnent souvent comme des « Perturbateurs de Terrain ». Une équipe construite autour des variantes d'Aevium peut souvent annuler l'avantage à domicile d'un Champion d'Arène en transformant le terrain en quelque chose de plus favorable.
+
+Par exemple, certaines formes d'Aevium possèdent des talents qui activent automatiquement le « Champ Brumeux » ou le « Champ Électrifié », ce qui peut neutraliser les dangereux « Champ Incendié » ou « Champ Corrosif » utilisés par la Team Xen.
+
+| Rôle | Meilleurs Candidats d'Aevium | Stratégie |
+|:--- |:--- |:--- |
+| **Sweeper Physique** | Variantes d'Aevium rapides | Utiliser des capacités STAB boostées par le terrain actif |
+| **Contrôleur de Terrain** | Aeviens orientés support | Utiliser des capacités comme Force de la Nature ou Pulsation Terrain |
+| **Pivot Défensif** | Formes Acier/Poison d'Aevium | Switcher pour résister aux attaques Toxik ou de type Fée |
+
+<Callout type="info" title="Changements d'Équilibrage V14">
+La V14 a ajusté les statistiques de base de plusieurs formes d'Aevium pour s'assurer qu'elles n'éclipsent pas les ajouts de la Gen 9. Vérifiez l'écran de résumé de votre Pokémon pour voir si son talent ou sa répartition de stats a été mis à jour depuis la V13.5.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist du Collectionneur d'Aevium">
+
+Pour les joueurs visant le 100% du Pokédex d'Aevium, traquer chaque **Pokémon d'Aevium de Pokémon Rejuvenation** est le défi ultime. Utilisez cette checklist pour vous assurer de n'avoir manqué aucune variante régionale critique durant votre voyage.
+
+<Checklist
+  id="aevian-collection"
+  title="Objectifs de Collection d'Aevium :"
+  items={[
+    "Obtenir le starter d'Aevium via la quête de l'Œuf Mystère",
+    "Capturer toutes les formes sauvages d'Aevium dans la Jungle de Terajuma",
+    "Terminer l'échange de Grand Dream City pour la variante exclusive d'Aevium",
+    "Faire évoluer au moins cinq formes d'Aevium en utilisant des pierres exclusives à Aevium",
+    "Collecter le Blason correspondant pour votre membre d'équipe principal d'Aevium",
+    "Débloquer la rencontre légendaire d'Aevium après le Chapitre 16"
+  ]}
+/>
+
+<Callout type="tip" title="Aide par Mots de Passe">
+Si vous trouvez le grind pour des formes spécifiques d'Aevium trop difficile, envisagez d'utiliser le mot de passe `fullivs` lors de la création de votre sauvegarde. Cela garantit que toutes vos rencontres d'Aevium ont des statistiques optimisées pour les pics de difficulté de fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Puis-je reproduire des Pokémon d'Aevium pour obtenir des formes standard ?",
+    answer: "Non. La reproduction d'une forme d'Aevium dans la région d'Aevium donnera toujours un descendant d'Aevium, à moins d'utiliser des mécanismes spécifiques de la Pierre Stase trouvés dans le centre de reproduction de fin de jeu."
+  },
+  {
+    question: "Les formes d'Aevium sont-elles disponibles dans les routes Paragon et Renegade ?",
+    answer: "Oui, les formes d'Aevium sont disponibles dans les deux routes. Cependant, certaines rencontres statiques spécifiques au Chapitre 16 peuvent changer en fonction de votre Karma et de vos choix de route."
+  },
+  {
+    question: "Quel Pokémon d'Aevium est considéré comme le meilleur pour les débutants ?",
+    answer: "Paras d'Aevium et Magicarpe d'Aevium (si disponible dans votre version) sont fortement recommandés en raison de leur disponibilité précoce et de leurs types défensifs solides qui aident pour les trois premières arènes."
+  },
+  {
+    question: "Les formes d'Aevium ont-elles des Méga-Évolutions ?",
+    answer: "Certaines formes d'Aevium ont accès à la Méga-Évolution ou aux Capacités Z. Vous devez trouver la Méga-Gemme spécifique compatible avec Aevium, qui est souvent une récompense pour des quêtes secondaires de haut niveau."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles do Pokemon Rejuvenation: Mapeamento de Teclas e Guia de Configuração",
+  description: "Domine os controles do Pokemon Rejuvenation para teclado e controles. Aprenda a configurar teclas, usar o acelerador e resolver atrasos de entrada.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controls+and+Keybinds+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokemon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Layout Essencial**: Os **controles padrão do pokemon rejuvenation** mapeiam o movimento para as Setas do Teclado, confirmação para Z, C ou Espaço, e menus para X ou Escape.
+- **Alternar Aceleração**: Use a tecla Alt ou o menu de opções personalizadas para acelerar as batalhas e a travessia pelo mapa.
+- **Ação de Soft Reset**: Pressione F12 para acionar um reinício rápido (soft reset), o que é altamente eficiente para caça de shinies e rolagem de atributos.
+- **Suporte para Gamepad**: Configure controles externos usando o Steam Input ou JoyToKey para mapear as entradas do gamepad para ações do teclado.
+</Callout>
+
+<Section icon={Map} title="Introdução aos Controles do Pokemon Rejuvenation">
+
+Navegar pelo desafiador e expansivo mundo de Aevium requer uma compreensão sólida dos **controles padrão do pokemon rejuvenation**. Como este jogo feito por fãs é construído no robusto motor RPG Maker XP (utilizando o kit Pokemon Essentials), sua arquitetura de entrada difere ligeiramente dos títulos oficiais de console ou hacks de ROM baseados em emuladores. Entender como gerenciar seus mapeamentos de teclas, alternar atalhos de utilidade e ajustar suas configurações é crucial para uma exploração suave, batalhas em ritmo acelerado e resolução de quebra-cabeças ambientais complexos.
+
+**Destaques do Vídeo:**
+- **Navegação no Templo Tyluric**: Explorando o layout único do templo e as mecânicas baseadas no vento.
+- **Sistemas de Controle de Clima**: Ativando interruptores para alinhar padrões climáticos e abrir caminhos bloqueados.
+- **Batalha contra Carnivine Corrompido**: Dicas estratégicas de combate contra um encontro com chefe de nível 45.
+- **Quest do Invasor Helojak**: Localizando a área da quest e desativando pistões a vapor.
+
+<YouTubeEmbed videoId="ojGTl1qkkvE" title="Let's Play Pokemon Rejuvenation V13.5 #28 - Tyluric Temple, Weather Control, and Helojak Invader" />
+
+Entender o mapeamento padrão é apenas o primeiro passo. Ao aprender como personalizar esses parâmetros, você pode reduzir significativamente a fadiga das mãos durante longas sessões de jogo e otimizar suas rotas de farm.
+
+<Callout type="info" title="Compatibilidade do Motor">
+O motor RPG Maker XP interpreta as entradas do teclado através de uma interface de gamepad virtual. Isso significa que teclas como Z, C e Espaço são frequentemente vinculadas ao mesmo botão de ação virtual (Botão C), enquanto X e Escape são vinculados ao Botão B virtual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Layout de Teclas e Personalização">
+
+O layout de teclado padrão fornece várias teclas redundantes para acomodar diferentes posicionamentos das mãos. Quer você prefira usar apenas uma mão para navegação ou dividir seus controles entre as duas mãos, a configuração padrão é altamente versátil.
+
+| Tecla | Ação | Função no Jogo |
+| --- | --- | --- |
+| Setas | Movimentação | Move seu personagem para cima, baixo, esquerda e direita |
+| Z / C / Espaço | Confirmar | Interage com NPCs, inspeciona objetos e confirma escolhas de menu |
+| X / Esc | Cancelar / Menu | Fecha menus ativos, cancela escolhas e abre o menu principal |
+| Shift | Correr | Segure para correr quando os Tênis de Corrida forem obtidos |
+| F | Item Registrado | Uso rápido de itens-chave registrados, como a Bicicleta ou Vara de Pescar |
+| D | Salvamento Rápido | Salva o progresso do seu jogo instantaneamente sem abrir o menu principal |
+
+Além das entradas padrão de jogabilidade, várias teclas de utilidade do sistema ajudam a gerenciar o desempenho do cliente do jogo, o dimensionamento da janela e reinícios de emergência.
+
+| Tecla | Função do Sistema | Descrição |
+| --- | --- | --- |
+| F1 | Propriedades do Jogo | Abre o painel de configuração legado do RPG Maker para ajuste de entrada |
+| F8 | Captura de Tela | Tira uma captura de tela de alta qualidade salva diretamente no diretório do jogo |
+| F12 | Soft Reset | Reinicia instantaneamente o cliente do jogo para a tela de título principal |
+| Alt + Enter | Alternar Tela Cheia | Alterna entre o modo janela e o modo tela cheia |
+
+<Callout type="tip" title="Melhor Prática de Salvamento Rápido">
+Crie o hábito de pressionar a tecla **D** regularmente. Pokemon Rejuvenation apresenta lutas contra chefes difíceis e encontros inesperados; salvar rapidamente antes de entrar em novas zonas pode economizar horas de progresso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuração de Gamepad e Controle">
+
+Jogar com um controle oferece uma experiência mais confortável e semelhante a um console. Embora o cliente do jogo tenha detecção nativa básica de controle, controles XInput modernos (como os de Xbox Series X ou PlayStation 5) geralmente requerem um utilitário de mapeamento para funcionar corretamente sem latência de entrada.
+
+<Steps>
+  <Step num="1" title="Conecte seu Controle">
+    Certifique-se de que seu controle esteja conectado ao seu PC via USB ou Bluetooth antes de iniciar o executável do Pokemon Rejuvenation.
+  </Step>
+  <Step num="2" title="Adicione à Biblioteca Steam">
+    Abra o Steam, clique em **Adicionar um Jogo** no canto inferior esquerdo e selecione **Adicionar um Jogo não Steam**. Navegue e selecione o inicializador do Pokemon Rejuvenation.
+  </Step>
+  <Step num="3" title="Ative o Steam Input">
+    Inicie o Steam no Modo Big Picture, navegue até o jogo e abra as configurações de Layout do Controle. Ative o Steam Input para mapear os botões do seu gamepad diretamente para as teclas padrão do teclado.
+  </Step>
+  <Step num="4" title="Software de Mapeamento Alternativo">
+    Se você não usa o Steam, baixe um utilitário de terceiros como o **JoyToKey** ou **Keysticks**. Mapeie o D-pad do seu controle para as Setas do teclado, o botão 'A' para 'C' e o botão 'B' para 'X'.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Sobreposição de Entradas">
+Evite executar vários utilitários de mapeamento simultaneamente. Executar o Steam Input junto com o JoyToKey pode causar erros de entrada dupla, dificultando a navegação nos menus.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Controles Avançados: Aceleração e Soft Resets">
+
+Para agilizar o processo de treinamento e tornar a caça de shinies viável, o Pokemon Rejuvenation inclui recursos de controle de qualidade de vida integrados.
+
+<CardGrid cols={3}>
+  <Card title="Alternar Aceleração">
+    - **Tecla Alt como padrão**
+    - Acelera animações de batalha
+    - Aumenta a velocidade de travessia do mapa
+  </Card>
+  <Card title="Atalho de Soft Reset">
+    - **Comando da tecla F12**
+    - Ignora o inicializador do jogo no PC
+    - Acelera os reinícios para caça de shinies
+  </Card>
+  <Card title="Atalho de Item Registrado">
+    - **Acesso rápido pela tecla F**
+    - Montagem instantânea na bicicleta
+    - Lançamento rápido da vara de pescar
+  </Card>
+</CardGrid>
+
+O recurso de aceleração é particularmente personalizável, permitindo que os jogadores ajustem a velocidade com que o jogo roda quando a alternância está ativa.
+
+| Modo de Velocidade | Multiplicador de Velocidade | Melhor Usado Para |
+| --- | --- | --- |
+| Velocidade Normal | 1.0x | Diálogos da história, cutscenes e plataforma de quebra-cabeça precisa |
+| Velocidade Rápida | 3.0x | Treinamento de nível, encontros selvagens e retorno por rotas |
+| Velocidade Hiper | 5.0x / Personalizado | Ciclos de cruzamento, eclosão de ovos e navegação em áreas abertas massivas |
+
+<Callout type="success" title="Dica de Desempenho">
+Se você notar travamentos ou quedas de quadros ao usar a aceleração, diminua a resolução da tela no menu de Opções ou desative as animações de batalha de alto detalhe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de Controle Ambiental no Jogo">
+
+Em Pokemon Rejuvenation, os "controles" se estendem além das entradas de teclado para sistemas de quebra-cabeças ambientais únicos no jogo. Ao longo de sua jornada, você encontrará ruínas e templos complexos que exigem a manipulação de mecânicas de campo para avançar. Um exemplo clássico é a side quest do Templo Tyluric, onde os jogadores devem interagir com sistemas de controle de clima e vento.
+
+| Elemento do Puzzle | Mecanismo de Controle | Solução / Resultado |
+| --- | --- | --- |
+| Redemoinhos | Interruptor de Direção do Vento | Interagir com pilares de pedra redireciona as correntes de vento para limpar caminhos |
+| Poços de Magma | Field Move Magma Drift | Permite que seu personagem surfe sobre lava fervente para alcançar áreas escondidas |
+| Barreiras de Pistão | Interruptores Estabilizadores | Desativar redes elétricas locais para os pistões móveis, concedendo acesso às fábricas |
+
+Para completar com sucesso esses quebra-cabeças ambientais, mantenha uma lista de verificação de tarefas e mecânicas ativas em mente.
+
+<Checklist
+  id="puzzle-checklist"
+  title="Etapas de Progressão do Puzzle:"
+  items={[
+    "Localize e interaja com todos os pilares de controle locais para alterar o fluxo de vento ou água.",
+    "Certifique-se de ter os Field Moves necessários (como Magma Drift ou Surf) ativos em sua equipe.",
+    "Observe os perigos móveis (como redemoinhos ou pistões) e cronometre suas entradas direcionais cuidadosamente.",
+    "Salve rapidamente antes de tentar sequências complexas de plataforma para evitar ficar preso."
+  ]}
+/>
+
+<Callout type="info" title="Reiniciando Puzzles">
+Se você cometer um erro durante um quebra-cabeça complexo, sair da sala e entrar novamente resetará os controles ambientais para o estado padrão, permitindo que você tente novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Abaixo estão as respostas para as perguntas mais comuns sobre a configuração de entrada do jogo e opções de solução de problemas.
+
+<FAQ items={[
+  {
+    question: "Como corrijo teclas que não respondem ou atraso de entrada (input lag) no Pokemon Rejuvenation?",
+    answer: "O atraso de entrada é frequentemente causado pelo alto uso da CPU ou limitações do motor. Tente pressionar F1 para verificar suas propriedades de entrada, reduzir o tamanho da janela do jogo ou executar o jogo em Modo Administrador."
+  },
+  {
+    question: "Posso personalizar os controles padrão do pokemon rejuvenation diretamente no jogo?",
+    answer: "Sim. Embora o menu F1 legado permita o mapeamento em nível de sistema, o menu de Opções no jogo apresenta um sub-menu dedicado 'Controls' onde você pode remapear as teclas de ação, cancelamento e itens registrados."
+  },
+  {
+    question: "Existe uma maneira de rodar o jogo no Steam Deck com controles adequados?",
+    answer: "Com certeza. Adicione o arquivo .exe do jogo como um jogo não Steam no modo desktop, volte para o modo de jogo e selecione um modelo de layout de controle da comunidade projetado para jogos de RPG Maker."
+  },
+  {
+    question: "O que devo fazer se minha tecla F12 de soft reset não estiver funcionando?",
+    answer: "Em alguns laptops modernos, as teclas de função exigem que você segure a tecla 'Fn'. Tente pressionar Fn + F12, ou verifique as configurações da BIOS do seu sistema para alternar o comportamento padrão da linha de funções."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre mantenha seu cliente de jogo atualizado para a versão mais recente (como a V13.5). A equipe de desenvolvimento frequentemente lança correções que resolvem problemas de compatibilidade de controle e bugs de entrada.
+</Callout>
+
+</Section>

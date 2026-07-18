@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Android : Guide d'installation 2026 et conseils Joiplay",
+  description: "Maîtrisez l'installation de Pokemon Rejuvenation sur Android en 2026. Apprenez à utiliser Joiplay, optimisez les performances et explorez la région d'EVM sur votre appareil mobile.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Pokemon+Rejuvenation+Android+Guide",
+  date: "2026-07-18",
+  author: "Équipe du Wiki Pokemon Rejuvenation",
+  keywords: "pokemon rejuvenation, android, joiplay, guide d'installation, région evm, émulation mobile"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Pokemon Rejuvenation Android** nécessite l'émulateur **Joiplay** et le **plugin RPGM** pour fonctionner correctement.
+- **Contenu du jeu** : Profitez de plus de 80 heures de jeu avec des Pokémon de la **1ère à la 8ème génération** dans l'unique région d'EVM.
+- **Installation** : Utilisez toujours les dernières versions de Joiplay pour éviter les erreurs de script et les problèmes d'écran noir.
+- **Mécaniques clés** : Préparez-vous à des combats stratégiques intenses impliquant des **Effets de Terrain** et des formes régionales personnalisées.
+- **Performances** : Assurez-vous que votre appareil dispose d'au moins **4 Go de RAM** pour une expérience fluide lors des animations de combat complexes.
+</Callout>
+
+<Section icon={Map} title="Introduction à Pokemon Rejuvenation Android">
+
+Jouer à **Pokemon Rejuvenation sur Android** en 2026 est devenu plus accessible que jamais, grâce aux progrès de l'émulation mobile. Ce chef-d'œuvre créé par des fans n'est pas un simple clone de Pokémon ; c'est une expérience profonde, axée sur l'histoire, se déroulant dans la région tourmentée d'EVM. Les joueurs affrontent la malveillante Team Xen tout en naviguant dans un monde rempli de mystères, de drames à enjeux élevés et de pics de difficulté importants qui défient même les dresseurs vétérans.
+
+La version mobile offre l'expérience complète disponible sur PC, y compris l'immense roster de Pokémon couvrant huit générations. Comme le jeu est construit sur le moteur RPG Maker XP à l'aide de Pokémon Essentials, il nécessite un middleware spécifique pour interpréter les scripts sur un OS Android. C'est là que Joiplay devient essentiel pour tout dresseur souhaitant emmener son aventure partout avec lui.
+
+**Points forts de la vidéo :**
+- Tutoriel complet sur l'installation de Joiplay et du plugin RPGM.
+- Comment extraire correctement les fichiers du jeu pour éviter les erreurs "Fichier non trouvé".
+- Navigation dans l'interface de Joiplay pour ajouter et lancer le jeu.
+- Processus de configuration initiale et d'extraction du pack d'exécution (RTP).
+
+<YouTubeEmbed videoId="MzGk9hkyzwg" title="Comment jouer à Pokemon Rejuvenation sur Android en 2026 🔥 | Guide d'installation complet" />
+
+| Fonctionnalité | Spécification | Description |
+| :--- | :--- | :--- |
+| **Région** | Région d'EVM | Un archipel aux biomes diversifiés |
+| **Pokédex** | Gen 1 - Gen 8 | Plus de 800 Pokémon disponibles à la capture |
+| **Temps de jeu** | 80+ Heures | Histoire principale étendue et contenu secondaire |
+| **Moteur** | RPG Maker XP | Sprites de haute qualité et scripts complexes |
+| **Difficulté** | Élevée | Combats stratégiques avec des mécaniques de terrain uniques |
+
+<Callout type="tip" title="Conseil de Pro">
+Avant de commencer votre voyage, assurez-vous que votre téléphone est réglé sur le "Mode Performance" dans les paramètres de la batterie. Pokemon Rejuvenation utilise des scripts lourds pour ses effets de terrain, ce qui peut occasionnellement ralentir les performances du processeur sur les anciens appareils Android.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide d'installation étape par étape">
+
+Configurer **Pokemon Rejuvenation sur Android** demande de la précision. Contrairement aux fichiers APK standards, vous exécutez essentiellement un exécutable Windows via une couche de compatibilité. Suivre la séquence correcte est vital pour éviter que le jeu ne plante pendant la cinématique d'ouverture ou lors du premier combat.
+
+| Étape d'installation | Action requise | Fichier/App clé |
+| :--- | :--- | :--- |
+| **Étape 1** | Télécharger l'émulateur | APK Joiplay |
+| **Étape 2** | Télécharger l'interprète | APK Plugin RPGM |
+| **Étape 3** | Obtenir les fichiers du jeu | Zip Pokemon Rejuvenation |
+| **Étape 4** | Extraction des fichiers | ZArchiver ou Gestionnaire de fichiers |
+| **Étape 5** | Configuration | Paramètres de l'application Joiplay |
+
+<Steps>
+  <Step num="1" title="Télécharger et installer les applications de base">
+    Tout d'abord, vous devez acquérir les dernières versions de **Joiplay** et du **Plugin RPGM**. Celles-ci sont souvent disponibles sur le Patreon du développeur ou le site officiel. Installez d'abord l'APK Joiplay, suivi immédiatement du Plugin RPGM. N'essayez pas de lancer le jeu sans le plugin, car il fournit les bibliothèques nécessaires pour lire les données du jeu.
+  </Step>
+  <Step num="2" title="Préparer les fichiers du jeu">
+    Téléchargez le dossier du jeu Pokemon Rejuvenation. Il se présente généralement sous format `.zip` ou `.rar`. Utilisez un outil d'extraction fiable comme ZArchiver pour décompresser les fichiers dans un dossier dédié sur votre stockage interne. Évitez d'utiliser directement le dossier "Downloads" ; créez un dossier nommé "Jeux" pour garder des chemins d'accès simples.
+  </Step>
+  <Step num="3" title="Ajouter le jeu à Joiplay">
+    Ouvrez Joiplay et appuyez sur l'icône **"+"**. Sélectionnez "Choisir" et naviguez jusqu'au dossier où vous avez extrait le jeu. Cherchez le fichier `Game.exe`. Appuyez dessus, puis renseignez le nom du jeu et la version (ex: "Rejuvenation v13.5").
+  </Step>
+  <Step num="4" title="Premier lancement et correctifs">
+    Appuyez sur l'icône du jeu dans Joiplay. Lors du premier lancement, l'application peut demander d'extraire un "Runtime Package" (RTP). Laissez ce processus se terminer. Si le jeu demande une mise à jour de script ou un patch, suivez les instructions à l'écran pour assurer la compatibilité avec l'interprète mobile.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Exigence Importante">
+Accordez toujours les permissions "Accès à tous les fichiers" à Joiplay lorsqu'elles sont demandées. Android 11 et versions ultérieures ont des règles de stockage restreintes strictes ; sans cette permission, Joiplay ne peut pas lire les ressources du jeu, ce qui entraîne un écran noir ou un plantage immédiat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de base et fonctionnalités">
+
+Ce qui distingue **Pokemon Rejuvenation Android** des titres officiels, c'est sa complexité. Le jeu introduit des mécaniques qui forcent les joueurs à réfléchir au-delà des avantages de type. Comprendre ces systèmes fait la différence entre progresser dans l'histoire et rester bloqué sur un seul champion d'arène pendant des heures.
+
+<CardGrid cols={3}>
+  <Card title="Effets de Terrain">
+    - **Environnements Dynamiques** : Plus de 30 terrains uniques.
+    - **Altérations de Capacités** : Les capacités changent de puissance ou de type.
+    - **Stratégie** : Utilisez des capacités pour changer le terrain à votre avantage.
+  </Card>
+  <Card title="Lore de la Région d'EVM">
+    - **Histoire Sombre** : Un récit mature avec de réels enjeux.
+    - **Team Xen** : Un groupe antagoniste redoutable.
+    - **Exploration** : Plusieurs îles avec des secrets cachés.
+  </Card>
+  <Card title="Contenu Personnalisé">
+    - **Formes Régionales** : Variantes uniques d'EVM de Pokémon classiques.
+    - **Quêtes Secondaires** : Des centaines de PNJ avec des tâches significatives.
+    - **Modes de Difficulté** : Choisissez votre niveau de défi préféré.
+  </Card>
+</CardGrid>
+
+| Mécanique | Effet sur le Gameplay | Conseil Stratégique |
+| :--- | :--- | :--- |
+| **Champ Brûlant** | Boost les capacités Feu, blesse les types Plante | Utilisez Danse Pluie pour éteindre les flammes |
+| **Champ Glitch** | Stats et types aléatoires | Utilisez des capacités à haute précision pour éviter les échecs |
+| **Champ Brumeux** | Divise par deux les dégâts Dragon | Parfait pour temporiser contre les balayages de Dragon |
+| **Échiquier** | Boost les capacités tactiques | Concentrez-vous sur le positionnement et les altérations d'état |
+
+<Callout type="info" title="Note du Système">
+Pokemon Rejuvenation dispose d'un système de "Limite de Niveau" (Level Cap) lié aux badges d'arène. Cela empêche le sur-entraînement, garantissant que chaque combat de boss reste un défi tactique plutôt qu'une séance de farm intensive.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimisation et dépannage">
+
+Exécuter un jeu RPG Maker lourd sur Android peut entraîner des goulots d'étranglement au niveau des performances. Si vous rencontrez des ralentissements, des saccades audio ou des bugs graphiques, il est nécessaire d'ajuster les paramètres de Joiplay. Le matériel mobile gère le "Pathfinding" et le "Traitement des Événements" différemment des PC, une optimisation est donc généralement requise.
+
+<Checklist
+  id="performance-checklist"
+  title="Liste de contrôle d'optimisation :"
+  items={[
+    "Activer le 'Post-pathfinding' dans les paramètres Joiplay",
+    "Désactiver la 'VSync' pour réduire le délai d'entrée",
+    "Utiliser le 'Preload Script' pour des temps de chargement plus rapides",
+    "Désactiver la 'Vibration au toucher' pour économiser la batterie",
+    "Vider le cache de Joiplay si le jeu devient lent"
+  ]}
+/>
+
+| Problème courant | Cause probable | Solution recommandée |
+| :--- | :--- | :--- |
+| **Écran noir** | Plugin RPGM manquant | Réinstaller la dernière version de l'APK Plugin RPGM |
+| **Audio saccadé** | Sous-alimentation du tampon | Désactiver 'Audio de haute qualité' dans les paramètres |
+| **Script bloqué** | Version incompatible | Mettre à jour Joiplay vers la dernière version Dev |
+| **Texte manquant** | Police non trouvée | Copier le dossier 'Fonts' à la racine de Joiplay |
+
+<Callout type="success" title="Optimisation réussie">
+En activant les options "Utiliser les boutons virtuels" et "Masquer la barre de navigation", vous pouvez maximiser l'espace de votre écran, rendant la région d'EVM magnifique sur les écrans de smartphones modernes au format 18:9 ou 20:9.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Étapes clés du jeu mobile">
+
+Pour vivre pleinement l'expérience **Pokemon Rejuvenation Android**, vous devriez viser des étapes spécifiques. Le jeu étant épisodique, rester à jour avec la dernière "Version" (se dirigeant actuellement vers le grand final) est essentiel pour voir l'histoire jusqu'à sa conclusion.
+
+<Checklist
+  id="gameplay-goals"
+  title="Objectifs essentiels du dresseur :"
+  items={[
+    "Battre les 3 premiers Champions d'Arène pour débloquer le voyage rapide",
+    "Localiser toutes les cellules Z cachées à travers les îles",
+    "Terminer les quêtes du 'Help Plaza' pour des objets rares",
+    "Naviguer avec succès dans le Royaume du Cauchemar",
+    "Constituer une équipe équilibrée pour l'intense Élite des Huit"
+  ]}
+/>
+
+La communauté de ce jeu est incroyablement active. Si vous vous retrouvez bloqué, les forums officiels de Rejuvenation et le Discord sont d'excellentes ressources. De nombreux joueurs partagent des fichiers de sauvegarde ou des configurations "spécifiques au mobile" qui aident pour les sections particulièrement exigeantes du jeu.
+
+<Callout type="tip" title="Gestion des sauvegardes">
+Utilisez toujours le menu de "Sauvegarde en jeu" plutôt que la fonction "Save State" de Joiplay. Les Save States peuvent souvent corrompre les variables internes du jeu, entraînant des bugs bloquants dans les chapitres ultérieurs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Pokemon Rejuvenation Android est gratuit ?",
+    answer: "Oui, Pokemon Rejuvenation est un jeu gratuit créé par des fans. Vous ne devriez jamais payer pour les fichiers du jeu. Joiplay est également gratuit, bien que vous puissiez soutenir le développeur sur Patreon pour un accès anticipé aux nouvelles fonctionnalités."
+  },
+  {
+    question: "Puis-je transférer ma sauvegarde PC sur mon téléphone Android ?",
+    answer: "Absolument. Trouvez simplement le fichier 'Game.rxdata' dans le dossier de sauvegarde de votre PC (généralement dans Saved Games) et déplacez-le vers le dossier 'User Data' dans le répertoire Joiplay de votre appareil Android."
+  },
+  {
+    question: "Pourquoi mon jeu plante-t-il pendant les grands combats ?",
+    answer: "C'est généralement dû à des limitations de RAM. Fermez toutes les applications en arrière-plan avant de jouer et assurez-vous que l'option 'Réduire la qualité graphique' est activée dans le menu des options internes du jeu."
+  },
+  {
+    question: "Comment mettre à jour le jeu sur Android sans perdre ma progression ?",
+    answer: "Téléchargez les fichiers de la nouvelle version, extrayez-les et déplacez votre ancien fichier de sauvegarde 'Game.rxdata' dans le nouveau dossier du jeu. Ensuite, pointez Joiplay vers le nouveau Game.exe."
+  }
+]} />
+
+<Callout type="info" title="Note finale">
+Le voyage à travers **Pokemon Rejuvenation Android** est un marathon, pas un sprint. Avec son récit complexe et ses mécaniques exigeantes, c'est l'une des meilleures façons de vivre une histoire Pokémon mature en 2026.
+</Callout>
+
+</Section>

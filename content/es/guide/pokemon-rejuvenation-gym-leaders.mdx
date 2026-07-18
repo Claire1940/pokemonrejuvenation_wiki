@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Líderes de Gimnasio de Pokémon Rejuvenation: Guía de Batalla y Campo V14",
+  description: "Domina cada batalla con nuestra guía de líderes de gimnasio de Pokémon Rejuvenation para V14. Aprende estrategias de efectos de campo, debilidades de equipo y topes de nivel para los Capítulos 1-16.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/191023/1ED0EB?text=Gym+Leaders+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "líderes de gimnasio, pokemon rejuvenation, guía v14, efectos de campo, topes de nivel"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **líderes de gimnasio de Pokémon Rejuvenation** son los principales hitos de progresión en la región de Aevium, contando con equipos optimizados y Efectos de Campo únicos.
+- Los **Efectos de Campo** son la mecánica más crítica; pueden amplificar ciertos tipos de movimientos por 1.5x o incluso 2x, además de proporcionar efectos de estado secundarios.
+- Los **Topes de Nivel** (Level Caps) se imponen estrictamente mediante las medallas; exceder el límite hará que tus Pokémon dejen de ganar experiencia o que potencialmente desobedezcan.
+- Las **Actualizaciones de la V14** incluyen Pokémon de la 9ª Generación y cambios de equilibrio que requieren nuevas estrategias en comparación con las guías antiguas de la V13.
+- La **Rotación de Equipo** es esencial; confiar en un solo equipo de seis miembros rara vez es viable para el viaje de los 18 gimnasios.
+</Callout>
+
+<Section icon={Sparkles} title="Comprensión de las Mecánicas de Gimnasio y Efectos de Campo">
+
+Dominar a los **líderes de gimnasio de Pokémon Rejuvenation** requiere una comprensión profunda del entorno tanto como de los propios Pokémon. En la V14, cada encuentro con un jefe importante tiene lugar en un Efecto de Campo específico que altera fundamentalmente las reglas de la batalla. Estos campos no son solo estéticos; pueden cambiar los tipos de movimientos, potenciar estadísticas específicas e incluso transformarse cuando son golpeados por ciertos ataques.
+
+El éxito en Aevium depende de tu capacidad para explotar el campo del líder o sobrescribirlo con tus propios movimientos. Por ejemplo, usar "Ventisca" en un campo basado en agua podría congelar el agua, creando un Campo Helado que beneficia a diferentes tipos de atacantes.
+
+| Característica | Descripción | Impacto Estratégico |
+| :--- | :--- | :--- |
+| **Tope de Nivel** | El nivel máximo permitido para la medalla actual | Evita el sobre-leveo / Fuerza la profundidad táctica |
+| **Tooltip de Campo** | Descripción en el juego de las reglas del campo activo | Esencial para identificar potenciadores de movimientos ocultos |
+| **Semilla de Campo** | Objetos que proporcionan mejoras específicas en ciertos campos | Pueden dar +1 a todas las estadísticas o protecciones únicas |
+| **Roster de Gen 9** | Inclusión de Pokémon y habilidades de Paldea | Introduce nuevos counters e interacciones de campo |
+
+<Callout type="tip" title="Estrategia Pro: Control de Campo">
+Lleva siempre al menos un Pokémon que pueda usar movimientos como Neblina, Campo de Hierba o Gravedad. Estos movimientos a menudo pueden neutralizar o transformar la ventaja de local de un Líder de Gimnasio en un estado neutral o favorable para tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desafíos del Inicio del Juego: Capítulos 1 al 4">
+
+Los primeros **líderes de gimnasio de Pokémon Rejuvenation** sirven como introducción a la dificultad del juego. Comenzando en East Gearen City y avanzando por Sheridan Village, los jugadores se encuentran con líderes que se especializan en tipos Veneno, Planta y Lucha. Sin embargo, no te dejes engañar por sus tipos "simples"; sus equipos están completamente entrenados en EVs y llevan objetos que castigan a los retadores desprevenidos.
+
+<CardGrid cols={3}>
+  <Card title="Venam (Veneno)">
+    - **Campo**: Campo Corrosivo
+    - **Amenaza Clave**: Púas Tóxicas y movimientos potenciados por Veneno.
+    - **Counter**: Tipos Acero o movimientos de Tierra.
+  </Card>
+  <Card title="Keta (Lucha)">
+    - **Campo**: Arena Sheridan
+    - **Amenaza Clave**: STAB de Lucha de alta velocidad y golpes físicos potenciados por el campo.
+    - **Counter**: Tipos Psíquico, Volador o Hada.
+  </Card>
+  <Card title="Marianette (Normal)">
+    - **Campo**: Campo Santo
+    - **Amenaza Clave**: Movimientos Normales que se vuelven tipo Hada o ganan mejoras masivas.
+    - **Counter**: Tipos Lucha (si el campo se neutraliza) o Acero/Veneno.
+  </Card>
+</CardGrid>
+
+La batalla contra Keta en Sheridan Village es a menudo el primer gran "muro" para los nuevos jugadores. La Arena Sheridan potencia significativamente los movimientos de tipo Lucha, haciendo que incluso los golpes resistidos se sientan devastadores.
+
+<Callout type="warning" title="Conciencia del Tope de Nivel">
+Antes de desafiar el gimnasio de Sheridan, asegúrate de que tu equipo esté en el tope de nivel de 25. Si tienes dificultades, considera usar la contraseña `hardcap` para evitar el sobre-leveo accidental mientras entrenas.
+</Callout>
+
+| Líder de Gimnasio | Medalla | Tope de Nivel | Campo Principal | Counters Recomendados |
+| :--- | :--- | :--- | :--- | :--- |
+| **Venam** | Veneno | 20 | Campo Corrosivo | Tierra, Acero, Psíquico |
+| **Keta** | Lucha | 25 | Arena Sheridan | Volador, Psíquico, Hada |
+| **Marianette** | Normal | 30 | Campo Santo | Lucha, Siniestro, Fantasma |
+| **Narcissa** | Fantasma | 35 | Campo Embrujado | Siniestro, Fantasma, Inmunes a Normal |
+
+</Section>
+
+<Section icon={Map} title="Escalada a Mitad del Juego: Terajuma y Kristiline">
+
+A medida que la historia se traslada a la Isla Terajuma y finalmente al asentamiento helado de Kristiline, los **líderes de gimnasio de Pokémon Rejuvenation** se vuelven significativamente más complejos. Este arco introduce sinergias basadas en el clima y efectos de campo que causan daño ambiental en cada turno.
+
+La batalla contra Angie en Kristiline es ampliamente considerada como uno de los encuentros más difíciles de la historia principal de la V14. Su campo "Verdad Fría" causa el estado de congelación y potencia los movimientos de tipo Hielo a niveles astronómicos.
+
+**Pasos de Preparación para Angie:**
+
+<Steps>
+  <Step num="1" title="Acumular Curas de Estado">
+    Compra tantas Bayas Peras y Curas Totales como sea posible en las tiendas de Kristiline. El estado de congelación es una amenaza constante.
+  </Step>
+  <Step num="2" title="Adquirir Cobertura de Fuego/Acero">
+    Aunque el campo castiga al Fuego, ciertos tipos Acero con alta defensa física pueden aguantar golpes de su Frosmoth o Weavile.
+  </Step>
+  <Step num="3" title="Buscar Crests">
+    La V14 presenta Crests que mejoran a Pokémon específicos. Comprueba si alguno de tus Pokémon en el PC tiene una Crest que otorgue resistencia al Hielo o mejoras de Fuego.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sinergia de Crests">
+Las Crests son objetos equipables únicos que proporcionan mejoras masivas de estadísticas o cambios de habilidad a Pokémon específicos. Por ejemplo, la Crest de Typhlosion le permite ignorar ciertas penalizaciones de campo, convirtiéndolo en una opción viable contra Angie a pesar del campo frío.
+</Callout>
+
+| Líder de Gimnasio | Tipo | Tope de Nivel | Estrategia Clave |
+| :--- | :--- | :--- | :--- |
+| **Valerie** | Agua | 45 | Usa Eléctrico/Planta; cuidado con movimientos perforantes |
+| **Crawli** | Bicho | 50 | Usa Fuego/Volador; evita incendios en el Campo Forestal |
+| **Angie** | Hielo | 55 | Calienta el campo o usa pivotes de Sebo/Acero |
+| **Amber** | Fuego | 60 | Controla la temperatura; usa STAB de Roca/Tierra |
+
+</Section>
+
+<Section icon={Trophy} title="Grand Dream City y el Camino al Capítulo 16">
+
+Entrar en Grand Dream City (GDC) marca el comienzo de la fase final del juego. Los **líderes de gimnasio de Pokémon Rejuvenation** aquí a menudo están vinculados a conflictos de facciones importantes, como la lucha contra Bladestar. Estas batallas utilizan campos "Urbanos" y de "Acero" que favorecen estilos de juego altamente técnicos y sweepers de refuerzo.
+
+Para esta etapa, tu equipo debería ser flexible. Necesitarás rotar entre diferentes Megaevoluciones y Cristales Z (obtenibles mediante la contraseña `freemegaz` si prefieres acceso temprano) para igualar el poder creciente de la élite de Aevium.
+
+<Checklist
+  id="late-game-prep"
+  title="Lista de Verificación de Preparación para el Final del Juego:"
+  items={[
+    "Entrenar completamente los EVs de una plantilla principal de más de 12 Pokémon",
+    "Recoger todas las MT accesibles de los distritos de GDC",
+    "Identificar qué Pokémon se benefician de las últimas Crests de la V14",
+    "Establecer un archivo de guardado separado antes de la bifurcación del Capítulo 16",
+    "Asegurarse de que todos los objetos equipados estén optimizados para el Efecto de Campo actual"
+  ]}
+/>
+
+<Callout type="success" title="Paragon vs Renegade">
+Los líderes de gimnasio a los que te enfrentes en el Capítulo 16 y sus composiciones de equipo específicas pueden variar según tu Karma y las elecciones de Ruta. La ruta Renegade generalmente presenta variantes más agresivas y de mayor daño de los jefes de final de juego.
+</Callout>
+
+| Líder de Gimnasio | Capítulo | Efecto de Campo | Cambio Notable en V14 |
+| :--- | :--- | :--- | :--- |
+| **Erick** | 10 | Campo Eléctrico | Se añadieron tipos Eléctricos de la Gen 9 |
+| **Saki** | 12 | Campo de Fábrica | Sinergia optimizada de Acero/Eléctrico |
+| **Adam** | 14 | Campo Desértico | Presión mejorada de Tormenta de Arena/Roca |
+| **Líder Final** | 16 | Varía según la Ruta | Encuentros legendarios exclusivos de la ruta |
+
+</Section>
+
+<Section icon={Target} title="Estrategias y Consejos de Batalla Avanzados">
+
+Para derrotar consistentemente a los **líderes de gimnasio de Pokémon Rejuvenation** en dificultades más altas, debes mirar más allá de las ventajas de tipo básicas. La IA en la V14 está diseñada para predecir tus cambios y utilizar movimientos de pivote como Ida y Vuelta y Voltiocambio de manera efectiva.
+
+**Estrategias Clave para el Éxito:**
+
+1.  **Transformación de Campo**: Usa movimientos como "Envidia Ardiente" en un Campo de Hierba para convertirlo en un Campo Quemado, infligiendo daño residual al oponente en cada turno.
+2.  **Trampas de Entrada**: Movimientos como Trampa Rocas y Red Viscosa son invaluables contra los líderes de gimnasio que cambian frecuentemente para mantener la ventaja de tipo.
+3.  **Movimientos de Prioridad**: Con muchos líderes usando sweepers de alta velocidad, tener movimientos de prioridad como Velocidad Extrema, Golpe Bajo o Puño Chorro (Gen 9) puede salvar una partida que parece perdida.
+4.  **Gestión de Objetos**: No acumules tus objetos. Usa Bandas Focus en tus atacantes frágiles y Restos/Casco Dentado en tus tanques.
+
+<Callout type="tip" title="Asistencia de Contraseñas">
+Si un jefe específico se siente imposible, puedes usar la contraseña `litemode` durante la configuración inicial para reducir ligeramente la optimización de la IA enemiga sin cambiar la experiencia principal de la historia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consulto el tope de nivel actual para el próximo líder de gimnasio?",
+    answer: "Puedes consultar tu Ficha de Entrenador en el menú. Allí se enumeran tus medallas actuales y el nivel máximo que los Pokémon obedecerán. Además, el juego te notificará cuando alcances un nuevo tope después de un evento de la historia."
+  },
+  {
+    question: "¿Cuál es el mejor inicial para vencer a los primeros líderes de gimnasio de Pokémon Rejuvenation?",
+    answer: "Si bien todos los iniciales son viables, los tipos Fuego como Fuecoco (Gen 9) o Torchic son excelentes para la mitad del juego, mientras que los tipos Agua como Froakie ayudan significativamente con el control de velocidad al principio."
+  },
+  {
+    question: "¿Puedo cambiar el efecto de campo durante una batalla de gimnasio?",
+    answer: "Sí. Movimientos como Ventisca, Terremoto y varios movimientos de Campo (Eléctrico/Hierba/Psíquico/Niebla) a menudo pueden transformar o sobrescribir el campo existente, eliminando la ventaja del líder."
+  },
+  {
+    question: "¿Hay batallas de líderes de gimnasio que se puedan perder en la V14?",
+    answer: "No, las 18 medallas de gimnasio son obligatorias para la progresión de la historia. Sin embargo, ciertas batallas opcionales contra jefes y encuentros con Pokémon Rift pueden perderse si avanzas en la historia demasiado rápido sin explorar."
+  }
+]} />
+
+</Section>

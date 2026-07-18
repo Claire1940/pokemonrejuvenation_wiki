@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "pokemon rejuvenation wall of shame quest: Step-by-Step Guide",
+  description: "Master the Pokemon Rejuvenation Wall of Shame quest in V14. Find the culprit in Kakori Village, win the battles, and claim rare rewards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e102a/fff?text=Wall+of+Shame+Quest",
+  date: "2026-07-18",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Quest Location**: Kakori Village Help Center on Terajuma Island during Chapter 5 or Chapter 6.
+- **Primary Objective**: Investigate the vandalized Wall of Shame and track down the culprit.
+- **Key Battles**: Prepare for a mid-game battle against a tricky Poison/Dark team.
+- **Best Reward**: Earn valuable AP, rare items, and unlock further regional sidequests.
+- **Missable Warning**: Complete this quest before departing Terajuma Island to avoid locking yourself out.
+</Callout>
+
+<Section icon={Map} title="Overview of the pokemon rejuvenation wall of shame quest">
+
+The **pokemon rejuvenation wall of shame quest** is a highly popular mid-game sidequest available at the Kakori Village Help Center on Terajuma Island. This quest tasks players with solving a mystery involving the vandalism of the local "Wall of Shame," a bulletin board where the village posts the names of troublemakers and debtors. Completing this quest is essential for players aiming to maximize their Achievement Points (AP) and unlock high-tier rewards in V14.
+
+To begin, players must have progressed to Chapter 5 and gained access to Kakori Village. The quest is posted on the local Help Center board and requires careful exploration of the surrounding jungle. It serves as an excellent introduction to the region's environmental storytelling and unique field mechanics.
+
+| Requirement | Details | Status |
+| --- | --- | --- |
+| Progress | Reach Chapter 5 or later | Mandatory |
+| Location | Kakori Village Help Center | Trigger Point |
+| Level Cap | Level 45 recommended | Soft Cap |
+| Pre-quest | Complete Kakori Help Quest 1 | Optional |
+
+<Callout type="info" title="Chapter Lock Warning">
+Ensure you accept and complete this quest before finishing the Terajuma Island story arc. Leaving the island permanently locks some sidequests.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Quest Walkthrough">
+
+Tracking down the culprit requires players to act as detectives, searching Kakori Village and the dense Terajuma Jungle for clues. Below is the exact sequence to complete the mission efficiently.
+
+<Steps>
+  <Step num="1" title="Accept the Request">
+    Visit the Kakori Village Help Center. Interact with the bulletin board and select the "Wall of Shame" request to add it to your active logs.
+  </Step>
+  <Step num="2" title="Inspect the Vandalism">
+    Head to the designated Wall of Shame located near the village entrance. Examine the damaged board to trigger a dialogue sequence with the local officer.
+  </Step>
+  <Step num="3" title="Gather Jungle Clues">
+    Travel north into the Terajuma Jungle. Search for suspicious footprints and discarded paint cans near the muddy pathways and hidden cave entrances.
+  </Step>
+  <Step num="4" title="Confront the Culprit">
+    Locate the culprit hiding in a secluded clearing in the western jungle. Speak to them to initiate a challenging trainer battle.
+  </Step>
+</Steps>
+
+| Clue Name | Location | Description |
+| --- | --- | --- |
+| Muddy Footprints | Jungle Entrance | Leads north toward the deep forest |
+| Discarded Paint Can | Near Riverbank | Blue paint matching the vandalized board |
+| Suspicious Note | Hidden Cave Path | Mentions a secret meeting spot |
+
+<Callout type="tip" title="Jungle Navigation">
+Use the Muddy Footprints as visual guides. If you lose the trail, return to the riverbank and head west.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Confronting the Vandal: Battle Strategies">
+
+The battle against the culprit is surprisingly tough due to the active field effect in the jungle clearing. The opponent utilizes a team centered around Poison, Dark, and Bug types, leveraging status conditions like poison and confusion to wear your team down.
+
+| Pokémon | Level | Type | Key Moves |
+| --- | --- | --- | --- |
+| Drapion | 46 | Poison/Dark | Cross Poison, Night Slash |
+| Toxicroak | 45 | Poison/Fighting | Gunk Shot, Drain Punch |
+| Scolipede | 45 | Bug/Poison | Megahorn, Poison Jab |
+| Grimmsnarl | 46 | Dark/Fairy | Spirit Break, Play Rough |
+
+To counter this team effectively, players should bring psychic, ground, and fairy coverage. Below are the best team archetypes to secure a victory.
+
+<CardGrid cols={3}>
+  <Card title="Ground-Type Sweepers">
+    - **High physical defense**
+    - Immune to Poison status
+    - Deals 2x damage to Toxicroak
+  </Card>
+  <Card title="Psychic-Type Attackers">
+    - **High special attack**
+    - Outspeeds Scolipede easily
+    - Counters Poison-type threats
+  </Card>
+  <Card title="Steel-Type Walls">
+    - **Immune to Poison moves**
+    - High defensive stats
+    - Resists Bug-type attacks
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Field Hazards">
+The Swamp Field boosts Poison-type moves by 1.5x. Avoid staying in battle with Grass or Fairy types unless they can change the field.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quest Rewards and Long-Term Benefits">
+
+Completing the quest yields excellent rewards that assist in both team progression and unlocking late-game content in V14.
+
+| Reward Item | Quantity | Purpose |
+| --- | --- | --- |
+| Achievement Points | 5 AP | Unlocks high-tier shop items |
+| Poison Barb | 1 | Boosts Poison-type moves |
+| Ultra Ball | 5 | High catch-rate Poké Balls |
+| Reputation | +1 Kakori | Unlocks future village quests |
+
+After claiming your rewards, there are several follow-up activities in Kakori Village you should complete to maximize your progress.
+
+<Checklist
+  id="post-quest-goals"
+  title="Post-Quest Checklist:"
+  items={[
+    "Report back to the Kakori Help Center to claim AP",
+    "Check the Wall of Shame for updated NPC dialogues",
+    "Purchase rare items from the AP clerk in the village",
+    "Unlock the next tier of Terajuma sidequests"
+  ]}
+/>
+
+<Callout type="success" title="Reputation Unlocked">
+Completing this quest increases your local reputation, which is required to unlock the highly coveted Aevian Form sidequests later in Terajuma.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Here are the most common questions players ask when attempting to complete this specific Kakori Village sidequest.
+
+<FAQ items={[
+  {
+    question: "Can I do the pokemon rejuvenation wall of shame quest in later chapters?",
+    answer: "Yes, but only before you trigger the climax of the Terajuma Island arc. It is highly recommended to complete it as soon as you unlock Kakori Village in Chapter 5."
+  },
+  {
+    question: "What should I do if the muddy footprints do not appear in the jungle?",
+    answer: "Make sure you have fully examined the vandalized Wall of Shame in Kakori Village and spoken to the officer. The footprints will not spawn until this trigger is activated."
+  },
+  {
+    question: "Is the battle against the culprit mandatory for the main story?",
+    answer: "No, this is an optional sidequest. However, the AP and reputation rewards are crucial for unlocking valuable items and Aevian Forms later in the game."
+  }
+]} />
+
+<Callout type="info" title="Version Compatibility">
+This guide is fully updated for V14. If you are playing older versions like V13.5, some item rewards and level caps may differ slightly.
+</Callout>
+
+</Section>

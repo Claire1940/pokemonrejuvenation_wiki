@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Download de Pokemon Rejuvenation: Guia Passo a Passo de Instalação e Configuração",
+  description: "Saiba como concluir o download de Pokemon Rejuvenation com segurança. Siga nosso guia de 2026 para instalação, requisitos de sistema e dicas de iniciais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pokemon+Rejuvenation+Download+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation download, instalação, guia pokemon, requisitos de sistema"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Fonte Oficial**: Sempre realize o seu **download de pokemon rejuvenation** através do site oficial do desenvolvedor ou mirrors verificados pela comunidade para evitar malwares.
+- **Jogo Independente**: Este é um projeto feito por fãs construído no RPG Maker XP; ele **não** requer um emulador ou uma ROM base para jogar.
+- **Compatibilidade de Sistema**: Otimizado para Windows e Linux, com soluções específicas necessárias para usuários de macOS.
+- **Variedade de Iniciais**: Os jogadores podem escolher entre todos os iniciais das Gerações 1 a 8, incluindo um teste de personalidade exclusivo.
+- **Aviso de Dificuldade**: Espere um desafio significativo em comparação com os títulos oficiais, apresentando Efeitos de Campo complexos e batalhas estratégicas contra Chefes.
+</Callout>
+
+<Section icon={Download} title="Primeiros Passos com o Download de Pokemon Rejuvenation">
+
+Antes de começar sua jornada na região de Aevium, garantir uma instalação limpa e correta é fundamental. Ao contrário das ROM hacks tradicionais que exigem o patch de um arquivo .gba ou .nds, o Pokemon Rejuvenation é um executável independente (standalone). Isso significa que o **download de pokemon rejuvenation** fornece tudo o que você precisa para rodar o jogo diretamente no seu PC. O jogo está atualmente em um estado "completável", mas continua a receber atualizações episódicas massivas, como os refinamentos altamente antecipados da v13.5 "v2".
+
+**Destaques do Vídeo:**
+- **Natureza Independente**: Sem necessidade de emuladores; basta extrair e jogar.
+- **Seleção de Iniciais**: Acesso aos iniciais das Gerações 1-8 através de uma introdução imersiva.
+- **Efeitos de Campo**: Saiba por que o ambiente importa tanto quanto o seu conjunto de movimentos.
+- **Profundidade da História**: Uma narrativa mais sombria e madura em comparação com os lançamentos oficiais da Nintendo.
+
+<YouTubeEmbed videoId="wlNZDOMifH0" title="Pokemon Rejuvenation Review and Download Tutorial!" />
+
+A equipe de desenvolvimento, liderada por Jan e um grupo dedicado de artistas e programadores, criou um mundo que parece distinto das regiões de Kanto ou Galar. Ao iniciar o download, você está acessando milhares de assets personalizados, uma trilha sonora original massiva e um roteiro que abrange mais de 80 horas de jogabilidade.
+
+| Requisito | Especificação Mínima | Especificação Recomendada |
+|-------------|-----------------------|---------------------------|
+| **SO** | Windows 7 ou superior | Windows 10/11 |
+| **Processador** | Dual Core 2.0 GHz | Quad Core 3.0 GHz+ |
+| **Memória** | 4 GB RAM | 8 GB RAM |
+| **Gráficos** | Gráficos Integrados | GPU Dedicada (para FPS mais fluido) |
+| **Armazenamento** | 3 GB de espaço disponível | 5 GB de espaço disponível |
+
+<Callout type="warning" title="Aviso de Antivírus">
+Algumas configurações do Windows Defender podem sinalizar o .exe do jogo como um "falso positivo" por ser um projeto independente não assinado. Certifique-se sempre de que está baixando do site oficial do Rejuvenation antes de adicionar uma exclusão ao seu software antivírus.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Instalação Passo a Passo">
+
+O processo para configurar o jogo é simples, mas pular uma etapa pode levar a arquivos de salvamento corrompidos ou texturas ausentes. Siga esta sequência para garantir que seu **download de pokemon rejuvenation** funcione perfeitamente no primeiro lançamento.
+
+<Steps>
+  <Step num="1" title="Visite o Site Oficial">
+    Navegue até o blog oficial de desenvolvimento do Pokemon Rejuvenation ou os fóruns da Reborn Evolution. Procure a seção "Downloads", que normalmente hospeda links para a versão mais recente (ex: v13.5).
+  </Step>
+  <Step num="2" title="Escolha um Mirror">
+    Selecione um mirror de download como MediaFire ou Mega. O arquivo geralmente é fornecido como um arquivo compactado .zip ou .rar.
+  </Step>
+  <Step num="3" title="Extraia o Arquivo">
+    Assim que o download for concluído, **não** execute o jogo de dentro da pasta zip. Clique com o botão direito no arquivo e selecione "Extrair Tudo" para uma pasta dedicada em sua área de trabalho ou unidade de Aplicativos.
+  </Step>
+  <Step num="4" title="Inicie o Game.exe">
+    Abra a pasta extraída e localize o arquivo "Game.exe" (pode ter um ícone personalizado). Clique duas vezes para iniciar. Na primeira execução, pode levar um momento para carregar os assets iniciais.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica Pro: Gerenciamento de Atualizações">
+Quando uma nova versão é lançada, você raramente precisa reiniciar seu jogo. Basta baixar a nova versão e mover seu arquivo de salvamento "Game.rxdata" do diretório "Saved Games" da pasta antiga para a nova, ou deixar que o jogo o detecte automaticamente na pasta do seu perfil de usuário.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compatibilidade de Plataforma e Desempenho">
+
+Embora projetado nativamente para Windows, a comunidade desenvolveu várias maneiras de aproveitar o jogo em outras plataformas. Como ele usa a engine MKXP-z, o desempenho é geralmente melhor do que os jogos antigos de RPG Maker, mas certas configurações exigem ajustes específicos.
+
+<CardGrid cols={3}>
+  <Card title="Configuração Windows">
+    - **Suporte Nativo**: Funciona instantaneamente.
+    - **Otimização**: Use 'Large Address Aware' se estiver sofrendo travamentos.
+    - **Controle**: Suporta teclado e controles XInput.
+  </Card>
+  <Card title="Compatibilidade Mac">
+    - **Wine/Bottles**: Requer uma camada de compatibilidade para rodar arquivos .exe.
+    - **Port Nativo**: Verifique nos fóruns pela build experimental para Mac.
+    - **Desempenho**: Pode apresentar um leve atraso no áudio.
+  </Card>
+  <Card title="Linux/Steam Deck">
+    - **Proton GE**: Altamente recomendado para usuários de Steam Deck.
+    - **Desempenho**: Excelente, muitas vezes atingindo 60fps constantes.
+    - **Configuração**: Adicione o Game.exe como um jogo não-Steam.
+  </Card>
+</CardGrid>
+
+| Recurso | Windows | Linux (Steam Deck) | macOS |
+|---------|---------|--------------------|-------|
+| **Facilidade de Configuração** | Excelente | Boa | Razoável |
+| **Estabilidade** | Alta | Alta | Moderada |
+| **Suporte a Controle** | Plug & Play | Requer Steam Input | Mapeamento Manual |
+| **Velocidade de Atualização** | Instantânea | Instantânea | Atrasada |
+
+<Callout type="info" title="Problemas de Áudio">
+Se você notar o áudio "engasgando", tente alterar o volume da BGM no menu F1 ou garantir que seus drivers OpenAL estejam atualizados. Esta é uma peculiaridade comum da engine RPG Maker.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas Principais de Jogabilidade">
+
+Depois de terminar o **download de pokemon rejuvenation**, você descobrirá que esta não é uma experiência padrão de Pokemon. O jogo introduz o sistema de "Efeito de Campo" (Field Effect), onde o terreno aumenta ou diminui significativamente tipos e movimentos específicos. Por exemplo, um "Forest Field" pode aumentar o poder de movimentos do tipo Inseto e Planta, enquanto movimentos de "Ignite" transformam o campo em um "Burning Field".
+
+**Elementos Chave da Jogabilidade:**
+- **Dificuldade Personalizada**: Escolha entre os modos Casual, Normal e Intense para se adequar ao seu estilo de jogo.
+- **Limites de Nível (Level Caps)**: Você não pode ultrapassar o nível do Pokémon mais forte do próximo Líder de Ginásio, forçando o jogo tático.
+- **Sistema de Relacionamento**: Suas escolhas nos diálogos afetam como os NPCs interagem com você e podem até mudar pequenos desfechos da história.
+- **Formas Aevianas**: Variantes regionais exclusivas da região de Aevium com novos tipos e habilidades.
+
+| Aspecto do Jogo | Pokemon Rejuvenation | Série Oficial |
+|-------------|----------------------|-----------------|
+| **Tom da História** | Sombrio/Maduro/Mistério | Leve/Aventura |
+| **Dificuldade** | Estratégica/Difícil | Fácil/Acessível |
+| **Efeitos de Campo** | 30+ Terrenos Únicos | Clima/Terreno Básico |
+| **Pokédex** | Gen 1-8 + Personalizado | Dex Regional Limitada |
+| **Missões Secundárias** | Extensas/Narrativas | Mínimas/Busca de Itens |
+
+<Callout type="success" title="Sugestão de Inicial">
+Se você for um novato, o teste de personalidade no início é uma excelente maneira de obter um inicial que se adapte ao seu estilo de jogo. No entanto, você pode escolher manualmente qualquer inicial da Gen 1 a 8 se tiver um favorito específico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimização e Solução de Problemas">
+
+Para aproveitar ao máximo sua experiência, você deve ajustar as configurações do jogo imediatamente após o **download de pokemon rejuvenation**. O jogo oferece uma alternância de "Speed Up" (geralmente a tecla Alt ou M), que é essencial para grindar ou se mover por rotas longas.
+
+<Checklist
+  id="performance-check"
+  title="Checklist Pós-Instalação:"
+  items={[
+    "Ative 'Reduce Screen Flickering' no menu Options",
+    "Defina 'Text Speed' para Insane para diálogos mais rápidos",
+    "Verifique se a pasta 'Audio' contém todos os arquivos .ogg",
+    "Faça backup dos seus arquivos de salvamento localizados em /Users/SeuNome/Saved Games/Pokemon Rejuvenation",
+    "Junte-se ao Discord para relatar bugs em tempo real"
+  ]}
+/>
+
+<Callout type="warning" title="Segurança do Arquivo de Salvamento">
+Nunca feche o jogo enquanto o ícone "Saving..." estiver na tela. Jogos de RPG Maker são propensos a corrupção de salvamento se o processo for interrompido, especialmente em hardwares mais antigos.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O download de pokemon rejuvenation é gratuito?",
+    answer: "Sim, o Pokemon Rejuvenation é um projeto feito por fãs 100% gratuito. Se algum site pedir para você pagar por ele, é um golpe."
+  },
+  {
+    question: "Posso jogar Pokemon Rejuvenation no Android?",
+    answer: "Oficialmente, não. No entanto, alguns usuários utilizam o aplicativo 'JoiPlay' para rodar jogos de RPG Maker no Android, embora o desempenho e a estabilidade variem muito."
+  },
+  {
+    question: "Como atualizo o jogo sem perder meu progresso?",
+    answer: "Basta baixar a nova versão e executá-la. O jogo armazena os arquivos de salvamento em uma pasta de usuário centralizada do Windows, então a nova versão encontrará seu save automaticamente."
+  },
+  {
+    question: "Qual é a diferença entre Rejuvenation e Reborn?",
+    answer: "Ambos compartilham desenvolvedores e mecânicas como Efeitos de Campo, mas o Rejuvenation foca mais em um mistério cinematográfico focado em personagens, enquanto o Reborn é conhecido por seu cenário pós-apocalíptico mais sombrio."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+A região de Aevium é vasta e cheia de segredos. Depois de concluir o seu **download de pokemon rejuvenation**, reserve um tempo para explorar cada canto — muitos dos melhores itens e formas Aevianas estão escondidos atrás de missões secundárias e quebra-cabeças ambientais.
+</Callout>
+
+</Section>

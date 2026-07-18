@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Soluce Pokémon Rejuvenation : Quêtes secondaires d'East Gearen",
+  description: "Maîtrisez les premières quêtes secondaires de la ville d'East Gearen, trouvez des Pokémon cachés comme Voltorbe et Polichombr, et battez Rorrim B grâce à notre guide pas à pas.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=East+Gearen+Walkthrough",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal du guide** : Complétez toutes les requêtes du Bureau d'Aide (Help Plaza) d'East Gearen pour débloquer des objets de début de partie cruciaux et des rencontres de Pokémon rares.
+- **Itinéraire de quête clé** : Terminez la quête de la Mère Disparue (Missing Mother) en visitant les appartements Aqua, Velvet et Emerald avant de vous rendre à la jetée d'Oceana (Oceana Pier).
+- **Combat contre Rorrim B** : Battez Rorrim B dans le sous-sol de l'Hôtel Chrysola en utilisant des attaquants physiques rapides ou des capacités de statut comme la paralysie.
+- **Rencontres cachées** : Achetez suffisamment de Poké Balls pour recevoir un Voltorbe gratuit, et capturez Polichombr (Shuppet) dans le bâtiment Emerald la nuit.
+- **Gestion du niveau** : Maintenez votre équipe proche de la limite de niveau de début de partie (niveau 18) pour gérer confortablement les combats de boss optionnels.
+</Callout>
+
+<Section icon={Map} title="Quêtes du Bureau d'Aide et aperçu de la ville d'East Gearen">
+
+La ville d'East Gearen est votre premier pôle majeur dans la région d'Aevium, regorgeant de secrets, d'objets cachés et de quêtes secondaires essentielles. Naviguer dans ce paysage urbain tentaculaire nécessite une approche structurée pour maximiser la croissance de votre équipe avant d'affronter le Champion d'Arène local. Ce **guide de Pokémon Rejuvenation** se concentre sur l'optimisation de votre parcours à travers le Bureau d'Aide (Help Plaza) de la ville, l'obtention de rencontres sauvages rares et le gain de précieux Points d'Accomplissement (AP) à la salle d'arcade de l'Hôtel Chrysola.
+
+**Points forts de la vidéo :**
+- **Navigation du Bureau d'Aide** : Apprenez à accepter et à rendre les requêtes de début de partie.
+- **Rencontre avec Polichombr** : Découvrez le secret effrayant du troisième étage du bâtiment Emerald.
+- **Affrontement à la jetée d'Oceana** : Terminez la quête de la Mère Disparue et sauvez Rosa.
+- **Combat contre Rorrim B** : Regardez la stratégie complète pour vaincre ce boss amateur de musique.
+
+<YouTubeEmbed videoId="oIMq45mwuck" title="Pokemon Rejuvenation V14 Part 2 Walkthrough" />
+
+Le Bureau d'Aide est le système central pour obtenir des quêtes secondaires à East Gearen. Accomplir ces tâches vous récompense avec de l'argent, des objets et des tessons, qui sont essentiels pour progresser en début de partie. Contrairement à d'autres régions, Aevium dispose d'un Conseil des Huit (Elite Eight) plutôt que d'un Conseil des Quatre, ce qui rend la préparation et la construction d'équipe très recommandées dès le départ.
+
+| Nom de la quête | Récompense | Prérequis | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Save Starly** | Argent, Tessons | Aucun | Facile |
+| **Missing Mother** | Coupe de cheveux gratuite, Pokédollars | Aucun | Moyenne |
+| **Wretched Music** | Pokédollars, Points AP | Nuit uniquement | Difficile |
+| **Rooftop Battle** | Super Bonbon, EXP | Niveau 20 recommandé | Difficile |
+
+<Callout type="tip" title="Astuce pour la carte de membre de l'Arcade">
+Visitez la salle d'arcade de l'Hôtel Chrysola pour récupérer une Carte de Membre AP. Accumuler des Points d'Accomplissement (AP) vous permet d'acheter des objets utilitaires incroyables, tels que le Multi Exp (XP All) ou des cartes d'entraînement d'EV, directement au Laboratoire de Gearen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de la quête : La Mère Disparue (Missing Mother)">
+
+La quête de la Mère Disparue est l'une des quêtes secondaires de début de jeu les plus riches en narration à East Gearen. Elle vous présente Sasha, une employée de salon locale dont la mère, Rosa, a disparu après une série de rendez-vous privés. Pour mener à bien cette quête, vous devez enquêter dans plusieurs complexes d'appartements de la ville avant de retrouver la trace de Rosa dans un lieu isolé.
+
+<Steps>
+  <Step num="1" title="Accepter la requête">
+    Visitez le panneau du Bureau d'Aide à East Gearen et acceptez la requête **Missing Mother** postée par Sasha. Rendez-vous au salon de coiffure local pour lui parler et lancer la recherche.
+  </Step>
+  <Step num="2" title="Enquêter aux appartements Aqua">
+    Allez aux appartements Aqua (Aqua Apartments) et montez au deuxième étage. Parlez au PNJ féminin portant une robe rose. Elle vous révèle que Rosa a terminé son rendez-vous de coiffure mais est partie rapidement pour se rendre aux appartements Velvet.
+  </Step>
+  <Step num="3" title="Fouiller les appartements Velvet">
+    Dirigez-vous vers les appartements Velvet (Velvet Apartments) et montez au troisième étage. Parlez à la résidente aux longs cheveux bruns. Elle confirme que Rosa était là, mais qu'elle s'est dépêchée de partir pour son dernier rendez-vous aux appartements Emerald.
+  </Step>
+  <Step num="4" title="Visiter les appartements Emerald et la jetée d'Oceana">
+    Entrez dans le hall des appartements Emerald (Emerald Apartments). Le réceptionniste vous informe que Rosa a accidentellement oublié sa brosse à cheveux et a mentionné se rendre à la **jetée d'Oceana** (Oceana Pier) pour régler une affaire urgente.
+  </Step>
+  <Step num="5" title="Vaincre la maîtresse du chantage Stella">
+    Rendez-vous à la jetée d'Oceana et entrez dans l'entrepôt de stockage. Vous découvrirez que Rosa gère un salon secret et gratuit pour les sans-abris de Grand Dream City. Battez Stella dans un combat pour l'empêcher de faire chanter Rosa.
+  </Step>
+</Steps>
+
+| Emplacement de l'appartement | Étage cible | Contact clé | Indice fourni |
+| :--- | :--- | :--- | :--- |
+| **Appartements Aqua** | Étage 2 | Résidente en robe rose | Rosa est partie pour les appartements Velvet |
+| **Appartements Velvet** | Étage 3 | Résidente aux cheveux bruns | Rosa est partie pour les appartements Emerald |
+| **Appartements Emerald** | Hall d'entrée | Réceptionniste | Rosa a oublié sa brosse, est allée à Oceana Pier |
+
+<Callout type="warning" title="Préparation au combat contre Stella">
+Stella utilise une équipe de bas niveau, mais ses Pokémon peuvent vous prendre au dépourvu si votre équipe est affaiblie par le voyage. Soignez votre équipe au Centre Pokémon local avant d'entrer dans l'entrepôt de la jetée d'Oceana.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rorrim B & Stratégie de combat contre la musique détestable">
+
+Une fois la nuit tombée à East Gearen (20h00 heure du jeu), une nouvelle requête intitulée **Wretched Music** devient disponible au Bureau d'Aide. Le réceptionniste de l'Hôtel Chrysola se plaint d'une musique forte et bizarre qui fait trembler les fondations de l'hôtel depuis le sous-sol. Enquêter sur cette perturbation vous mènera à une rencontre avec l'excentrique dresseur mélomane Rorrim B.
+
+Pour résoudre la situation pacifiquement, vous devez d'abord combattre Rorrim B, puis l'aider à trouver deux nouveaux membres pour rejoindre sa troupe de danse.
+
+| Pokémon de Rorrim B | Niveau | Type principal | Stratégie & Contres |
+| :--- | :--- | :--- | :--- |
+| **Hélionceau (Litleo)** | 8 | Feu / Normal | Utilisez des capacités de type Eau ou Combat comme Double Pied. |
+| **Rocabot (Rockruff)** | 8 | Roche | Vulnérable aux types Plante, Eau, Combat et Acier. |
+| **Quartermac (Passimian)** | 8 | Combat | Haute attaque physique. Utilisez des capacités Vol ou Psy. |
+
+Pour satisfaire aux exigences de Rorrim B et le faire quitter le sous-sol de l'hôtel, localisez ces deux danseurs en herbe cachés dans l'Hôtel Chrysola :
+
+1. **La danseuse en herbe** : Située dans l'une des chambres standard de l'hôtel. Elle exprime immédiatement son désir d'échapper à sa routine ennuyeuse et de rejoindre la troupe.
+2. **Le bagagiste** : Situé près du hall principal. Il avoue ressentir une connexion spirituelle profonde avec les rythmes de Rorrim B et abandonne son poste pour aller danser.
+
+<Callout type="success" title="Récompense de fin de quête">
+Après avoir recruté les deux membres, retournez au sous-sol de l'hôtel pour assister à leur transformation. Rorrim B partira joyeusement, et le réceptionniste de l'hôtel vous récompensera. Récupérez votre récompense finale au guichet du Bureau d'Aide.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rencontres optionnelles et Pokémon cachés">
+
+Prendre le temps d'explorer chaque ruelle et bâtiment d'East Gearen offre d'incroyables récompenses. Plusieurs Pokémon rares peuvent être obtenus grâce à des interactions uniques dans le monde plutôt que par le traditionnel farm dans les hautes herbes.
+
+<CardGrid cols={3}>
+  <Card title="Polichombr (Shuppet)">
+    - **Lieu** : Bâtiment Emerald (Étage 3)
+    - **Condition** : Nuit uniquement
+    - **Stratégie** : Déclenchez l'interaction effrayante, résistez à l'envie de vous retourner et combattez ce type Spectre.
+  </Card>
+  <Card title="Voltorbe (Voltorb)">
+    - **Lieu** : Vendeur des ruelles de Gearen
+    - **Condition** : Acheter assez de Poké Balls
+    - **Stratégie** : Achetez des Poké Balls standards auprès du vendeur de ruelle spécifique jusqu'à ce qu'il vous offre son Voltorbe caché.
+  </Card>
+  <Card title="Pichu">
+    - **Lieu** : Récompense du Bureau d'Aide
+    - **Condition** : Compléter les premières requêtes
+    - **Stratégie** : Fortement recommandé pour ses capacités d'œuf compétitives comme Bluff (Fake Out) et Vent Glacé (Icy Wind).
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Emplacement du vendeur de Voltorbe">
+Le vendeur de Poké Balls se trouve dans l'une des ruelles étroites du sud d'East Gearen. Lui acheter des Poké Balls classiques est un excellent moyen de faire le plein de ressources de capture tout en obtenant un type Électrik rapide pour votre équipe.
+</Callout>
+
+<Checklist
+  id="east-gearen-checklist"
+  title="Liste d'exploration d'East Gearen :"
+  items={[
+    "Battez le dresseur du péage du pont pour ouvrir le chemin du nord",
+    "Récupérez le Tesson Bleu caché dans les poubelles des ruelles du sud",
+    "Déclenchez l'événement nocturne effrayant au troisième étage du bâtiment Emerald",
+    "Achetez suffisamment de Poké Balls pour recevoir le Voltorbe gratuit du vendeur de ruelle",
+    "Obtenez la Carte de Membre AP dans la salle d'arcade de l'Hôtel Chrysola"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Confrontation sur le toit : Battre le dresseur Nove">
+
+Pour les joueurs qui cherchent à tester leurs limites tactiques, une dresseuse itinérante nommée **Nove** vous attend sur le toit de l'Hôtel Chrysola. Elle vous défie dans un combat à enjeux élevés avec un niveau recommandé de 20. Comme ce combat se situe légèrement au-dessus de la limite de niveau de début de partie (qui est de 18), l'utilisation d'altérations d'état et de types stratégiques est essentielle pour remporter la victoire.
+
+| Pokémon de Nove | Niveau | Comportements clés | Contre recommandé |
+| :--- | :--- | :--- | :--- |
+| **Rocabot (Rockruff)** | 20 | Attaquant physique rapide | Galifeu (Combusken) avec Double Pied |
+| **Quartermac (Passimian)** | 20 | Lourds dégâts physiques | Polichombr (Shuppet) avec Feu Follet (Will-O-Wisp) |
+
+Pour vaincre Nove, commencez avec un Pokémon capable d'infliger des altérations d'état. Un Polichombr sauvage utilisant **Feu Follet** est extrêmement efficace ici, car brûler Quartermac réduit de moitié son immense puissance d'attaque physique. Alternativement, utiliser la capacité **Étincelle** (Spark) de Voltorbe pour paralyser l'adversaire peut faire basculer l'avantage de la vitesse en votre faveur, permettant à votre Pokémon de départ de terminer le travail.
+
+<Callout type="warning" title="Restriction de la limite de niveau">
+N'oubliez pas que Pokémon Rejuvenation impose un système strict de limite de niveau (Level Cap). Si vos Pokémon dépassent la limite actuelle de 18 avant de vaincre le premier Champion d'Arène, ils désobéiront à vos ordres en combat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment commencer le guide de Pokémon Rejuvenation pour les quêtes secondaires d'East Gearen ?",
+    answer: "Commencez par visiter le Bureau d'Aide (Help Plaza) au centre de la ville d'East Gearen. Interagissez avec le panneau d'affichage pour accepter les requêtes actives comme Save Starly, Missing Mother et Wretched Music."
+  },
+  {
+    question: "Où se trouve le troisième étage du bâtiment Emerald et comment y accéder ?",
+    answer: "Le bâtiment Emerald est situé dans la ville d'East Gearen. Pour accéder à l'ascenseur et atteindre le troisième étage, vous devez d'abord vaincre le garde de l'ascenseur dans un combat Pokémon standard."
+  },
+  {
+    question: "Quelle est la limite de niveau à East Gearen pendant ces quêtes secondaires ?",
+    answer: "La limite de niveau en début de partie est fixée à 18. Si vos Pokémon dépassent le niveau 18 avant que vous n'obteniez votre premier badge d'Arène, ils commenceront à désobéir à vos ordres au combat."
+  },
+  {
+    question: "Comment obtenir le Voltorbe secret à East Gearen ?",
+    answer: "Localisez le vendeur de Poké Balls qui se tient dans les ruelles du sud de la ville. Achetez-lui une certaine quantité de Poké Balls classiques, et il finira par vous offrir son Voltorbe."
+  }
+]} />
+
+</Section>

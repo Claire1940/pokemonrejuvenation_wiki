@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Axel: Estrategia de Batalla V14 y Counters de Equipo",
+  description: "Domina la batalla contra el Líder de Gimnasio Axel en Pokémon Rejuvenation V14. Obtén listas de equipos detalladas, estrategias de Efectos de Campo y counters recomendados.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/191023/fff?text=Axel+Gym+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "axel, guía de gimnasio, v14, pokemon rejuvenation, tipo tierra, campo desierto"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Derrota al Líder de Gimnasio Axel**: Supera el desafiante combate de gimnasio de tipo Tierra en Ciudad Grand Dream.
+- **Contrarresta el Clima**: Axel depende en gran medida de la sinergia de la Tormenta de Arena y de atacantes con Ímpetu Arena para superar a tu equipo en velocidad.
+- **Manipula el Campo**: La batalla tiene lugar en el Campo Desierto, que debilita los ataques de tipo Agua y potencia los movimientos de tipo Tierra.
+- **Advertencia del Límite de Nivel**: Asegúrate de que tu equipo esté estrictamente en el nivel 85 o por debajo para evitar la desobediencia durante el combate.
+- **Tipos de Counter Clave**: Lleva Pokémon de tipo Planta, Hielo y Volador con Levitación para neutralizar a sus atacantes físicos de gran potencia.
+</Callout>
+
+<Section icon={Map} title="Resumen de la Batalla de Gimnasio de Axel">
+
+Derrotar al Líder de Gimnasio de tipo Tierra de Ciudad Grand Dream, Axel, es uno de los hitos principales en el Capítulo 11 de la historia de la V14. Ubicado en las profundidades de las instalaciones de torneos de Ciudad Grand Dream, este combate actúa como un guardián estricto para el contenido avanzado del este de Aevium. Axel es conocido por dirigir un equipo ofensivo basado en arena altamente optimizado que castiga a los jugadores desprevenidos con barridos físicos de alta velocidad y ataques potenciados por el terreno.
+
+Antes de entrar al campo de batalla, debes preparar a tu equipo para manejar tanto un peligro climático permanente como un límite de nivel altamente restrictivo. En la V14, superar el nivel permitido por la medalla hará que tus Pokémon ignoren tus órdenes, por lo que la gestión del nivel del equipo es esencial.
+
+| Detalle de la Batalla | Especificación |
+|---|---|
+| **Líder de Gimnasio** | Axel |
+| **Especialidad de Tipo** | Tierra |
+| **Ubicación** | Arena de Ciudad Grand Dream |
+| **Límite de Nivel V14** | Nivel 85 |
+| **Recompensa de Medalla** | Medalla Terra |
+| **Campo Primario** | Campo Desierto |
+
+<Callout type="warning" title="Cumplimiento del Límite de Nivel">
+Si estás jugando con la contraseña `hardcap` activa, tus Pokémon dejarán de ganar experiencia automáticamente al alcanzar el Nivel 85. Si no tienes esta contraseña activada, verifica los niveles de tu equipo antes de iniciar la pelea para evitar que tus atacantes clave dejen de obedecerte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipo de Axel V14 y Conjuntos de Movimientos">
+
+El equipo de Axel en la V14 está construido en torno a la resistencia física, el control del clima y la duplicación de velocidad. Utiliza un arquetipo clásico de Tormenta de Arena, liderando con un colocador de clima duradero para establecer inmediatamente daño pasivo y activar las habilidades de sus atacantes principales. Su equipo cuenta con tipos Tierra de alto nivel equipados con objetos competitivos, EVs optimizados e IVs perfectos.
+
+| Pokémon | Tipo | Habilidad | Objeto Equipado | Movimiento de Amenaza Clave |
+|---|---|---|---|---|
+| **Hippowdon** | Tierra | Chorro Arena | Roca Suave | Trampa Rocas / Bostezo |
+| **Excadrill** | Tierra / Acero | Ímpetu Arena | Vidasfera | Cabeza de Hierro / Terremoto |
+| **Krookodile** | Tierra / Siniestro | Autoestima | Pañuelo Elección | Triturar / A Bocajarro |
+| **Mamoswine** | Hielo / Tierra | Sebo | Banda Focus | Canto Helado / Chuzos |
+| **Golurk** | Tierra / Fantasma | Puño Férreo | Chaleco Asalto | Puño Sombra / Puño Drenaje |
+| **Mega Steelix** | Acero / Tierra | Poder Arena | Steelixita | Cuerpo Pesado / Roca Afilada |
+
+Su líder, Hippowdon, está diseñado para colocar trampas y forzar cambios usando Bostezo. Una vez establecida la Tormenta de Arena, Excadrill se convierte en una amenaza inmediata, duplicando su velocidad y utilizando un conjunto de ataques potenciados por la Vidasfera para barrer equipos frágiles. Krookodile actúa como limpiador de final de partida, usando el Pañuelo Elección para superar en velocidad a las amenazas naturales y acumulando impulso de ataque con Autoestima.
+
+<Callout type="tip" title="Optimización de Estadísticas">
+Para competir con las estadísticas perfectas de Axel, considera usar la contraseña `fullivs` al configurar tu partida. Esto asegura que tus Pokémon capturados se generen con los valores individuales máximos, evitando que seas superado naturalmente en velocidad o potencia por su equipo entrenado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análisis de las Mecánicas del Campo Desierto">
+
+La batalla contra Axel se desarrolla completamente en el **Campo Desierto**, un entorno único que favorece enormemente a los Pokémon de tipo Tierra, Roca y Fuego, mientras castiga activamente a los de tipo Agua. Comprender los modificadores pasivos de este campo es crucial para formular una estrategia ganadora, ya que las ventajas de tipo estándar se ven alteradas.
+
+En el Campo Desierto, los movimientos de tipo Agua ven su daño reducido a la mitad, lo que significa que tus counters tradicionales de tipo Agua no lograrán noqueos de un solo golpe. Por el contrario, los movimientos de tipo Tierra y Roca reciben un multiplicador de potencia de 1.5x, convirtiendo los Terremotos de Axel en ataques devastadores capaces de aniquilar a tu equipo.
+
+| Tipo de Movimiento / Peligro | Efecto del Modificador de Campo |
+|---|---|
+| **Movimientos tipo Tierra** | Potencia multiplicada por 1.5x |
+| **Movimientos tipo Roca** | Potencia multiplicada por 1.5x |
+| **Movimientos tipo Agua** | Potencia reducida en un 50% (Evaporados) |
+| **Movimientos tipo Fuego** | Potencia multiplicada por 1.2x |
+| **Tormenta de Arena** | Aumenta la Defensa Especial de tipo Roca por 1.5x |
+| **Trampas en el Campo** | El daño de Púas y Trampa Rocas se incrementa |
+
+Para eludir estas restricciones, debes traer Pokémon que se beneficien naturalmente de los modificadores del campo o usar movimientos específicos para alterar el terreno por completo. Movimientos como Ventisca, Danza Lluvia o Campo de Hierba pueden congelar temporalmente, limpiar o cubrir el suelo del desierto, neutralizando la ventaja ambiental de Axel.
+
+<Callout type="info" title="Transformación del Campo">
+Usar Ventisca o Rayo Hielo en el Campo Desierto no lo cambiará permanentemente, pero mitigará temporalmente la penalización del tipo Agua durante unos turnos. Utilizar un movimiento dedicado a cambiar el terreno es la forma más confiable de despojar a Axel de sus mejoras ofensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Batalla Paso a Paso">
+
+Derrotar a Axel requiere un enfoque estructurado que priorice el control del clima, la eliminación de trampas y una defensa física dirigida. Sigue esta secuencia táctica para desmantelar su sinergia de arena y asegurar la Medalla Terra.
+
+<Steps>
+  <Step num="1" title="Neutraliza al Hippowdon Líder">
+    Axel siempre lidera con Hippowdon para colocar la Tormenta de Arena y Trampa Rocas. No lideres con un atacante frágil. En su lugar, usa un tipo Planta resistente o un Pokémon equipado con Mofa para evitar que coloque trampas o use Bostezo. Debilita a Hippowdon lo más rápido posible para limitar la duración del clima.
+  </Step>
+  <Step num="2" title="Limpia el Clima de Tormenta de Arena">
+    Una vez que Hippowdon haya caído, cambia el clima inmediatamente. Usa un Pokémon con Nevada (como Abomasnow o Ninetales de Alola) o Llovizna (como Pelipper) para anular la Tormenta de Arena. Esto reduce instantáneamente la velocidad de Excadrill a la mitad, haciendo que su atacante principal sea manejable.
+  </Step>
+  <Step num="3" title="Evita los Terremotos con Levitación">
+    El equipo de Axel depende en gran medida de los ataques de tipo Tierra. Mantén al menos dos Pokémon de tipo Volador o usuarios de Levitación en tu rotación activa. Cambiar a un usuario de Levitación ante un Terremoto previsto te otorga un turno libre para colocar pantallas, usar movimientos de estado o iniciar un contraataque.
+  </Step>
+  <Step num="4" title="Desmantela a Mega Steelix">
+    Mega Steelix es el ancla defensiva de Axel. Posee una defensa física masiva, lo que hace que los ataques físicos sean inútiles. Reserva a tus atacantes especiales más fuertes, como un tipo Fuego que aproveche el impulso de 1.2x del Campo Desierto, para fundir su barra de salud antes de que pueda usar Defensa Férrea.
+  </Step>
+</Steps>
+
+Seleccionar a los miembros correctos del equipo es vital para ejecutar esta estrategia. La siguiente tabla enumera las opciones de counter más efectivas disponibles en la V14 antes del Capítulo 11.
+
+| Pokémon Counter | Rol Recomendado | Conjunto de Movimientos Óptimo | Contribución a la Estrategia |
+|---|---|---|---|
+| **Ninetales de Alola** | Colocador de Clima / Apoyo de Pantallas | Velo Aurora, Ventisca, Fuerza Lunar | Activa Nevada, reduce el daño entrante a la mitad y golpea fuerte a los tipos Tierra. |
+| **Rotom Lavado** | Pivot / Muralla Física | Hidrobomba, Fuego Fatuo, Voltiocambio | Inmune a Tierra mediante Levitación, quema a los atacantes físicos y pivota con seguridad. |
+| **Togekiss** | Atacante Especial / Utilidad de Retroceso | Tajo Aéreo, Maquinación, Respiro | Inmune a Tierra, resiste Siniestro/Lucha y barre con retrocesos de Dicha. |
+| **Rillaboom** | Colocador de Terreno / Atacante de Prioridad | Fitoimpulso, Mazazo, Ida y Vuelta | Sobrescribe el Campo Desierto con Campo de Hierba, potenciando los movimientos de Planta. |
+
+<Callout type="success" title="Sinergia de Crestas">
+Si has recolectado alguna Cresta específica de personaje durante tu exploración del este de Aevium, verifica si se aplica a tu equipo de counter. Las Crestas pueden proporcionar mejoras de estadísticas únicas que permiten a los Pokémon de nivel inferior superar fácilmente las estadísticas del equipo optimizado de Axel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión Post-Batalla y Recompensas">
+
+Derrotar a Axel desbloquea rutas de progresión cruciales en la historia de la V14 y proporciona herramientas poderosas para optimizar tu equipo para los próximos desafíos en el Bosque Darchlight y el Subsuelo de Ciudad Grand Dream.
+
+<CardGrid cols={3}>
+  <Card title="La Medalla Terra">
+    - **Aumenta el Límite de Nivel**: Incrementa el límite máximo de obediencia al Nivel 90.
+    - **Progresión de la Historia**: Desbloquea el acceso a distritos restringidos en Ciudad Grand Dream.
+    - **Travesía con MO**: Permite el uso de movimientos de campo avanzados en el mundo exterior.
+  </Card>
+  <Card title="Recompensa de MT">
+    - **MT de Tierra de Alto Daño**: Te otorga un poderoso movimiento físico de tipo Tierra.
+    - **Distribución Amplia**: Puede enseñarse a una gran variedad de atacantes físicos.
+    - **Viabilidad Competitiva**: Esencial para la cobertura contra tipos Acero y Fuego al final del juego.
+  </Card>
+  <Card title="Desbloqueos en Ciudad Grand Dream">
+    - **Nuevas Misiones Secundarias**: Desbloquea peticiones avanzadas en el Centro de Ayuda local.
+    - **Acceso a Boutiques**: Otorga acceso a tiendas de artículos de alta gama y piedras evolutivas.
+    - **Nuevos Encuentros Salvajes**: Abre rutas previamente bloqueadas alrededor de la ciudad.
+  </Card>
+</CardGrid>
+
+Una vez finalizada la batalla, asegúrate de completar la siguiente lista de verificación antes de pasar al siguiente capítulo de la guía.
+
+<Checklist
+  id="axel-post-battle"
+  title="Objetivos Post-Axel:"
+  items={[
+    "Recoge la recompensa de MT de manos de Axel en el vestíbulo de la arena",
+    "Cura a tu equipo y guarda en un espacio separado para preservar el progreso",
+    "Visita el Centro de Ayuda de Ciudad Grand Dream para aceptar las misiones secundarias recién desbloqueadas",
+    "Compra objetos de curación mejorados y objetos equipados competitivos en las boutiques desbloqueadas",
+    "Prepara a tu equipo para la secuencia de infiltración en el Bosque Darchlight"
+  ]}
+/>
+
+<Callout type="tip" title="Advertencia de Rutas Ramificadas">
+A medida que avanzas más allá de Axel, las decisiones que tomes con respecto a las relaciones y los conflictos de facciones comenzarán a fijar tu alineación para las rutas de la historia Paragon o Renegade. Mantén múltiples partidas guardadas de respaldo para asegurarte de poder experimentar ambos caminos sin reiniciar el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi Pokémon de tipo Agua hace tan poco daño al equipo de Axel?",
+    answer: "La batalla contra Axel tiene lugar en el Campo Desierto, que reduce automáticamente la potencia de todos los movimientos de tipo Agua en un 50%. Incluso con ventaja de tipo, los ataques de tipo Agua se sentirán significativamente más débiles a menos que cambies el campo primero."
+  },
+  {
+    question: "¿Cómo evito que el Excadrill de Axel supere en velocidad a todo mi equipo?",
+    answer: "Excadrill tiene la habilidad Ímpetu Arena, que duplica su velocidad en una Tormenta de Arena. Puedes contrarrestar esto cambiando el clima usando movimientos como Danza Lluvia, Día Soleado, o cambiando a un Pokémon con una habilidad climática automática como Nevada o Llovizna."
+  },
+  {
+    question: "¿Cuál es el mejor Pokémon inicial para usar contra la batalla de Axel en Pokémon Rejuvenation?",
+    answer: "Los iniciales de tipo Planta como Rillaboom (con Herbogénesis) o Decidueye son excelentes opciones. Rillaboom es particularmente efectivo porque sobrescribe automáticamente el Campo Desierto con Campo de Hierba, eliminando las mejoras de terreno de Axel mientras potencia sus propios ataques de tipo Planta."
+  },
+  {
+    question: "¿Puedo usar contraseñas competitivas para facilitar la pelea contra Axel?",
+    answer: "Sí, puedes usar contraseñas como 'litemode' durante la configuración del juego para reducir la optimización del equipo de Axel, o 'fullivs' para asegurar que tus propios Pokémon tengan valores individuales maximizados para igualar sus estadísticas."
+  }
+]} />
+
+<Callout type="info" title="Soporte de la Comunidad">
+Si todavía tienes dificultades para derrotar a Axel, dirígete al Discord oficial de Reborn Evolved o a la comunidad de Reddit de Pokémon Rejuvenation. Los jugadores comparten frecuentemente composiciones de equipo personalizadas, estrategias económicas y consejos para la resolución de problemas de archivos de guardado para la V14.
+</Callout>
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Controls: Keybind Map & Setup Guide",
+  description: "Master the Pokemon Rejuvenation controls for keyboard and controllers. Learn how to configure keybinds, use speed-up, and resolve input lag.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Controls+and+Keybinds+Guide",
+  date: "2026-07-18",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Essential Layout**: Default **pokemon rejuvenation controls** map movement to the Arrow Keys, confirmation to Z, C, or Space, and menus to X or Escape.
+- **Speed-Up Toggle**: Use the Alt key or the custom options menu to speed up battles and map traversal.
+- **Soft Reset Action**: Press F12 to trigger a soft reset, which is highly efficient for shiny hunting and stat rolling.
+- **Gamepad Support**: Configure external controllers using Steam Input or JoyToKey to map gamepad inputs to keyboard actions.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Pokemon Rejuvenation Controls">
+
+Navigating the challenging and expansive world of Aevium requires a solid understanding of the default **pokemon rejuvenation controls**. Because this fan-made game is built on the robust RPG Maker XP engine (utilizing the Pokemon Essentials kit), its input architecture differs slightly from official console titles or emulator-based ROM hacks. Understanding how to manage your keybinds, toggle utility shortcuts, and adjust your settings is crucial for smooth exploration, fast-paced battles, and solving complex environmental puzzles.
+
+**Video Highlights:**
+- **Tyluric Temple Navigation**: Exploring the temple's unique layout and wind-based mechanics.
+- **Weather Control Systems**: Activating switches to align weather patterns and open locked pathways.
+- **Corrupted Carnivine Battle**: Strategic combat tips against a level 45 boss encounter.
+- **Helojak Invader Quest**: Locating the quest area and disabling steam pistons.
+
+<YouTubeEmbed videoId="ojGTl1qkkvE" title="Let's Play Pokemon Rejuvenation V13.5 #28 - Tyluric Temple, Weather Control, and Helojak Invader" />
+
+Understanding the default mapping is only the first step. By learning how to customize these parameters, you can significantly reduce hand strain during long play sessions and optimize your farming routes.
+
+<Callout type="info" title="Engine Compatibility">
+The RPG Maker XP engine interprets keyboard inputs through a virtual gamepad interface. This means keys like Z, C, and Space are often bound to the same virtual action button (Button C), while X and Escape are bound to virtual Button B.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Keyboard Keybind Layout and Customization">
+
+The default keyboard layout provides multiple redundant keys to accommodate different hand placements. Whether you prefer using a single hand for navigation or splitting your controls across both hands, the default configuration is highly versatile. 
+
+| Key | Action | Game Function |
+| --- | --- | --- |
+| Arrow Keys | Movement | Move your character up, down, left, and right |
+| Z / C / Space | Confirm | Interact with NPCs, inspect objects, and confirm menu choices |
+| X / Esc | Cancel / Menu | Close active menus, cancel choices, and open the main menu |
+| Shift | Run | Hold to run when the Running Shoes are obtained |
+| F | Registered Item | Quick-use registered key items such as the Bicycle or Fishing Rod |
+| D | Quick-save | Save your game progress instantly without opening the main menu |
+
+In addition to standard gameplay inputs, several system utility keys help manage the game client's performance, window scaling, and emergency resets.
+
+| Key | System Function | Description |
+| --- | --- | --- |
+| F1 | Game Properties | Open the legacy RPG Maker configuration panel for input adjustment |
+| F8 | Screenshot | Take a high-quality screenshot saved directly to your game directory |
+| F12 | Soft Reset | Instantly restart the game client to the main title screen |
+| Alt + Enter | Fullscreen Toggle | Switch between windowed mode and fullscreen mode |
+
+<Callout type="tip" title="Quick-Save Best Practice">
+Get into the habit of pressing the **D** key regularly. Pokemon Rejuvenation features difficult boss fights and unexpected encounters; quick-saving before entering new zones can save hours of progress.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gamepad Setup and Controller Configuration">
+
+Playing with a controller offers a more comfortable, console-like experience. While the game client has basic native controller detection, modern XInput controllers (like Xbox Series X or PlayStation 5 gamepads) often require a mapping utility to function correctly without input latency.
+
+<Steps>
+  <Step num="1" title="Connect Your Controller">
+    Ensure your controller is connected to your PC via USB or Bluetooth before launching the Pokemon Rejuvenation executable.
+  </Step>
+  <Step num="2" title="Add to Steam Library">
+    Open Steam, click **Add a Game** in the bottom-left corner, and select **Add a Non-Steam Game**. Browse and select the Pokemon Rejuvenation launcher.
+  </Step>
+  <Step num="3" title="Enable Steam Input">
+    Launch Steam in Big Picture Mode, navigate to the game, and open the Controller Layout settings. Enable Steam Input to map your gamepad buttons directly to the default keyboard keys.
+  </Step>
+  <Step num="4" title="Alternative Mapping Software">
+    If you do not use Steam, download a third-party utility like **JoyToKey** or **Keysticks**. Map your controller's D-pad to the keyboard's Arrow Keys, the 'A' button to 'C', and the 'B' button to 'X'.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Input Overlap">
+Avoid running multiple mapping utilities simultaneously. Running Steam Input alongside JoyToKey can cause double-input errors, making menu navigation difficult.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Controls: Speed-Up and Soft Resets">
+
+To streamline the grinding process and make shiny hunting feasible, Pokemon Rejuvenation includes built-in quality-of-life control features. 
+
+<CardGrid cols={3}>
+  <Card title="Speed-Up Toggle">
+    - **Alt Key default toggle**
+    - Accelerates battle animations
+    - Speeds up map traversal
+  </Card>
+  <Card title="Soft Reset Shortcut">
+    - **F12 key command**
+    - Bypasses the PC game launcher
+    - Speeds up shiny hunting resets
+  </Card>
+  <Card title="Registered Item Hotkey">
+    - **F key quick access**
+    - Instant bicycle mount
+    - Fast fishing rod deployment
+  </Card>
+</CardGrid>
+
+The speed-up feature is particularly customizable, allowing players to adjust how fast the game runs when the toggle is active.
+
+| Speed Mode | Speed Multiplier | Best Used For |
+| --- | --- | --- |
+| Normal Speed | 1.0x | Story dialogue, cutscenes, and precise puzzle platforming |
+| Fast Speed | 3.0x | Level grinding, wild encounters, and backtracking through routes |
+| Hyper Speed | 5.0x / Custom | Breeding loops, egg hatching, and navigating massive open areas |
+
+<Callout type="success" title="Performance Tip">
+If you experience stuttering or frame drops while using the speed-up toggle, lower the screen resolution in the Options menu or disable high-detail battle animations.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="In-Game Environmental Control Systems">
+
+In Pokemon Rejuvenation, "controls" extend beyond keyboard inputs to unique in-game environmental puzzle systems. Throughout your journey, you will encounter complex ruins and temples that require manipulating field mechanics to advance. A prime example is the Tyluric Temple side quest, where players must interact with weather and wind control systems.
+
+| Puzzle Element | Control Mechanism | Solution / Result |
+| --- | --- | --- |
+| Whirlwinds | Wind Direction Switch | Interacting with stone pillars redirects wind currents to clear paths |
+| Magma Pools | Magma Drift Field Move | Allows your character to surf across boiling lava to reach hidden areas |
+| Piston Barriers | Stabilizer Switches | Disabling local power grids stops moving pistons, granting access to factories |
+
+To successfully complete these environmental puzzles, keep a checklist of active tasks and mechanics in mind.
+
+<Checklist
+  id="puzzle-checklist"
+  title="Puzzle Progression Steps:"
+  items={[
+    "Locate and interact with all local control pillars to alter wind or water flow.",
+    "Ensure you have the required Field Moves (like Magma Drift or Surf) active on your team.",
+    "Observe moving hazards (like whirlwinds or pistons) and time your directional inputs carefully.",
+    "Quick-save before attempting complex platforming sequences to avoid getting stuck."
+  ]}
+/>
+
+<Callout type="info" title="Puzzle Resetting">
+If you make a mistake during a complex puzzle, leaving the room and re-entering will reset the environmental controls to their default state, allowing you to try again.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Below are answers to the most common questions regarding the game's input configuration and troubleshooting options.
+
+<FAQ items={[
+  {
+    question: "How do I fix unresponsive keys or input lag in Pokemon Rejuvenation?",
+    answer: "Input lag is often caused by high CPU usage or engine limitations. Try pressing F1 to check your input properties, reducing the game's window size, or running the game in Administrator Mode."
+  },
+  {
+    question: "Can I customize the default pokemon rejuvenation controls directly in the game?",
+    answer: "Yes. While the legacy F1 menu allows system-level mapping, the in-game Options menu features a dedicated 'Controls' submenu where you can remap action, cancel, and registered item keys."
+  },
+  {
+    question: "Is there a way to run the game on Steam Deck with proper controls?",
+    answer: "Absolutely. Add the game's .exe file as a non-Steam game in desktop mode, switch back to gaming mode, and select a community controller layout template designed for RPG Maker games."
+  },
+  {
+    question: "What should I do if my F12 soft reset key isn't working?",
+    answer: "On some modern laptops, the function keys require holding down the 'Fn' key. Try pressing Fn + F12, or check your system's BIOS settings to toggle the default behavior of the function row."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always keep your game client updated to the latest version (such as V13.5). The development team frequently releases hotfixes that resolve controller compatibility issues and input bugs.
+</Callout>
+
+</Section>

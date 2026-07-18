@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation V14 : Guide de progression, emplacements et installation",
+  description: "Maîtrisez Pokémon Rejuvenation V14 grâce à notre guide détaillé sur l'installation, le cheminement des chapitres 1 à 16, l'emplacement des formes d'Aevium et les stratégies de la route Paragon.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=V14+Walkthrough+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Dernière Version** : **Pokémon Rejuvenation V14** comprend les chapitres 1 à 16, les Pokémon de la 9e génération et les Méga-évolutions ZA.
+- **Mécaniques de Base** : La réussite dépend de la maîtrise des **Effets de Terrain**, du respect des **Limites de Niveau (Level Caps)** et de l'utilisation du **système de Blasons (Crests)**.
+- **Embranchements de l'Histoire** : Vos choix impactent considérablement le scénario, menant soit à la route **Paragon**, soit à la route **Renegade** au chapitre 16.
+- **Personnalisation** : Utilisez le **Système de Mots de Passe** au début du jeu pour ajuster la difficulté, le confort de jeu (QoL) et les structures de récompenses.
+- **Installation** : Sauvegardez toujours vos **fichiers de la V13.5** avant de migrer vers la V14 pour éviter toute perte de données lors du processus de conversion.
+</Callout>
+
+<Section icon={Shield} title="Installation et migration de sauvegarde pour la V14">
+
+La sortie de **Pokémon Rejuvenation V14** apporte des changements massifs à la région d'Aevium, nécessitant une installation propre et une approche prudente de la gestion des fichiers de sauvegarde. Contrairement aux correctifs mineurs, la V14 est un package autonome qui remplace les versions précédentes. Les joueurs doivent télécharger l'archive complète correspondant à leur plateforme (Windows, macOS ou Linux) et l'extraire dans un dossier dédié. Lancer le jeu directement depuis un fichier ZIP provoquera des plantages immédiats ou des erreurs de ressources manquantes.
+
+| Plateforme | Méthode d'installation | Fichier de lancement |
+| :--- | :--- | :--- |
+| **Windows** | Extraire le ZIP dans un nouveau dossier, lancer Game.exe | Game.exe |
+| **macOS** | Déplacer l'app dans Applications, clic droit > Ouvrir | Rejuvenation.app |
+| **Linux** | Accorder les permissions d'exécution au lanceur | Game.sh / Launcher |
+| **Android** | Utiliser **JoiPlay** avec le plugin RPG Maker | Game.exe (via JoiPlay) |
+| **Kirin** | Importer le dossier extrait dans le runtime Kirin | Répertoire du jeu |
+
+<Callout type="warning" title="Sauvegarde Critique">
+Avant d'ouvrir **Pokémon Rejuvenation V14**, localisez votre dossier de sauvegarde (généralement dans `Saved Games/Pokemon Rejuvenation`) et créez-en une copie manuelle. La V14 tentera de convertir vos données de la V13.5 ; si ce processus est interrompu ou échoue, votre sauvegarde originale pourrait être corrompue sans sauvegarde préalable.
+</Callout>
+
+Pour les joueurs effectuant la mise à jour depuis la V13.5, le jeu inclut un programme de mise à jour intégré. Cependant, pour le passage initial à la V14, un nouveau téléchargement est fortement recommandé pour garantir que toutes les ressources de la 9e génération et les nouveaux éléments de l'interface utilisateur sont correctement enregistrés. Si vous rencontrez des erreurs de type "Script Hanging" au premier chargement, assurez-vous d'avoir installé les polices incluses dans le dossier du jeu, car la V14 utilise un moteur de texte révisé pour une meilleure lisibilité.
+
+</Section>
+
+<Section icon={Target} title="Maîtriser Pokémon Rejuvenation V14 : Cheminement complet">
+
+Naviguer dans le monde d'Aevium dans **Pokémon Rejuvenation V14** demande plus que de simples avantages de type. L'histoire s'étend sur 16 chapitres, chacun plongeant le joueur dans des conflits politiques et surnaturels de plus en plus complexes. Le début du jeu se concentre sur l'établissement de votre rôle à Gearen-Est, tandis que le milieu du jeu (chapitres 5 à 8) se concentre sur les défis tropicaux de l'île de Terajuma. Au moment où vous atteignez Grand Dream City au chapitre 9, le jeu bascule dans une enquête à enjeux élevés impliquant la Team Xen et la faction Bladestar.
+
+<Steps>
+  <Step num="1" title="L'arc de Gearen-Est">
+    Commencez votre voyage sur le S.S. Oceana. Après le prologue, vous atteindrez Gearen-Est. Choisissez votre starter (Générations 1 à 9 disponibles) et terminez le premier défi d'arène. Concentrez-vous sur les quêtes secondaires locales au Parc de Gearen pour obtenir des objets de début de jeu comme le Multi Exp.
+  </Step>
+  <Step num="2" title="Exploration de l'île de Terajuma">
+    Les chapitres 5 à 8 se déroulent sur l'île de Terajuma. Cet arc introduit des effets de terrain intenses comme les terrains Jungle et Volcanique. Vous devrez résoudre la crise au village de Kakori et affronter Angie dans la colonie gelée de Kristiline. Assurez-vous d'avoir une équipe diversifiée pour gérer les changements environnementaux rapides.
+  </Step>
+  <Step num="3" title="Crise à Grand Dream City">
+    Dans les chapitres 9 à 12, vous entrez dans l'étalement urbain de Grand Dream City. Cette zone regorge de contenu pouvant être manqué. Vous naviguerez à travers des conflits spécifiques aux districts et participerez au tournoi de la ville. Portez une attention particulière à vos valeurs de relation avec les PNJ, car elles influencent la fin de l'histoire.
+  </Step>
+  <Step num="4" title="L'embranchement du Chapitre 16">
+    Le chapitre 16 est le point culminant actuel de la V14. En fonction de votre Karma et de vos choix précédents, vous entrerez soit dans la route **Paragon**, soit dans la route **Renegade**. Le chemin Paragon se concentre sur la préservation et l'alliance, tandis que Renegade explore une issue plus sombre et destructrice.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Valeurs de Relation">
+Chaque choix de dialogue compte. Des valeurs de relation élevées avec certains personnages peuvent débloquer des objets exclusifs, faciliter les conditions de combat, ou même empêcher la mort de personnages dans la route Paragon. Utilisez plusieurs emplacements de sauvegarde avant les moments majeurs de l'histoire pour explorer différents résultats.
+</Callout>
+
+Le cheminement de la V14 met également en avant les fonctionnalités du "New Game+". Une fois que vous avez terminé une route spécifique, vous pouvez recommencer avec certains avantages, comme conserver votre progression dans le Pokédex ou débloquer des mots de passe secrets auparavant indisponibles. Cela encourage les joueurs à découvrir les deux facettes de l'embranchement du chapitre 16 sans repartir de zéro.
+
+</Section>
+
+<Section icon={Map} title="Emplacements des Pokémon et Formes d'Aevium">
+
+L'un des ajouts les plus excitants de **Pokémon Rejuvenation V14** est l'intégration complète des Pokémon de la 9e génération et l'expansion du catalogue des formes d'Aevium. Les formes d'Aevium sont des variantes régionales uniques à la région d'Aevium, présentant souvent des types et des talents complètement différents de leurs homologues standards. Les trouver nécessite une exploration approfondie et, souvent, l'accomplissement de quêtes secondaires spécifiques ou de requêtes du "Centre d'Aide".
+
+| Groupe de Pokémon | Lieu Principal | Premier Chapitre | Méthode d'obtention |
+| :--- | :--- | :--- | :--- |
+| **Starters Gen 1-9** | Laboratoire de Gearen | Chapitre 1 | Sélection du starter |
+| **Paras d'Aevium** | Forêt de Goldenwood | Chapitre 1 | Rencontre sauvage |
+| **Barpau d'Aevium** | Jungle de Terajuma | Chapitre 5 | Pêche (Rare) |
+| **Œuf Mystère** | Diverses villes | Début de jeu | Récompense de quête |
+| **Espèces Gen 9** | Partout à Aevium | Chapitres 1-16 | Sauvage / Événements |
+
+<Callout type="success" title="Le Système de Blasons">
+Ne négligez pas les Pokémon de bas niveau. De nombreuses espèces habituellement faibles dans les jeux standards deviennent des puissances dans Rejuvenation grâce aux **Blasons (Crests)**. Par exemple, le **Blason de Coxyclaque** ou le **Blason de Phione** offre des boosts de statistiques massifs ou des mécaniques uniques qui les rendent viables pour les combats de boss de fin de jeu.
+</Callout>
+
+Pour compléter votre Pokédex, vous devez utiliser les différentes méthodes de rencontre : Coup d'Boule dans les arbres, cannes à pêche et apparitions spécifiques selon l'heure de la journée. La V14 a redistribué plusieurs espèces rares pour assurer une courbe de puissance plus fluide. Si vous recherchez un Pokémon spécifique de la 9e génération comme Forgerette ou Frigodo, consultez les tables de rencontre révisées pour les régions de GDC et du Désert, car leurs emplacements ont été optimisés pour l'équilibre de la V14.
+
+</Section>
+
+<Section icon={Sparkles} title="Mots de passe et personnalisation du confort de jeu">
+
+L'expérience de **Pokémon Rejuvenation V14** peut être hautement personnalisée grâce au système de mots de passe. Ces codes sont saisis lors de l'introduction du jeu ou sur n'importe quel PC dans un Centre Pokémon. Ils vont de simples améliorations du confort de jeu à des modificateurs de difficulté drastiques. Pour de nombreux joueurs, ces mots de passe sont essentiels pour réduire le "grind" associé aux fan-games de haute difficulté.
+
+<CardGrid cols={3}>
+  <Card title="Mods de Difficulté">
+    - **litemode** : Réduit l'optimisation de l'IA pour une expérience décontractée.
+    - **hardcap** : Empêche de dépasser la limite de niveau du badge actuel.
+    - **noitems** : Désactive les objets du sac lors des combats de dresseurs.
+  </Card>
+  <Card title="Outils de Progression">
+    - **easyhms** : Utilise les capacités de terrain sans enseigner les CS.
+    - **freeexpall** : Donne immédiatement l'objet Multi Exp.
+    - **fullivs** : Tous les Pokémon sauvages sont générés avec 31 IVs.
+  </Card>
+  <Card title="Environnement">
+    - **unrealtime** : Découple l'heure du jeu de l'horloge réelle.
+    - **weathermod** : Permet un contrôle manuel des effets météo.
+    - **minty** : Débloque l'accès anticipé aux Aromates de nature.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Compatibilité des Mots de Passe">
+La plupart des mots de passe peuvent être activés ou désactivés à tout moment. Cependant, les mots de passe qui affectent la génération de Pokémon (comme `fullivs` ou `shiny`) ne s'appliquent qu'aux Pokémon rencontrés *après* l'activation du code. L'utilisation de `easyhms` est fortement recommandée pour la V14 afin d'éviter que les "esclaves CS" ne prennent des places précieuses dans votre équipe.
+</Callout>
+
+Pour ceux qui recherchent un défi spécifique, le mot de passe `fieldfrenzy` amplifie les effets du terrain, rendant la connaissance des effets de terrain encore plus critique. À l'inverse, si vous trouvez les énigmes des arènes trop pénibles, certains mots de passe peuvent simplifier ou ignorer ces mécaniques, vous permettant de vous concentrer entièrement sur le combat et l'histoire.
+
+</Section>
+
+<Section icon={Swords} title="Champions d'Arène et stratégies de combat de Boss">
+
+Les combats de boss dans **Pokémon Rejuvenation V14** sont conçus comme des "énigmes" à part entière. Chaque Champion d'Arène et membre de la Team Xen utilise une équipe optimisée pour un effet de terrain spécifique. Pour gagner, vous devez soit apporter une équipe qui prospère sur ce terrain, soit utiliser des capacités qui changent complètement le terrain (comme utiliser Blizzard pour transformer une surface d'eau en terrain glacé).
+
+| Champion d'Arène | Spécialité de Type | Effet de Terrain Clé | Contre Recommandé |
+| :--- | :--- | :--- | :--- |
+| **Venam** | Poison | Terrain Corrosif | Types Sol / Acier |
+| **Keta** | Combat | Terrain Sommet / Arène | Types Vol / Psy |
+| **Marianette** | Normal | Terrain Sacré | Types Ténèbres / Combat |
+| **Narcissa** | Spectre | Terrain Hanté | Types Ténèbres / Suppression de terrain |
+| **Angie** | Glace | Dimension Gelée | Feu / Acier / Roche |
+
+<Checklist
+  id="boss-prep"
+  title="Liste de vérification pré-boss :"
+  items={[
+    "Vérifiez la limite de niveau actuelle via la Carte de Dresseur",
+    "Lisez la description de l'effet de terrain dans le PokéGear",
+    "Faites le plein de soins de statut (Paralysie, Brûlure, Gel)",
+    "Équipez les Blasons ou objets tenus pertinents (Évoluroc, Orbe Vie)",
+    "Sauvegardez dans un emplacement séparé avant d'entrer dans l'arène"
+  ]}
+/>
+
+<Callout type="warning" title="Pokémon de la Faille">
+Les Pokémon de la Faille sont des rencontres de boss uniques avec des barres de PV massives et des mécaniques de "Bouclier". Contrairement aux combats standards, vous ne pouvez pas capturer ces Pokémon. Concentrez-vous sur les dégâts progressifs et la survie, car les boss de la Faille ont souvent accès à de puissantes capacités de zone (AOE) qui peuvent anéantir une équipe non préparée en deux tours.
+</Callout>
+
+Dans les derniers chapitres de la V14, les boss commenceront à utiliser des Méga-évolutions et des Capacités Z. Si vous n'avez pas encore débloqué ces mécaniques vous-même, vous pouvez utiliser le mot de passe `freemegaz` pour y accéder plus tôt. Cependant, l'expérience prévue consiste à les gagner à travers les arcs narratifs de Grand Dream City et des régions désertiques.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ : Questions courantes sur la V14">
+
+<FAQ items={[
+  {
+    question: "Comment passer de la V13.5 à la V14 sans perdre ma progression ?",
+    answer: "Téléchargez le dossier autonome de la V14, copiez votre fichier 'Game.rxdata' de l'ancien répertoire de sauvegarde vers le nouveau, et lancez la V14. Le jeu détectera et convertira automatiquement votre sauvegarde. Gardez toujours une copie de sauvegarde du fichier original de la V13.5."
+  },
+  {
+    question: "Où puis-je trouver les nouveaux Pokémon de la 9e génération à Aevium ?",
+    answer: "Les Pokémon de la 9e génération sont dispersés dans toute la région. Des espèces précoces comme Pohm peuvent être trouvées près de Gearen-Est, tandis que des espèces plus puissantes comme Frigodo se situent dans les zones gelées ou montagneuses de fin de jeu ajoutées dans la V14."
+  },
+  {
+    question: "Quelle est la différence entre les routes Paragon et Renegade ?",
+    answer: "La route Paragon est la 'bonne' voie où vous travaillez avec des alliés pour sauver Aevium. La route Renegade est un chemin plus sombre déclenché par un Karma négatif et des choix spécifiques, menant à des boss exclusifs et à une fin différente pour le chapitre 16."
+  },
+  {
+    question: "Puis-je utiliser mes mots de passe de la V13.5 dans Pokémon Rejuvenation V14 ?",
+    answer: "Oui, la plupart des mots de passe restent fonctionnels dans la V14. De plus, la V14 introduit de nouveaux mots de passe comme 'easyhms' et des paramètres révisés pour le menu du système de mots de passe disponible dans les Centres Pokémon."
+  }
+]} />
+
+</Section>

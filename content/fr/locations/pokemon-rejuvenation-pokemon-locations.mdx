@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Emplacements des Pokémon dans Pokémon Rejuvenation : Guide de rencontre V14",
+  description: "Guide complet des emplacements des Pokémon dans Pokémon Rejuvenation V14. Trouvez les espèces des générations 1 à 9, les formes d'Aevium et les cadeaux régionaux à travers les 16 chapitres.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Pokemon+Locations+Guide",
+  date: "2026-07-18",
+  author: "L'équipe du Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Ce guide couvre tous les **emplacements des Pokémon de Pokémon Rejuvenation** pour la mise à jour V14, y compris les générations 1 à 9.
+- **Limitation par chapitre** : De nombreuses espèces sont verrouillées par la progression de l'histoire ; vérifiez toujours votre nombre de badges actuel avant de partir à la chasse.
+- **Formes d'Aevium** : Ces variantes régionales uniques ont des déclencheurs de rencontre et des méthodes d'évolution spécifiques, distincts de leurs formes standard.
+- **Exclusivités de version** : Bien que la plupart soient obtenables, certaines rencontres varient en fonction des routes scénaristiques Paragon ou Renegade au Chapitre 16.
+- **Effets de terrain** : Les rencontres sauvages dans des zones spécifiques peuvent être influencées par les effets de terrain locaux, ce qui affecte les taux de capture et la difficulté des combats.
+</Callout>
+
+<Section icon={Map} title="Rencontres de début de jeu : Chapitres 1 à 4">
+
+Naviguer dans les premières régions d'Aevium nécessite une bonne compréhension des **emplacements des Pokémon de Pokémon Rejuvenation** disponibles avant les premiers pics de difficulté majeurs. Dans la V14, la répartition des espèces de début de jeu a été ajustée pour inclure les ajouts de la 9e génération, garantissant ainsi aux joueurs l'accès à une équipe diversifiée avant d'atteindre les arcs de Sheridan et de Goldenleaf.
+
+<Callout type="tip" title="Stratégie de sélection du starter">
+Le Laboratoire de Gearen propose des starters des générations 1 à 9. Votre choix ici définira votre couverture offensive et défensive en début de jeu, d'autant plus que le premier Champion d'Arène utilise des effets de terrain qui peuvent punir les équipes non préparées.
+</Callout>
+
+| Région | Lieux principaux | Chapitre | Méthode | Rencontres notables |
+| :--- | :--- | :--- | :--- | :--- |
+| **Grand Gearen (Est)** | Labo de Gearen, Parc de Gearen | 1 | Cadeau / Sauvage | Starters, Bassin urbain, Normal/Insecte de début |
+| **Forêt de Goldenwood** | Sentier de la forêt, Bois profonds | 1 | Sauvage / Événement | Types Plante/Poison, Événements liés à l'histoire |
+| **Route 2** | Route principale, Hautes herbes | 2 | Sauvage | Types Vol, Électrik/Sol de début |
+| **Grotte Améthyste** | Niveau principal, Salles annexes | 2 | Sauvage | Types Roche/Acier, Nosferapti, Racaillou |
+| **Village de Sheridan** | Maisons du village, Arène | 2-3 | Échange / Cadeau | Types Combat, Récompenses d'échanges PNJ |
+
+<CardGrid cols={2}>
+  <Card title="Pool de rencontres urbaines">
+    Le Parc de Grand Gearen (Est) sert de plaque tournante principale pour la diversité en début de jeu. Explorez les hautes herbes à différents moments de la journée (Jour/Nuit) pour trouver des espèces comme Pohm ou les oiseaux traditionnels des premières routes.
+  </Card>
+  <Card title="Profondeurs de la Grotte Améthyste">
+    Cette grotte est essentielle pour obtenir vos premiers types Sol et Roche. Ils sont cruciaux pour résister aux attaques ultra-rapides rencontrées dans l'Arène de Sheridan.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Zap} title="Expansion en milieu de jeu : Terajuma et Kristiline">
+
+Une fois que vous partez pour l'Île de Terajuma, les **emplacements des Pokémon de Pokémon Rejuvenation** disponibles s'élargissent considérablement. Cette phase du jeu (Chapitres 5 à 8) introduit des environnements tropicaux, des grottes volcaniques et des colonies gelées, chacun abritant des pools de rencontres spécialisés qui nécessitent des capacités de déplacement spécifiques ou des déclencheurs scénaristiques pour y accéder.
+
+<Callout type="warning" title="Contenu de l'île manquable">
+Plusieurs quêtes secondaires au Village de Kakori et au Complexe de Teila sont limitées dans le temps. Si vous progressez dans l'histoire principale jusqu'au point de départ du Chapitre 8 sans terminer les requêtes locales, vous risquez de rater des Pokémon cadeaux exclusifs et des Œufs Mystères.
+</Callout>
+
+| Zone | Type d'environnement | Chapitre | Méthode de rencontre | Types d'espèces clés |
+| :--- | :--- | :--- | :--- | :--- |
+| **Village de Kakori** | Urbain / Côtier | 5-6 | Cadeau / Échange | Eau, Plante, Échanges régionaux |
+| **Jungle de Terajuma** | Forêt tropicale humide | 5-7 | Sauvage / Pêche | Insecte, Poison, Eau exotique |
+| **Mont Valor** | Volcanique / Sommet | 6-7 | Sauvage / Événement | Feu, Roche, Proches du type Dragon |
+| **Ville de Kristiline** | Toundra gelée | 7-8 | Sauvage / Statique | Glace, Acier, Spectre |
+| **Complexe de Teila** | Plage / Luxe | 8 | Événement / Cadeau | Eau rare, Récompenses de quêtes sociales |
+
+<Steps>
+  <Step num="1" title="Débloquer le voyage régional">
+    Terminez les enquêtes initiales du Village de Kakori pour accéder aux couches plus profondes de la Jungle de Terajuma.
+  </Step>
+  <Step num="2" title="Vérifier les conditions météo">
+    Certaines espèces de la Jungle et du Mont Valor n'apparaissent que sous la Pluie ou un Soleil Intense ; utilisez le mot de passe `weathermod` si vous préférez la régularité.
+  </Step>
+  <Step num="3" title="Interagir avec les PNJ">
+    Visitez chaque cabane de la Ville de Kristiline. Plusieurs PNJ proposent des échanges contre des variantes de type Glace qui sont autrement difficiles à trouver à l'état sauvage.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Plaques tournantes de fin de jeu : Grand Dream City et au-delà">
+
+Grand Dream City (GDC) représente l'ensemble le plus complexe d'**emplacements des Pokémon de Pokémon Rejuvenation** dans la V14. Couvrant les chapitres 9 à 12, la ville est divisée en plusieurs districts, chacun ayant ses propres magasins, appartements et rencontres cachées. Après l'arc de la GDC, le jeu se déplace vers le Désert et enfin vers le point culminant du Chapitre 16.
+
+<Callout type="success" title="Disponibilité de la 9e génération">
+La V14 a pleinement intégré les espèces de la 9e génération dans les tables de rencontre de Grand Dream City et du Désert. Des menaces de haut niveau de la région de Paldea peuvent désormais être trouvées à l'état sauvage ou via des quêtes secondaires de fin de jeu.
+</Callout>
+
+| District / Zone | Accessibilité | Chapitre | Méthode | Pokémon notables |
+| :--- | :--- | :--- | :--- | :--- |
+| **GDC Centre** | Districts principaux | 9-10 | Cadeau / Boutique | Porygon, Types technologiques urbains |
+| **Bois de Darchlight** | Lisière de la forêt | 10-11 | Sauvage / Événement | Ténèbres, Spectre, Fée |
+| **Désert d'Aevium** | Terres dévastées en ruines | 12-13 | Sauvage / Statique | Sol, Feu, Espèces anciennes |
+| **Zone Zéro** | Zone d'accès restreint | 13-15 | Sauvage / Statique | Proches des Pokémon Paradoxe, Haut niveau |
+| **Routes du Chapitre 16** | Paragon/Renegade | 16 | Bloqué par la route | Niveau légendaire, Formes exclusives |
+
+<Checklist
+  id="late-game-checklist"
+  title="Objectifs de complétion de fin de jeu :"
+  items={[
+    "Débloquer toutes les connexions ferroviaires de transport de la GDC",
+    "Terminer les quêtes secondaires d'enquête dans les Bois de Darchlight",
+    "Localiser les ruines cachées dans le Désert d'Aevium",
+    "Obtenir le cadeau final spécifique à la route du Chapitre 16",
+    "Vérifier tous les ajouts de la 9e génération dans les tables mises à jour de la V14"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Formes d'Aevium et méthodes d'évolution spéciales">
+
+Les formes d'Aevium sont uniques à la région d'Aevium et ont souvent des types et des talents différents de leurs homologues standard. Trouver ces **emplacements des Pokémon de Pokémon Rejuvenation** est une priorité pour de nombreux joueurs, car ils fournissent souvent l'utilité nécessaire pour vaincre les redoutables Champions d'Arène.
+
+<Callout type="info" title="Conditions d'évolution">
+De nombreuses formes d'Aevium n'évoluent pas par montée de niveau standard. Certaines nécessitent des objets spécifiques comme des Blasons (Crests), tandis que d'autres n'évoluent que sous certains effets de terrain ou après avoir atteint des valeurs de relation spécifiques avec des PNJ.
+</Callout>
+
+| Espèce d'Aevium | Type de base | Type d'Aevium | Lieu principal | Condition d'évolution |
+| :--- | :--- | :--- | :--- | :--- |
+| **Paras d'Aevium** | Insecte/Plante | Spectre/Feu | Forêt de Goldenleaf | Monter de niveau avec une capacité spécifique |
+| **Feuforêve d'Aevium** | Spectre | Fée/Psy | Ville de Kristiline | Utiliser une Pierre d'Évolution spécifique |
+| **Barpau d'Aevium** | Eau | Fée/Poison | Jungle de Terajuma | Beauté élevée / Objet spécial |
+| **Archéomire d'Aevium** | Acier/Psy | Roche/Feu | Mont Valor | Monter de niveau sous une chaleur intense |
+| **Cryptéro d'Aevium** | Psy/Vol | Glace/Vol | Ruines gelées | Monter de niveau sous la Grêle/Neige |
+
+<CardGrid cols={3}>
+  <Card title="Synergie des Blasons">
+    De nombreuses formes d'Aevium n'atteignent leur plein potentiel que lorsqu'elles tiennent leur **Blason** (Crest) spécifique. Ces objets sont souvent cachés derrière des énigmes d'exploration.
+  </Card>
+  <Card title="Œufs Mystères">
+    La quête de l'Œuf Mystère en début de jeu peut donner naissance à plusieurs formes d'Aevium ou à de rares espèces de la 9e génération en fonction de l'ID de votre fichier de sauvegarde.
+  </Card>
+  <Card title="Événements statiques">
+    Contrairement aux rencontres sauvages, les formes d'Aevium apparaissent souvent sous forme de sprites statiques sur la carte. Sauvegardez toujours avant d'interagir avec ces rencontres uniques.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Maîtriser le système de mots de passe pour la chasse">
+
+La mise à jour V14 comprend plusieurs mots de passe qui affectent directement ou indirectement les **emplacements des Pokémon de Pokémon Rejuvenation** et la facilité de complétion de votre Pokédex. L'utilisation de ces codes peut vous faire gagner des heures de farm pour des statistiques ou des conditions de rencontre spécifiques.
+
+<Steps>
+  <Step num="1" title="Configuration initiale">
+    Saisissez les mots de passe lors de la création d'une nouvelle partie ou sur un PC dans n'importe quel Centre Pokémon à l'aide du menu des mots de passe.
+  </Step>
+  <Step num="2" title="Activer l'optimisation des statistiques">
+    Utilisez le mot de passe `fullivs` pour vous assurer que chaque Pokémon sauvage capturé possède des Valeurs Individuelles (IV) maximales, éliminant ainsi le besoin de reproduction.
+  </Step>
+  <Step num="3" title="Contrôler l'environnement">
+    Les mots de passe `unrealtime` et `weathermod` vous permettent de manipuler l'horloge et la météo, rendant les rencontres dépendantes du temps instantanément accessibles.
+  </Step>
+</Steps>
+
+| Mot de passe | Catégorie | Effet sur la capture | Recommandé pour |
+| :--- | :--- | :--- | :--- |
+| **fullivs** | Stats | IV max sur tous les Pokémon sauvages | Construction d'équipe compétitive |
+| **unrealtime** | Temps | Contrôle manuel du jour/nuit | Types Spectre nocturnes |
+| **weathermod** | Environnement | Définir des états météo spécifiques | Espèces bloquées par la météo |
+| **easyhms** | Confort | Pas besoin d'enseigner de capacités CS | Facilité d'exploration |
+| **hardcap** | Règles | Empêche de dépasser la limite de niveau | Maintien de la difficulté de capture |
+
+<Callout type="tip" title="Avertissement Field Frenzy">
+L'utilisation du mot de passe `fieldfrenzy` augmente l'impact des effets de terrain dans les combats sauvages. Bien que cela puisse faciliter la capture si vous utilisez le terrain à votre avantage, cela peut également entraîner des K.O. accidentels d'espèces rares.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouvent les meilleurs emplacements de Pokémon Rejuvenation pour les starters de la 9e génération ?",
+    answer: "Les starters de la 9e génération sont inclus dans la sélection initiale des starters au Laboratoire de Gearen. Si vous les avez manqués, ils peuvent devenir disponibles via des échanges en fin de jeu ou la fonctionnalité New Game+ de la V14."
+  },
+  {
+    question: "Puis-je trouver toutes les formes d'Aevium en une seule partie ?",
+    answer: "La plupart des formes d'Aevium peuvent être obtenues en une seule partie, mais certaines sont liées à des quêtes secondaires spécifiques ou au choix de route Paragon/Renegade au Chapitre 16. Il est recommandé de conserver une sauvegarde de secours avant les embranchements majeurs de l'histoire."
+  },
+  {
+    question: "Les Pokémon dépendant de la météo apparaissent-ils toujours si j'utilise le mot de passe weathermod ?",
+    answer: "Oui, le mot de passe weathermod vous permet de forcer la condition météorologique spécifique requise pour l'apparition de ces espèces, ce qui facilite grandement la complétion de votre collection."
+  },
+  {
+    question: "Y a-t-il des emplacements de Pokémon manquables dans la V14 ?",
+    answer: "Oui, certains endroits comme le S.S. Oceana dans le Prologue ou des zones spécifiques de l'Île de Terajuma deviennent inaccessibles à mesure que l'histoire progresse. Terminez toujours les quêtes secondaires locales avant de passer au chapitre majeur suivant."
+  }
+]} />
+
+</Section>
