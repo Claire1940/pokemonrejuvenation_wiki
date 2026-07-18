@@ -52,696 +52,472 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Pokémon Rejuvenation Gameplay",
+    "description": "Explore the Aevium region with V14 chapter walkthroughs, Field Effect battles, Crests, puzzles, and Paragon or Renegade route choices in this story-driven Pokémon fan RPG."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Pokémon Rejuvenation",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to play, explore, and master Pokémon Rejuvenation V14",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "Download",
+        "title": "Download and Installation",
+        "description": "V14 builds for PC, Mac, Linux, and mobile platforms"
+      },
+      {
+        "icon": "Map",
+        "title": "V14 Story Walkthrough",
+        "description": "Chapter 1-16 progression across the Aevium region"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Pokémon Locations",
+        "description": "Where to find every Pokémon, gift, and Aevian Form"
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Passwords and Codes",
+        "description": "Customize difficulty, battle rules, and rewards"
+      },
+      {
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Field Effects, level caps, and early team building"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Starter and Team Tier List",
+        "description": "Rank starters and team members for V14 content"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Swords",
+        "title": "Gym Leaders and Bosses",
+        "description": "Gyms, Rift Pokémon, Team Xen, and story bosses"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Items, TMs and Crests",
+        "description": "TMs, Mega Stones, Z-Crystals, and Crest locations"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "rejuvenationDownload": {
+      "title": "Pokémon Rejuvenation Download and Installation",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Pokémon Rejuvenation V14 is a free standalone fan game that does not require a Pokémon ROM or emulator. Download the complete package for your platform, extract every file before launching, and back up all V13.5 saves before attempting an upgrade.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "icon": "Monitor",
+          "name": "Windows Installation",
+          "description": "Download the V14 Windows package, extract the entire archive into a new folder, and launch the included game executable. Avoid running the game directly from the ZIP file or installing it inside a protected Windows system folder."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "icon": "Laptop",
+          "name": "macOS Installation",
+          "description": "Extract the macOS build and move the application to a writable folder such as Applications. If Gatekeeper blocks the first launch, use the Open command from the context menu instead of repeatedly double-clicking it."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "icon": "Terminal",
+          "name": "Linux Installation",
+          "description": "Extract the Linux package without changing its folder structure, give the included launcher executable permission, and start it from a writable directory. Missing-library errors usually mean the archive was only partially extracted."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "icon": "Smartphone",
+          "name": "Kirin and JoiPlay",
+          "description": "Use the V14 Kirin package through the Kirin launcher, or install JoiPlay with its RPG Maker plugin and add the extracted Windows game. Mobile performance varies by Android device and is not identical to the native desktop builds."
+        },
+        {
+          "icon": "Save",
+          "name": "V13.5 Save Backup and Migration",
+          "description": "Back up the complete save folder before opening V14. Copy the original files rather than moving them, place a copy where V14 expects save data, and keep the untouched backup until the converted save loads correctly."
+        },
+        {
+          "icon": "RefreshCw",
+          "name": "Using the V14 Updater",
+          "description": "Run the included updater while the game is closed to apply small fixes without reinstalling the full package. Do not interrupt the updater or mix files from different V14 builds manually."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+      "troubleshootingTips": [
+        "Install the fonts included with the game when text is missing or characters appear blank.",
+        "Re-extract a clean archive when files cannot be found or audio errors appear.",
+        "Check antivirus quarantine for deleted executables or DLL files.",
+        "Close overlays and background recording tools if the screen freezes or performance drops.",
+        "Never combine V13.5 game files with the V14 installation."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "rejuvenationWalkthrough": {
+      "title": "Pokémon Rejuvenation V14 Walkthrough",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "The V14 main story moves between eastern Aevium, Terajuma Island, Grand Dream City, ruined regions, and locations tied to Aevium's past. Because later scenes react to Karma, sidequests, relationships, and major choices, keep multiple save files and complete local content before leaving each major region.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "chapter": "Prologue - Chapter 1",
+          "title": "East Gearen City and Goldenwood",
+          "description": "Complete the opening journey, reach East Gearen City, choose a Gen 1-9 starter at the laboratory, and learn the basic systems before investigating the first Team Xen activity around Goldenwood Forest.",
+          "locations": "S.S. Oceana, Gearen Laboratory, Goldenwood Forest",
+          "battles": "Opening rival battles and first Team Xen encounters"
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "chapter": "Chapter 2",
+          "title": "Route 2 and Sheridan Village",
+          "description": "Travel through Route 2 and Amethyst Cave to reach Sheridan Village, investigate the village crisis, and prepare for battles that emphasize Fighting-type pressure and changing Field Effects.",
+          "locations": "Route 2, Amethyst Cave, Sheridan Arena",
+          "battles": "Keta-related battles and the Sheridan gym objective"
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "chapter": "Chapter 3",
+          "title": "Goldenleaf Mansion Progression",
+          "description": "Continue west through story locations connected to the mansion and Goldenleaf region, resolve the supernatural events blocking progress, and prepare teams that work under Ghost-focused indoor Field Effects.",
+          "locations": "Goldenleaf Town, Goldenleaf Forest, Goldenleaf Theatre",
+          "battles": "Story boss battles and a major gym battle"
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "chapter": "Chapters 5-6",
+          "title": "Terajuma Island and Kakori Village",
+          "description": "Explore Terajuma Island, establish access to Kakori Village, and work with local allies against Team Xen across large outdoor areas with new wild Pokémon, sidequests, and Crests.",
+          "locations": "Terajuma Island, Kakori Village, Terajuma Jungle",
+          "battles": "Kakori story battles and island gym objectives"
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "chapter": "Chapters 6-7",
+          "title": "Valor Mountain Operations",
+          "description": "Advance through the volcanic region and disrupt Team Xen plans around Valor Mountain. Bring answers for Fire, Rock, and terrain-enhanced attacks across several consecutive battles.",
+          "locations": "Valor Mountain, volcanic caves, Teila Resort",
+          "battles": "Team Xen commanders and a Rift Pokémon battle"
+        },
+        {
+          "chapter": "Chapters 7-8",
+          "title": "Kristiline and the Frozen Arc",
+          "description": "Investigate the frozen settlement and the force controlling the region through Ice-focused Field Effects, environmental hazards, and church-like puzzle areas before a major confrontation.",
+          "locations": "Kristiline Town, frozen routes, church interiors",
+          "battles": "Angie encounters and an Ice-focused gym battle"
+        },
+        {
+          "chapter": "Chapters 9-12",
+          "title": "Grand Dream City and Darchlight",
+          "description": "Enter Grand Dream City, register for its competitive events, and investigate Darchlight Woods and the organizations operating beneath the city. Faction choices change later dialogue, available allies, and Karma.",
+          "locations": "Grand Dream City districts, Darchlight Woods, Bladestar facilities",
+          "battles": "Tournament battles and Bladestar leadership"
+        },
+        {
+          "chapter": "Chapter 16",
+          "title": "Paragon and Renegade Routes",
+          "description": "Finish late-game preparation, then choose between the Paragon path that preserves allies and the darker Renegade path shaped by accumulated choices. Keep a separate save for each route and never overwrite the pre-branch file.",
+          "locations": "Chapter 16 story zones and late-game Aevium",
+          "battles": "Route-exclusive encounters and final story bosses"
+        }
+      ]
+    },
+    "rejuvenationPokemonLocations": {
+      "title": "Pokémon Rejuvenation Pokémon Locations",
+      "displayType": "cards",
+      "intro": "Pokémon availability changes as new routes, cities, islands, and story permissions open. The location guide distinguishes ordinary wild encounters from gifts, trades, eggs, static events, and regional Aevian Forms, and clearly marks encounters added or moved in V14.",
+      "cards": [
+        {
+          "icon": "Sparkles",
+          "name": "Gen 1-9 Starter Pokémon",
+          "region": "East Gearen City",
+          "description": "Choose one starter during the opening laboratory sequence at Gearen Laboratory. Additional starters may require later events, trades, or New Game+ features."
+        },
+        {
+          "icon": "Leaf",
+          "name": "Wild Encounter Pools",
+          "region": "Routes, parks, and caves",
+          "description": "Explore grass, park areas, alleys, and time-dependent encounter zones. Species vary by area, time, weather, and story state across every chapter."
+        },
+        {
+          "icon": "Gift",
+          "name": "Gifts and Trades",
+          "region": "Sheridan, Goldenleaf, Grand Dream City",
+          "description": "Complete local requests, speak to named NPCs, and bring requested trade Pokémon. Some rewards depend on finishing sidequests before leaving the village or city arc."
+        },
+        {
+          "icon": "Boxes",
+          "name": "Aevian Forms",
+          "region": "Multiple Aevium regions",
+          "description": "Regional Aevian Forms have unique typings, abilities, moves, and evolution requirements, and should be tracked separately from their standard forms."
+        },
+        {
+          "icon": "Egg",
+          "name": "Mystery and Sidequest Eggs",
+          "region": "Sidequest reward locations",
+          "description": "Complete the relevant request and keep an open party slot. The resulting species may depend on a predetermined save variable, quest branch, or specific event."
+        },
+        {
+          "icon": "Star",
+          "name": "V14 New and Relocated Pokémon",
+          "region": "Aevium-wide",
+          "description": "Includes Gen 9 additions, newly obtainable species, and encounters moved from older locations. Always confirm against the current V14 encounter tables."
+        }
+      ],
+      "filterTips": [
+        "Filter by region, chapter, and encounter method to narrow your search.",
+        "Mark Aevian Forms separately so their unique evolution requirements stay visible.",
+        "Time-of-day and weather can change which species appear in the same area.",
+        "Cross-check older V13.5 guides because V14 redistributes many encounters."
+      ]
+    },
+    "rejuvenationPasswords": {
+      "title": "Pokémon Rejuvenation Passwords and Codes",
+      "displayType": "cards",
+      "intro": "V14 passwords are entered through the password option offered during the opening setup or through supported in-game password management. Some settings change the entire ruleset, so create a separate save before activating challenge passwords.",
+      "cards": [
+        {
+          "icon": "Footprints",
+          "code": "easyhms",
+          "category": "Quality of Life",
+          "effect": "Allows supported traversal actions without permanently teaching every traditional HM-style move to the active team."
+        },
+        {
+          "icon": "TrendingUp",
+          "code": "freeexpall",
+          "category": "Reward Item",
+          "effect": "Provides earlier access to the Exp. All system so the party can share experience without waiting for its normal acquisition point."
+        },
+        {
+          "icon": "Sparkles",
+          "code": "freemegaz",
+          "category": "Reward Item",
+          "effect": "Provides earlier access to Mega Evolution and Z-Crystal progression than a standard playthrough would normally allow."
+        },
+        {
+          "icon": "Lock",
+          "code": "hardcap",
+          "category": "Level Rules",
+          "effect": "Stops Pokémon from gaining additional levels after reaching the current badge-based level cap."
+        },
+        {
+          "icon": "Heart",
+          "code": "litemode",
+          "category": "Difficulty",
+          "effect": "Reduces the strength and optimization of opposing teams for a more forgiving, story-focused experience."
+        },
+        {
+          "icon": "Ban",
+          "code": "noitems",
+          "category": "Battle Rules",
+          "effect": "Restricts or disables Bag items during trainer battles, forcing reliance on held items, switching, abilities, and moves."
+        },
+        {
+          "icon": "CloudSun",
+          "code": "weathermod",
+          "category": "Environment",
+          "effect": "Allows greater control over weather conditions used by overworld encounters, events, and certain battle strategies."
+        },
+        {
+          "icon": "BarChart3",
+          "code": "fullivs",
+          "category": "Pokémon Stats",
+          "effect": "Makes obtainable Pokémon generate with maximized individual values, reducing breeding and stat-reset grinding."
+        }
+      ],
+      "usageNotes": [
+        "Enter passwords during new-game setup or through the supported password menu.",
+        "Create a separate unmodified save before comparing challenge runs.",
+        "Some passwords cannot be safely removed after story progress begins.",
+        "Treat password-assisted saves distinctly when sharing challenge records."
+      ]
+    },
+    "rejuvenationBeginnerGuide": {
+      "title": "Pokémon Rejuvenation Beginner Guide",
+      "displayType": "steps",
+      "intro": "Pokémon Rejuvenation is a long, demanding fan game built around Field Effects, level caps, and challenging boss design. Players who understand the core systems early avoid frustration and keep their team viable across the full V14 story.",
+      "steps": [
+        {
+          "title": "Choose a difficulty that fits your goal",
+          "description": "V14 offers difficulty options that scale opposing team optimization, held items, and Field Effect usage. Pick an easier setting for a story-focused run and use the Password System to further tune the experience.",
+          "pitfall": "Starting on the hardest base difficulty without understanding Field Effects leads to repeated early losses."
+        },
+        {
+          "title": "Respect the badge-based level cap",
+          "description": "Pokémon stop gaining experience once they reach the cap set by your current number of badges, unless a password changes this behavior. Plan team rotations around the cap so experience spreads across multiple members.",
+          "pitfall": "Pouring all experience into one Pokémon leaves the rest of the team under-leveled for consecutive boss battles."
+        },
+        {
+          "title": "Learn how Field Effects change battles",
+          "description": "Field Effects are terrain and weather-like conditions that modify move power, type effectiveness, abilities, and secondary effects. Many gyms and bosses are designed around a specific field, so reading the tooltip and planning a counter is essential.",
+          "pitfall": "Ignoring the active field turns favorable type matchups into losses because move multipliers shift dramatically."
+        },
+        {
+          "title": "Build a balanced early team",
+          "description": "Aim for broad type coverage rather than stacking same-type attackers. Include reliable STAB for common early types, one tank or pivot, and one Pokémon that can manipulate or remove Field Effects.",
+          "pitfall": "A mono-type early team collapses against the first gym whose field punishes that type."
+        },
+        {
+          "title": "Manage money and healing items",
+          "description": "Currency is limited early, so spend it on healing items, status recovery, and Poké Balls. Buy a small reserve of Revives and full-status heals before each gym because several early bosses use status conditions and damage-over-time fields.",
+          "pitfall": "Arriving at a consecutive-boss sequence with no healing budget forces a retreat and lost progress."
+        },
+        {
+          "title": "Use the Password System intentionally",
+          "description": "When creating a save, the Password System lets you adjust convenience, rewards, and battle rules. Activate only the passwords that match how you want to play, and keep a separate unmodified save for challenge comparisons.",
+          "pitfall": "Stacking many convenience passwords makes later self-imposed challenges impossible to verify."
+        },
+        {
+          "title": "Track missable content as you go",
+          "description": "Rejuvenation contains sidequests, gifts, trades, eggs, and Crests that can become inconvenient or impossible to collect after a region is left behind. Talk to every NPC, check every building, and finish local requests before advancing.",
+          "pitfall": "Leaving Terajuma, Kristiline, or Grand Dream City with unfinished quests permanently removes some rewards."
+        },
+        {
+          "title": "Prepare for consecutive boss battles",
+          "description": "Several story arcs chain multiple battles with no chance to reorder the team. Keep multiple saves, carry a balanced six-member team, and stock healing items before dungeon climaxes such as Valor Mountain and the late-game Team Xen facilities.",
+          "pitfall": "Saving only in one slot before a branching or chained battle can lock you into a difficult state."
+        }
+      ]
+    },
+    "rejuvenationTierList": {
+      "title": "Pokémon Rejuvenation Starter and Team Tier List",
+      "displayType": "tiers",
+      "intro": "Exact rankings depend on chosen difficulty, route, and playstyle, so this tier list is an evaluation framework rather than a fixed leaderboard. Use the criteria to judge any team member against the V14 content you are currently facing.",
+      "tiers": [
+        {
+          "tier": "S",
+          "members": [
+            "Starter that matches the early-game Field Effects you face",
+            "Fast attacker with strong STAB and broad coverage",
+            "Field-setting or field-removing support Pokémon"
+          ],
+          "reason": "Available early, hits hard under common early fields, and remains useful through mid-game bosses without heavy investment."
+        },
+        {
+          "tier": "A",
+          "members": [
+            "Mid-game gift or trade with strong base stats",
+            "Tank or pivot that controls tempo against gym fields",
+            "Late-blooming evolved form reachable within the level cap"
+          ],
+          "reason": "Reliable in most major battles with some setup, though each has a type or availability limitation that keeps it below S."
+        },
+        {
+          "tier": "B",
+          "members": [
+            "Niche type specialist useful only in specific gyms",
+            "Strong but late-arriving member with limited early contribution",
+            "Members that need rare items or Crests to reach full potential"
+          ],
+          "reason": "Strong in the right matchup but requires team support, specific timing, or rare resources to outperform an A-tier pick."
+        },
+        {
+          "tier": "C",
+          "members": [
+            "Outclassed members with weak availability timing",
+            "Members whose best moves arrive past the current level cap",
+            "Challenge-pick members suited to self-imposed restrictions"
+          ],
+          "reason": "Hard to justify on a standard run because better options are available earlier and perform more consistently."
+        }
+      ],
+      "evaluationCriteria": [
+        "Availability timing relative to the level cap",
+        "Synergy with active Field Effects in gyms",
+        "Boss performance against Team Xen, Rift, and gym fields",
+        "Long-term value including Mega, Z-Crystal, and Crest access"
+      ],
+      "starterNote": "All three starters are viable through V14. Pick by which early Field Effects and gym types you want to handle most smoothly."
+    },
+    "rejuvenationBosses": {
+      "title": "Pokémon Rejuvenation Gym Leaders and Bosses",
+      "displayType": "cards",
+      "intro": "Boss design in Pokémon Rejuvenation centers on Field Effects, optimized held items, and level-cap-tuned teams. Each card identifies the field or context, the team archetype, the type weaknesses to exploit, and a strategy direction.",
+      "cards": [
+        {
+          "icon": "Shield",
+          "name": "Early Aevium Gym Leaders",
+          "chapter": "Chapters 1-4",
+          "field": "Region-specific Field Effects introduced early to teach the mechanic",
+          "weakness": "Varies by leader type; bring coverage that exploits the active field",
+          "strategy": "Remove or counter the field first, then attack the leader's central synergy piece. Keep healing items for chained encounters."
+        },
+        {
+          "icon": "Ghost",
+          "name": "Goldenleaf Mansion Story Bosses",
+          "chapter": "Chapter 3",
+          "field": "Indoor Ghost-focused field",
+          "weakness": "Dark, Ghost, and Normal-immune tactics; watch for status and field damage",
+          "strategy": "Bring Dark or Ghost coverage and status recovery, and exploit the field only when it favors your types."
+        },
+        {
+          "icon": "Snowflake",
+          "name": "Kristiline and Angie Ice Arc",
+          "chapter": "Chapters 7-8",
+          "field": "Ice and cold-themed Field Effect with hazard and freeze pressure",
+          "weakness": "Fire, Fighting, Rock, and Steel coverage",
+          "strategy": "Carry Ice-resisting attackers and Freeze heal items, and remove the cold field if your team is field-punished."
+        },
+        {
+          "icon": "Atom",
+          "name": "Rift Pokémon Encounters",
+          "chapter": "Multiple chapters",
+          "field": "Rift-themed field that boosts the corrupted Pokémon",
+          "weakness": "Specific to each Rift Pokémon's altered typing",
+          "strategy": "Treat each Rift battle as a boss: set up defensively, exploit the revealed weakness, and keep a revive reserve."
+        },
+        {
+          "icon": "Skull",
+          "name": "Team Xen Administrators and Executives",
+          "chapter": "Throughout Chapters 1-16",
+          "field": "Varies by facility and encounter",
+          "weakness": "Fairy, Fighting, Ground, and Psychic coverage handles most Xen archetypes",
+          "strategy": "Identify recurring Xen members' preferred types, prepare coverage in advance, and expect optimized held items on executives."
+        },
+        {
+          "icon": "Crown",
+          "name": "Late-game Gym Leaders and Climax",
+          "chapter": "Chapters 13-16",
+          "field": "Complex late-game fields with strong synergies",
+          "weakness": "Requires broad coverage and field control; no single-type sweep",
+          "strategy": "Use a fully rotated six-member team, carry Crests and Mega or Z-Crystal options, and keep separate saves before route branches."
+        }
+      ]
+    },
+    "rejuvenationItems": {
+      "title": "Pokémon Rejuvenation Items, TMs and Crests",
+      "displayType": "cards",
+      "intro": "Item availability in Pokémon Rejuvenation is gated by story progress, sidequests, and exploration. The guide groups items by category and notes whether each is tied to a missable quest or region.",
+      "cards": [
+        {
+          "icon": "Layers",
+          "name": "Technical Machines (TMs)",
+          "category": "TM",
+          "location": "Routes, cities, gyms, and sidequest rewards",
+          "note": "Most TMs are reusable; collect them as regions open to expand team coverage and Field Effect answers."
+        },
+        {
+          "icon": "BookOpen",
+          "name": "Move Tutors",
+          "category": "Move Tutor",
+          "location": "Tutor NPCs in major cities and late-game hubs",
+          "note": "Teach exclusive moves in exchange for shards or currency. Plan which members need tutor moves before spending resources."
+        },
+        {
+          "icon": "Gem",
+          "name": "Mega Stones",
+          "category": "Mega Evolution",
+          "location": "Story events, sidequests, and hidden locations",
+          "note": "Required for Mega Evolution. Several are tied to sidequests that can be missed after leaving a region."
+        },
+        {
+          "icon": "Hexagon",
+          "name": "Z-Crystals",
+          "category": "Z-Move",
+          "location": "Trials, events, and late-game locations",
+          "note": "Enable Z-Moves for the matching type. Confirm availability per type before building a strategy around a specific Z-Move."
+        },
+        {
+          "icon": "Award",
+          "name": "Crests",
+          "category": "Crest",
+          "location": "Hidden across Aevium and rewarded by sidequests",
+          "note": "Crests provide unique buffs that can make a lower-tier Pokémon viable. Treat Crest-locked members as a separate planning layer."
+        },
+        {
+          "icon": "FlaskConical",
+          "name": "Evolution and Key Items",
+          "category": "Evolution / Key Item",
+          "location": "Shops, sidequest rewards, and main story objectives",
+          "note": "Includes stones, trade items, and time-of-day held items. Stock them so team members can evolve at the level cap."
         }
       ]
     }
@@ -749,31 +525,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Pokémon Rejuvenation V14",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Pokémon Rejuvenation V14?",
+        "answer": "Pokémon Rejuvenation V14 is a free standalone story-driven Pokémon fan game set in the Aevium region, featuring 16 chapters, Gen 1-9 Pokémon, Field Effects, Crests, and Paragon or Renegade route choices. It does not require a Pokémon ROM or emulator."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I download Pokémon Rejuvenation V14?",
+        "answer": "You can download Pokémon Rejuvenation V14 from the official rebornevo.com download page. Builds are available for Windows, macOS, Linux, Kirin, and JoiPlay. Always back up your V13.5 save before upgrading to V14."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What are Field Effects in Pokémon Rejuvenation?",
+        "answer": "Field Effects in Pokémon Rejuvenation are terrain and weather-like conditions that modify move power, type effectiveness, abilities, and secondary effects. Many gyms and bosses are designed around a specific field, so reading and countering the active field is central to winning battles."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is the difference between the Paragon and Renegade routes in Pokémon Rejuvenation?",
+        "answer": "In Pokémon Rejuvenation, the Paragon route continues the story while preserving allies, while the Renegade route is a darker path shaped by accumulated negative choices and low Karma. Players are advised to complete the Paragon Chapter 16 first before starting the Renegade Chapter 16."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are Crests in Pokémon Rejuvenation?",
+        "answer": "Crests in Pokémon Rejuvenation are unique items hidden across Aevium that buff specific Pokémon, often making lower-tier members viable. Many Crests are tied to sidequests that can be missed after leaving a region, so collect them before advancing the story."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do passwords work in Pokémon Rejuvenation V14?",
+        "answer": "Passwords in Pokémon Rejuvenation V14 are entered during new-game setup or through the supported in-game password menu. They adjust difficulty, battle rules, rewards, and quality-of-life settings. Some passwords cannot be safely removed after story progress begins, so keep a separate unmodified save for challenge runs."
       }
     ]
   },
@@ -800,126 +576,5 @@
     "copyright": "© 2026 Pokémon Rejuvenation Wiki. Not affiliated with the developers of Pokémon Rejuvenation, Nintendo, Game Freak, or The Pokémon Company.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }
