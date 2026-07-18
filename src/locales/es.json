@@ -1,11 +1,729 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Pokémon Rejuvenation - Guía y Recorridos de la V14",
+      "description": "Explora la Wiki de Pokémon Rejuvenation para encontrar recorridos de la V14, ubicaciones de Pokémon, soluciones de misiones, estrategias contra jefes, Efectos de Campo, Crestas, rutas y actualizaciones.",
+      "keywords": "Pokémon Rejuvenation, V14, guía, ubicaciones de Pokémon, misiones, jefes, Efectos de Campo, Crestas",
+      "ogTitle": "Wiki de Pokémon Rejuvenation - Guía y Recorridos de la V14",
+      "ogDescription": "Explora la Wiki de Pokémon Rejuvenation para encontrar recorridos de la V14, ubicaciones de Pokémon, soluciones de misiones, estrategias contra jefes, Efectos de Campo, Crestas, rutas y actualizaciones.",
+      "twitterTitle": "Wiki de Pokémon Rejuvenation - Guía y Recorridos de la V14",
+      "twitterDescription": "Recorridos de la V14, ubicaciones de Pokémon, misiones, jefes, Efectos de Campo, Crestas y guías de rutas para Pokémon Rejuvenation."
+    }
+  },
   "nav": {
     "guide": "Guía",
-    "download": "Descarga",
+    "download": "Descargar",
     "passwords": "Contraseñas",
     "locations": "Ubicaciones",
     "teams": "Equipos",
     "quests": "Misiones",
     "characters": "Personajes"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de Pokémon hecho por fans con enfoque en la historia",
+    "title": "Wiki de Pokémon Rejuvenation",
+    "description": "Explora Aevium con recorridos de capítulos de la V14, ubicaciones de Pokémon, soluciones de misiones, estrategias contra jefes, Efectos de Campo, Crestas, puzles y guías para las rutas Paragon o Renegade.",
+    "getFreeCodesCTA": "Ver guías de la V14",
+    "playOnSteamCTA": "Descargar para PC",
+    "stats": {
+      "stat1": {
+        "value": "V14",
+        "label": "Versión actual"
+      },
+      "stat2": {
+        "value": "16",
+        "label": "Capítulos de la historia"
+      },
+      "stat3": {
+        "value": "Más de 100 horas",
+        "label": "Jugabilidad"
+      },
+      "stat4": {
+        "value": "Gen 1–9",
+        "label": "Pokémon disponibles"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Pokémon Rejuvenation",
+    "description": "Explora la región de Aevium con guías de capítulos de la V14, combates con Efectos de Campo, Crests, puzles y elecciones de ruta Paragon o Renegade en este RPG de Pokémon para fans centrado en la historia."
+  },
+  "tools": {
+    "title": "Pokémon Rejuvenation",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para jugar, explorar y dominar Pokémon Rejuvenation V14",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Descarga e instalación",
+        "description": "Versiones de la V14 para PC, Mac, Linux y plataformas móviles"
+      },
+      {
+        "icon": "Map",
+        "title": "Guía de la historia de la V14",
+        "description": "Progresión de los capítulos 1-16 a lo largo de la región de Aevium"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Ubicaciones de Pokémon",
+        "description": "Dónde encontrar a cada Pokémon, regalo y Forma Aevian"
+      },
+      {
+        "icon": "KeyRound",
+        "title": "Contraseñas y códigos",
+        "description": "Personaliza la dificultad, las reglas de combate y las recompensas"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes",
+        "description": "Efectos de Campo, límites de nivel y creación de equipos iniciales"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Iniciales y Equipos",
+        "description": "Clasifica a los iniciales y miembros del equipo para el contenido de la V14"
+      },
+      {
+        "icon": "Swords",
+        "title": "Líderes de Gimnasio y Jefes",
+        "description": "Gimnasios, Pokémon Falla, Team Xen y jefes de la historia"
+      },
+      {
+        "icon": "Package",
+        "title": "Objetos, MTs y Emblemas",
+        "description": "Ubicación de MTs, Megapiedras, Cristales Z y Emblemas"
+      }
+    ]
+  },
+  "modules": {
+    "rejuvenationDownload": {
+      "title": "Descarga e instalación de Pokémon Rejuvenation",
+      "displayType": "cards",
+      "intro": "Pokémon Rejuvenation V14 es un fangame independiente gratuito que no requiere un emulador ni una ROM de Pokémon. Descarga el paquete completo para tu plataforma, extrae todos los archivos antes de iniciarlo y haz una copia de seguridad de todas las partidas guardadas de la V13.5 antes de intentar actualizar.",
+      "cards": [
+        {
+          "icon": "Monitor",
+          "name": "Instalación en Windows",
+          "description": "Descarga el paquete de la V14 para Windows, extrae el archivo completo en una carpeta nueva e inicia el ejecutable del juego incluido. Evita ejecutar el juego directamente desde el archivo ZIP o instalarlo dentro de una carpeta protegida del sistema de Windows."
+        },
+        {
+          "icon": "Laptop",
+          "name": "Instalación en macOS",
+          "description": "Extrae la versión de macOS y mueve la aplicación a una carpeta con permisos de escritura, como Aplicaciones. Si Gatekeeper bloquea el primer inicio, usa el comando Abrir del menú contextual en lugar de hacer doble clic repetidamente."
+        },
+        {
+          "icon": "Terminal",
+          "name": "Instalación en Linux",
+          "description": "Extrae el paquete de Linux sin cambiar su estructura de carpetas, otorga permisos de ejecución al lanzador incluido e inícialo desde un directorio con permisos de escritura. Los errores de librerías faltantes suelen significar que el archivo solo se extrajo parcialmente."
+        },
+        {
+          "icon": "Smartphone",
+          "name": "Kirin y JoiPlay",
+          "description": "Usa el paquete Kirin de la V14 a través del lanzador Kirin, o instala JoiPlay con su plugin de RPG Maker y añade el juego de Windows extraído. El rendimiento en dispositivos móviles varía según el dispositivo Android y no es idéntico al de las versiones nativas de escritorio."
+        },
+        {
+          "icon": "Save",
+          "name": "Copia de seguridad y migración de partidas de la V13.5",
+          "description": "Haz una copia de seguridad de la carpeta completa de guardado antes de abrir la V14. Copia los archivos originales en lugar de moverlos, coloca una copia donde la V14 espera los datos de guardado y conserva la copia de seguridad intacta hasta que la partida convertida se cargue correctamente."
+        },
+        {
+          "icon": "RefreshCw",
+          "name": "Uso del actualizador de la V14",
+          "description": "Ejecuta el actualizador incluido mientras el juego está cerrado para aplicar pequeñas correcciones sin tener que reinstalar el paquete completo. No interrumpas el actualizador ni mezcles manualmente archivos de diferentes versiones de la V14."
+        }
+      ],
+      "troubleshootingTips": [
+        "Instalar las fuentes incluidas con el juego cuando falte texto o los caracteres aparezcan en blanco.",
+        "Volver a extraer un archivo limpio cuando no se encuentren los archivos o aparezcan errores de audio.",
+        "Revisar la cuarentena del antivirus en busca de ejecutables o archivos DLL eliminados.",
+        "Cerrar las superposiciones y las herramientas de grabación en segundo plano si la pantalla se congela o el rendimiento disminuye.",
+        "Nunca combinar los archivos del juego de la V13.5 con la instalación de la V14."
+      ]
+    },
+    "rejuvenationWalkthrough": {
+      "title": "Guía de Pokémon Rejuvenation V14",
+      "displayType": "steps",
+      "intro": "La historia principal de la V14 se desarrolla entre el este de Aevium, Terajuma Island, Grand Dream City, regiones en ruinas y ubicaciones vinculadas al pasado de Aevium. Debido a que las escenas posteriores reaccionan al Karma, las misiones secundarias, las relaciones y las elecciones importantes, mantén múltiples archivos de guardado y completa el contenido local antes de abandonar cada región principal.",
+      "steps": [
+        {
+          "chapter": "Prólogo - Capítulo 1",
+          "title": "East Gearen City y Goldenwood",
+          "description": "Completa el viaje inicial, llega a East Gearen City, elige un inicial de la Gen 1-9 en el laboratorio y aprende los sistemas básicos antes de investigar la primera actividad del Team Xen en los alrededores de Goldenwood Forest.",
+          "locations": "S.S. Oceana, Gearen Laboratory, Goldenwood Forest",
+          "battles": "Batallas iniciales contra rivales y primeros encuentros con el Team Xen"
+        },
+        {
+          "chapter": "Capítulo 2",
+          "title": "Route 2 y Sheridan Village",
+          "description": "Viaja a través de Route 2 y Amethyst Cave para llegar a Sheridan Village, investiga la crisis del pueblo y prepárate para combates que enfatizan la presión del tipo Lucha y los cambiantes Efectos de Campo.",
+          "locations": "Route 2, Amethyst Cave, Sheridan Arena",
+          "battles": "Combates relacionados con Keta y el objetivo del gimnasio de Sheridan"
+        },
+        {
+          "chapter": "Capítulo 3",
+          "title": "Progresión en Goldenleaf Mansion",
+          "description": "Continúa hacia el oeste a través de las ubicaciones de la historia conectadas con la mansión y la región de Goldenleaf, resuelve los sucesos sobrenaturales que bloquean el progreso y prepara equipos que funcionen bajo Efectos de Campo de interior enfocados en el tipo Fantasma.",
+          "locations": "Goldenleaf Town, Goldenleaf Forest, Goldenleaf Theatre",
+          "battles": "Combates contra jefes de la historia y un combate de gimnasio importante"
+        },
+        {
+          "chapter": "Capítulos 5-6",
+          "title": "Terajuma Island y Kakori Village",
+          "description": "Explora Terajuma Island, establece el acceso a Kakori Village y colabora con aliados locales contra el Team Xen a lo largo de grandes áreas al aire libre con nuevos Pokémon salvajes, misiones secundarias y Crests.",
+          "locations": "Terajuma Island, Kakori Village, Terajuma Jungle",
+          "battles": "Combates de la historia de Kakori y objetivos del gimnasio de la isla"
+        },
+        {
+          "chapter": "Capítulos 6-7",
+          "title": "Operaciones en Valor Mountain",
+          "description": "Avanza por la región volcánica y desbarata los planes del Team Xen en torno a Valor Mountain. Prepárate para enfrentar ataques de tipo Fuego, Roca y potenciados por el campo en varias batallas consecutivas.",
+          "locations": "Valor Mountain, cuevas volcánicas, Teila Resort",
+          "battles": "Comandantes del Team Xen y una batalla contra un Pokémon Rift"
+        },
+        {
+          "chapter": "Capítulos 7-8",
+          "title": "Kristiline y el Arco Congelado",
+          "description": "Investiga el asentamiento helado y la fuerza que controla la región a través de Efectos de Campo centrados en el Hielo, peligros ambientales y puzles en áreas de tipo eclesiástico antes de un gran enfrentamiento.",
+          "locations": "Kristiline Town, rutas heladas, interiores de la iglesia",
+          "battles": "Encuentros con Angie y un combate de gimnasio centrado en el tipo Hielo"
+        },
+        {
+          "chapter": "Capítulos 9-12",
+          "title": "Grand Dream City y Darchlight",
+          "description": "Entra en Grand Dream City, regístrate en sus eventos competitivos e investiga Darchlight Woods y las organizaciones que operan bajo la ciudad. Las decisiones de facción cambian los diálogos posteriores, los aliados disponibles y el Karma.",
+          "locations": "Distritos de Grand Dream City, Darchlight Woods, instalaciones de Bladestar",
+          "battles": "Batallas de torneo y el liderazgo de Bladestar"
+        },
+        {
+          "chapter": "Capítulo 16",
+          "title": "Rutas Paragon y Renegade",
+          "description": "Finaliza los preparativos para el juego avanzado, luego elige entre la ruta Paragon que preserva a los aliados y la ruta Renegade, más oscura y moldeada por las decisiones acumuladas. Mantén un archivo de guardado separado para cada ruta y nunca sobrescribas el archivo previo a la bifurcación.",
+          "locations": "Zonas de historia del Capítulo 16 y el Aevium de final de juego",
+          "battles": "Encuentros exclusivos de cada ruta y jefes finales de la historia"
+        }
+      ]
+    },
+    "rejuvenationPokemonLocations": {
+      "title": "Ubicaciones Pokémon en Pokémon Rejuvenation",
+      "displayType": "cards",
+      "intro": "La disponibilidad de Pokémon cambia a medida que se abren nuevas rutas, ciudades, islas y permisos de la historia. La guía de ubicaciones distingue los encuentros salvajes ordinarios de los regalos, intercambios, huevos, eventos estáticos y Formas Aevian regionales, y marca claramente los encuentros añadidos o movidos en la V14.",
+      "cards": [
+        {
+          "icon": "Sparkles",
+          "name": "Pokémon iniciales de las Gen 1-9",
+          "region": "East Gearen City",
+          "description": "Elige un inicial durante la secuencia inicial en el Gearen Laboratory. Los iniciales adicionales pueden requerir eventos posteriores, intercambios o funciones de New Game+."
+        },
+        {
+          "icon": "Leaf",
+          "name": "Grupos de encuentros salvajes",
+          "region": "Rutas, parques y cuevas",
+          "description": "Explora la hierba, las áreas de parques, los callejones y las zonas de encuentros que dependen de la hora. Las especies varían según la zona, la hora, el clima y el estado de la historia en cada capítulo."
+        },
+        {
+          "icon": "Gift",
+          "name": "Regalos e Intercambios",
+          "region": "Sheridan, Goldenleaf, Grand Dream City",
+          "description": "Completa las peticiones locales, habla con los PNJ con nombre y trae los Pokémon de intercambio solicitados. Algunas recompensas dependen de terminar las misiones secundarias antes de abandonar el arco de la aldea o ciudad."
+        },
+        {
+          "icon": "Boxes",
+          "name": "Formas de Aevium",
+          "region": "Múltiples regiones de Aevium",
+          "description": "Las Formas de Aevium regionales tienen tipos, habilidades, movimientos y requisitos de evolución únicos, y deben rastrearse por separado de sus formas estándar."
+        },
+        {
+          "icon": "Egg",
+          "name": "Huevos Misteriosos y de Misiones Secundarias",
+          "region": "Ubicaciones de recompensa de misiones secundarias",
+          "description": "Completa la petición correspondiente y mantén un espacio libre en el equipo. La especie resultante puede depender de una variable de guardado predeterminada, la rama de una misión o un evento específico."
+        },
+        {
+          "icon": "Star",
+          "name": "Pokémon nuevos y reubicados de la V14",
+          "region": "Por todo Aevium",
+          "description": "Incluye adiciones de la 9.ª generación, especies obtenibles recientemente y encuentros trasladados de ubicaciones antiguas. Confirma siempre con las tablas de encuentros actuales de la V14."
+        }
+      ],
+      "filterTips": [
+        "Filtra por región, capítulo y método de encuentro para acotar tu búsqueda.",
+        "Marca las Formas de Aevium por separado para que sus requisitos de evolución únicos permanezcan visibles.",
+        "La hora del día y el clima pueden cambiar qué especies aparecen en la misma zona.",
+        "Contrasta con las guías antiguas de la V13.5 porque la V14 redistribuye muchos encuentros."
+      ]
+    },
+    "rejuvenationPasswords": {
+      "title": "Contraseñas y códigos de Pokémon Rejuvenation",
+      "displayType": "cards",
+      "intro": "Las contraseñas de la V14 se introducen a través de la opción de contraseña ofrecida durante la configuración inicial o mediante la gestión de contraseñas integrada. Algunos ajustes cambian todo el conjunto de reglas, así que crea un guardado aparte antes de activar contraseñas de desafío.",
+      "cards": [
+        {
+          "icon": "Footprints",
+          "code": "easyhms",
+          "category": "Calidad de vida",
+          "effect": "Permite acciones de desplazamiento compatibles sin tener que enseñar permanentemente cada movimiento tradicional de estilo MO al equipo activo."
+        },
+        {
+          "icon": "TrendingUp",
+          "code": "freeexpall",
+          "category": "Objeto de recompensa",
+          "effect": "Proporciona acceso temprano al sistema de Repartir Exp. para que el equipo pueda compartir experiencia sin esperar a su punto de obtención normal."
+        },
+        {
+          "icon": "Sparkles",
+          "code": "freemegaz",
+          "category": "Objeto de recompensa",
+          "effect": "Otorga un acceso más temprano a la Megaevolución y a la progresión de los Cristales Z de lo que permitiría normalmente una partida estándar."
+        },
+        {
+          "icon": "Lock",
+          "code": "hardcap",
+          "category": "Reglas de nivel",
+          "effect": "Evita que los Pokémon ganen niveles adicionales tras alcanzar el límite de nivel actual basado en las medallas."
+        },
+        {
+          "icon": "Heart",
+          "code": "litemode",
+          "category": "Dificultad",
+          "effect": "Reduce la fuerza y la optimización de los equipos rivales para ofrecer una experiencia más permisiva y centrada en la historia."
+        },
+        {
+          "icon": "Ban",
+          "code": "noitems",
+          "category": "Reglas de combate",
+          "effect": "Restringe o desactiva los objetos de la Bolsa durante los combates contra entrenadores, obligando a depender de los objetos equipados, los cambios, las habilidades y los movimientos."
+        },
+        {
+          "icon": "CloudSun",
+          "code": "weathermod",
+          "category": "Entorno",
+          "effect": "Permite un mayor control sobre las condiciones climáticas utilizadas en los encuentros del mundo exterior, eventos y ciertas estrategias de combate."
+        },
+        {
+          "icon": "BarChart3",
+          "code": "fullivs",
+          "category": "Estadísticas Pokémon",
+          "effect": "Hace que los Pokémon que se pueden obtener se generen con sus valores individuales al máximo, reduciendo la crianza y el farmeo para reiniciar estadísticas."
+        }
+      ],
+      "usageNotes": [
+        "Introduce las contraseñas durante la configuración de una nueva partida o a través del menú de contraseñas compatible.",
+        "Crea un archivo de guardado independiente y sin modificar antes de comparar partidas de desafío.",
+        "Algunas contraseñas no se pueden eliminar de forma segura una vez que comienza el progreso de la historia.",
+        "Trata las partidas guardadas con ayuda de contraseñas de forma distinta al compartir récords de desafíos."
+      ]
+    },
+    "rejuvenationBeginnerGuide": {
+      "title": "Guía para principiantes de Pokémon Rejuvenation",
+      "displayType": "steps",
+      "intro": "Pokémon Rejuvenation es un fangame largo y exigente construido en torno a los Efectos de Campo, los límites de nivel y un diseño de jefes desafiante. Los jugadores que comprenden los sistemas básicos desde el principio evitan la frustración y mantienen su equipo viable a lo largo de toda la historia de la V14.",
+      "steps": [
+        {
+          "title": "Elige una dificultad que se ajuste a tu objetivo",
+          "description": "La V14 ofrece opciones de dificultad que escalan la optimización del equipo rival, los objetos equipados y el uso de Efectos de Campo. Elige un ajuste más fácil para una partida centrada en la historia y usa el Sistema de Contraseñas para ajustar aún más la experiencia.",
+          "pitfall": "Empezar en la dificultad base más alta sin entender los Efectos de Campo conlleva a derrotas tempranas consecutivas."
+        },
+        {
+          "title": "Respeta el límite de nivel basado en medallas",
+          "description": "Los Pokémon dejan de ganar experiencia una vez alcanzan el límite establecido por tu número actual de medallas, a menos que una contraseña cambie este comportamiento. Planifica rotaciones de equipo en torno al límite para que la experiencia se reparta entre varios miembros.",
+          "pitfall": "Invertir toda la experiencia en un solo Pokémon deja al resto del equipo con un nivel bajo para los combates contra jefes consecutivos."
+        },
+        {
+          "title": "Aprende cómo los Efectos de Campo cambian los combates",
+          "description": "Los Efectos de Campo son condiciones similares al clima y al terreno que modifican la potencia de los movimientos, la efectividad de tipos, las habilidades y los efectos secundarios. Muchos gimnasios y jefes están diseñados en torno a un campo específico, por lo que leer la descripción y planear un contraataque es esencial.",
+          "pitfall": "Ignorar el campo activo convierte enfrentamientos de tipos favorables en derrotas porque los multiplicadores de movimientos cambian drásticamente."
+        },
+        {
+          "title": "Crea un equipo equilibrado para el inicio del juego",
+          "description": "Busca una amplia cobertura de tipos en lugar de acumular atacantes del mismo tipo. Incluye STAB fiable para los tipos comunes del inicio, un tanque o pivot, y un Pokémon que pueda manipular o eliminar Efectos de Campo.",
+          "pitfall": "Un equipo monotipo al principio colapsa ante el primer gimnasio cuyo campo castigue ese tipo."
+        },
+        {
+          "title": "Gestiona el dinero y los objetos de curación",
+          "description": "El dinero es limitado al principio, así que gástalo en objetos de curación, recuperación de estado y Poké Balls. Compra una pequeña reserva de Revivir y curas totales antes de cada gimnasio, ya que varios jefes iniciales usan estados alterados y campos de daño progresivo.",
+          "pitfall": "Llegar a una secuencia de jefes consecutivos sin presupuesto para curación obliga a retirarse y perder progreso."
+        },
+        {
+          "title": "Usa el Sistema de Contraseñas de forma intencionada",
+          "description": "Al crear una partida, el Sistema de Contraseñas te permite ajustar la comodidad, las recompensas y las reglas de combate. Activa solo las contraseñas que coincidan con cómo quieres jugar y mantén una partida guardada aparte sin modificar para comparar desafíos.",
+          "pitfall": "Acumular muchas contraseñas de comodidad hace que los desafíos autoimpuestos posteriores sean imposibles de verificar."
+        },
+        {
+          "title": "Sigue el rastro del contenido perdible sobre la marcha",
+          "description": "Rejuvenation contiene misiones secundarias, regalos, intercambios, huevos y Crestas que pueden volverse difíciles o imposibles de conseguir tras abandonar una región. Habla con cada NPC, revisa cada edificio y termina las peticiones locales antes de avanzar.",
+          "pitfall": "Salir de Terajuma, Kristiline o Grand Dream City con misiones sin terminar elimina permanentemente algunas recompensas."
+        },
+        {
+          "title": "Prepárate para combates contra jefes consecutivos",
+          "description": "Varios arcos argumentales encadenan múltiples combates sin posibilidad de reorganizar el equipo. Mantén varios archivos de guardado, lleva un equipo equilibrado de seis miembros y abastécete de objetos de curación antes de los clímax de las mazmorras, como Valor Mountain y las instalaciones del Team Xen al final del juego.",
+          "pitfall": "Guardar solo en una ranura antes de un combate ramificado o encadenado puede dejarte bloqueado en una situación difícil."
+        }
+      ]
+    },
+    "rejuvenationTierList": {
+      "title": "Tier List de Pokémon Iniciales y Equipos de Pokémon Rejuvenation",
+      "displayType": "tiers",
+      "intro": "Las clasificaciones exactas dependen de la dificultad elegida, la ruta y el estilo de juego, por lo que esta tier list es un marco de evaluación más que una tabla de clasificación fija. Usa los criterios para juzgar a cualquier miembro del equipo frente al contenido de la V14 al que te estés enfrentando.",
+      "tiers": [
+        {
+          "tier": "S",
+          "members": [
+            "Pokémon Inicial que coincida con los Efectos de Campo que enfrentes al inicio del juego",
+            "Atacante rápido con STAB potente y amplia cobertura",
+            "Pokémon de apoyo que pone o quita campos"
+          ],
+          "reason": "Disponible pronto, golpea fuerte bajo campos comunes del inicio y sigue siendo útil contra jefes de mitad de juego sin gran inversión."
+        },
+        {
+          "tier": "A",
+          "members": [
+            "Regalo o intercambio de mitad de juego con estadísticas base potentes",
+            "Tanque o pivot que controla el ritmo frente a los campos de gimnasio",
+            "Forma evolucionada tardía alcanzable dentro del límite de nivel"
+          ],
+          "reason": "Fiable en la mayoría de batallas importantes con algo de preparación, aunque cada uno tiene una limitación de tipo o disponibilidad que lo mantiene por debajo de S."
+        },
+        {
+          "tier": "B",
+          "members": [
+            "Especialista de tipo de nicho útil solo en gimnasios específicos",
+            "Miembro fuerte pero de llegada tardía con contribución limitada al inicio",
+            "Miembros que necesitan objetos raros o Crests para alcanzar su máximo potencial"
+          ],
+          "reason": "Fuerte en el enfrentamiento adecuado, pero requiere apoyo del equipo, un momento específico o recursos raros para superar a una opción de rango A."
+        },
+        {
+          "tier": "C",
+          "members": [
+            "Miembros superados con momentos de disponibilidad desfavorables",
+            "Miembros cuyos mejores movimientos llegan después del límite de nivel actual",
+            "Miembros de elección de desafío aptos para restricciones autoimpuestas"
+          ],
+          "reason": "Difícil de justificar en una partida estándar porque hay mejores opciones disponibles antes y funcionan de forma más consistente."
+        }
+      ],
+      "evaluationCriteria": [
+        "Momento de disponibilidad en relación con el límite de nivel",
+        "Sinergia con los Efectos de Campo activos en los gimnasios",
+        "Desempeño contra jefes del Team Xen, Rift y campos de gimnasio",
+        "Valor a largo plazo incluyendo acceso a Mega, Cristal Z y Crests"
+      ],
+      "starterNote": "Los tres iniciales son viables hasta la V14. Elige según qué Efectos de Campo iniciales y tipos de gimnasio quieras manejar con más facilidad."
+    },
+    "rejuvenationBosses": {
+      "title": "Líderes de Gimnasio y Jefes de Pokémon Rejuvenation",
+      "displayType": "cards",
+      "intro": "El diseño de los jefes en Pokémon Rejuvenation se centra en Efectos de Campo, objetos equipados optimizados y equipos ajustados al límite de nivel. Cada carta identifica el campo o contexto, el arquetipo del equipo, las debilidades de tipo a explotar y una dirección estratégica.",
+      "cards": [
+        {
+          "icon": "Shield",
+          "name": "Primeros Líderes de Gimnasio de Aevium",
+          "chapter": "Capítulos 1-4",
+          "field": "Efectos de Campo específicos de la región introducidos pronto para enseñar la mecánica",
+          "weakness": "Varía según el tipo de líder; lleva cobertura que aproveche el campo activo.",
+          "strategy": "Elimina o contrarresta el campo primero, luego ataca la pieza de sinergia central del líder. Guarda objetos de curación para encuentros consecutivos."
+        },
+        {
+          "icon": "Ghost",
+          "name": "Jefes de la historia de la Mansión Goldenleaf",
+          "chapter": "Capítulo 3",
+          "field": "Campo interior centrado en el tipo Fantasma",
+          "weakness": "Tácticas de tipo Siniestro, Fantasma e inmunes a Normal; cuidado con los problemas de estado y el daño de campo.",
+          "strategy": "Lleva cobertura de tipo Siniestro o Fantasma y curación de estado, y aprovecha el campo solo cuando favorezca a tus tipos."
+        },
+        {
+          "icon": "Snowflake",
+          "name": "Kristiline y el Arco de Hielo de Angie",
+          "chapter": "Capítulos 7-8",
+          "field": "Efecto de campo temático de hielo y frío con presión de trampas y congelamiento",
+          "weakness": "Cobertura de tipo Fuego, Lucha, Roca y Acero",
+          "strategy": "Lleva atacantes que resistan el hielo y objetos para curar la congelación, y elimina el campo frío si tu equipo es perjudicado por este."
+        },
+        {
+          "icon": "Atom",
+          "name": "Encuentros con Pokémon Rift",
+          "chapter": "Varios capítulos",
+          "field": "Campo temático de Rift que potencia al Pokémon corrupto",
+          "weakness": "Específico para el tipo alterado de cada Pokémon Rift",
+          "strategy": "Trata cada batalla Rift como un jefe: prepárate defensivamente, aprovecha la debilidad revelada y mantén una reserva de Revivir."
+        },
+        {
+          "icon": "Skull",
+          "name": "Administradores y ejecutivos del Equipo Xen",
+          "chapter": "A lo largo de los capítulos 1-16",
+          "field": "Varía según la instalación y el encuentro",
+          "weakness": "La cobertura de tipo Hada, Lucha, Tierra y Psíquico se encarga de la mayoría de los arquetipos de Xen",
+          "strategy": "Identifica los tipos preferidos de los miembros recurrentes de Xen, prepara cobertura con anticipación y espera objetos equipados optimizados en los ejecutivos."
+        },
+        {
+          "icon": "Crown",
+          "name": "Líderes de Gimnasio del final del juego y el clímax",
+          "chapter": "Capítulos 13-16",
+          "field": "Campos complejos del final del juego con fuertes sinergias",
+          "weakness": "Requiere una amplia cobertura y control del campo; no se puede barrer con un solo tipo.",
+          "strategy": "Usa un equipo de seis miembros con rotación constante, lleva Crestas y opciones de Megapiedras o Cristales Z, y mantén archivos de guardado separados antes de las bifurcaciones de la ruta."
+        }
+      ]
+    },
+    "rejuvenationItems": {
+      "title": "Objetos, MT y Crestas de Pokémon Rejuvenation",
+      "displayType": "cards",
+      "intro": "La disponibilidad de objetos en Pokémon Rejuvenation está limitada por el progreso de la historia, las misiones secundarias y la exploración. La guía agrupa los objetos por categoría y detalla si cada uno está vinculado a una misión o región perdible.",
+      "cards": [
+        {
+          "icon": "Layers",
+          "name": "Máquinas Técnicas (MT)",
+          "category": "MT",
+          "location": "Rutas, ciudades, gimnasios y recompensas de misiones secundarias",
+          "note": "La mayoría de las MT son reutilizables; colecciónalas a medida que se abran las regiones para ampliar la cobertura del equipo y las respuestas a los Efectos de Campo."
+        },
+        {
+          "icon": "BookOpen",
+          "name": "Tutores de movimientos",
+          "category": "Tutor de movimientos",
+          "location": "NPCs tutores en ciudades principales y zonas centrales del juego tardío",
+          "note": "Enseñan movimientos exclusivos a cambio de fragmentos o dinero. Planifica qué miembros necesitan movimientos de tutor antes de gastar recursos."
+        },
+        {
+          "icon": "Gem",
+          "name": "Megapiedras",
+          "category": "Megaevolución",
+          "location": "Eventos de la historia, misiones secundarias y ubicaciones ocultas",
+          "note": "Requeridas para la megaevolución. Varias están vinculadas a misiones secundarias que se pueden perder después de abandonar una región."
+        },
+        {
+          "icon": "Hexagon",
+          "name": "Cristales Z",
+          "category": "Movimiento Z",
+          "location": "Pruebas, eventos y ubicaciones del juego tardío",
+          "note": "Permiten los movimientos Z para el tipo correspondiente. Confirma la disponibilidad por tipo antes de armar una estrategia en torno a un movimiento Z específico."
+        },
+        {
+          "icon": "Award",
+          "name": "Crestas",
+          "category": "Cresta",
+          "location": "Ocultas por todo Aevium y otorgadas como recompensa en misiones secundarias",
+          "note": "Las Crestas proporcionan mejoras únicas que pueden hacer viable a un Pokémon de menor categoría. Trata a los miembros que dependen de Crestas como una capa de planificación independiente."
+        },
+        {
+          "icon": "FlaskConical",
+          "name": "Objetos Clave y de Evolución",
+          "category": "Evolución / Objeto Clave",
+          "location": "Tiendas, recompensas de misiones secundarias y objetivos de la historia principal",
+          "note": "Incluye piedras, objetos de intercambio y objetos equipables según la hora del día. Abastécete de ellos para que los miembros del equipo puedan evolucionar al alcanzar el nivel máximo."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Pokémon Rejuvenation V14",
+    "questions": [
+      {
+        "question": "¿Qué es Pokémon Rejuvenation V14?",
+        "answer": "Pokémon Rejuvenation V14 es un fangame de Pokémon gratuito e independiente centrado en la historia, ambientado en la región de Aevium, que cuenta con 16 capítulos, Pokémon de las Gen 1-9, Efectos de Campo, Crestas y la elección de rutas Paragon o Renegade. No requiere una ROM de Pokémon ni un emulador."
+      },
+      {
+        "question": "¿Dónde puedo descargar Pokémon Rejuvenation V14?",
+        "answer": "Puedes descargar Pokémon Rejuvenation V14 desde la página oficial de descargas de rebornevo.com. Hay versiones disponibles para Windows, macOS, Linux, Kirin y JoiPlay. Haz siempre una copia de seguridad de tu partida de la V13.5 antes de actualizar a la V14."
+      },
+      {
+        "question": "¿Qué son los Efectos de Campo en Pokémon Rejuvenation?",
+        "answer": "Los Efectos de Campo en Pokémon Rejuvenation son condiciones similares al terreno y al clima que modifican la potencia de los movimientos, la efectividad de tipos, las habilidades y los efectos secundarios. Muchos gimnasios y jefes están diseñados en torno a un campo específico, por lo que entender y contrarrestar el campo activo es fundamental para ganar combates."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre las rutas Paragon y Renegade en Pokémon Rejuvenation?",
+        "answer": "En Pokémon Rejuvenation, la ruta Paragon continúa la historia preservando a los aliados, mientras que la ruta Renegade es un camino más oscuro forjado por decisiones negativas acumuladas y un Karma bajo. Se recomienda a los jugadores completar primero el Capítulo 16 de Paragon antes de comenzar el Capítulo 16 de Renegade."
+      },
+      {
+        "question": "¿Qué son las Crestas en Pokémon Rejuvenation?",
+        "answer": "Las Crestas en Pokémon Rejuvenation son objetos únicos ocultos por todo Aevium que potencian a Pokémon específicos, haciendo que a menudo miembros de niveles inferiores sean viables. Muchas Crestas están ligadas a misiones secundarias que pueden perderse tras abandonar una región, así que recógelas antes de avanzar en la historia."
+      },
+      {
+        "question": "¿Cómo funcionan las contraseñas en Pokémon Rejuvenation V14?",
+        "answer": "Las contraseñas en Pokémon Rejuvenation V14 se introducen durante la configuración de una nueva partida o a través del menú de contraseñas integrado. Estas ajustan la dificultad, las reglas de combate, las recompensas y las funciones de calidad de vida. Algunas contraseñas no se pueden eliminar de forma segura tras avanzar en la historia, así que mantén una partida guardada aparte sin modificar para los desafíos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para comenzar tu viaje en Rejuvenation?",
+    "description": "¡Únete a la comunidad de Reborn Evolved en Discord para obtener guías, tutoriales y participar en discusiones sobre la V14!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Descargar para PC"
+  },
+  "footer": {
+    "title": "Wiki de Pokémon Rejuvenation",
+    "description": "Tu centro de recursos completo para guías de Pokémon Rejuvenation V14, ubicaciones de Pokémon, misiones, jefes, Efectos de Campo, Crestas y guías de rutas.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "YouTube",
+    "steamCommunity": "Reddit",
+    "steamStore": "Descargar",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Pokémon Rejuvenation Wiki. No está afiliada a los desarrolladores de Pokémon Rejuvenation, Nintendo, Game Freak o The Pokémon Company.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Pokémon Rejuvenation",
+      "description": "Guía completa de la V14 que cubre cada capítulo de la historia, pasos requeridos, NPCs clave y progresión del mapa a través de la región de Aevium.",
+      "metaTitle": "Guías de Pokémon Rejuvenation - Guía de la historia V14",
+      "metaDescription": "Sigue la guía completa de Pokémon Rejuvenation V14 con guías capítulo a capítulo, progresión de la historia y consejos de exploración para la región de Aevium.",
+      "categoryLabel": "GUÍA DE LA HISTORIA",
+      "whatIs": "¿Qué son las Guías de la Historia?",
+      "whatIsDescription": "Las guías de la historia siguen la progresión principal capítulo a capítulo de Pokémon Rejuvenation V14, cubriendo los pasos requeridos, NPCs clave, transiciones de mapa y los lugares donde los jugadores suelen quedarse atascados. Se centran en la ruta crítica desde el Prólogo hasta el Capítulo 16 y no duplican misiones secundarias opcionales.",
+      "why": "¿Por qué usar las Guías de la Historia?",
+      "whySteps": {
+        "step1Title": "Sigue el orden de los capítulos",
+        "step1Description": "Sigue los capítulos del 1 al 16 en secuencia para saber siempre el siguiente objetivo, qué región explorar y dónde continúa la historia después de cada arco.",
+        "step2Title": "No te pierdas ninguna transición de mapa",
+        "step2Description": "Cada capítulo indica las rutas, ciudades y mazmorras en las que debes entrar para avanzar, para que evites deambular por zonas avanzadas antes de estar listo.",
+        "step3Title": "Resuelve puntos de atasco comunes",
+        "step3Description": "Encuentra instrucciones claras para puzles, activadores de NPCs y eventos que detienen el progreso en lugares como Goldenleaf Mansion, Valor Mountain y Grand Dream City."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las guías"
+    },
+    "download": {
+      "title": "Descarga de Pokémon Rejuvenation",
+      "description": "Enlaces de descarga oficiales de la V14 y guías de instalación para Windows, macOS, Linux, Kirin y JoiPlay, además de instrucciones para copias de seguridad de partidas, migración y el actualizador.",
+      "metaTitle": "Descarga de Pokémon Rejuvenation - Guía de instalación V14",
+      "metaDescription": "Descarga Pokémon Rejuvenation V14 para Windows, macOS, Linux y dispositivos móviles, con instalación paso a paso, migración de partidas e instrucciones del actualizador.",
+      "categoryLabel": "DESCARGAR E INSTALAR",
+      "whatIs": "¿Qué es la Guía de Descarga?",
+      "whatIsDescription": "La guía de descarga cubre cómo hacer funcionar Pokémon Rejuvenation V14 en tu plataforma, incluyendo las fuentes de descarga oficiales, los pasos de extracción, la herramienta de actualización, la copia de seguridad de la partida guardada antes de actualizar desde la V13.5, y las opciones móviles a través de Kirin y JoiPlay. V14 es un fangame independiente gratuito y no requiere una ROM de Pokémon ni un emulador.",
+      "why": "¿Por qué usar la Guía de Descarga?",
+      "whySteps": {
+        "step1Title": "Instala en la plataforma correcta",
+        "step1Description": "Sigue los pasos específicos de cada plataforma para Windows, macOS, Linux, Kirin y JoiPlay, incluyendo la extracción, los permisos y la ubicación de la carpeta de escritura.",
+        "step2Title": "Haz una copia de seguridad de tu partida guardada de la V13.5",
+        "step2Description": "Copia tu carpeta completa de partidas guardadas antes de abrir la V14 para que se pueda reintentar la conversión sin perder el progreso.",
+        "step3Title": "Mantén tu versión actualizada",
+        "step3Description": "Usa el actualizador incluido para aplicar parches sin reinstalar el paquete completo, y evita mezclar archivos de diferentes versiones de la V14."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las descargas"
+    },
+    "passwords": {
+      "title": "Contraseñas de Pokémon Rejuvenation",
+      "description": "Cada contraseña y código de la V14 con su ubicación de entrada, efecto de desbloqueo, versión aplicable y notas de uso para dificultad, recompensas y reglas de combate.",
+      "metaTitle": "Contraseñas de Pokémon Rejuvenation - Lista de códigos de la V14",
+      "metaDescription": "Explora todas las contraseñas y códigos de Pokémon Rejuvenation V14, incluyendo modificadores de dificultad, objetos de recompensa, reglas de nivel y selectores de reglas de combate.",
+      "categoryLabel": "CONTRASEÑAS Y CÓDIGOS",
+      "whatIs": "¿Qué son las contraseñas?",
+      "whatIsDescription": "Las contraseñas en Pokémon Rejuvenation V14 se introducen durante la configuración de una nueva partida o a través del menú de contraseñas del juego para personalizar la dificultad, las reglas de combate, las recompensas y las funciones de calidad de vida. Algunas contraseñas cambian el conjunto de reglas por completo, así que mantén una partida guardada sin modificar por separado antes de activar contraseñas de desafío.",
+      "why": "¿Por qué usar contraseñas?",
+      "whySteps": {
+        "step1Title": "Ajusta la dificultad",
+        "step1Description": "Reduce la fuerza del equipo rival con el modo lite, impón combates sin objetos o endurece el límite de nivel para adaptarlo a la partida que quieras jugar.",
+        "step2Title": "Desbloquea recompensas antes de tiempo",
+        "step2Description": "Obtén acceso anticipado al sistema de Repartir Experiencia, la Megaevolución, los Cristales Z y Pokémon con IVs perfectos sin tener que esperar a sus puntos de obtención normales.",
+        "step3Title": "Mejora la calidad de vida",
+        "step3Description": "Activa contraseñas de comodidad como MO fáciles y control del clima para agilizar el viaje y la creación de equipos."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las contraseñas"
+    },
+    "locations": {
+      "title": "Ubicaciones de Pokémon Rejuvenation",
+      "description": "Dónde encontrar cada Pokémon, regalo, intercambio, huevo, Forma Aeviana y objeto clave en la V14, organizados por región, capítulo, hora y clima.",
+      "metaTitle": "Ubicaciones de Pokémon Rejuvenation - Guía de Pokémon y objetos",
+      "metaDescription": "Encuentra la ubicación de cada Pokémon, Forma Aeviana, regalo, intercambio, huevo, Cresta, MT y objeto clave en Pokémon Rejuvenation V14, ordenados por región y capítulo.",
+      "categoryLabel": "UBICACIONES Y OBJETOS",
+      "whatIs": "¿Qué son las Guías de Ubicación?",
+      "whatIsDescription": "Las guías de ubicación rastrean dónde obtener Pokémon y objetos clave en Pokémon Rejuvenation V14, separando los encuentros salvajes de los regalos, intercambios, huevos, eventos estáticos y Formas Aevianas regionales. También cubren Crestas, MTs y objetos equipados importantes, y marcan claramente el contenido añadido o reubicado en la V14.",
+      "why": "¿Por qué usar las Guías de Ubicación?",
+      "whySteps": {
+        "step1Title": "Encuentra a cada Pokémon",
+        "step1Description": "Busca por región, capítulo, hora del día y clima para localizar encuentros salvajes, regalos, intercambios y Formas Aevianas por todo Aevium.",
+        "step2Title": "Colecciona objetos clave y Crestas",
+        "step2Description": "Rastrea Crestas, Megapiedras, Cristales Z, MTs y objetos de evolución, incluyendo aquellos vinculados a misiones secundarias que se pueden perder.",
+        "step3Title": "Atrapa los encuentros perdibles antes de irte",
+        "step3Description": "Revisa cada región antes de avanzar en la historia para que los encuentros de tiempo limitado y las recompensas de misiones no se pierdan permanentemente."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Ubicaciones"
+    },
+    "teams": {
+      "title": "Equipos de Pokémon Rejuvenation",
+      "description": "Las mejores composiciones de equipo de la V14, elección de iniciales, counters para líderes de gimnasio, estrategias contra jefes y una tier list para evaluar a cualquier miembro del equipo frente al contenido actual.",
+      "metaTitle": "Equipos de Pokémon Rejuvenation - Mejor Equipo y Tier List",
+      "metaDescription": "Construye el mejor equipo de Pokémon Rejuvenation V14 con elecciones de iniciales, counters para líderes de gimnasio, estrategias contra jefes y un marco claro de tier list.",
+      "categoryLabel": "EQUIPOS Y COMBATES",
+      "whatIs": "¿Qué son las Guías de Equipo?",
+      "whatIsDescription": "Las guías de equipo cubren a los líderes de gimnasio, al Team Xen, a los Pokémon Rift y a los jefes principales de la historia, además de elecciones de iniciales y estrategias de construcción de equipos para la V14. Cada entrada indica el Efecto de Campo activo, el arquetipo del equipo, las debilidades de tipo a explotar y una dirección estratégica, junto con un marco de tier list para juzgar a cualquier miembro.",
+      "why": "¿Por qué usar las Guías de Equipo?",
+      "whySteps": {
+        "step1Title": "Haz frente al Efecto de Campo activo",
+        "step1Description": "Lee sobre el campo de cada gimnasio y jefe para poder eliminar o explotar las condiciones en lugar de perder ventajas de tipo favorables debido a los multiplicadores alterados.",
+        "step2Title": "Elige al inicial correcto",
+        "step2Description": "Elige un inicial que se adapte a los Efectos de Campo del inicio del juego y a los tipos de gimnasio que quieras superar con más facilidad durante los capítulos iniciales.",
+        "step3Title": "Clasifica a los miembros de tu equipo",
+        "step3Description": "Utiliza los criterios de la tier list para juzgar a cualquier miembro según su disponibilidad, sinergia con el campo, desempeño contra jefes y valor a largo plazo."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Equipos"
+    },
+    "quests": {
+      "title": "Misiones de Pokémon Rejuvenation",
+      "description": "Todas las misiones secundarias opcionales y solicitudes del Centro de Ayuda en V14 con condiciones de activación, pasos, advertencias de contenido perdible y recompensas organizadas por capítulo y ciudad.",
+      "metaTitle": "Misiones de Pokémon Rejuvenation - Guía de misiones secundarias y Centro de Ayuda",
+      "metaDescription": "Guía completa de misiones secundarias y Centro de Ayuda de Pokémon Rejuvenation V14 con ubicaciones de activación, soluciones paso a paso, advertencias de contenido perdible y recompensas.",
+      "categoryLabel": "MISIONES SECUNDARIAS",
+      "whatIs": "¿Qué son las Guías de Misiones?",
+      "whatIsDescription": "Las guías de misiones cubren las misiones secundarias opcionales y las solicitudes del Centro de Ayuda en Pokémon Rejuvenation V14, incluyendo dónde comenzar cada solicitud, los pasos necesarios, las condiciones de contenido perdible y la recompensa final. Se centran en el contenido opcional y no repiten la guía de la historia principal.",
+      "why": "¿Por qué usar las Guías de Misiones?",
+      "whySteps": {
+        "step1Title": "Encuentra cada solicitud",
+        "step1Description": "Localiza cada solicitud del Centro de Ayuda y misión secundaria por capítulo y ciudad para que no te saltes nada durante la exploración.",
+        "step2Title": "Sigue soluciones claras paso a paso",
+        "step2Description": "Resuelve solicitudes de NPCs, entregas de objetos y objetivos de intercambio con instrucciones claras y los NPCs correspondientes.",
+        "step3Title": "Reclama cada recompensa",
+        "step3Description": "Recoge objetos, Huevos y Blasones antes de abandonar una región, ya que varias misiones dejan de estar disponibles a medida que avanza la historia."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las misiones"
+    },
+    "characters": {
+      "title": "Personajes de Pokémon Rejuvenation",
+      "description": "Perfiles detallados de los aliados clave, rivales y antagonistas de V14, incluyendo su rol, arco argumental, relaciones y relevancia en combate.",
+      "metaTitle": "Personajes de Pokémon Rejuvenation - Guía del elenco e historia",
+      "metaDescription": "Explora los personajes principales de Pokémon Rejuvenation V14, incluyendo aliados, rivales, miembros del Team Xen y sus roles a lo largo de la historia de Aevium.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Qué son las Guías de Personajes?",
+      "whatIsDescription": "Las guías de personajes describen a las figuras clave de Pokémon Rejuvenation V14, incluyendo aliados como Melia y Aelita, rivales, líderes de gimnasio y antagonistas del Team Xen. Cada perfil cubre su rol en la historia, relaciones, influencia del Karma y cómo conectan con las rutas Paragon y Renegade.",
+      "why": "¿Por qué usar las Guías de Personajes?",
+      "whySteps": {
+        "step1Title": "Entiende al elenco de la historia",
+        "step1Description": "Aprende el rol y el arco de cada aliado, rival y antagonista para que la narrativa de Aevium y sus giros tengan sentido.",
+        "step2Title": "Rastrea las relaciones y el Karma",
+        "step2Description": "Descubre cómo los puntos de relación y el Karma con cada personaje moldean los diálogos, los aliados disponibles y la elegibilidad para las rutas.",
+        "step3Title": "Prepárate para combates contra personajes",
+        "step3Description": "Anticípate a entrenadores recurrentes y jefes conociendo sus equipos, temáticas y los Efectos de Campo que prefieren."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los personajes"
+    }
   }
 }
