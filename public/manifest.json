@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Pokemon Rejuvenation Wiki - V14 Walkthrough & Guides",
+  "short_name": "Pokemon Rejuvenation",
+  "description": "Explore the Pokemon Rejuvenation Wiki for V14 walkthroughs, Pokemon locations, quest solutions, boss strategies, Field Effects, Crests, routes, and updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#1ED0EB",
+  "background_color": "#191023",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
