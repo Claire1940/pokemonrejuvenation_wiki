@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Karma: Paragon and Renegade Route Guide",
+  description: "Master the Pokemon Rejuvenation karma system in V14. Learn how choices influence Paragon and Renegade routes, relationship points, and Chapter 16 outcomes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Karma+and+Routes+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon Rejuvenation karma** is a hidden metric tracking narrative choices that determines your path toward the Paragon or Renegade endings.
+- **Paragon Route** requires high positive Karma and strong relationship values with key allies to preserve Aevium's future.
+- **Renegade Route** is triggered by negative Karma, specific cruel decisions, and failing to support allies during critical story beats.
+- **Chapter 16** serves as the ultimate branch point where earlier decisions culminate in route-exclusive locations and battles.
+- **Relationship Points** act as a secondary layer, influencing individual character survival and unique dialogue scenes.
+</Callout>
+
+<Section icon={Zap} title="Understanding the Pokemon Rejuvenation Karma System">
+
+In the complex narrative of Aevium, your actions carry weight far beyond simple dialogue flavor. The **Pokemon Rejuvenation karma** system is the invisible engine driving the game's branching storyline. Unlike standard RPGs where "good" and "evil" are clearly labeled, Rejuvenation often hides the impact of your choices until chapters later. In V14, this system has been refined to ensure that your path toward the Paragon or Renegade endings feels earned through consistent behavior.
+
+<CardGrid cols={3}>
+  <Card title="Paragon Path">
+    - **Focus**: Altruism and ally support
+    - **Outcome**: Preserves characters and seeks a hopeful resolution
+    - **Difficulty**: Standard boss challenges
+  </Card>
+  <Card title="Renegade Path">
+    - **Focus**: Ruthlessness and destruction
+    - **Outcome**: Darker themes with exclusive, high-difficulty battles
+    - **Difficulty**: Optimized AI and brutal encounters
+  </Card>
+  <Card title="Neutral State">
+    - **Focus**: Inconsistent or moderate choices
+    - **Outcome**: Generally defaults to a modified Paragon experience
+    - **Difficulty**: Standard progression
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Irreversible Decisions">
+Many Karma-altering choices occur in the first five chapters. While New Game+ allows for a reset, a standard playthrough requires careful planning from the start if you aim for the Renegade route.
+</Callout>
+
+Karma is gained by helping NPCs, showing mercy to antagonists, and prioritizing the safety of the group. Conversely, negative Karma is accumulated through selfishness, unnecessary violence, or abandoning allies in distress. This value is often checked during "Intermission" periods or major chapter climaxes to determine which version of a scene you witness.
+
+</Section>
+
+<Section icon={Target} title="Major Choice Impact and Karma Values">
+
+Every major arc in V14 contains at least one "Critical Choice" that significantly shifts your Karma standing. These moments are often marked by a brief pause or a prompt that asks for confirmation. Below is a breakdown of the most impactful decisions found in the early to mid-game chapters of Aevium.
+
+| Chapter | Location | Choice Context | Karma Impact |
+| :--- | :--- | :--- | :--- |
+| **Chapter 2** | Sheridan Village | Handling the Keta situation | **Positive**: Show mercy / **Negative**: Hostility |
+| **Chapter 3** | Goldenleaf Town | Supernatural investigation | **Positive**: Help townspeople / **Negative**: Ignore plight |
+| **Chapter 8** | Terajuma Island | Dealing with Team Xen agents | **Positive**: Spare / **Negative**: Execute or abandon |
+| **Chapter 11** | Grand Dream City | Faction conflict (Bladestar) | **Positive**: Mediate / **Negative**: Escalate violence |
+| **Chapter 15** | Zone Zero | Final preparations for C16 | **Positive**: High Karma check / **Negative**: Low Karma check |
+
+<Callout type="tip" title="Hidden Checks">
+Some Karma changes are not announced. If you find an NPC asking for a small favor or a choice seems "flavor only," it likely still contributes +/- 1 to your total Karma score.
+</Callout>
+
+Beyond the binary choices, the game tracks "Relationship Points" (RP) for every major companion. While Karma determines the overall route, RP determines who stays by your side within that route. High RP can sometimes bypass a slightly lower Karma score, allowing you to stay on the Paragon path even after a few mistakes.
+
+</Section>
+
+<Section icon={Heart} title="Relationship Points and Ally Synergy">
+
+While **Pokemon Rejuvenation karma** dictates the world's fate, Relationship Points dictate your personal connections. In V14, having a high RP with specific characters like Melia, Ren, or Venam unlocks unique items, Mega Stones, and even helps avoid certain "Bad Endings" for those characters.
+
+| Character | Primary Way to Increase RP | Reward / Impact |
+| :--- | :--- | :--- |
+| **Melia** | Support her leadership decisions | Unique story scenes and late-game support |
+| **Ren** | Understand his perspective in GDC | Influence his faction alignment in C16 |
+| **Venam** | Prioritize her safety in early chapters | Access to specific Poison-type buffs/items |
+| **Aelita** | Help her during the Sheridan arc | Survival during high-stress story events |
+
+<Callout type="info" title="RP Benchmarks">
+In Chapter 16, the game performs a "Loyalty Check." If your RP with a character is below a certain threshold, they may abandon you or fail to intervene during a boss battle, regardless of your Karma.
+</Callout>
+
+To maximize your RP, you should interact with your companions during "downtime" periods in hotels or hubs. These optional conversations often provide +1 or +2 RP and provide deeper lore regarding the history of Aevium and the threat of Team Xen.
+
+</Section>
+
+<Section icon={Map} title="Chapter 16: Entering Paragon or Renegade Routes">
+
+Chapter 16 is the definitive split in the V14 story. At this point, the game evaluates your total **Pokemon Rejuvenation karma** and specific flag triggers to lock you into one of the two primary paths. It is highly recommended to keep a backup save at the end of Chapter 15 before proceeding.
+
+<Steps>
+  <Step num="1" title="The Karma Evaluation">
+    The game checks if your Karma is above (Paragon) or below (Renegade) the threshold. Specific "cruelty flags" from the Terajuma and GDC arcs are also weighed here.
+  </Step>
+  <Step num="2" title="The Point of No Return">
+    You will encounter a final prompt in a historical location or Team Xen facility. Confirming your intent here locks the save file into the chosen route.
+  </Step>
+  <Step num="3" title="Route-Exclusive Locations">
+    Paragon players will head toward locations focused on restoration, while Renegade players explore altered, darker versions of Aevium's map.
+  </Step>
+  <Step num="4" title="Boss Climax">
+    Prepare for entirely different boss rosters. Renegade bosses often feature "corrupted" teams with Level 100+ caps and optimized competitive held items.
+  </Step>
+</Steps>
+
+<Callout type="success" title="New Game+ Benefits">
+Completing the Paragon route first is recommended by the developers. This unlocks New Game+ features that make achieving the Renegade requirements easier in a second playthrough.
+</Callout>
+
+The Renegade route is significantly more difficult and is intended for veteran players. It features unique Rift Pokémon encounters and story revelations that are not present in the Paragon path. However, it is also the "Bad Ending" path, resulting in the loss of many beloved characters.
+
+</Section>
+
+<Section icon={Checklist} title="Route Preparation Checklist">
+
+Use this checklist to ensure you are on the right track for your desired ending in V14. Missing even one major event can sometimes prevent access to the Renegade route.
+
+<Checklist
+  id="karma-route-checklist"
+  title="Route Consistency Tasks:"
+  items={[
+    "Maintain multiple save slots at the start of every new chapter",
+    "Check Relationship Points with Melia and Ren before entering GDC",
+    "Complete all Help Center quests in a region before the story moves on",
+    "Decide on your route goal (Paragon/Renegade) before Chapter 8",
+    "Review your Karma standing by speaking to specific 'Seer' NPCs if available",
+    "Collect all route-exclusive Crests and TMs before the Chapter 16 lock"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Karma and Route FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I switch from Renegade back to Paragon mid-game?",
+    answer: "Generally, no. Once you have accumulated enough negative Karma and triggered specific cruelty flags, the story shifts permanently. Only a New Game+ or loading a very old save can revert this."
+  },
+  {
+    question: "Does the difficulty setting affect my Karma?",
+    answer: "No. Difficulty (Lite, Normal, Intense) only affects trainer AI, levels, and Field Effects. You can play the Renegade route on Lite mode if you only want the story content."
+  },
+  {
+    question: "Are there exclusive Pokémon for each route?",
+    answer: "Yes. Certain static encounters, Aevian forms, and legendary events are tied to your Karma standing and the specific route you take in Chapter 16."
+  },
+  {
+    question: "How do I check my exact Karma value?",
+    answer: "The game does not show a numerical Karma value to the player. You must judge your standing based on character reactions and the availability of certain dialogue options."
+  }
+]} />
+
+</Section>

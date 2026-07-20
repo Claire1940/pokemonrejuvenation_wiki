@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Entrenamiento de EVs en Pokémon Rejuvenation: Guía para maximizar estadísticas rápidamente",
+  description: "Domina el entrenamiento de EVs en Pokémon Rejuvenation con nuestra guía de 2026 sobre las salas de EV de Gearen Oeste, objetos recio y reinicio con bayas para equipos competitivos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=EV+Training+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **entrenamiento de EVs en Pokémon Rejuvenation** te permite asignar un total de 510 puntos para mejorar las estadísticas de tus Pokémon.
+- Las **Salas de EV de Gearen Oeste** ofrecen el método de entrenamiento más rápido mediante el uso de tarjetas llave especializadas.
+- Los **Objetos Recio** añaden +8 EVs por cada derrota, acelerando significativamente el proceso de crecimiento.
+- Las **Bayas de Amistad** son esenciales para reiniciar los EVs no deseados y perfeccionar configuraciones competitivas.
+- La **pantalla de datos** en el juego proporciona una vista clara tanto de los IVs (izquierda) como de los EVs (derecha) de cada Pokémon.
+</Callout>
+
+<Section icon={Map} title="Fundamentos del entrenamiento de EVs en Pokémon Rejuvenation">
+
+Comprender el **entrenamiento de EVs en Pokémon Rejuvenation** es fundamental para superar los notorios picos de dificultad del juego. Los Puntos de Esfuerzo (EVs) son puntos ocultos que aumentan directamente las estadísticas de un Pokémon. A diferencia de los puntos de experiencia que suben de nivel al Pokémon, los EVs permiten un crecimiento especializado, transformando a un atacante estándar en un letal sweeper o a un defensor frágil en una muralla inamovible.
+
+En Pokémon Rejuvenation, cada Pokémon puede obtener un total de **510 EVs**. Sin embargo, existe un límite de **252 EVs** por estadística individual. Por cada 4 EVs invertidos en una estadística específica, esta aumenta en 1 punto al nivel 100. Esto significa que una estadística completamente entrenada puede ser hasta 63 puntos superior a una no entrenada, lo que a menudo decide el resultado de los combates de gimnasio de alta dificultad.
+
+| Métrica de Estadística | Valor Máximo | Tasa de Conversión | Límite Total |
+| :--- | :--- | :--- | :--- |
+| **Estadística Individual** | 252 EVs | 4 EVs = 1 Punto de Estadística | N/D |
+| **Límite Total del Pokémon** | 510 EVs | 127 Puntos de Estadística Totales | 510 EVs |
+| **Distribución Común** | 252 / 252 / 6 | Máx. 2 Estadísticas + 1 Menor | 510 EVs |
+
+El juego facilita el seguimiento de estos valores. Al navegar a la página de "IVs y EVs" en los datos del Pokémon, puedes ver tu progreso en tiempo real. Los valores de la derecha representan tu inversión actual de EVs.
+
+<Callout type="info" title="Consejo para el cálculo de estadísticas">
+Dado que 510 no es perfectamente divisible por 4, siempre te quedarán 2 EVs "desperdiciados" si maximizas dos estadísticas a 252 (252+252=504). La mayoría de los jugadores asignan los 6 puntos restantes a PS o Velocidad para asegurarse de aprovechar cada punto posible.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Salas de EV de Gearen Oeste: El método de farmeo definitivo">
+
+La forma más eficiente de realizar el **entrenamiento de EVs en Pokémon Rejuvenation** es a través de las Salas de EV dedicadas. Ubicadas dentro del **Centro Pokémon de Ciudad Gearen Oeste**, estas salas contienen encuentros específicos con Pokémon salvajes que otorgan grandes cantidades de EVs para una sola estadística. Sin embargo, el acceso no es gratuito; debes demostrar tu valía ganando Puntos de Logro (AP).
+
+Para desbloquear estas salas, debes visitar el **Centro de AP** ubicado dentro del **Hotel Chrisola** en Gearen Oeste. Aquí puedes canjear tus AP acumulados por Tarjetas Llave. Cada Tarjeta Llave corresponde a una de las seis estadísticas principales.
+
+<Steps>
+  <Step num="1" title="Gana Puntos de Logro">
+    Completa misiones secundarias, encuentra objetos ocultos o derrota a entrenadores específicos para acumular AP. Consulta tu ficha de entrenador para ver tu saldo actual.
+  </Step>
+  <Step num="2" title="Compra Tarjetas Llave">
+    Dirígete al Hotel Chrisola en Gearen Oeste. Habla con el vendedor de AP y compra las Tarjetas Llave para las estadísticas que deseas entrenar (por ejemplo, Velocidad y Ataque).
+  </Step>
+  <Step num="3" title="Accede a las Salas de EV">
+    Regresa al Centro Pokémon de Gearen Oeste. Usa las Tarjetas Llave en las puertas cerradas del fondo para entrar a las zonas de entrenamiento especializadas.
+  </Step>
+  <Step num="4" title="Derrota Pokémon Especializados">
+    Lucha contra los Pokémon salvajes que hay dentro. Se garantiza que cada encuentro en estas salas proporcionará EVs para la estadística asociada a esa sala.
+  </Step>
+</Steps>
+
+| Tipo de Tarjeta Llave | Estadística de Destino | Lugar de Compra | Coste |
+| :--- | :--- | :--- | :--- |
+| **Tarjeta Llave PS** | Puntos de Salud (PS) | Centro de AP del Hotel Chrisola | 50 AP |
+| **Tarjeta Llave Atq** | Ataque Físico | Centro de AP del Hotel Chrisola | 50 AP |
+| **Tarjeta Llave Def** | Defensa Física | Centro de AP del Hotel Chrisola | 50 AP |
+| **Tarjeta Llave AtE** | Ataque Especial | Centro de AP del Hotel Chrisola | 50 AP |
+| **Tarjeta Llave DeE** | Defensa Especial | Centro de AP del Hotel Chrisola | 50 AP |
+| **Tarjeta Llave Vel** | Velocidad | Centro de AP del Hotel Chrisola | 50 AP |
+
+<Callout type="tip" title="Aumento de eficiencia">
+Mientras estés en las salas de EV, asegúrate de que tu Pokémon lleve equipado un **Objeto Recio**. Esto combina el alto rendimiento de la sala con el bono fijo del objeto, permitiéndote maximizar una estadística en solo unos pocos minutos de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Objetos Recio y entrenamiento tradicional">
+
+Si aún no has llegado a Gearen Oeste o prefieres los métodos tradicionales, el **entrenamiento de EVs en Pokémon Rejuvenation** se puede realizar en cualquier lugar donde aparezcan Pokémon salvajes. Cada Pokémon que derrotas otorga una cantidad específica de EVs según su especie. Por ejemplo, derrotar a un Pidgey suele otorgar 1 EV de Velocidad, mientras que un Machop otorga 1 EV de Ataque.
+
+Para que esto sea viable, debes usar **Objetos Recio**. Estos objetos equipables otorgan un bono fijo de **+8 EVs** en una estadística específica cada vez que el portador gana experiencia en un combate, independientemente de qué Pokémon haya sido derrotado.
+
+<CardGrid cols={3}>
+  <Card title="Pesa Recia">
+    - **Estadística**: PS
+    - **Bono**: +8 EVs de PS
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+  <Card title="Brazal Recio">
+    - **Estadística**: Ataque
+    - **Bono**: +8 EVs de Ataque
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+  <Card title="Cinturón Recio">
+    - **Estadística**: Defensa
+    - **Bono**: +8 EVs de Defensa
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+  <Card title="Lente Recia">
+    - **Estadística**: At. Esp.
+    - **Bono**: +8 EVs de At. Esp.
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+  <Card title="Banda Recia">
+    - **Estadística**: Def. Esp.
+    - **Bono**: +8 EVs de Def. Esp.
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+  <Card title="Franja Recia">
+    - **Estadística**: Velocidad
+    - **Bono**: +8 EVs de Velocidad
+    - **Penalización**: Reduce a la mitad la Velocidad en combate
+  </Card>
+</CardGrid>
+
+| Nombre del Objeto | Cálculo de Rendimiento de EVs | Mejor Uso |
+| :--- | :--- | :--- |
+| **Solo Objeto Recio** | Base (1-3) + 8 = 9-11 | Farmeo en el juego temprano |
+| **Brazal Firme** | Base (1-3) x 2 = 2-6 | Si los Objetos Recio no están disponibles |
+| **Pokérus** | (Base + Objeto Recio) x 2 | Entrenamiento de velocidad extrema |
+
+<Callout type="warning" title="Reducción de Velocidad">
+Recuerda que los Objetos Recio reducen a la mitad la estadística de Velocidad del portador durante el combate. Si estás entrenando a un sweeper frágil contra Pokémon salvajes que podrían superarlo en velocidad y debilitarlo, considera usar el Repartir Experiencia para entrenarlo desde el banquillo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reiniciar estadísticas con Bayas de Amistad">
+
+Los errores ocurren, o tal vez capturaste un Pokémon de nivel alto que ya tiene EVs "desordenados" de combates aleatorios. En el **entrenamiento de EVs en Pokémon Rejuvenation**, no tienes que quedarte con estas estadísticas subóptimas. Puedes usar **Bayas de Amistad** específicas para reducir los EVs en 10 puntos por baya.
+
+Estas bayas tienen un doble propósito: aumentan la felicidad del Pokémon (Amistad) mientras reducen un EV específico. Son vitales para ajustar configuraciones con precisión o cambiar por completo el rol de un Pokémon, como transformar un Tanque Físico en una Muralla Especial.
+
+| Nombre de la Baya | EV Reducido (-10) | Efecto Secundario |
+| :--- | :--- | :--- |
+| **Baya Grana** | PS | Aumenta la Amistad |
+| **Baya Algo** | Ataque | Aumenta la Amistad |
+| **Baya Ispero** | Defensa | Aumenta la Amistad |
+| **Baya Meloc** | Ataque Especial | Aumenta la Amistad |
+| **Baya Uva** | Defensa Especial | Aumenta la Amistad |
+| **Baya Tamate** | Velocidad | Aumenta la Amistad |
+
+<Callout type="success" title="Gestión del inventario">
+Puedes comprar estas bayas en grandes cantidades a vendedores específicos en ciudades grandes como GDC o Gearen Oeste. Mantén siempre un grupo de 20 a 30 bayas de cada tipo en tu mochila para poder ajustar rápidamente las estadísticas de tu equipo antes de un combate importante contra un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Distribuciones de EVs óptimas para el juego competitivo en Rejuvenation">
+
+Decidir dónde colocar tus puntos es tan importante como el entrenamiento mismo. Dado que Pokémon Rejuvenation presenta Efectos de Campo únicos que pueden potenciar ciertas estadísticas o tipos, tu estrategia de **entrenamiento de EVs en Pokémon Rejuvenation** debe tener en cuenta estos factores ambientales.
+
+Por ejemplo, en un campo de Espacio Raro (Trick Room), es posible que prefieras evitar por completo los EVs en Velocidad y centrarte en PS y Ataque. Por el contrario, en un campo que potencia los movimientos de tipo Eléctrico, invertir en Defensa Especial para tus Pokémon que no sean de tipo Tierra podría marcar la diferencia entre una victoria aplastante o una derrota total.
+
+<Checklist
+  id="training-checklist"
+  title="Lista de verificación previa al entrenamiento:"
+  items={[
+    "Identificar las mejores estadísticas base del Pokémon",
+    "Revisar la pantalla de datos para ver si existen EVs 'desordenados'",
+    "Usar Bayas de Amistad para limpiar los puntos no deseados",
+    "Equipar el Objeto Recio correcto para la primera estadística",
+    "Asegurarse de tener la Tarjeta Llave para las salas de Gearen Oeste"
+  ]}
+/>
+
+| Arquetipo | Distribución Recomendada | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Sweeper Físico** | 252 Atq / 252 Vel / 6 PS | Superar en velocidad y debilitar de un golpe (OHKO) a objetivos físicos |
+| **Muralla Especial** | 252 PS / 252 Def. Esp. / 6 Def | Absorber potentes Ataques Especiales |
+| **Atacante Resistente** | 252 PS / 252 Atq / 6 Def | Sobrevivir a golpes mientras inflige un daño masivo |
+| **Glass Cannon** | 252 At. Esp. / 252 Vel / 6 Def. Esp. | Máxima velocidad y daño especial |
+
+<Callout type="info" title="Estrategia experta">
+Para los jefes del juego tardío, considera las "Distribuciones Mixtas". Por ejemplo, invertir suficientes EVs en Velocidad para superar al Pokémon estrella de un Líder de Gimnasio específico, y luego poner el resto en resistencia. Esto es más efectivo que maximizar ciegamente dos estadísticas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo comprobar mi progreso en el entrenamiento de EVs en Pokémon Rejuvenation?",
+    answer: "Abre los datos de tu Pokémon y navega por las páginas hasta que veas 'IVs y EVs'. Los números en el lado derecho de la pantalla muestran tu inversión actual de EVs para cada una de las seis estadísticas."
+  },
+  {
+    question: "¿Dónde puedo conseguir más Puntos de Logro (AP) para las Tarjetas Llave?",
+    answer: "Los AP se obtienen al completar misiones secundarias que se encuentran en los Tablones de Ayuda, al encontrar objetos ocultos con el Buscaobjetos y al alcanzar hitos específicos en el juego. El Centro de AP en el Hotel Chrisola es donde puedes gastarlos."
+  },
+  {
+    question: "¿Puedo maximizar todas las estadísticas a 252?",
+    answer: "No, estás limitado a un total of 510 EVs entre todas las estadísticas. Esto significa que solo puedes maximizar por completo dos estadísticas (252 cada una), con un pequeño remanente para una tercera estadística."
+  },
+  {
+    question: "¿Funcionan los Objetos Recio si el Pokémon no participa en el combate?",
+    answer: "Sí, si el Pokémon lleva equipado un Objeto Recio y tienes activo el Repartir Experiencia, el Pokémon en el banquillo seguirá recibiendo el bono de +8 EVs del Objeto Recio cada vez que el Pokémon activo gane un combate."
+  }
+]} />
+
+<Callout type="tip" title="Nota final">
+Dominar el entrenamiento de EVs es la mayor ventaja individual que puedes darte en Pokémon Rejuvenation. Tómate el tiempo para farmear los AP necesarios para las Tarjetas Llave temprano; te ahorrará horas de entrenamiento a largo plazo.
+</Callout>
+
+</Section>

@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Breeding em Pokémon Rejuvenation: Guia de Desbloqueio do Daycare V14 e Egg Moves",
+  description: "Domine o breeding em Pokémon Rejuvenation V14. Aprenda como desbloquear o Daycare da Rota 3, obter Ditto, transmitir egg moves e usar o password fullivs.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/fff?text=Breeding+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation",
+  keywords: "breeding, daycare, egg moves, ditto, pokemon rejuvenation v14"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Localização Principal**: O Daycare é desbloqueado na **Rota 3** após completar uma missão de resgate específica.
+- **Egg Moves**: Cruciais para movesets personalizados para contornar os rígidos limites de nível da V14 e chefes de ginásio difíceis.
+- **Otimização de Stats**: Use o password **fullivs** durante a criação do save para pular completamente o tedioso breeding de IVs.
+- **Disponibilidade de Ditto**: Altamente restrito até o final do jogo, tornando a correspondência de Egg Groups essencial para o sucesso no início do jogo.
+</Callout>
+
+<Section icon={Map} title="Desbloqueio e Configuração do Daycare da Rota 3">
+
+Em Aevium, otimizar sua equipe não é apenas um luxo; é uma necessidade para sobreviver aos brutais picos de dificuldade introduzidos na V14. Utilizar o sistema de **breeding de Pokémon Rejuvenation** permite que você construa equipes altamente especializadas, capazes de manipular Efeitos de Campo e superar Líderes de Ginásio. Antes de começar a chocar ovos, você deve primeiro localizar e desbloquear o Casal do Daycare, que desapareceu devido à interferência da Team Xen.
+
+O Daycare está situado na Rota 3, uma área que você acessará durante os capítulos iniciais-médios do jogo. No entanto, o prédio está inicialmente trancado. Você deve completar uma missão de resgate para trazer o Casal do Daycare de volta à sua loja.
+
+| Passo | Objetivo | Localização | Requisitos |
+|---|---|---|---|
+| 1 | Chegar à Rota 3 | Rota 3 | Derrotar o Líder de Ginásio de Goldenleaf |
+| 2 | Iniciar Missão de Resgate | Daycare da Rota 3 | Falar com o NPC do lado de fora do prédio trancado |
+| 3 | Localizar o Casal do Daycare | Secret Meadow | Derrotar os recrutas da Team Xen que os guardam |
+| 4 | Reabrir o Daycare | Daycare da Rota 3 | Retornar ao prédio para acessar os serviços de breeding |
+
+Uma vez desbloqueado, o Daycare funciona de forma semelhante aos jogos tradicionais, cobrando uma pequena taxa em PokéDollars para depositar seus Pokémon. No entanto, ao contrário dos jogos oficiais, o ganho de experiência no Daycare é limitado para evitar que seus Pokémon ultrapassem acidentalmente o limite de nível da sua insígnia atual.
+
+<Callout type="warning" title="Aviso de Limite de Nível">
+Pokémon depositados ainda ganharão experiência enquanto você caminha. Se um Pokémon atingir o limite de nível ativo, ele parará de ganhar experiência para evitar a desobediência em batalha. Fique de olho em suas unidades depositadas!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias Avançadas de Breeding em Pokémon Rejuvenation">
+
+O breeding na V14 pode ser abordado de duas maneiras distintas: o grind tradicional ou a rota otimizada por passwords. Durante a criação do seu arquivo de save, você tem a opção de inserir passwords personalizados. O password mais influente para entusiastas de breeding é o **fullivs**.
+
+Quando o password **fullivs** está ativo, cada Pokémon selvagem, Pokémon de presente e ovo chocado tem a garantia de ser gerado com Individual Values (IVs) 31 perfeitos em todos os seis stats. Isso elimina completamente a necessidade de breedar por IVs, permitindo que você se concentre puramente em Natures, Abilities e Egg Moves. Se você preferir uma jogada clássica e não modificada, precisará contar com as mecânicas padrão de Destiny Knot e Everstone.
+
+| Item | Utilidade no Breeding | Localização no Jogo | Capítulo Mais Cedo |
+|---|---|---|---|
+| Everstone | Passa a Nature do portador (taxa de 100%) | Grand Mall de Gearen City / Roggenrola selvagem | Capítulo 1 |
+| Destiny Knot | Passa 5 IVs aleatórios de ambos os pais | Loja de Departamentos de Grand Dream City | Capítulo 9 |
+| Power Weight | Passa o IV de HP do portador | Vendedor de AP de Gearen City | Capítulo 4 |
+| Power Bracer | Passa o IV de Ataque do portador | Vendedor de AP de Gearen City | Capítulo 4 |
+
+Para ajudá-lo a decidir sua abordagem de breeding, considere estas três estratégias principais, dependendo das configurações de jogo escolhidas:
+
+<CardGrid cols={3}>
+  <Card title="Egg Move Rushing">
+    - **Foco**: Passar golpes poderosos
+    - **Melhor para**: Runs de dificuldade Hardcore
+    - **Pai Chave**: Smeargle macho
+  </Card>
+  <Card title="Cadeia de IV Tradicional">
+    - **Foco**: Otimização manual de stats
+    - **Melhor para**: Runs sem passwords
+    - **Pai Chave**: Ditto com IVs altos
+  </Card>
+  <Card title="Preservação de Aevian Form">
+    - **Foco**: Manter tipagens regionais
+    - **Melhor para**: Temas de equipe personalizados
+    - **Pai Chave**: Portador de Everstone
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Utilidade do Smeargle">
+Capture um Smeargle macho nos Esgotos de Gearen. Faça-o usar Sketch nos golpes exatos que você deseja transmitir e, em seguida, breede-o com um Pokémon fêmea compatível no Egg Group Field para transferir facilmente egg moves complexos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo de Breeding de Egg Moves">
+
+Transmitir Egg Moves é a maneira mais eficaz de dar à sua equipe uma vantagem tática. Muitos Pokémon em Rejuvenation aprendem golpes poderosos de cobertura, opções de recuperação ou golpes de setup exclusivamente através do breeding. Siga este processo passo a passo para breedar com sucesso um Pokémon pronto para a batalha com seu moveset ideal.
+
+<Steps>
+  <Step num="1" title="Identificar o Alvo e o Pai">
+    Determine o Pokémon fêmea da espécie que você deseja breedar. Em seguida, encontre um Pokémon macho compatível do mesmo Egg Group que aprenda naturalmente o Egg Move desejado.
+  </Step>
+  <Step num="2" title="Equipar os Itens de Breeding">
+    Dê uma Everstone ao pai que possui a Nature desejada. Se você não estiver jogando com o password fullivs, equipe o pai com os melhores IVs com um Destiny Knot.
+  </Step>
+  <Step num="3" title="Depositar e Gerar Ovos">
+    Deposite ambos os pais no Daycare da Rota 3. Caminhe ou corra do lado de fora até que o Homem do Daycare mude de posição, indicando que um Ovo foi encontrado. Mantenha um slot vazio em sua equipe para aceitar o Ovo.
+  </Step>
+  <Step num="4" title="Chocar e Verificar">
+    Caminhe com o Ovo em sua equipe. Assim que ele chocar, abra a tela de sumário para verificar se o Pokémon recém-nascido herdou os Egg Moves, Nature e Ability corretos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Otimização de Chocagem">
+Mantenha sempre um Pokémon com a habilidade **Flame Body** ou **Magma Armor** (como Litwick ou Slugma) na frente da sua equipe. Isso reduz pela metade o número de passos necessários para chocar qualquer Ovo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Formas de Aevium e Regras Especiais de Breeding">
+
+Aevium apresenta variantes regionais únicas conhecidas como Aevian Forms. Esses Pokémon possuem tipagens, habilidades e movesets distintos em comparação com suas contrapartes padrão. Breedá-los requer a adesão a regras específicas para garantir que você não choque acidentalmente uma forma padrão.
+
+Para preservar uma Aevian Form durante o breeding, o pai Aevian **deve** segurar uma Everstone. Se você breedar uma Aevian Form sem uma Everstone, o filhote resultante reverterá para sua forma padrão, não Aevian, ao chocar.
+
+| Pai A (Fêmea) | Pai B (Macho) | Item Segurado (Everstone) | Resultado do Breeding |
+|---|---|---|---|
+| Aevian Form | Macho Compatível | Equipado na Fêmea | Filhote Aevian Form |
+| Standard Form | Aevian Form | Equipado no Macho | Filhote Standard Form |
+| Aevian Form | Ditto | Equipado no Aevian | Filhote Aevian Form |
+| Aevian Form | Macho Compatível | Nenhum Equipado | Filhote Standard Form |
+
+<Checklist
+  id="breeding-prep"
+  title="Checklist de Preparação Pré-Breeding:"
+  items={[
+    "Verifique se ambos os pais pertencem a Egg Groups compatíveis",
+    "Equipe a Everstone no pai com a Nature desejada",
+    "Coloque um Pokémon com Flame Body no primeiro slot da sua equipe",
+    "Certifique-se de ter PokéDollars suficientes para a taxa de depósito do Daycare",
+    "Verifique se os egg moves desejados são compatíveis nas mecânicas da Gen 8/9"
+  ]}
+/>
+
+<Callout type="info" title="Aquisição de Ditto">
+Ditto é altamente valioso para o breeding, mas não está disponível na natureza durante o início do jogo. Você pode obter um Ditto completando uma longa sidequest em Grand Dream City ou utilizando códigos de mistério específicos no início de sua aventura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudar a esclarecer as nuances dos sistemas de **breeding de Pokémon Rejuvenation**, compilamos respostas para as perguntas mais comuns que os jogadores encontram durante suas jogadas na V14.
+
+<FAQ items={[
+  {
+    question: "Posso breedar Aevian Forms com um Ditto padrão?",
+    answer: "Sim. Desde que o pai Aevian Form esteja segurando uma Everstone, o breeding com um Ditto padrão sempre resultará em um filhote Aevian Form."
+  },
+  {
+    question: "Como o password fullivs afeta os ovos chocados?",
+    answer: "O password fullivs garante que cada ovo chocado em seu jogo tenha automaticamente 31 IVs em todos os seis stats, removendo completamente a necessidade de breeding manual de IVs."
+  },
+  {
+    question: "Onde posso encontrar o Destiny Knot na V14?",
+    answer: "O Destiny Knot está disponível para compra na Loja de Departamentos de Grand Dream City a partir do Capítulo 9, ou como uma recompensa rara de sidequests específicas do final do jogo."
+  },
+  {
+    question: "Por que meu casal do Daycare não está gerando ovos?",
+    answer: "Certifique-se de que os dois Pokémon depositados são compatíveis verificando seus Egg Groups. Se o Homem do Daycare disser que eles 'não gostam um do outro', os ovos ainda serão gerados lentamente. Se ele disser que eles 'preferem brincar com outros Pokémon', eles são incompatíveis."
+  }
+]} />
+
+<Callout type="tip" title="Recursos da Comunidade">
+Se você estiver com dificuldades para encontrar um Pokémon pai específico para egg moves, considere visitar o servidor oficial do Discord Reborn Evolved. A comunidade possui canais de troca dedicados onde os jogadores frequentemente compartilham sobras de breeding de alta qualidade.
+</Callout>
+
+</Section>

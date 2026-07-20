@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Key } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Códigos del Maletín de Pokémon Rejuvenation: Guía de Contraseñas V14",
+  description: "Desbloquea ajustes que cambian el juego con los códigos del maletín de Pokémon Rejuvenation. Obtén la lista completa de contraseñas de la V14 para dificultad, estadísticas y calidad de vida (QoL).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/191023/fff?text=Briefcase+Codes+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Códigos del Maletín**: Contraseñas personalizadas que se introducen durante la secuencia inicial para modificar las reglas del juego.
+- **Mejoras de Calidad de Vida (QoL)**: Usa códigos específicos para eliminar el tedioso farmeo, los requisitos de MO y las restricciones de tiempo.
+- **Control de Dificultad**: Ajusta tu experiencia de combate, desde partidas narrativas casuales hasta desafíos tácticos extremos.
+- **Optimización de Estadísticas**: Genera encuentros con estadísticas perfectas inmediatamente para evitar los ciclos repetitivos de crianza.
+- **Compatibilidad con V14**: Asegúrate de que tus códigos se alineen con los parámetros de la versión V14 recién actualizada.
+</Callout>
+
+<Section icon={Key} title="Cómo usar los códigos del maletín de Pokémon Rejuvenation">
+
+Cuando comienzas tu viaje en Aevium en el S.S. Oceana, se te presenta un maletín cibernético durante la fase de configuración del personaje. Esta interfaz es donde introduces tus **códigos del maletín de Pokémon Rejuvenation** (conocidos ampliamente en la comunidad como contraseñas). Estos códigos te permiten personalizar tu experiencia de juego desde el principio, alterando todo, desde las mecánicas de batalla hasta la disponibilidad de objetos.
+
+Si pierdes esta oportunidad inicial, no te preocupes. El juego ofrece computadoras dentro del juego e interacciones específicas con PNJ donde puedes gestionar, activar o desactivar estos conjuntos de reglas más adelante, siempre que tengas los objetos necesarios. Sin embargo, iniciarlos durante el prólogo sigue siendo el método más fiable para asegurar una partida personalizada sin problemas.
+
+| Fase | Ubicación | Dispositivo / PNJ | Notas |
+| :--- | :--- | :--- | :--- |
+| **Nueva Partida** | S.S. Oceana | Maletín Cibernético | El mejor momento para introducir reglas globales y modificadores de QoL |
+| **Mitad del Juego** | Cualquier PC | Computadora del juego | Requiere objetos de datos de contraseña para modificar ajustes |
+| **Actualizaciones** | Ciudad Gearen | PNJ Especiales | Útil para verificar ajustes activos y compatibilidad de versión |
+
+<Callout type="warning" title="Advertencia Importante sobre la Partida Guardada">
+Algunos códigos del maletín alteran permanentemente las reglas de tu archivo de guardado. Aunque muchos ajustes de calidad de vida se pueden desactivar, los modificadores de dificultad y progresión de objetos pueden restringir tu capacidad para participar en comparaciones de progresión estándar. Realiza siempre copias de seguridad de tus archivos de guardado antes de probar combinaciones extensas de códigos, especialmente al actualizar de la V13.5 a la V14.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Códigos de Maletín de Primer Nivel para Calidad de Vida">
+
+Para los jugadores que quieren centrarse en la historia, la exploración y las batallas tácticas sin la fricción tradicional de los RPG, los códigos de calidad de vida son esenciales. Estos códigos eliminan la necesidad de "mochilas" de MO y te dan un control preciso sobre factores ambientales como el tiempo y el clima.
+
+<CardGrid cols={3}>
+  <Card title="easyhms">
+    - **Sin requisitos de MO**
+    - Conserva sets de movimientos óptimos
+    - Altamente recomendado para todas las partidas
+  </Card>
+  <Card title="unrealtime">
+    - **Reloj del juego personalizado**
+    - Controla ciclos día/noche
+    - Accede a eventos temporales fácilmente
+  </Card>
+  <Card title="weathermod">
+    - **Control del clima en el supramundo**
+    - Simplifica encuentros climáticos
+    - Neutraliza peligros del campo
+  </Card>
+</CardGrid>
+
+Usar estos códigos te permite evitar mecánicas que algunos jugadores encuentran tediosas. Por ejemplo, el código `easyhms` es un enorme ahorro de tiempo. Permite a tu equipo realizar acciones de recorrido como Corte, Golpe Roca y Fuerza sin obligar a tus Pokémon a aprender permanentemente estos movimientos de baja utilidad.
+
+| Código | Categoría | Efecto Principal | Impacto en el Guardado |
+| :--- | :--- | :--- | :--- |
+| `easyhms` | QoL | Usa movimientos de campo sin enseñar MOs | Reversible, altamente recomendado |
+| `unrealtime` | QoL | Personaliza el reloj día/noche del juego | Reversible, altera eventos temporales |
+| `weathermod` | Entorno | Control manual del clima del supramundo | Reversible, afecta encuentros salvajes |
+
+<Callout type="tip" title="Consejo Pro: Sincronización del Reloj">
+Al usar `unrealtime`, puedes configurar el reloj a través del menú de opciones del juego. Esto es increíblemente útil para capturar Pokémon raros que solo aparecen a horas específicas del día, como los tipos Fantasma exclusivos de la noche en el Parque Gearen, sin tener que esperar en tiempo real.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modificadores de Combate y Dificultad">
+
+El combate en Aevium es notoriamente desafiante, construido en torno a complejos Efectos de Campo e IA enemiga altamente optimizada. Si te encuentras contra un muro, o si quieres hacer la experiencia aún más exigente, puedes utilizar **códigos del maletín de Pokémon Rejuvenation** específicos para el combate.
+
+Estos modificadores alteran cómo se distribuye la experiencia, cómo se estructuran los equipos oponentes e incluso cómo los Efectos de Campo influyen en el flujo de la batalla.
+
+| Código | Modo | Efecto Principal | Recomendado Para |
+| :--- | :--- | :--- | :--- |
+| `hardcap` | Reglas de Nivel | Detiene la ganancia de EXP en el límite de nivel de medalla | Jugadores hardcore, partidas estándar |
+| `litemode` | Dificultad | Reduce estadísticas del oponente y optimización de IA | Jugadores casuales, partidas centradas en historia |
+| `noitems` | Reglas de Batalla | Desactiva objetos de la mochila en batallas de entrenador | Partidas de desafío, pruebas competitivas |
+| `fieldfrenzy` | Efectos de Campo | Amplifica el daño de campo y efectos secundarios | Jugadores tácticos, experimentadores de campo |
+
+<Callout type="info" title="Entendiendo los Límites de Nivel">
+Por defecto, los Pokémon dejarán de obedecerte si superan el límite de nivel dictado por tu número actual de medallas. Activar el código `hardcap` evita que tu equipo gane experiencia adicional una vez que alcanzan este límite, evitando subir de nivel accidentalmente durante secuencias largas de exploración.
+</Callout>
+
+Para los jugadores que buscan una experiencia narrativa relajada, `litemode` es una herramienta altamente efectiva. Suaviza la brutal optimización de los líderes de gimnasio y los ejecutivos del Team Xen, haciendo que las batallas importantes sean mucho más permisivas. Por el contrario, `noitems` te obliga a confiar totalmente en objetos equipados y movimientos de estado, imitando las reglas del multijugador competitivo.
+
+</Section>
+
+<Section icon={Trophy} title="Códigos de Progresión y Mejora de Estadísticas">
+
+El farmeo para obtener estadísticas perfectas y esperar objetos de final de juego puede ralentizar tu progresión. El juego incluye varios códigos diseñados para acelerar el desarrollo de tu equipo, dándote acceso temprano a mecánicas poderosas como la Megaevolución y Valores Individuales (IVs) optimizados.
+
+| Código | Tipo de Recompensa | Efecto Principal | Impacto en el Equilibrio |
+| :--- | :--- | :--- | :--- |
+| `freeexpall` | Objeto | Acceso temprano al objeto Exp. All | Acelera la rotación del equipo en el juego temprano |
+| `freemegaz` | Progresión | Acceso temprano a Megapiedras/Cristales Z | Alto impacto, reduce dificultad a mitad del juego |
+| `fullivs` | Estadísticas | Fuerza a todos los encuentros salvajes/regalo a tener 31 IVs | Elimina el farmeo de crianza por completo |
+
+Para configurar una partida altamente optimizada desde el prólogo, sigue esta guía paso a paso al interactuar con el maletín cibernético.
+
+<Steps>
+  <Step num="1" title="Iniciar Nueva Partida">
+    Comienza una nueva partida y completa las escenas iniciales en el S.S. Oceana hasta que llegues a la personalización del personaje y la configuración del maletín.
+  </Step>
+  <Step num="2" title="Introducir Códigos de Estadísticas y Recompensas">
+    Introduce `fullivs` para asegurar que cada Pokémon que captures tenga estadísticas perfectas, y `freeexpall` para mantener a todo tu equipo nivelado de forma equilibrada.
+  </Step>
+  <Step num="3" title="Aplicar Ajustes de QoL">
+    Introduce `easyhms` para eliminar la necesidad de movimientos MO, permitiéndote explorar la región de Aevium sin llenar tus sets de movimientos.
+  </Step>
+  <Step num="4" title="Confirmar y Guardar">
+    Verifica tus ajustes activos en la solicitud de confirmación, completa el prólogo y guarda tu partida en un espacio dedicado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estadísticas Perfectas Garantizadas">
+Usar el código `fullivs` es altamente recomendado para jugadores que disfrutan de la creación de equipos competitivos pero no les gusta la naturaleza repetitiva de la crianza. Cada encuentro salvaje, regalo y huevo se generará automáticamente con el máximo potencial, permitiéndote centrarte puramente en el entrenamiento de EVs y la sinergia de movimientos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación y Configuración de Códigos del Maletín">
+
+Para ayudarte a organizar tu partida personalizada, hemos compilado una lista de verificación inicial recomendada. Estos ajustes equilibran la comodidad con el diseño de combate desafiante característico del juego, asegurando que aproveches al máximo tu experiencia en la V14.
+
+Para discusiones más detalladas sobre conjuntos de reglas personalizados, puedes consultar los [Foros de Pokémon Rejuvenation](https://www.rebornevo.com/forums/topic/50085-passwords/) curados por la comunidad para ver cómo otros jugadores configuran sus partidas de desafío.
+
+<Checklist
+  id="starting-codes"
+  title="Configuración Inicial Recomendada:"
+  items={[
+    "Activa easyhms para mantener tus sets de movimientos limpios y optimizar la exploración",
+    "Habilita hardcap para evitar subir de nivel accidentalmente y mantener el equilibrio de combate",
+    "Aplica fullivs para saltarte por completo el farmeo de crianza y reinicios",
+    "Usa freeexpall para que la rotación de tu equipo para las batallas de gimnasio sea fluida",
+    "Mantén un archivo de guardado de respaldo antes de entrar al primer cambio de región importante"
+  ]}
+/>
+
+<Callout type="tip" title="Verificación de Códigos Activos">
+Puedes verificar qué códigos están activos actualmente en tu archivo de guardado revisando la terminal de computadora en cualquier Centro Pokémon. Esto te permite monitorear tus ajustes y asegurar que no haya reglas conflictivas activas antes de desafiar a un jefe importante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Para asegurar que tengas toda la información necesaria para una partida exitosa, hemos compilado respuestas a las preguntas más comunes sobre el sistema de contraseñas.
+
+<FAQ items={[
+  {
+    question: "¿Dónde introduzco los códigos del maletín de Pokémon Rejuvenation?",
+    answer: "Introduces estos códigos durante la secuencia inicial de una nueva partida al interactuar con el maletín cibernético en el S.S. Oceana. Alternativamente, puedes modificarlos a mitad del juego usando una terminal de PC si posees los objetos de datos de contraseña requeridos."
+  },
+  {
+    question: "¿Estos códigos desactivan los logros del juego o la progresión de la historia?",
+    answer: "No, el uso de códigos del maletín no te bloquea la progresión de la historia principal ni los logros estándar. Sin embargo, códigos como freemegaz o litemode marcarán tu partida como asistida, lo cual es importante tener en cuenta si planeas compartir tus logros con la comunidad."
+  },
+  {
+    question: "¿Puedo desactivar un código después de haberlo activado?",
+    answer: "La mayoría de los códigos de calidad de vida y ambientales (como easyhms, unrealtime y weathermod) se pueden desactivar en cualquier terminal de PC. Sin embargo, los códigos estructurales como fullivs o los que alteran la dificultad pueden afectar permanentemente tu archivo de guardado una vez inicializados."
+  },
+  {
+    question: "¿Estos códigos del maletín son compatibles con la actualización V14?",
+    answer: "Sí, todos los códigos listados en esta guía son totalmente compatibles en la versión V14. Se recomienda encarecidamente utilizar una instalación limpia de la V14 en lugar de sobrescribir carpetas antiguas de la V13.5 para evitar la corrupción del archivo de guardado al aplicar estos códigos."
+  }
+]} />
+
+<Callout type="warning" title="Recordatorio Final de Respaldo">
+Antes de avanzar más allá del Capítulo 1, asegúrate de guardar tu partida en múltiples espacios. Si decides ajustar tus códigos activos más adelante, tener una copia de seguridad limpia del juego temprano te ahorrará horas de tiempo de juego.
+</Callout>
+
+</Section>

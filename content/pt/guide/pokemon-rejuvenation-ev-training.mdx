@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Treinamento de EVs em Pokemon Rejuvenation: Guia de Maximização Rápida de Stats",
+  description: "Domine o treinamento de EVs em Pokemon Rejuvenation com nosso guia de 2026 sobre as salas de EV de West Gearen, itens de poder e reset com frutas de amizade para times competitivos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=EV+Training+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, treinamento de ev, ev training, west gearen, itens de poder, pokémon competitivo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O treinamento de EVs em Pokemon Rejuvenation** permite alocar 510 pontos totais para aprimorar os stats do seu Pokémon.
+- **As Salas de EV de West Gearen** oferecem o método de treinamento mais rápido usando cartões-chave especializados.
+- **Itens de Poder (Power Items)** adicionam +8 EVs por derrota, acelerando significativamente o processo de crescimento.
+- **Frutas de Amizade (Friendship Berries)** são essenciais para resetar EVs indesejados e refinar builds competitivas.
+- **A Página de Resumo (Summary Page)** no jogo fornece uma visão clara tanto dos IVs (esquerda) quanto dos EVs (direita) para cada Pokémon.
+</Callout>
+
+<Section icon={Map} title="Fundamentos do Treinamento de EVs em Pokemon Rejuvenation">
+
+Entender o **treinamento de EVs em pokemon rejuvenation** é a base para superar os picos de dificuldade notórios do jogo. Effort Values (EVs) são pontos ocultos que aumentam diretamente os stats de um Pokémon. Ao contrário dos pontos de experiência que aumentam o nível do Pokémon, os EVs permitem um crescimento especializado, transformando um atacante comum em um sweeper letal ou um defensor frágil em uma parede imóvel.
+
+Em Pokemon Rejuvenation, cada Pokémon pode ganhar um total de **510 EVs**. No entanto, existe um limite de **252 EVs** por stat individual. Para cada 4 EVs investidos em um stat específico, esse stat aumenta em 1 ponto no nível 100. Isso significa que um stat totalmente treinado pode ser até 63 pontos maior do que um não treinado, o que muitas vezes dita o resultado de batalhas de ginásio de alto risco.
+
+| Métrica do Stat | Valor Máximo | Taxa de Conversão | Limite Total |
+| :--- | :--- | :--- | :--- |
+| **Stat Individual** | 252 EVs | 4 EVs = 1 Ponto de Stat | N/A |
+| **Limite Total do Pokémon** | 510 EVs | 127 Pontos de Stat Totais | 510 EVs |
+| **Distribuição Comum** | 252 / 252 / 6 | Máx 2 Stats + 1 Menor | 510 EVs |
+
+O jogo facilita o acompanhamento desses valores. Ao navegar para a página "IVs and EVs" no Resumo do Pokémon, você pode ver seu progresso em tempo real. Os valores à direita representam seu investimento atual de EVs.
+
+<Callout type="info" title="Dica de Cálculo de Stats">
+Como 510 não é perfeitamente divisível por 4, você sempre terá 2 EVs "desperdiçados" se maximizar dois stats em 252 (252+252=504). A maioria dos jogadores coloca os 6 pontos restantes em HP ou Speed para garantir que cada ponto possível seja utilizado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Salas de EV de West Gearen: O Método Definitivo de Farm">
+
+A maneira mais eficiente de lidar com o **treinamento de EVs em pokemon rejuvenation** é através das Salas de EV dedicadas. Localizadas dentro do **Centro Pokémon da Cidade de West Gearen**, essas salas contêm encontros específicos com Pokémon selvagens que rendem grandes quantidades de EVs para um único stat. No entanto, o acesso não é gratuito; você deve provar seu valor ganhando Pontos de Conquista (AP).
+
+Para desbloquear essas salas, você deve visitar o **Centro de AP** localizado dentro do **Hotel Chrisola** em West Gearen. Aqui, você pode trocar seu suado AP por Cartões-Chave (Key Cards). Cada Cartão-Chave corresponde a um dos seis stats primários.
+
+<Steps>
+  <Step num="1" title="Ganhe Pontos de Conquista">
+    Complete missões secundárias, encontre itens escondidos ou derrote treinadores específicos para acumular AP. Verifique seu cartão de treinador para ver seu saldo atual.
+  </Step>
+  <Step num="2" title="Compre Cartões-Chave">
+    Vá ao Hotel Chrisola em West Gearen. Fale com o vendedor de AP e compre os Cartões-Chave para os stats que deseja treinar (ex: Speed e Attack).
+  </Step>
+  <Step num="3" title="Acesse as Salas de EV">
+    Retorne ao Centro Pokémon de West Gearen. Use os Cartões-Chave nas portas trancadas ao fundo para entrar nas zonas de treinamento especializadas.
+  </Step>
+  <Step num="4" title="Derrote Pokémon Especializados">
+    Lute contra os Pokémon selvagens lá dentro. Cada encontro nessas salas é garantido para fornecer EVs para o stat associado àquela sala.
+  </Step>
+</Steps>
+
+| Tipo de Cartão-Chave | Stat Alvo | Local de Compra | Custo |
+| :--- | :--- | :--- | :--- |
+| **HP Key Card** | Pontos de Vida | Centro de AP do Hotel Chrisola | 50 AP |
+| **Atk Key Card** | Ataque Físico | Centro de AP do Hotel Chrisola | 50 AP |
+| **Def Key Card** | Defesa Física | Centro de AP do Hotel Chrisola | 50 AP |
+| **SpA Key Card** | Ataque Especial | Centro de AP do Hotel Chrisola | 50 AP |
+| **SpD Key Card** | Defesa Especial | Centro de AP do Hotel Chrisola | 50 AP |
+| **Spe Key Card** | Velocidade | Centro de AP do Hotel Chrisola | 50 AP |
+
+<Callout type="tip" title="Impulso de Eficiência">
+Enquanto estiver nas salas de EV, certifique-se de que seu Pokémon esteja segurando um **Item de Poder (Power Item)**. Isso combina o alto rendimento da sala com o bônus fixo do item, permitindo que você especialize um stat em apenas alguns minutos de batalha.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Itens de Poder e Treinamento Tradicional">
+
+Se você ainda não chegou a West Gearen ou prefere métodos tradicionais, o **treinamento de EVs em pokemon rejuvenation** pode ser feito em qualquer lugar onde Pokémon selvagens apareçam. Cada Pokémon que você derrota rende um número específico de EVs baseado em sua espécie. Por exemplo, derrotar um Pidgey geralmente concede 1 EV de Speed, enquanto um Machop concede 1 EV de Attack.
+
+Para tornar isso viável, você deve usar **Itens de Poder (Power Items)**. Esses itens equipáveis concedem um bônus fixo de **+8 EVs** em um stat específico toda vez que o portador ganha experiência em uma batalha, independentemente de qual Pokémon foi derrotado.
+
+<CardGrid cols={3}>
+  <Card title="Power Weight">
+    - **Stat**: HP
+    - **Bônus**: +8 HP EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+  <Card title="Power Bracer">
+    - **Stat**: Ataque
+    - **Bônus**: +8 Atk EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+  <Card title="Power Belt">
+    - **Stat**: Defesa
+    - **Bônus**: +8 Def EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+  <Card title="Power Lens">
+    - **Stat**: Sp. Atk
+    - **Bônus**: +8 Sp. Atk EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+  <Card title="Power Band">
+    - **Stat**: Sp. Def
+    - **Bônus**: +8 Sp. Def EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+  <Card title="Power Anklet">
+    - **Stat**: Velocidade
+    - **Bônus**: +8 Spe EVs
+    - **Penalidade**: Reduz a Velocidade pela metade em batalha
+  </Card>
+</CardGrid>
+
+| Nome do Item | Cálculo de Rendimento de EV | Melhor Uso |
+| :--- | :--- | :--- |
+| **Apenas Item de Poder** | Base (1-3) + 8 = 9-11 | Farm no início do jogo |
+| **Macho Brace** | Base (1-3) x 2 = 2-6 | Se Itens de Poder não estiverem disponíveis |
+| **Pokerus** | (Base + Item de Poder) x 2 | Treinamento de velocidade extrema |
+
+<Callout type="warning" title="Redução de Velocidade">
+Lembre-se de que os Itens de Poder reduzem pela metade o stat de Speed do portador durante o combate. Se você estiver treinando um sweeper frágil contra Pokémon selvagens que podem ser mais rápidos e nocauteá-lo, considere usar o Exp. Share para treiná-lo a partir do banco.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resetando Stats com Frutas de Amizade">
+
+Erros acontecem, ou talvez você tenha capturado um Pokémon de nível alto que já possui EVs "bagunçados" de batalhas aleatórias. No **treinamento de EVs em pokemon rejuvenation**, você não está preso a esses stats subotimizados. Você pode usar **Frutas de Amizade (Friendship Berries)** específicas para reduzir EVs em 10 pontos por fruta.
+
+Essas frutas servem a um propósito duplo: elas aumentam a felicidade do Pokémon (Amizade) enquanto diminuem um EV específico. Elas são vitais para ajustar builds ou mudar completamente o propósito de um Pokémon para uma função diferente, como transformar um Tanque Físico em uma Parede Especial.
+
+| Nome da Fruta | EV Reduzido (-10) | Efeito Secundário |
+| :--- | :--- | :--- |
+| **Pomeg Berry** | HP | Aumenta a Amizade |
+| **Kelpsy Berry** | Ataque | Aumenta a Amizade |
+| **Qualot Berry** | Defesa | Aumenta a Amizade |
+| **Hondew Berry** | Sp. Attack | Aumenta a Amizade |
+| **Grepa Berry** | Sp. Defense | Aumenta a Amizade |
+| **Tamato Berry** | Velocidade | Aumenta a Amizade |
+
+<Callout type="success" title="Gerenciamento de Inventário">
+Você pode comprar essas frutas em grandes quantidades de vendedores específicos em cidades maiores como GDC ou West Gearen. Sempre mantenha um estoque de 20 a 30 de cada fruta em sua bolsa para poder ajustar rapidamente os stats do seu time antes de uma grande luta contra um chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Distribuições de EV Ideais para o Rejuvenation Competitivo">
+
+Decidir onde colocar seus pontos é tão importante quanto o treinamento em si. Como Pokemon Rejuvenation apresenta Efeitos de Campo únicos que podem aumentar certos stats ou tipos, sua estratégia de **treinamento de EVs em pokemon rejuvenation** deve levar em conta esses fatores ambientais.
+
+Por exemplo, em um campo de Trick Room, você pode querer evitar totalmente os EVs de Speed e focar em HP e Attack. Por outro lado, em um campo que aumenta movimentos Elétricos, investir em Defesa Especial para seus tipos não-Terrestres pode ser a diferença entre uma vitória e uma derrota total.
+
+<Checklist
+  id="training-checklist"
+  title="Checklist Pré-Treinamento:"
+  items={[
+    "Identifique os melhores stats base do Pokémon",
+    "Verifique a página de Resumo para EVs 'bagunçados' existentes",
+    "Use Frutas de Amizade para limpar pontos indesejados",
+    "Equipe o Item de Poder correto para o primeiro stat",
+    "Certifique-se de ter o Cartão-Chave para as salas de West Gearen"
+  ]}
+/>
+
+| Arquétipo | Distribuição Recomendada | Objetivo Primário |
+| :--- | :--- | :--- |
+| **Sweeper Físico** | 252 Atk / 252 Spe / 6 HP | Ultrapassar e nocautear alvos físicos |
+| **Parede Especial** | 252 HP / 252 SpD / 6 Def | Absorver ataques especiais poderosos |
+| **Atacante Robusto** | 252 HP / 252 Atk / 6 Def | Sobreviver a golpes enquanto causa dano massivo |
+| **Canhão de Vidro** | 252 SpA / 252 Spe / 6 SpD | Velocidade máxima e dano especial alto |
+
+<Callout type="info" title="Estratégia Especialista">
+Para chefes de final de jogo, considere "Distribuições Mistas". Por exemplo, investir EVs de Speed suficientes para ultrapassar o Pokémon principal de um Líder de Ginásio específico e colocar o restante em durabilidade. Isso é mais eficaz do que maximizar cegamente dois stats.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como verifico meu progresso no treinamento de EVs em pokemon rejuvenation?",
+    answer: "Abra o Resumo do seu Pokémon e navegue pelas páginas até ver 'IVs and EVs'. Os números no lado direito da tela mostram seu investimento atual de EVs para cada um dos seis stats."
+  },
+  {
+    question: "Onde posso conseguir mais Pontos de Conquista (AP) para os Cartões-Chave?",
+    answer: "O AP é ganho ao completar missões secundárias encontradas nos Quadros de Ajuda (Help Boards), encontrar itens escondidos com o Itemfinder e alcançar marcos específicos no jogo. O Centro de AP no Hotel Chrisola é onde você os gasta."
+  },
+  {
+    question: "Posso maximizar todos os stats para 252?",
+    answer: "Não, você está limitado a um total de 510 EVs em todos os stats. Isso significa que você só pode maximizar totalmente dois stats (252 cada), com um pouquinho sobrando para um terceiro stat."
+  },
+  {
+    question: "Os Itens de Poder funcionam se o Pokémon não estiver na batalha?",
+    answer: "Sim, se o Pokémon estiver segurando um Item de Poder e você tiver o Exp. Share ativo, o Pokémon no banco ainda receberá o bônus de +8 EV do Item de Poder sempre que o Pokémon ativo vencer uma batalha."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final">
+Dominar o treinamento de EVs é a maior vantagem individual que você pode se dar em Pokemon Rejuvenation. Reserve um tempo para farmar o AP para os Cartões-Chave cedo; isso economizará horas de grind a longo prazo.
+</Callout>
+
+</Section>

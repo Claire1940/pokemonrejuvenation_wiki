@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Eggs: Complete Acquisition Guide 2026",
+  description: "Master the art of obtaining rare Pokemon Rejuvenation eggs and event creatures with our expert breakdown of locations and requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Pokemon+Rejuvenation+Eggs",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon Rejuvenation eggs** and event-exclusive creatures are vital for building a powerful team.
+- **Overworld encounters** and **Mystery Eggs** offer unique ways to expand your Pokedex beyond wild spawns.
+- **Gourmet Treats** and **Spice Powders** are essential items for triggering specific event battles.
+- **Help Plaza Requests** provide reliable access to rare Pokemon through structured tasks.
+- Always check **time-based conditions** like Night-time or specific badges to ensure successful spawns.
+</Callout>
+
+<Section icon={Map} title="Understanding Event Pokemon Mechanics">
+
+In Pokemon Rejuvenation, obtaining rare creatures often requires more than just walking through tall grass. Unlike standard titles, this game relies heavily on event-based triggers, item-assisted interactions, and specific story milestones. Whether you are hunting for rare eggs or stationary encounters, preparation is key.
+
+**Video Highlights:**
+- Identifying reliable overworld spawn locations.
+- Using specialized items to trigger hidden encounters.
+- Tracking story-locked events for unique Pokemon.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Pokemon Rejuvenation Event Guide" />
+
+The following table highlights the primary methods for acquiring non-standard Pokemon throughout your journey in the Aevium region.
+
+| Method | Requirement | Typical Result |
+| --- | --- | --- |
+| Gourmet Treats | Purchase from vendors | Battle/Catch |
+| Spice Powders | Terajuma Island vendors | Battle/Catch |
+| Hide-And-Seek | Multiple map encounters | Battle/Catch |
+| Mystery Egg | Randomly assigned at start | Rare Pokemon |
+
+<Callout type="tip" title="Strategic Advice">
+Always keep a stock of Gourmet Treats and Spice Powders in your inventory. Many rare encounters are one-time events, and failing to have the required item can result in missing out on a unique team member.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mystery Egg and Fixed Spawns">
+
+The Mystery Egg found on Route 3 is one of the most exciting early-game features. The specific Pokemon inside is determined when you start a new save file, making every playthrough unique. Below are some of the potential outcomes you might encounter.
+
+<CardGrid cols={3}>
+  <Card title="Azurill">
+    - **Type**: Normal/Fairy
+    - **Availability**: Breedable
+    - **Notes**: Found in various water-adjacent areas.
+  </Card>
+  <Card title="Aron">
+    - **Type**: Steel/Rock
+    - **Availability**: Casino Prize
+    - **Notes**: High defense potential for early game.
+  </Card>
+  <Card title="Mystery Potential">
+    - **Type**: Variable
+    - **Availability**: Save-specific
+    - **Notes**: Check your local wiki for full lists.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important Condition">
+The Mystery Egg content is fixed at the start of your game. You cannot soft-reset the egg to change the result once you have already begun your journey.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Acquisition Workflow">
+
+Follow this systematic approach to ensure you don't miss out on critical event Pokemon as you progress through the story.
+
+<Steps>
+  <Step num="1" title="Badge Progression">
+    Prioritize obtaining the 1st Gym Badge from Venam, as this unlocks access to the Aevian Feebas at the Gearen Laboratory.
+  </Step>
+  <Step num="2" title="Resource Gathering">
+    Visit the Blackbelt Vendor in the Berry Emporium to stock up on essential items like Poke Balls and Gourmet Treats.
+  </Step>
+  <Step num="3" title="Map Exploration">
+    Clear the story events at Oceana Pier and the Chrisola Hotel to trigger Hide-and-Seek encounters for Pokemon like Nidoran and Minccino.
+  </Step>
+  <Step num="4" title="Shard Trading">
+    Once you gain access to Carotos Mountain, use your Blue and Yellow Shards at the Black Market to acquire rare species like Happiny or Joltik.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Essential Task Checklist">
+
+Before you move to a new region, ensure you have completed these tasks to maximize your collection efficiency.
+
+<Checklist
+  id="event-checklist"
+  title="Event Pokemon Priorities:"
+  items={[
+    "Purchase Gourmet Treats from East Gearen vendors",
+    "Complete the 'Dangerous Pokemon!' request at the Help Plaza",
+    "Check the Casino for high-value Pokemon like Seel and Spoink",
+    "Interact with the Pachirisu at Velvet Building during night-time",
+    "Trade for the Smoochum at the Sheridan Village Inn"
+  ]}
+/>
+
+<Callout type="success" title="Pro Strategy">
+Focusing on Help Plaza requests is the most reliable way to obtain Pokemon that are otherwise locked behind difficult or obscure conditions. Always check the counter after completing major story beats.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I get all Pokemon from the Mystery Egg in one save?",
+    answer: "No, the Mystery Egg contains one of 21 possible Pokemon determined at the start of your specific save file."
+  },
+  {
+    question: "Do Gourmet Treats work on all Pokemon?",
+    answer: "Only specific event Pokemon will prompt the 'Would you like to give the Pokemon a Gourmet Treat?' dialogue."
+  },
+  {
+    question: "Where can I find Spice Powders?",
+    answer: "Spice Powders are primarily sold by vendors located on Terajuma Island."
+  },
+  {
+    question: "Are event Pokemon re-spawning?",
+    answer: "Some encounters, like those involving Spice Powders, are repeatable, while others are one-time limited spawns."
+  }
+]} />
+
+</Section>

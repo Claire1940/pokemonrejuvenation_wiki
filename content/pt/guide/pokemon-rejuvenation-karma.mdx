@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Karma em Pokémon Rejuvenation: Guia das Rotas Paragon e Renegade",
+  description: "Domine o sistema de karma de Pokémon Rejuvenation na V14. Saiba como as escolhas influenciam as rotas Paragon e Renegade, pontos de relacionamento e os desfechos do Capítulo 16.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/fff?text=Karma+and+Routes+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **karma em Pokémon Rejuvenation** é uma métrica oculta que rastreia escolhas narrativas e determina seu caminho em direção aos finais Paragon ou Renegade.
+- A **Rota Paragon** exige um Karma positivo alto e fortes valores de relacionamento com aliados importantes para preservar o futuro de Aevium.
+- A **Rota Renegade** é ativada por Karma negativo, decisões cruéis específicas e falhas em apoiar aliados durante momentos críticos da história.
+- O **Capítulo 16** serve como o ponto de ramificação definitivo onde decisões anteriores culminam em locais e batalhas exclusivos de cada rota.
+- Os **Pontos de Relacionamento** funcionam como uma camada secundária, influenciando a sobrevivência de personagens individuais e cenas de diálogo exclusivas.
+</Callout>
+
+<Section icon={Zap} title="Entendendo o Sistema de Karma de Pokémon Rejuvenation">
+
+Na complexa narrativa de Aevium, suas ações têm um peso que vai muito além de simples variações de diálogo. O sistema de **karma de Pokémon Rejuvenation** é o motor invisível que conduz a história ramificada do jogo. Ao contrário dos RPGs padrão onde o "bem" e o "mal" são claramente rotulados, Rejuvenation frequentemente esconde o impacto de suas escolhas até capítulos mais tarde. Na V14, este sistema foi refinado para garantir que seu caminho em direção aos finais Paragon ou Renegade pareça merecido por meio de um comportamento consistente.
+
+<CardGrid cols={3}>
+  <Card title="Caminho Paragon">
+    - **Foco**: Altruísmo e apoio aos aliados
+    - **Resultado**: Preserva os personagens e busca uma resolução esperançosa
+    - **Dificuldade**: Desafios de chefes padrão
+  </Card>
+  <Card title="Caminho Renegade">
+    - **Foco**: Crueldade e destruição
+    - **Resultado**: Temas mais sombrios com batalhas exclusivas de alta dificuldade
+    - **Dificuldade**: IA otimizada e encontros brutais
+  </Card>
+  <Card title="Estado Neutro">
+    - **Foco**: Escolhas inconsistentes ou moderadas
+    - **Resultado**: Geralmente padroniza para uma experiência Paragon modificada
+    - **Dificuldade**: Progressão padrão
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Decisões Irreversíveis">
+Muitas escolhas que alteram o Karma ocorrem nos primeiros cinco capítulos. Embora o New Game+ permita um reinício, uma jogada padrão exige um planejamento cuidadoso desde o início se você visa a rota Renegade.
+</Callout>
+
+O Karma é obtido ajudando NPCs, mostrando misericórdia aos antagonistas e priorizando a segurança do grupo. Por outro lado, o Karma negativo é acumulado por meio de egoísmo, violência desnecessária ou abandono de aliados em perigo. Este valor é frequentemente verificado durante períodos de "Intermissão" ou nos clímax de capítulos importantes para determinar qual versão de uma cena você presenciará.
+
+</Section>
+
+<Section icon={Target} title="Impacto das Principais Escolhas e Valores de Karma">
+
+Cada arco principal na V14 contém pelo menos uma "Escolha Crítica" que altera significativamente a sua situação de Karma. Esses momentos são frequentemente marcados por uma breve pausa ou um aviso que pede confirmação. Abaixo está uma análise das decisões mais impactantes encontradas nos capítulos do início ao meio do jogo em Aevium.
+
+| Capítulo | Localização | Contexto da Escolha | Impacto no Karma |
+| :--- | :--- | :--- | :--- |
+| **Capítulo 2** | Sheridan Village | Lidando com a situação de Keta | **Positivo**: Mostrar misericórdia / **Negativo**: Hostilidade |
+| **Capítulo 3** | Goldenleaf Town | Investigação sobrenatural | **Positivo**: Ajudar os moradores da cidade / **Negativo**: Ignorar a situação difícil |
+| **Capítulo 8** | Terajuma Island | Lidando com agentes da Team Xen | **Positivo**: Poupar / **Negativo**: Executar ou abandonar |
+| **Capítulo 11** | Grand Dream City | Conflito de facções (Bladestar) | **Positivo**: Mediar / **Negativo**: Escalar a violência |
+| **Capítulo 15** | Zone Zero | Preparações finais para o C16 | **Positivo**: Teste de Karma alto / **Negativo**: Teste de Karma baixo |
+
+<Callout type="tip" title="Testes Ocultos">
+Algumas mudanças de Karma não são anunciadas. Se você encontrar um NPC pedindo um pequeno favor ou se uma escolha parecer apenas "decorativa", ela provavelmente ainda contribui com +/- 1 para a sua pontuação total de Karma.
+</Callout>
+
+Além das escolhas binárias, o jogo rastreia os "Pontos de Relacionamento" (PR) para cada companheiro principal. Enquanto o Karma determina a rota geral, os PR determinam quem permanece ao seu lado dentro dessa rota. Um PR alto às vezes pode compensar uma pontuação de Karma ligeiramente mais baixa, permitindo que você permaneça no caminho Paragon mesmo após alguns erros.
+
+</Section>
+
+<Section icon={Heart} title="Pontos de Relacionamento e Sinergia com Aliados">
+
+Embora o **karma em Pokémon Rejuvenation** dite o destino do mundo, os Pontos de Relacionamento ditam suas conexões pessoais. Na V14, ter um PR alto com personagens específicos como Melia, Ren ou Venam desbloqueia itens exclusivos, Mega Stones e até ajuda a evitar certos "Finais Ruins" para esses personagens.
+
+| Personagem | Principal Forma de Aumentar PR | Recompensa / Impacto |
+| :--- | :--- | :--- |
+| **Melia** | Apoiar suas decisões de liderança | Cenas exclusivas da história e suporte no final do jogo |
+| **Ren** | Compreender a perspectiva dele em GDC | Influenciar o alinhamento de facção dele no C16 |
+| **Venam** | Priorizar a segurança dela nos capítulos iniciais | Acesso a buffs/itens específicos do tipo Veneno |
+| **Aelita** | Ajudá-la durante o arco de Sheridan | Sobrevivência durante eventos de alta tensão na história |
+
+<Callout type="info" title="Marcos de PR">
+No Capítulo 16, the game realiza um "Teste de Lealdade". Se o seu PR com um personagem estiver abaixo de um determinado limite, ele poderá abandonar você ou falhar em intervir durante uma batalha de chefe, independentemente do seu Karma.
+</Callout>
+
+Para maximizar seus PR, você deve interagir com seus companheiros durante os períodos de "tempo livre" em hotéis ou bases. Essas conversas opcionais frequentemente concedem +1 ou +2 PR e fornecem informações mais profundas sobre a história de Aevium e a ameaça da Team Xen.
+
+</Section>
+
+<Section icon={Map} title="Capítulo 16: Entrando nas Rotas Paragon ou Renegade">
+
+O Capítulo 16 é a divisão definitiva na história da V14. Neste ponto, o jogo avalia seu **karma total em Pokémon Rejuvenation** e gatilhos de eventos específicos para prender você em um dos dois caminhos principais. É altamente recomendável manter um salvamento de backup no final do Capítulo 15 antes de prosseguir.
+
+<Steps>
+  <Step num="1" title="A Avaliação do Karma">
+    O jogo verifica se o seu Karma está acima (Paragon) ou abaixo (Renegade) do limite. "Sinalizadores de crueldade" específicos dos arcos de Terajuma e GDC também são avaliados aqui.
+  </Step>
+  <Step num="2" title="O Ponto de Não Retorno">
+    Você encontrará um aviso final em um local histórico ou instalação da Team Xen. Confirmar sua intenção aqui bloqueia o arquivo de salvamento na rota escolhida.
+  </Step>
+  <Step num="3" title="Locais Exclusivos da Rota">
+    Os jogadores da rota Paragon seguirão para locais focados em restauração, enquanto os jogadores da rota Renegade explorarão versões alteradas e mais sombrias do mapa de Aevium.
+  </Step>
+  <Step num="4" title="Clímax dos Chefes">
+    Prepare-se para listas de chefes totalmente diferentes. Os chefes da rota Renegade costumam apresentar equipes "corrompidas" com limites de Nível 100+ e itens equipados otimizados para o competitivo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Benefícios do New Game+">
+A conclusão da rota Paragon primeiro é recomendada pelos desenvolvedores. Isso desbloqueia recursos do New Game+ que facilitam o cumprimento dos requisitos da rota Renegade em uma segunda jogada.
+</Callout>
+
+A rota Renegade é significativamente mais difícil e é destinada a jogadores veteranos. Ela apresenta encontros únicos com Pokémon Rift e revelações da história que não estão presentes no caminho Paragon. No entanto, é também o caminho do "Final Ruim", resultando na perda de muitos personagens queridos.
+
+</Section>
+
+<Section icon={Checklist} title="Lista de Preparação para a Rota">
+
+Use esta lista de verificação para garantir que você está no caminho certo para o final desejado na V14. Perder mesmo um único evento importante às vezes pode impedir o acesso à rota Renegade.
+
+<Checklist
+  id="karma-route-checklist"
+  title="Tarefas de Consistência da Rota:"
+  items={[
+    "Manter múltiplos slots de salvamento no início de cada novo capítulo",
+    "Verificar os Pontos de Relacionamento com Melia e Ren antes de entrar em GDC",
+    "Concluir todas as missões do Centro de Ajuda em uma região antes que a história avance",
+    "Decidir o objetivo da sua rota (Paragon/Renegade) antes do Capítulo 8",
+    "Revisar sua situação de Karma conversando com NPCs 'Videntes' específicos, se disponíveis",
+    "Coletar todas as Crests e TMs exclusivas da rota antes do bloqueio do Capítulo 16"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes sobre Karma e Rotas">
+
+<FAQ items={[
+  {
+    question: "Posso mudar da rota Renegade de volta para a Paragon no meio do jogo?",
+    answer: "Geralmente, não. Depois de acumular Karma negativo suficiente e ativar sinalizadores de crueldade específicos, a história muda permanentemente. Apenas um New Game+ ou o carregamento de um salvamento muito antigo pode reverter isso."
+  },
+  {
+    question: "A configuração de dificuldade afeta meu Karma?",
+    answer: "Não. A dificuldade (Lite, Normal, Intense) afeta apenas a IA dos treinadores, níveis e Efeitos de Campo. Você pode jogar a rota Renegade no modo Lite se quiser apenas o conteúdo da história."
+  },
+  {
+    question: "Existem Pokémon exclusivos para cada rota?",
+    answer: "Sim. Certos encontros estáticos, formas Aevian e eventos lendários estão vinculados à sua situação de Karma e à rota específica que você escolher no Capítulo 16."
+  },
+  {
+    question: "Como verifico meu valor exato de Karma?",
+    answer: "O jogo não mostra um valor numérico de Karma ao jogador. Você deve julgar sua situação com base nas reações dos personagens e na disponibilidade de certas opções de diálogo."
+  }
+]} />
+
+</Section>

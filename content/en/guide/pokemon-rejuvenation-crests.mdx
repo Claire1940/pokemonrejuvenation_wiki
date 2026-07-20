@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Crests: 2026 Tier List & Location Guide",
+  description: "Master the power of Pokemon Rejuvenation crests with our detailed 2026 guide. Learn locations, mechanics, and the best held items for every species.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Crest+Mechanics+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon Rejuvenation crests** are unique held items that provide massive stat boosts or new abilities to specific species.
+- **Un-removable mechanics** ensure that these items cannot be lost via moves like Knock Off or Trick during battle.
+- **Strategic scaling** allows weaker Pokémon to remain viable even in the late-game challenges of 2026.
+- **Acquisition methods** range from ancient Garufan rituals at Castle Zygara to modern side quests and NPC trades.
+- **Stat Swapping** is a core mechanic for certain crests, effectively changing how EVs and IVs function for that Pokémon.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Pokemon Rejuvenation Crests Mechanics">
+
+**Pokemon rejuvenation crests** represent a revolutionary item system within the fan-game, designed to breathe new life into Pokémon that typically struggle in competitive or high-difficulty environments. Unlike standard items like the Choice Band or Life Orb, a Crest is hard-coded to a specific species (or its regional forms). When held by the correct Pokémon, it triggers a variety of effects ranging from simple stat multipliers to completely custom mechanics that alter how the Pokémon functions in battle.
+
+One of the most critical aspects of these items is their permanence in combat. In the difficult battles found throughout the 2026 version of the game, losing a held item can be a death sentence. However, Crests are protected by a unique "sticky" mechanic. While a move like Knock Off will still deal its increased damage, the Crest itself will never be removed from the user. Similarly, moves like Trick or Switcheroo will simply fail to activate if either Pokémon is holding a corresponding Crest.
+
+| Mechanic | Effect in Battle | Notes |
+| :--- | :--- | :--- |
+| **Knock Off** | Damage is dealt, but the item is **not** removed. | Damage multiplier for Knock Off still applies. |
+| **Trick / Switcheroo** | The move fails entirely if used on a Crest holder. | Prevents enemy disruption strategies. |
+| **UI Indicator** | A specific Crest icon appears on the battle interface. | Helps players identify active effects immediately. |
+| **Species Lock** | Only functions for the intended species. | Transforming users (like Ditto) can trigger the effect. |
+
+<Callout type="warning" title="Stat Swap Warning">
+Crests that swap stats (such as the Magcargo Crest) do so **after** all calculations for IVs, EVs, and Natures are applied. For example, if your Magcargo has high Defense EVs, those will effectively become Speed EVs when the Crest is active. However, in-battle stat boosts from moves like Harden will still apply to the original stat (Defense) rather than the swapped one.
+</Callout>
+
+The flexibility of these items is further demonstrated by the "Transform" interaction. If a Pokémon uses Transform (like Ditto or Mew) and turns into a species whose Crest it is currently holding, it will gain the full benefits of that Crest. Conversely, if a Pokémon holding its own Crest transforms into something else, the Crest's effects are immediately deactivated until it reverts to its original form.
+
+</Section>
+
+<Section icon={Map} title="The Dark Origins and Lore of Garufan Magic">
+
+The history of **pokemon rejuvenation crests** is deeply rooted in the ancient and often macabre lore of the Aevium region. Most of these powerful artifacts were not crafted through modern technology but through the forbidden Garufan magic practiced in ancient times. The epicenter of this creation was Castle Zygara, where King Ieisel performed rituals that are whispered about in the modern era with fear.
+
+The creation process involved a central tower within Castle Zygara, where a deep pit served as the altar. It is heavily suggested that the power within ancient Crests comes from the souls of humans and Pokémon sacrificed during these rituals. Those thrown into the pit would vanish, and the refined magical material needed for the Crest would rise from the depths. This dark background adds a layer of narrative weight to the items you use to power up your team.
+
+<CardGrid cols={3}>
+  <Card title="Ancient Rituals">
+    Created at Castle Zygara by King Ieisel using Garufan magic and sacrifices.
+  </Card>
+  <Card title="Failed Recreations">
+    Characters like Karen attempted to replicate the magic, leading to madness.
+  </Card>
+  <Card title="Modern Innovation">
+    Some Crests are now created through environmental TMs and Ranger research.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lore Detail">
+While most Crests are ancient, some newer ones like the Castform Crest prove that the Aevium region is finding safer, non-sacrificial ways to harness this power in 2026.
+</Callout>
+
+In the modern timeline of Pokémon Rejuvenation, researchers and certain NPCs have found ways to bypass the blood rituals. For instance, the Castform Crest is a result of a Ranger's environmental study in the Terajuma Jungle, requiring only the knowledge of weather-changing TMs rather than ancient soul-magic.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: How to Obtain the Castform Crest">
+
+To help you understand how modern **pokemon rejuvenation crests** are acquired, we have outlined the specific process for obtaining the Castform Crest, which is essential for weather-based teams in the mid-game.
+
+<Steps>
+  <Step num="1" title="Reach Terajuma Jungle">
+    Travel to the Terajuma Jungle during the mid-game chapters. Ensure you have access to the Ranger station.
+  </Step>
+  <Step num="2" title="Collect Weather TMs">
+    You must possess the TMs for **Hail**, **Sunny Day**, and **Rain Dance**. These are found throughout various Aevium side quests.
+  </Step>
+  <Step num="3" title="Locate the Terajuma Ranger">
+    Find the specific Ranger NPC located deep within the jungle who is studying the local ecosystem.
+  </Step>
+  <Step num="4" title="Exchange Knowledge">
+    Speak to the Ranger with the TMs in your bag. He will "study" them and grant you the Castform Crest as a reward for your assistance.
+  </Step>
+</Steps>
+
+| Requirement | Location / Source | Importance |
+| :--- | :--- | :--- |
+| **TM Hail** | Cold Storage / Quest | High - Enables Blizzard accuracy. |
+| **TM Sunny Day** | Magma Drift | High - Powers up Fire moves. |
+| **TM Rain Dance** | Terajuma Shore | High - Boosts Water power. |
+| **Castform** | Mystery Egg / Event | Essential - Item holder. |
+
+<Callout type="success" title="Completionist Tip">
+Always check graveyards and historical sites. For example, the Aevian Ampharos Crest is hidden in the GDC District of Hope graveyard, but only after completing the PictoZumi and Xenogene questlines.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Complete 2026 Crest Effects & Locations">
+
+The following table provides data on some of the most popular **pokemon rejuvenation crests** available in the current 2026 version of the game. Note that availability is often tied to specific chapters or complex side quests.
+
+| Crest | Availability | Effect Description | Primary Location |
+| :--- | :--- | :--- | :--- |
+| **Aevian Ampharos** | .Karma Files | 1st move slot +50% power (non-Elec/Ice), -30% SE damage taken. | GDC District of Hope |
+| **Ariados** | Chapter 14 | +50% Speed. Guaranteed crits on slowed or poisoned foes. | Route 6 Underwater |
+| **Magcargo** | Mid-Game | Swaps Defense and Speed stats completely. | Burning Mountain |
+| **Empoleon** | Post-Game | Boosts Special Attack and Speed in Hail or Rain. | Aevium High-Seas |
+| **Silvally** | v13.5+ | Works from Bag. Effects vary based on held Memory. | Currently Unobtainable |
+| **Infernape** | Late-Game | Increases priority of punch-based moves. | Victory Road |
+
+The philosophy behind these items is balance. You will notice that many "strong" Pokémon like the Sinnoh starters receive Crests to keep them competitive against the game's brutal Boss Pokémon, while weaker bugs like Ariados receive massive speed and crit buffs to make them viable sweepers.
+
+<Callout type="info" title="Silvally Special Case">
+The Silvally Crest is unique because it is the only one that provides its benefits while sitting in your Bag. You do not need to have Silvally hold it, allowing the Pokémon to hold a Memory and still receive the Crest's adaptive buffs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategic Tier List: Best Crests for Your Team">
+
+When building a team around **pokemon rejuvenation crests**, you should consider the role each Pokémon plays. Some Crests turn defensive tanks into fast attackers, while others provide much-needed sustainability.
+
+<CardGrid cols={2}>
+  <Card title="Best Offensive Crests">
+    - **Ariados**: Perfect for Toxic Thread setups.
+    - **Typhlosion**: Massive boosts to Eruption power.
+    - **Aevian Ampharos**: Unmatched versatility in the first move slot.
+  </Card>
+  <Card title="Best Utility/Defensive Crests">
+    - **Bastiodon**: Turns Defense into offensive pressure.
+    - **Meganium**: Provides team-wide healing under specific conditions.
+    - **Magcargo**: Unique speed-tier manipulation for trick room or sweep.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Synergy">
+Pair the Ariados Crest with a teammate that can set up Sticky Web or Toxic Spikes. Since the Crest guarantees critical hits against slowed or poisoned targets, Ariados becomes a terrifying cleaner in the late game.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mastering the Crest Collection">
+
+For the ultimate completionist, collecting every single one of the **pokemon rejuvenation crests** is a monumental task that spans the entire Aevium region. Use this checklist to track your progress through the most essential items.
+
+<Checklist
+  id="crest-hunt-2026"
+  title="Essential Crest Collection Goals:"
+  items={[
+    "Obtain the Ariados Crest from the Route 6 Underwater Archive",
+    "Complete the PictoZumi quest for the Aevian Ampharos Crest",
+    "Unlock the weather-based Castform Crest in Terajuma",
+    "Acquire the Magcargo Crest to enable the Defense-Speed swap",
+    "Locate the starter trio Crests (Empoleon/Infernape) in the late-game"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Can I use a Crest on a different Pokémon for a smaller boost?",
+    answer: "No. Pokemon Rejuvenation crests only provide benefits to the specific species they are named after. On any other Pokémon, they act as a useless held item with no effect."
+  },
+  {
+    question: "Does Knock Off still do extra damage to a Crest holder?",
+    answer: "Yes, Knock Off will deal its 1.5x damage bonus because the target is holding an item, but the Crest will remain equipped and active."
+  },
+  {
+    question: "Why does Samurott have a Crest but Serperior doesn't?",
+    answer: "Crest distribution is based on the developer's balance needs. While many groups like starters eventually get them, Samurott was prioritized to help it keep up with the game's power creep."
+  },
+  {
+    question: "Are there any Crests that are currently unobtainable?",
+    answer: "As of the latest 2026 updates, the Silvally and Beheeyem crests are in the game's code but cannot be legally obtained by the player through normal gameplay."
+  }
+]} />
+
+</Section>

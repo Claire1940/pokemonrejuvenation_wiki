@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Field Effects: Mechanics & Strategy Guide",
+  description: "Master the 48 unique Pokemon Rejuvenation field effects. Learn about field layering, transformation boosts, and strategic moves like Domain Shift.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Field+Effects+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon rejuvenation field effects** are a core battle mechanic featuring 48 unique environments as of v13.5.
+- **Layering System** allows multiple fields to stack; when the top layer ends, the underlying field becomes active.
+- **Transformation Boost** provides a 1.3x power increase to damaging moves that successfully change the field.
+- **Global Moves** like Steel Roller and Splintered Stormshards can reliably alter or disable most active fields.
+- **Strategic Layers** can be created by Terrain moves (Electric, Grassy, etc.) to temporarily overlay existing fields.
+</Callout>
+
+<Section icon={Sparkles} title="Core Mechanics of Field Effects">
+
+In the complex world of Aevium, the environment plays a more significant role than in any traditional region. **Pokemon rejuvenation field effects** expand upon the standard terrain mechanics found in the main series, creating a dynamic system where the very ground you stand on can dictate the tide of battle. Unlike standard Terrains, these effects are often permanent unless overwritten or specifically terminated through move interactions.
+
+Understanding how these fields interact is the difference between a crushing defeat and a tactical victory. As of the v13.5 update, there are 48 distinct fields, ranging from natural landscapes like Mountains and Deserts to synthetic environments like Glitch Fields and Factory Floors.
+
+| Mechanic | Description | Bonus/Effect |
+| :--- | :--- | :--- |
+| **Active Field** | Only one field can be active at any given time. | Dictates move boosts/drops |
+| **Layering** | Fields can stack on top of each other in layers. | Bottom layers reactivate later |
+| **Terrain Overlay** | Standard Terrains (Grassy/Misty) overlay active fields. | Reduced effects for the terrain |
+| **Transformation** | Changing a field with a damaging move. | 1.3x Base Power boost |
+| **Fieldless** | Occurs when all layers are successfully terminated. | Standard battle conditions |
+
+<Callout type="tip" title="Pro Tip: The Power of Transformation">
+If you know your move will transform the field (e.g., using a Fire move on a Grassy Field to create a Burning Field), that move receives a significant 1.3x power boost. This is often the key to breaking through a Gym Leader's defensive setup.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Methods to Alter and Disable Fields">
+
+While many fields are tied to specific locations, a skilled trainer can manipulate the environment to their advantage. Some moves have universal effects across almost all **pokemon rejuvenation field effects**, allowing you to reset the battlefield when the opponent's advantage becomes too great.
+
+The ability to clear a field is especially vital in high-stakes battles against the 18 Gym Leaders, who almost always utilize a field that complements their specific type specialty.
+
+| Move/Item | Interaction Type | Duration/Effect |
+| :--- | :--- | :--- |
+| **Steel Roller** | Field Disabling | Disables field for 5 turns |
+| **Splintered Stormshards** | Transformation | Changes field to Rocky Field (2 turns) |
+| **Domain Shift** | Random Transformation | Random field based on Route (Paragon/Renegade) |
+| **Standard Terrains** | Overlay | Overlays current field with reduced buffs |
+
+<Callout type="warning" title="Domain Shift Variance">
+The Intercept Z-Move "Domain Shift" is highly unpredictable. The pool of potential fields it can transform into depends on your current story path (Paragon or Renegade). For example, Renegade players might see Infernal Fields, while Paragon players see Blessed Fields.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Field Classifications and Categories">
+
+The 48 fields in the game are categorized into four primary groups. Each group shares certain thematic elements and often responds similarly to specific move types. Recognizing the category of **pokemon rejuvenation field effects** you are fighting on helps in predicting how the environment will react to your attacks.
+
+<CardGrid cols={2}>
+  <Card title="Elemental & Magical">
+    - **Elemental**: Focuses on weather and basic types (Electric, Icy, Volcanic).
+    - **Magical**: Ethereal environments (Rainbow, Fairy Tale, Starlight Arena).
+    - **Key Tip**: Often boosted by Psychic, Fairy, or Dragon moves.
+  </Card>
+  <Card title="Synthetic & Telluric">
+    - **Synthetic**: Artificial or man-made (Chess Board, Factory, Glitch).
+    - **Telluric**: Earth-based and natural (Cave, Desert, Forest, Swamp).
+    - **Key Tip**: High interaction with Steel, Ground, and Poison moves.
+  </Card>
+</CardGrid>
+
+Below is a detailed breakdown of the field classifications found in the Aevium region:
+
+| Category | Representative Fields |
+| :--- | :--- |
+| **Elemental** | Electric, Grassy, Volcanic, Icy, Water Surface, Sky, Dragon's Den |
+| **Magical** | Rainbow, Crystal Cavern, Blessed, Fairy Tale, New World, Haunted |
+| **Synthetic** | Factory, Short-Circuit, Glitch, Mirror Arena, Colosseum, City |
+| **Telluric** | Swamp, Corrosive, Desert, Rocky, Forest, Wasteland, Cave, Deep Earth |
+
+<Callout type="info" title="Field Specific Mechanics">
+Each of these fields has a dedicated page in the official Rejuvenation Wiki detailing every single move interaction, ability change, and stat modification. Always check the specific field details before a major boss fight.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Master Field Manipulation">
+
+Mastering the use of **pokemon rejuvenation field effects** requires a step-by-step approach to team building and in-battle decision making. You cannot simply rely on raw power; you must use the environment as your sixth party member.
+
+<Steps>
+  <Step num="1" title="Analyze the Environment">
+    Before the battle begins, identify the active field. Note which types are boosted (usually indicated by field-specific animations) and which moves might trigger a transformation.
+  </Step>
+  <Step num="2" title="Equip Field-Altering Moves">
+    Ensure at least one Pokemon in your party carries a move like Steel Roller or a Terrain-setting move (like Electric Terrain). This allows you to "overwrite" the opponent's home-field advantage.
+  </Step>
+  <Step num="3" title="Calculate Layering Risks">
+    If you use a Terrain move, remember it only overlays the field. Once the 5-8 turns of Terrain end, the original, often more dangerous field will return. Plan your knockouts within that window.
+  </Step>
+  <Step num="4" title="Trigger Beneficial Transformations">
+    Use moves that transform the field into something that benefits your team more than the opponent's. For instance, turning a Corrosive Field into a Wasteland can strip a Poison-type leader of their passive recovery.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy: The Steel Roller Reset">
+Steel Roller is one of the most consistent ways to handle oppressive fields. While it requires a field to be active to work, it effectively resets the battle to a "fieldless" state for 5 turns, giving you a neutral playing field to execute your strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Field Mastery Checklist">
+
+To ensure you are fully prepared for the diverse environments of Pokemon Rejuvenation, use this checklist to audit your team's readiness.
+
+<Checklist
+  id="field-readiness"
+  title="Battle Preparation Checklist:"
+  items={[
+    "Check the Wiki for the current field's move boosts",
+    "Identify which moves can transform the active field",
+    "Verify if any party members have field-immune abilities",
+    "Prepare a 'Field Reset' move (Steel Roller or Z-Move)",
+    "Calculate if the 1.3x transformation boost secures a KO"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can multiple field effects be active at once?",
+    answer: "Only one field is active at a time, but they can be layered. If you generate a Terrain like Grassy Terrain, it overlays the current field. Once the Terrain expires, the original field beneath it becomes active again."
+  },
+  {
+    question: "How does the 1.3x transformation boost work?",
+    answer: "If a damaging move changes the current field into a different one (e.g., Blizzard changing a Water Surface to an Icy Field), that specific move's base power is multiplied by 1.3x."
+  },
+  {
+    question: "What is the best move to get rid of a field?",
+    answer: "Steel Roller is the most reliable move for disabling pokemon rejuvenation field effects for 5 turns. Alternatively, Splintered Stormshards can force a transformation into a neutral Rocky Field."
+  },
+  {
+    question: "Are all fields transformable?",
+    answer: "Most fields can be transformed through specific move interactions. However, some unique boss-room fields may have restrictions. Always check the specific field's rules on the Rejuvenation Wiki."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The field system is what sets Pokemon Rejuvenation apart from other fan games. By learning the interactions of these 48 fields, you turn the environment from a hurdle into a powerful weapon.
+</Callout>
+
+</Section>

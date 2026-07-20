@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Key } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Códigos da Maleta de Pokémon Rejuvenation: Guia de Senhas da V14",
+  description: "Desbloqueie ajustes que mudam o jogo com os códigos da maleta de Pokémon Rejuvenation. Obtenha a lista completa de senhas da V14 para dificuldade, atributos e QoL.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/fff?text=Briefcase+Codes+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation",
+  keywords: "pokémon rejuvenation, códigos da maleta, senhas v14, guia de pokémon"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Códigos da Maleta**: Senhas personalizadas inseridas durante a sequência de abertura para modificar as regras do jogo.
+- **Melhorias de QoL**: Use códigos específicos para remover o grind tedioso, requisitos de HM e restrições de tempo.
+- **Controle de Dificuldade**: Ajuste sua experiência de combate, desde campanhas focadas na história até desafios táticos hardcore.
+- **Otimização de Atributos**: Gere encontros com atributos perfeitos imediatamente para evitar ciclos repetitivos de cruzamento (breeding).
+- **Compatibilidade com a V14**: Certifique-se de que seus códigos estejam alinhados com os novos parâmetros da versão V14.
+</Callout>
+
+<Section icon={Key} title="Como Usar os Códigos da Maleta de Pokémon Rejuvenation">
+
+Quando você começa sua jornada em Aevium no S.S. Oceana, uma maleta cibernética é apresentada durante a fase de criação de personagem. Esta interface é onde você insere seus **códigos da maleta de pokemon rejuvenation** (amplamente conhecidos na comunidade como senhas). Esses códigos permitem que você personalize sua experiência de jogo desde o início, alterando tudo, desde as mecânicas de batalha até a disponibilidade de itens. 
+
+Se você perder essa oportunidade inicial, não se preocupe. O jogo oferece computadores internos e interações com NPCs específicos onde você pode gerenciar, ativar ou desativar essas regras mais tarde, desde que possua os itens necessários no jogo. No entanto, ativá-los durante o prólogo continua sendo o método mais confiável para garantir uma jornada personalizada e sem problemas.
+
+| Fase | Localização | Dispositivo / NPC | Notas |
+| :--- | :--- | :--- | :--- |
+| **Novo Jogo** | S.S. Oceana | Maleta Cibernética | Melhor momento para inserir regras globais e modificadores de QoL |
+| **Meio do Jogo** | Qualquer PC | Computador do Jogo | Requer itens de dados de senha para modificar as configurações |
+| **Atualizações** | Gearen City | NPCs Especiais | Útil para verificar configurações ativas e compatibilidade de versão |
+
+<Callout type="warning" title="Aviso Importante sobre o Jogo Salvo">
+Alguns códigos da maleta alteram permanentemente as regras do seu arquivo de save. Embora muitos ajustes de qualidade de vida possam ser desativados, modificadores de dificuldade e de progressão de itens podem restringir sua capacidade de participar de comparações de progressão padrão. Sempre faça backup dos seus arquivos de save antes de testar combinações extensas de códigos, especialmente ao atualizar da versão V13.5 para a V14.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Códigos de Maleta de Alto Nível para Qualidade de Vida">
+
+Para jogadores que desejam focar na história, exploração e batalhas táticas sem a fricção tradicional dos RPGs, os códigos de qualidade de vida são essenciais. Esses códigos removem a necessidade de "mulas" de HM e oferecem controle preciso sobre fatores ambientais como tempo e clima.
+
+<CardGrid cols={3}>
+  <Card title="easyhms">
+    - **Sem Requisitos de Movimentos HM**
+    - Mantenha conjuntos de movimentos ideais
+    - Altamente recomendado para todas as gameplays
+  </Card>
+  <Card title="unrealtime">
+    - **Relógio do Jogo Personalizado**
+    - Controle os ciclos de dia/noite
+    - Acesse eventos com limite de tempo facilmente
+  </Card>
+  <Card title="weathermod">
+    - **Controle de Clima no Overworld**
+    - Simplifique encontros baseados no clima
+    - Neutralize perigos de campo
+  </Card>
+</CardGrid>
+
+O uso desses códigos permite que você ignore mecânicas que alguns jogadores consideram tediosas. Por exemplo, o código `easyhms` poupa muito tempo. Ele permite que sua equipe realize ações de travessia como Cut, Rock Smash e Strength sem forçar seus Pokémon a aprender permanentemente esses movimentos de baixa utilidade.
+
+| Código | Categoria | Efeito Principal | Impacto no Save |
+| :--- | :--- | :--- | :--- |
+| `easyhms` | QoL | Use movimentos de campo sem ensinar HMs | Reversível, altamente recomendado |
+| `unrealtime` | QoL | Personaliza o relógio de dia/noite do jogo | Reversível, altera eventos temporizados |
+| `weathermod` | Meio Ambiente | Controle manual sobre o clima do overworld | Reversível, afeta encontros selvagens |
+
+<Callout type="tip" title="Dica de Mestre: Sincronização do Relógio">
+Ao usar `unrealtime`, você pode configurar o relógio através do menu de opções do jogo. Isso é incrivelmente útil para capturar Pokémon raros que só aparecem em horários específicos do dia, como os tipos Fantasma exclusivos da noite no Gearen Park, sem precisar esperar em tempo real.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modificadores de Combate e Dificuldade">
+
+O combate em Aevium é notoriamente desafiador, construído em torno de Efeitos de Campo complexos e IA inimiga altamente otimizada. Se você se encontrar travado em algum ponto, ou se quiser tornar a experiência ainda mais exigente, pode utilizar **códigos da maleta de pokemon rejuvenation** específicos focados em combate.
+
+Esses modificadores alteram como a experiência é distribuída, como as equipes adversárias são estruturadas e até mesmo como os Efeitos de Campo influenciam o fluxo da batalha.
+
+| Código | Modo | Efeito Principal | Recomendado Para |
+| :--- | :--- | :--- | :--- |
+| `hardcap` | Regras de Nível | Interrompe o ganho de EXP no limite de nível da insígnia | Jogadores hardcore, jornadas padrão |
+| `litemode` | Dificuldade | Reduz os atributos dos oponentes e a otimização da IA | Jogadores casuais, jornadas focadas na história |
+| `noitems` | Regras de Batalha | Desativa itens da mochila durante batalhas de treinadores | Desafios, testes competitivos |
+| `fieldfrenzy` | Efeitos de Campo | Amplifica o dano de campo e efeitos secundários | Jogadores táticos, experimentadores de campo |
+
+<Callout type="info" title="Entendendo os Limites de Nível">
+Por padrão, os Pokémon deixarão de obedecer se excederem o limite de nível ditado pelo seu número atual de insígnias. Ativar o código `hardcap` impede que sua equipe ganhe qualquer experiência adicional assim que atingir esse limite, evitando o aumento acidental de nível durante longas sequências de exploração.
+</Callout>
+
+Para jogadores que buscam uma experiência narrativa relaxada, o `litemode` é uma ferramenta altamente eficaz. Ele suaviza a otimização brutal dos líderes de ginásio e executivos da Team Xen, tornando as batalhas principais muito mais tolerantes. Por outro lado, `noitems` força você a depender inteiramente de itens segurados e movimentos de status, espelhando as regras competitivas do modo multijogador.
+
+</Section>
+
+<Section icon={Trophy} title="Códigos de Progressão e Aumento de Atributos">
+
+Fazer grind para obter atributos perfeitos e esperar por itens do final do jogo pode desacelerar sua progressão. O jogo inclui vários códigos projetados para acelerar o desenvolvimento de sua equipe, oferecendo acesso antecipado a mecânicas poderosas como a Mega Evolução e Valores Individuais (IVs) otimizados.
+
+| Código | Tipo de Recompensa | Efeito Principal | Impacto no Equilíbrio do Jogo |
+| :--- | :--- | :--- | :--- |
+| `freeexpall` | Item | Concede acesso antecipado ao item Exp. All | Acelera a rotação da equipe no início do jogo |
+| `freemegaz` | Progressão | Concede acesso antecipado a Mega Stones/Z-Crystals | Alto impacto, reduz a dificuldade no meio do jogo |
+| `fullivs` | Atributos | Força todos os encontros selvagens/dados de presente a terem 31 IVs | Elimina completamente o grind de cruzamento (breeding) |
+
+Para configurar uma jornada altamente otimizada logo no prólogo, siga este guia de configuração passo a passo ao interagir com a maleta cibernética.
+
+<Steps>
+  <Step num="1" title="Iniciar Novo Jogo">
+    Inicie um novo jogo e conclua as cenas de abertura no S.S. Oceana até chegar à personalização de personagem e configuração da maleta.
+  </Step>
+  <Step num="2" title="Inserir Códigos de Atributos e Recompensas">
+    Insira `fullivs` para garantir que cada Pokémon capturado tenha atributos perfeitos, e `freeexpall` para manter todo o seu banco de reservas no mesmo nível.
+  </Step>
+  <Step num="3" title="Aplicar Ajustes de QoL">
+    Insira `easyhms` para remover a necessidade de movimentos HM, permitindo que você explore a região de Aevium sem poluir seus conjuntos de movimentos.
+  </Step>
+  <Step num="4" title="Confirmar e Salvar">
+    Verifique suas configurações ativas na tela de confirmação, conclua o prólogo e salve o jogo em um slot dedicado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Atributos Perfeitos Garantidos">
+Usar o código `fullivs` é altamente recomendado para jogadores que gostam de montar equipes competitivas, mas não gostam da natureza repetitiva do cruzamento. Cada encontro selvagem, presente e ovo gerará automaticamente o potencial máximo, permitindo que você se concentre puramente no treinamento de EVs e na sinergia do conjunto de movimentos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checklist e Configuração dos Códigos da Maleta">
+
+Para ajudar você a organizar sua jornada personalizada, compilamos uma lista de verificação inicial recomendada. Essas configurações equilibram a conveniência com o design de combate desafiador característico do jogo, garantindo que você aproveite ao máximo sua experiência na V14.
+
+Para discussões mais detalhadas sobre conjuntos de regras personalizados, você pode conferir os [Fóruns de Pokémon Rejuvenation](https://www.rebornevo.com/forums/topic/50085-passwords/) com curadoria da comunidade para ver como outros jogadores configuram seus desafios.
+
+<Checklist
+  id="starting-codes"
+  title="Configuração Inicial Recomendada:"
+  items={[
+    "Ative easyhms para manter seus conjuntos de movimentos limpos e otimizar a exploração",
+    "Ative hardcap para evitar o aumento acidental de nível e manter o equilíbrio do combate",
+    "Aplique fullivs para ignorar completamente o grind de cruzamento (breeding) e reinicializações (soft resets)",
+    "Use freeexpall para facilitar a rotação de sua equipe para as batalhas de ginásio",
+    "Mantenha um arquivo de save de backup antes de entrar na primeira grande mudança de região"
+  ]}
+/>
+
+<Callout type="tip" title="Verificando Códigos Ativos">
+Você pode verificar quais códigos estão ativos no seu arquivo de save acessando o terminal de computador em qualquer Centro Pokémon. Isso permite monitorar suas configurações e garantir que nenhuma regra conflitante esteja ativa antes de desafiar um grande chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Para garantir que você tenha todas as informações necessárias para uma jornada bem-sucedida, compilamos respostas para as perguntas mais comuns sobre o sistema de senhas.
+
+<FAQ items={[
+  {
+    question: "Onde insiro os códigos da maleta de pokemon rejuvenation?",
+    answer: "Você insere esses códigos durante a sequência de abertura de um novo jogo, ao interagir com a maleta cibernética no S.S. Oceana. Alternativamente, você pode modificá-los no meio do jogo usando um terminal de PC, caso possua os itens de dados de senha necessários."
+  },
+  {
+    question: "Esses códigos desativam as conquistas do jogo ou a progressão da história?",
+    answer: "Não, o uso dos códigos da maleta não impede a progressão da história principal nem as conquistas padrão. No entanto, códigos como freemegaz ou litemode marcarão sua jornada como assistida, o que é importante notar se você planeja compartilhar suas conquistas com a comunidade."
+  },
+  {
+    question: "Posso desativar um código depois de ativá-lo?",
+    answer: "A maioria dos códigos de qualidade de vida e ambientais (como easyhms, unrealtime e weathermod) pode ser desativada em qualquer terminal de PC. No entanto, códigos estruturais como fullivs ou códigos que alteram a dificuldade podem afetar permanentemente seu arquivo de save após serem inicializados."
+  },
+  {
+    question: "Esses códigos da maleta são compatíveis com a atualização V14?",
+    answer: "Sim, todos os códigos listados neste guia são totalmente suportados na versão V14. É altamente recomendável usar uma instalação limpa da V14 em vez de substituir pastas antigas da V13.5 para evitar a corrupção do arquivo de save ao aplicar esses códigos."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final de Backup">
+Antes de avançar além do Capítulo 1, certifique-se de salvar seu jogo em vários slots. Se você decidir ajustar seus códigos ativos mais tarde, ter um backup limpo do início do jogo economizará horas de tempo de jogo repetido.
+</Callout>
+
+</Section>

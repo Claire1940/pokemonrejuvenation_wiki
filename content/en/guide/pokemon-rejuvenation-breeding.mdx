@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Breeding: V14 Daycare Unlock & Egg Move Guide",
+  description: "Master Pokémon Rejuvenation breeding in V14. Learn how to unlock the Route 3 Daycare, obtain Ditto, pass down egg moves, and use the fullivs password.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Breeding+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Location**: The Daycare is unlocked on **Route 3** after completing a specific rescue quest.
+- **Egg Moves**: Crucial for custom movesets to bypass the strict V14 level caps and difficult gym bosses.
+- **Stat Optimization**: Use the **fullivs** password during save creation to skip tedious IV breeding entirely.
+- **Ditto Availability**: Highly restricted until late-game, making egg group matching essential for early-game success.
+</Callout>
+
+<Section icon={Map} title="Route 3 Daycare Unlock and Setup">
+
+In Aevium, optimizing your team is not just a luxury; it is a necessity to survive the brutal difficulty spikes introduced in V14. Utilizing the **pokemon rejuvenation breeding** system allows you to construct highly specialized teams capable of manipulating Field Effects and overcoming Gym Leaders. Before you can begin hatching eggs, you must first locate and unlock the Daycare Couple, who have gone missing due to Team Xen interference.
+
+The Daycare is situated on Route 3, an area you will access during the mid-early chapters of the game. However, the building is initially locked. You must complete a rescue mission to bring the Daycare Couple back to their shop. 
+
+| Step | Objective | Location | Requirements |
+|---|---|---|---|
+| 1 | Reach Route 3 | Route 3 | Defeat the Goldenleaf Gym Leader |
+| 2 | Start Rescue Quest | Route 3 Daycare | Speak to the NPC outside the locked building |
+| 3 | Locate Daycare Couple | Secret Meadow | Defeat the Team Xen grunts guarding them |
+| 4 | Reopen Daycare | Route 3 Daycare | Return to the building to access breeding services |
+
+Once unlocked, the Daycare operates similarly to traditional games, charging a small fee in PokéDollars to deposit your Pokémon. However, unlike official games, experience gain in the Daycare is capped to prevent your Pokémon from accidentally overleveling past your current badge level cap.
+
+<Callout type="warning" title="Level Cap Warning">
+Deposited Pokémon will still gain experience as you walk. If a Pokémon reaches the active level cap, it will stop gaining experience to prevent disobedience in battle. Keep a close eye on your deposited units!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Pokémon Rejuvenation Breeding Strategies">
+
+Breeding in V14 can be approached in two distinct ways: the traditional grind or the optimized password route. During the creation of your save file, you have the option to enter custom passwords. The most influential password for breeding enthusiasts is **fullivs**. 
+
+When the **fullivs** password is active, every wild Pokémon, gift Pokémon, and hatched egg is guaranteed to generate with perfect 31 Individual Values (IVs) across all six stats. This completely eliminates the need to breed for IVs, allowing you to focus purely on Natures, Abilities, and Egg Moves. If you prefer a classic, unmodified playthrough, you will need to rely on the standard Destiny Knot and Everstone mechanics.
+
+| Item | Breeding Utility | In-Game Location | Earliest Chapter |
+|---|---|---|---|
+| Everstone | Passes down the holder's Nature (100% rate) | Gearen City Grand Mall / Wild Roggenrola | Chapter 1 |
+| Destiny Knot | Passes down 5 random IVs from both parents | Grand Dream City Department Store | Chapter 9 |
+| Power Weight | Passes down the holder's HP IV | Gearen City AP Seller | Chapter 4 |
+| Power Bracer | Passes down the holder's Attack IV | Gearen City AP Seller | Chapter 4 |
+
+To help you decide on your breeding approach, consider these three primary strategies depending on your chosen game settings:
+
+<CardGrid cols={3}>
+  <Card title="Egg Move Rushing">
+    - **Focus**: Passing powerful moves
+    - **Best for**: Hardcore difficulty runs
+    - **Key Parent**: Male Smeargle
+  </Card>
+  <Card title="Traditional IV Chain">
+    - **Focus**: Manual stat optimization
+    - **Best for**: Password-free runs
+    - **Key Parent**: High-IV Ditto
+  </Card>
+  <Card title="Aevian Form Preservation">
+    - **Focus**: Keeping regional typings
+    - **Best for**: Custom team themes
+    - **Key Parent**: Everstone holder
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Smeargle Utility">
+Catch a male Smeargle in the Gearen Sewers. Have it Sketch the exact moves you want to pass down, then breed it with a compatible female Pokémon in the Field Egg Group to easily transfer complex egg moves.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Egg Move Breeding Guide">
+
+Passing down Egg Moves is the most effective way to give your team a tactical advantage. Many Pokémon in Rejuvenation learn powerful coverage moves, recovery options, or setup moves exclusively through breeding. Follow this step-by-step process to successfully breed a battle-ready Pokémon with its optimal moveset.
+
+<Steps>
+  <Step num="1" title="Identify the Target & Parent">
+    Determine the female Pokémon of the species you want to breed. Then, find a compatible male Pokémon from the same Egg Group that naturally learns the desired Egg Move.
+  </Step>
+  <Step num="2" title="Equip the Breeding Items">
+    Give an Everstone to the parent that has the desired Nature. If you are not playing with the fullivs password, equip the parent with the best IVs with a Destiny Knot.
+  </Step>
+  <Step num="3" title="Deposit and Generate Eggs">
+    Deposit both parents into the Route 3 Daycare. Walk or run outside until the Daycare Man moves position, indicating that an Egg has been found. Keep an open slot in your party to accept the Egg.
+  </Step>
+  <Step num="4" title="Hatch and Verify">
+    Walk with the Egg in your party. Once it hatches, open the summary screen to verify that the newborn Pokémon has inherited the correct Egg Moves, Nature, and Ability.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hatching Optimization">
+Always keep a Pokémon with the **Flame Body** or **Magma Armor** ability (such as Litwick or Slugma) at the front of your party. This cuts the number of steps required to hatch any Egg in half.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Aevian Forms & Special Breeding Rules">
+
+Aevium features unique regional variants known as Aevian Forms. These Pokémon possess distinct typings, abilities, and movesets compared to their standard counterparts. Breeding them requires adherence to specific rules to ensure you do not accidentally hatch a standard form.
+
+To preserve an Aevian Form during breeding, the Aevian parent **must** hold an Everstone. If you breed an Aevian Form without an Everstone, the resulting offspring will revert to its standard, non-Aevian form upon hatching.
+
+| Parent A (Female) | Parent B (Male) | Held Item (Everstone) | Breeding Result |
+|---|---|---|---|
+| Aevian Form | Compatible Male | Equipped on Female | Aevian Form Offspring |
+| Standard Form | Aevian Form | Equipped on Male | Standard Form Offspring |
+| Aevian Form | Ditto | Equipped on Aevian | Aevian Form Offspring |
+| Aevian Form | Compatible Male | None Equipped | Standard Form Offspring |
+
+<Checklist
+  id="breeding-prep"
+  title="Pre-Breeding Preparation Checklist:"
+  items={[
+    "Verify both parents belong to compatible Egg Groups",
+    "Equip the Everstone to the parent with the desired Nature",
+    "Place a Flame Body Pokémon in the first slot of your party",
+    "Ensure you have enough PokéDollars for the Daycare deposit fee",
+    "Double-check that your target egg moves are compatible in Gen 8/9 mechanics"
+  ]}
+/>
+
+<Callout type="info" title="Ditto Acquisition">
+Ditto is highly prized for breeding but is unavailable in the wild during the early game. You can obtain a Ditto by completing a lengthy sidequest in Grand Dream City or by utilizing specific mystery codes at the start of your adventure.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+To help clarify the nuances of the **pokemon rejuvenation breeding** systems, we have compiled answers to the most common questions players encounter during their V14 playthroughs.
+
+<FAQ items={[
+  {
+    question: "Can I breed Aevian Forms with standard Ditto?",
+    answer: "Yes. As long as the Aevian Form parent is holding an Everstone, breeding it with a standard Ditto will always result in an Aevian Form offspring."
+  },
+  {
+    question: "How does the fullivs password affect hatched eggs?",
+    answer: "The fullivs password ensures that every egg hatched in your game automatically has 31 IVs in all six stats, completely removing the need for manual IV breeding."
+  },
+  {
+    question: "Where can I find the Destiny Knot in V14?",
+    answer: "The Destiny Knot is available for purchase at the Grand Dream City Department Store starting in Chapter 9, or as a rare reward from specific late-game sidequests."
+  },
+  {
+    question: "Why isn't my Daycare Couple generating any eggs?",
+    answer: "Ensure the two deposited Pokémon are compatible by checking their Egg Groups. If the Daycare Man says they 'do not like each other,' eggs will still generate slowly. If he says they 'prefer to play with other Pokémon,' they are incompatible."
+  }
+]} />
+
+<Callout type="tip" title="Community Resources">
+If you are struggling to find a specific parent Pokémon for egg moves, consider visiting the official Reborn Evolved Discord server. The community features dedicated trading channels where players frequently share high-quality breeding leftovers.
+</Callout>
+
+</Section>

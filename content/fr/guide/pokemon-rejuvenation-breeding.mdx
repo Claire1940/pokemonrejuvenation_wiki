@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Reproduction dans Pokémon Rejuvenation : Déblocage de la Pension de la Route 3 et Guide des Capacités Œuf en V14",
+  description: "Maîtrisez la reproduction dans Pokémon Rejuvenation V14. Apprenez à débloquer la Pension de la Route 3, à obtenir Métamorph, à transmettre les capacités œuf et à utiliser le mot de passe fullivs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Breeding+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Emplacement principal** : La Pension se débloque sur la **Route 3** après avoir terminé une quête de sauvetage spécifique.
+- **Capacités Œuf** : Cruciales pour obtenir des sets de capacités personnalisés afin de contourner les limites de niveau strictes de la V14 et vaincre les redoutables champions d'arène.
+- **Optimisation des statistiques** : Utilisez le mot de passe **fullivs** lors de la création de votre sauvegarde pour éviter complètement la reproduction fastidieuse des IV.
+- **Disponibilité de Métamorph** : Très limitée jusqu'en fin de jeu, ce qui rend l'association des groupes d'œufs essentielle pour réussir en début de partie.
+</Callout>
+
+<Section icon={Map} title="Déblocage et configuration de la Pension de la Route 3">
+
+À Aevium, optimiser votre équipe n'est pas seulement un luxe, c'est une nécessité pour survivre aux pics de difficulté brutaux introduits dans la V14. Utiliser le système de **reproduction de Pokémon Rejuvenation** vous permet de construire des équipes hautement spécialisées, capables de manipuler les Effets de Terrain et de vaincre les Champions d'Arène. Avant de pouvoir commencer à faire éclore des œufs, vous devez d'abord localiser et libérer le couple de la Pension, qui a disparu en raison de l'interférence de la Team Xen.
+
+La Pension est située sur la Route 3, une zone à laquelle vous accéderez au milieu des premiers chapitres du jeu. Cependant, le bâtiment est initialement verrouillé. Vous devez accomplir une mission de sauvetage pour ramener le couple de la Pension à leur boutique.
+
+| Étape | Objectif | Emplacement | Prérequis |
+|---|---|---|---|
+| 1 | Atteindre la Route 3 | Route 3 | Battre le Champion d'Arène de Goldenleaf |
+| 2 | Commencer la quête de sauvetage | Pension de la Route 3 | Parler au PNJ devant le bâtiment verrouillé |
+| 3 | Localiser le couple de la Pension | Secret Meadow | Battre les sbires de la Team Xen qui les gardent |
+| 4 | Rouvrir la Pension | Pension de la Route 3 | Retourner au bâtiment pour accéder aux services de reproduction |
+
+Une fois débloquée, la Pension fonctionne de manière similaire aux jeux traditionnels, facturant de petits frais en PokéDollars pour y déposer vos Pokémon. Cependant, contrairement aux jeux officiels, le gain d'expérience à la Pension est plafonné pour éviter que vos Pokémon ne dépassent accidentellement la limite de niveau de votre badge actuel.
+
+<Callout type="warning" title="Avertissement sur la limite de niveau">
+Les Pokémon déposés continueront à gagner de l'expérience pendant que vous marchez. Si un Pokémon atteint la limite de niveau active, il cessera de gagner de l'expérience pour éviter toute désobéissance en combat. Gardez un œil attentif sur vos unités déposées !
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégies de reproduction avancées dans Pokémon Rejuvenation">
+
+La reproduction dans la V14 peut être abordée de deux manières distinctes : le farm traditionnel ou la voie optimisée des mots de passe. Lors de la création de votre fichier de sauvegarde, vous avez la possibilité de saisir des mots de passe personnalisés. Le mot de passe le plus influent pour les passionnés de reproduction est **fullivs**.
+
+Lorsque le mot de passe **fullivs** est actif, chaque Pokémon sauvage, Pokémon offert et œuf éclos est garanti d'avoir des Valeurs Individuelles (IV) parfaites de 31 dans les six statistiques. Cela élimine complètement le besoin de faire de la reproduction pour les IV, vous permettant de vous concentrer uniquement sur les Natures, les Talents et les Capacités Œuf. Si vous préférez une partie classique et non modifiée, vous devrez vous appuyer sur les mécaniques standard du Nœud Destin et de la Pierre Stase.
+
+| Objet | Utilité pour la reproduction | Emplacement en jeu | Chapitre minimum |
+|---|---|---|---|
+| Pierre Stase | Transmet la Nature du porteur (taux de 100 %) | Grand Centre Commercial de Gearen City / Nodelet sauvage | Chapitre 1 |
+| Nœud Destin | Transmet 5 IV aléatoires des deux parents | Grand Magasin de Grand Dream City | Chapitre 9 |
+| Poids Pouvoir | Transmet l'IV PV du porteur | Vendeur de PA de Gearen City | Chapitre 4 |
+| Poignet Pouvoir | Transmet l'IV Attaque du porteur | Vendeur de PA de Gearen City | Chapitre 4 |
+
+Pour vous aider à décider de votre approche de reproduction, considérez ces trois stratégies principales en fonction de vos paramètres de jeu choisis :
+
+<CardGrid cols={3}>
+  <Card title="Rush des Capacités Œuf">
+    - **Objectif** : Transmettre des capacités puissantes
+    - **Idéal pour** : Les runs en difficulté Hardcore
+    - **Parent clé** : Queulorior mâle
+  </Card>
+  <Card title="Chaîne d'IV traditionnelle">
+    - **Objectif** : Optimisation manuelle des statistiques
+    - **Idéal pour** : Les runs sans mot de passe
+    - **Parent clé** : Métamorph avec de bons IV
+  </Card>
+  <Card title="Préservation des Formes d'Aevium">
+    - **Objectif** : Conserver les types régionaux
+    - **Idéal pour** : Les thèmes d'équipe personnalisés
+    - **Parent clé** : Porteur de la Pierre Stase
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Utilité de Queulorior">
+Attrapez un Queulorior mâle dans les Égouts de Gearen. Faites-lui utiliser Gribouille sur les capacités exactes que vous souhaitez transmettre, puis faites-le se reproduire avec un Pokémon femelle compatible du Groupe d'Œuf Terrestre pour transférer facilement des capacités œuf complexes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape de la reproduction des Capacités Œuf">
+
+Transmettre des Capacités Œuf est le moyen le plus efficace de donner un avantage tactique à votre équipe. De nombreux Pokémon dans Rejuvenation apprennent des capacités de couverture puissantes, des options de soin ou des capacités de boost exclusivement par reproduction. Suivez ce processus étape par étape pour réussir à élever un Pokémon prêt au combat avec son set de capacités optimal.
+
+<Steps>
+  <Step num="1" title="Identifier la cible et le parent">
+    Déterminez le Pokémon femelle de l'espèce que vous souhaitez reproduire. Ensuite, trouvez un Pokémon mâle compatible du même Groupe d'Œuf qui apprend naturellement la Capacité Œuf souhaitée.
+  </Step>
+  <Step num="2" title="Équiper les objets de reproduction">
+    Donnez une Pierre Stase au parent possédant la Nature souhaitée. Si vous ne jouez pas avec le mot de passe fullivs, équipez le parent ayant les meilleurs IV d'un Nœud Destin.
+  </Step>
+  <Step num="3" title="Déposer et générer des œufs">
+    Déposez les deux parents à la Pension de la Route 3. Marchez ou courez à l'extérieur jusqu'à ce que l'hôte de la Pension change de position, indiquant qu'un Œuf a été trouvé. Gardez une place libre dans votre équipe pour accepter l'Œuf.
+  </Step>
+  <Step num="4" title="Faire éclore et vérifier">
+    Marchez avec l'Œuf dans votre équipe. Une fois qu'il a éclos, ouvrez l'écran de résumé pour vérifier que le Pokémon nouveau-né a bien hérité des bonnes Capacités Œuf, de la bonne Nature et du bon Talent.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimisation de l'éclosion">
+Gardez toujours un Pokémon doté du talent **Corps Brasier** ou **Armumagma** (comme Funécire ou Limagma) en tête de votre équipe. Cela réduit de moitié le nombre de pas nécessaires pour faire éclore n'importe quel Œuf.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Formes d'Aevium et règles spéciales de reproduction">
+
+Aevium propose des variantes régionales uniques appelées Formes d'Aevium. Ces Pokémon possèdent des types, des talents et des sets de capacités distincts de ceux de leurs homologues standards. Les reproduire nécessite de respecter des règles spécifiques pour vous assurer de ne pas faire éclore accidentellement une forme standard.
+
+Pour préserver une Forme d'Aevium lors de la reproduction, le parent d'Aevium **doit** tenir une Pierre Stase. Si vous reproduisez une Forme d'Aevium sans Pierre Stase, le nouveau-né retournera à sa forme standard non-Aevium lors de l'éclosion.
+
+| Parent A (Femelle) | Parent B (Mâle) | Objet tenu (Pierre Stase) | Résultat de la reproduction |
+|---|---|---|---|
+| Forme d'Aevium | Mâle compatible | Équipé sur la Femelle | Descendant Forme d'Aevium |
+| Forme Standard | Forme d'Aevium | Équipé sur le Mâle | Descendant Forme Standard |
+| Forme d'Aevium | Métamorph | Équipé sur la Forme d'Aevium | Descendant Forme d'Aevium |
+| Forme d'Aevium | Mâle compatible | Aucun équipé | Descendant Forme Standard |
+
+<Checklist
+  id="breeding-prep"
+  title="Liste de préparation avant la reproduction :"
+  items={[
+    "Vérifier que les deux parents appartiennent à des Groupes d'Œufs compatibles",
+    "Équiper la Pierre Stase sur le parent ayant la Nature souhaitée",
+    "Placer un Pokémon avec Corps Brasier dans le premier emplacement de votre équipe",
+    "S'assurer d'avoir assez de PokéDollars pour les frais de dépôt de la Pension",
+    "Vérifier que vos capacités œuf cibles sont compatibles avec les mécaniques de la Gen 8/9"
+  ]}
+/>
+
+<Callout type="info" title="Obtention de Métamorph">
+Métamorph est très prisé pour la reproduction mais n'est pas disponible à l'état sauvage en début de partie. Vous pouvez obtenir un Métamorph en accomplissant une longue quête secondaire à Grand Dream City ou en utilisant des codes mystères spécifiques au début de votre aventure.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+Pour vous aider à clarifier les nuances des systèmes de **reproduction de Pokémon Rejuvenation**, nous avons compilé les réponses aux questions les plus fréquemment posées par les joueurs au cours de leur partie sur la V14.
+
+<FAQ items={[
+  {
+    question: "Puis-je reproduire des Formes d'Aevium avec un Métamorph standard ?",
+    answer: "Oui. Tant que le parent Forme d'Aevium tient une Pierre Stase, la reproduction avec un Métamorph standard donnera toujours un descendant Forme d'Aevium."
+  },
+  {
+    question: "Comment le mot de passe fullivs affecte-t-il les œufs éclos ?",
+    answer: "Le mot de passe fullivs garantit que chaque œuf éclos dans votre jeu possède automatiquement 31 IV dans les six statistiques, éliminant complètement le besoin de reproduction manuelle des IV."
+  },
+  {
+    question: "Où puis-je trouver le Nœud Destin en V14 ?",
+    answer: "Le Nœud Destin est disponible à l'achat au Grand Magasin de Grand Dream City à partir du Chapitre 9, ou comme récompense rare lors de quêtes secondaires spécifiques en fin de jeu."
+  },
+  {
+    question: "Pourquoi le couple de la Pension ne génère-t-il aucun œuf ?",
+    answer: "Assurez-vous que les deux Pokémon déposés sont compatibles en vérifiant leurs Groupes d'Œufs. Si l'hôte de la Pension dit qu'ils 'ne s'aiment pas beaucoup', des œufs seront tout de même générés lentement. S'il dit qu'ils 'préfèrent jouer avec d'autres Pokémon', ils sont incompatibles."
+  }
+]} />
+
+<Callout type="tip" title="Ressources de la communauté">
+Si vous avez du mal à trouver un parent Pokémon spécifique pour les capacités œuf, pensez à visiter le serveur Discord officiel de Reborn Evolved. La communauté dispose de salons d'échange dédiés où les joueurs partagent fréquemment des restes de reproduction de haute qualité.
+</Callout>
+
+</Section>

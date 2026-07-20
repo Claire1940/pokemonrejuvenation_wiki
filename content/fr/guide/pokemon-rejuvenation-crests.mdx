@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Blasons de Pokémon Rejuvenation : Tier List 2026 et Guide de Localisation",
+  description: "Maîtrisez la puissance des blasons de Pokémon Rejuvenation avec notre guide détaillé 2026. Découvrez les emplacements, la mécanique et les meilleurs objets tenus pour chaque espèce.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Crest+Mechanics+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Pokémon Rejuvenation",
+  keywords: "blasons pokemon rejuvenation, guide 2026, localisation, tier list, objets tenus"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les blasons de Pokémon Rejuvenation** sont des objets tenus uniques qui offrent des boosts de statistiques massifs ou de nouvelles capacités à des espèces spécifiques.
+- **Les mécaniques inamovibles** garantissent que ces objets ne peuvent pas être perdus via des capacités comme Sabotage ou Tour de Magie pendant le combat.
+- **L'échelonnage stratégique** permet aux Pokémon plus faibles de rester viables, même face aux défis de fin de jeu de 2026.
+- **Les méthodes d'acquisition** vont des anciens rituels Garufans au Château Zygara aux quêtes secondaires modernes et aux échanges avec des PNJ.
+- **L'échange de statistiques** est une mécanique centrale pour certains blasons, modifiant concrètement le fonctionnement des EVs et IVs pour ce Pokémon.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre la mécanique des blasons de Pokémon Rejuvenation">
+
+**Les blasons de Pokémon Rejuvenation** représentent un système d'objets révolutionnaire au sein du fan-game, conçu pour insuffler une nouvelle vie aux Pokémon qui ont habituellement du mal dans des environnements compétitifs ou de haute difficulté. Contrairement aux objets standards comme le Bandeau Choix ou l'Orbe Vie, un blason est lié par code à une espèce spécifique (ou ses formes régionales). Lorsqu'il est tenu par le bon Pokémon, il déclenche divers effets allant de simples multiplicateurs de statistiques à des mécaniques totalement personnalisées qui modifient le fonctionnement du Pokémon au combat.
+
+L'un des aspects les plus critiques de ces objets est leur permanence en combat. Dans les batailles difficiles de la version 2026 du jeu, perdre un objet tenu peut être une sentence de mort. Cependant, les blasons sont protégés par une mécanique unique "collante". Bien qu'une capacité comme Sabotage inflige toujours ses dégâts augmentés, le blason lui-même ne sera jamais retiré de l'utilisateur. De même, des capacités comme Tour de Magie ou Échange échoueront simplement si l'un des Pokémon tient un blason correspondant.
+
+| Mécanique | Effet en Combat | Notes |
+| :--- | :--- | :--- |
+| **Sabotage** | Les dégâts sont infligés, mais l'objet n'est **pas** retiré. | Le multiplicateur de dégâts de Sabotage s'applique toujours. |
+| **Tour de Magie / Échange** | La capacité échoue entièrement si utilisée sur un porteur de blason. | Empêche les stratégies de perturbation ennemies. |
+| **Indicateur d'interface** | Une icône de blason spécifique apparaît sur l'interface de combat. | Aide les joueurs à identifier immédiatement les effets actifs. |
+| **Verrouillage d'espèce** | Ne fonctionne que pour l'espèce prévue. | Les utilisateurs de Morphing (comme Métamorph) peuvent déclencher l'effet. |
+
+<Callout type="warning" title="Avertissement sur l'échange de stats">
+Les blasons qui échangent les statistiques (comme le blason de Volcaropod) le font **après** que tous les calculs d'IVs, d'EVs et de Natures ont été appliqués. Par exemple, si votre Volcaropod a des EVs élevés en Défense, ceux-ci deviendront effectivement des EVs en Vitesse lorsque le blason est actif. Cependant, les boosts de statistiques en combat provenant de capacités comme Armure s'appliqueront toujours à la statistique d'origine (Défense) plutôt qu'à celle échangée.
+</Callout>
+
+La flexibilité de ces objets est également démontrée par l'interaction avec "Morphing". Si un Pokémon utilise Morphing (comme Métamorph ou Mew) et se transforme en une espèce dont il tient actuellement le blason, il bénéficiera de tous les avantages de ce blason. Inversement, si un Pokémon tenant son propre blason se transforme en autre chose, les effets du blason sont immédiatement désactivés jusqu'à ce qu'il reprenne sa forme originale.
+
+</Section>
+
+<Section icon={Map} title="Les origines sombres et le lore de la magie Garufan">
+
+L'histoire des **blasons de Pokémon Rejuvenation** est profondément enracinée dans le lore ancien et souvent macabre de la région d'Aevium. La plupart de ces puissants artefacts n'ont pas été fabriqués par la technologie moderne, mais par la magie interdite des Garufans pratiquée dans les temps anciens. L'épicentre de cette création était le Château Zygara, où le Roi Ieisel accomplissait des rituels dont on parle encore aujourd'hui avec crainte.
+
+Le processus de création impliquait une tour centrale au sein du Château Zygara, où une fosse profonde servait d'autel. Il est fortement suggéré que la puissance des anciens blasons provient des âmes d'humains et de Pokémon sacrifiés lors de ces rituels. Ceux qui étaient jetés dans la fosse disparaissaient, et le matériau magique raffiné nécessaire au blason remontait des profondeurs. Ce passé sombre ajoute une dimension narrative aux objets que vous utilisez pour renforcer votre équipe.
+
+<CardGrid cols={3}>
+  <Card title="Rituels Anciens">
+    Créés au Château Zygara par le Roi Ieisel en utilisant la magie Garufan et des sacrifices.
+  </Card>
+  <Card title="Recréations Ratées">
+    Des personnages comme Karen ont tenté de reproduire la magie, ce qui les a menés à la folie.
+  </Card>
+  <Card title="Innovation Moderne">
+    Certains blasons sont désormais créés via des CT environnementales et les recherches des Rangers.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Détail du Lore">
+Bien que la plupart des blasons soient anciens, certains plus récents comme le blason de Morphéo prouvent que la région d'Aevium trouve des moyens plus sûrs et sans sacrifice pour exploiter cette puissance en 2026.
+</Callout>
+
+Dans la chronologie moderne de Pokémon Rejuvenation, des chercheurs et certains PNJ ont trouvé des moyens de contourner les rituels de sang. Par exemple, le blason de Morphéo est le résultat de l'étude environnementale d'un Ranger dans la Jungle de Terajuma, ne nécessitant que la connaissance des CT de changement de météo plutôt qu'une ancienne magie des âmes.
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Comment obtenir le blason de Morphéo">
+
+Pour vous aider à comprendre comment les **blasons de Pokémon Rejuvenation** modernes sont acquis, nous avons détaillé le processus spécifique pour obtenir le blason de Morphéo, essentiel pour les équipes basées sur la météo en milieu de jeu.
+
+<Steps>
+  <Step num="1" title="Atteindre la Jungle de Terajuma">
+    Voyagez vers la Jungle de Terajuma pendant les chapitres de milieu de jeu. Assurez-vous d'avoir accès à la station des Rangers.
+  </Step>
+  <Step num="2" title="Collecter les CT météo">
+    Vous devez posséder les CT pour **Grêle**, **Zénith** et **Danse Pluie**. Celles-ci se trouvent à travers diverses quêtes secondaires d'Aevium.
+  </Step>
+  <Step num="3" title="Localiser le Ranger de Terajuma">
+    Trouvez le PNJ Ranger spécifique situé au cœur de la jungle qui étudie l'écosystème local.
+  </Step>
+  <Step num="4" title="Échanger les connaissances">
+    Parlez au Ranger avec les CT dans votre sac. Il les "étudiera" et vous remettra le blason de Morphéo en récompense de votre aide.
+  </Step>
+</Steps>
+
+| Prérequis | Emplacement / Source | Importance |
+| :--- | :--- | :--- |
+| **CT Grêle** | Entrepôt frigorifique / Quête | Haute - Permet la précision de Blizzard. |
+| **CT Zénith** | Magma Drift | Haute - Renforce les capacités Feu. |
+| **CT Danse Pluie** | Rivage de Terajuma | Haute - Boost la puissance Eau. |
+| **Morphéo** | Œuf Mystère / Événement | Essentiel - Porteur de l'objet. |
+
+<Callout type="success" title="Conseil de complétionniste">
+Vérifiez toujours les cimetières et les sites historiques. Par exemple, le blason de Pharamp d'Aevium est caché dans le cimetière du District de l'Espoir de GDC, mais seulement après avoir terminé les quêtes PictoZumi et Xenogene.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Effets et emplacements complets des blasons 2026">
+
+Le tableau suivant fournit des données sur certains des **blasons de Pokémon Rejuvenation** les plus populaires disponibles dans la version actuelle 2026 du jeu. Notez que la disponibilité est souvent liée à des chapitres spécifiques ou à des quêtes secondaires complexes.
+
+| Blason | Disponibilité | Description de l'effet | Emplacement Principal |
+| :--- | :--- | :--- | :--- |
+| **Pharamp d'Aevium** | .Fichiers Karma | 1er slot de capacité +50% puissance (non-Élec/Glace), -30% dégâts SE subis. | GDC District de l'Espoir |
+| **Migalos** | Chapitre 14 | +50% Vitesse. Coups critiques garantis sur les ennemis ralentis ou empoisonnés. | Route 6 Sous-marin |
+| **Volcaropod** | Milieu de jeu | Échange complètement les statistiques de Défense et de Vitesse. | Mont Brûlant |
+| **Pingoléon** | Post-game | Boost l'Attaque Spéciale et la Vitesse sous la Grêle ou la Pluie. | Hautes Mers d'Aevium |
+| **Silvallié** | v13.5+ | Fonctionne depuis le Sac. Les effets varient selon la ROM tenue. | Actuellement inobtenable |
+| **Simiabraz** | Fin de jeu | Augmente la priorité des capacités basées sur les coups de poing. | Route Victoire |
+
+La philosophie derrière ces objets est l'équilibre. Vous remarquerez que de nombreux Pokémon "forts" comme les starters de Sinnoh reçoivent des blasons pour rester compétitifs face aux Pokémon Boss brutaux du jeu, tandis que les insectes plus faibles comme Migalos reçoivent des boosts massifs de vitesse et de critique pour devenir des sweepers viables.
+
+<Callout type="info" title="Cas spécial de Silvallié">
+Le blason de Silvallié est unique car c'est le seul qui offre ses avantages tout en restant dans votre Sac. Vous n'avez pas besoin que Silvallié le tienne, ce qui permet au Pokémon de tenir une ROM tout en recevant les boosts adaptatifs du blason.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List stratégique : Les meilleurs blasons pour votre équipe">
+
+Lors de la construction d'une équipe autour des **blasons de Pokémon Rejuvenation**, vous devez considérer le rôle de chaque Pokémon. Certains blasons transforment des tanks défensifs en attaquants rapides, tandis que d'autres offrent une durabilité indispensable.
+
+<CardGrid cols={2}>
+  <Card title="Meilleurs Blasons Offensifs">
+    - **Migalos** : Parfait pour les setups de Fil Toxique.
+    - **Typhlosion** : Boosts massifs de la puissance d'Éruption.
+    - **Pharamp d'Aevium** : Polyvalence inégalée dans le premier slot de capacité.
+  </Card>
+  <Card title="Meilleurs Blasons Utilitaires/Défensifs">
+    - **Bastiodon** : Transforme la Défense en pression offensive.
+    - **Méganium** : Offre un soin à toute l'équipe sous certaines conditions.
+    - **Volcaropod** : Manipulation unique de la vitesse pour Distorsion ou sweep.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Synergie Stratégique">
+Associez le blason de Migalos à un coéquipier capable de poser la Toile Gluante ou les Pics Toxik. Puisque le blason garantit des coups critiques contre les cibles ralenties ou empoisonnées, Migalos devient un "cleaner" terrifiant en fin de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maîtriser la collection de blasons">
+
+Pour le complétionniste ultime, collecter chacun des **blasons de Pokémon Rejuvenation** est une tâche monumentale qui s'étend sur toute la région d'Aevium. Utilisez cette liste de vérification pour suivre votre progression à travers les objets les plus essentiels.
+
+<Checklist
+  id="crest-hunt-2026"
+  title="Objectifs de collection de blasons essentiels :"
+  items={[
+    "Obtenir le blason de Migalos dans les archives sous-marines de la Route 6",
+    "Terminer la quête PictoZumi pour le blason de Pharamp d'Aevium",
+    "Débloquer le blason météo de Morphéo à Terajuma",
+    "Acquérir le blason de Volcaropod pour activer l'échange Défense-Vitesse",
+    "Localiser les blasons du trio de starters (Pingoléon/Simiabraz) en fin de jeu"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Puis-je utiliser un blason sur un Pokémon différent pour un petit boost ?",
+    answer: "Non. Les blasons de Pokémon Rejuvenation n'offrent des avantages qu'à l'espèce spécifique dont ils portent le nom. Sur tout autre Pokémon, ils agissent comme un objet tenu inutile sans aucun effet."
+  },
+  {
+    question: "Est-ce que Sabotage inflige toujours des dégâts supplémentaires à un porteur de blason ?",
+    answer: "Oui, Sabotage infligera son bonus de dégâts de 1,5x car la cible tient un objet, mais le blason restera équipé et actif."
+  },
+  {
+    question: "Pourquoi Clamiral a-t-il un blason mais pas Majaspic ?",
+    answer: "La distribution des blasons est basée sur les besoins d'équilibrage des développeurs. Bien que de nombreux groupes comme les starters finissent par en recevoir, Clamiral a été priorisé pour l'aider à suivre la montée en puissance du jeu."
+  },
+  {
+    question: "Existe-t-il des blasons actuellement inobtenables ?",
+    answer: "D'après les dernières mises à jour de 2026, les blasons de Silvallié et de Neitram sont dans le code du jeu mais ne peuvent pas être obtenus légalement par le joueur via un gameplay normal."
+  }
+]} />
+
+</Section>

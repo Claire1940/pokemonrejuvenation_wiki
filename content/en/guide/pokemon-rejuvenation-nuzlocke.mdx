@@ -1,0 +1,185 @@
+import { Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "pokemon rejuvenation nuzlocke: Rules, Strategies & Tier List",
+  description: "Master the ultimate challenge in Aevium. Learn standard & hardcore pokemon rejuvenation nuzlocke rules, starter tiers, level caps, and boss strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/5ae2f6?text=Nuzlocke+Survival+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Definitive challenge**: The pokemon rejuvenation nuzlocke requires strict adherence to level caps and permanent death rules.
+- **Essential passwords**: Activate `hardcap` and `fullivs` during setup to ensure fair, grind-free competition.
+- **Field awareness**: Never enter a major battle without reading the Field Effect tooltip first.
+- **Starter selection**: Fire-type and Water-type starters provide the most reliable early-game defensive pivots and offensive sweeps.
+- **Pivot mastery**: Success depends on utilizing bulky encounters to absorb highly optimized enemy attacks.
+</Callout>
+
+<Section icon={Shield} title="pokemon rejuvenation nuzlocke Rules & Core Mechanics">
+
+A **pokemon rejuvenation nuzlocke** is widely considered one of the most demanding fan-game challenges in the entire monster-battling community. Unlike vanilla games, Pokémon Rejuvenation V14 features highly optimized enemy AI, competitive movesets, custom Crest items, and complex Field Effects that can instantly turn a favorable type matchup into a swift team wipe. To survive the journey across the Aevium region, you must establish a clear set of rules and understand how the game's unique mechanics alter traditional Nuzlocke strategies.
+
+Standard Nuzlocke rules apply, but several custom adjustments are highly recommended to balance the game's immense difficulty. Below is a comparison of how to structure your ruleset depending on your preferred level of challenge.
+
+| Rule Type | Standard Nuzlocke | Hardcore Nuzlocke | Rejuvenation V14 Recommendation |
+| :--- | :--- | :--- | :--- |
+| **Fainting** | Permanent box/release | Permanent box/release | **Strict release** to avoid temptation |
+| **Encounters** | First per route | First per route | Pinwheel clause allowed for static gifts |
+| **Level Caps** | Soft cap | Strict cap | **Mandatory** using the `hardcap` password |
+| **Items** | Healing items allowed | No items in battle | **Held items only** to match optimized AI |
+| **EV Training** | Allowed | Allowed | Highly recommended to match boss scaling |
+
+Using the game's built-in password system is virtually mandatory for a fair run. The developer-sanctioned passwords do not diminish the achievement; instead, they eliminate tedious grinding and ensure that both your team and the opposing bosses compete on a level playing field.
+
+<Callout type="warning" title="Level Cap Danger">
+If you do not use the `hardcap` password, accidental overleveling will cause your Pokémon to ignore commands in battle. This mechanical penalty can easily ruin a gym fight and end your entire run prematurely.
+</Callout>
+
+Custom Crests are another game-defining mechanic to watch out for. These unique held items provide massive, custom stat boosts and mechanical changes to specific, otherwise underpowered Pokémon. When planning your route encounters, keep an eye out for Crest locations, as they can elevate a low-tier encounter into a top-tier defensive pivot or offensive sweeper.
+
+</Section>
+
+<Section icon={Target} title="Early-Game Survival & Level Cap Management">
+
+The early hours of a **pokemon rejuvenation nuzlocke**—specifically Chapters 1 through 4—are where the vast majority of runs fail. Your encounter pool is limited, your team lacks advanced coverage options, and early bosses utilize punishing Field Effects that boost their damage output to lethal levels. 
+
+To navigate this critical phase, follow a systematic approach to setting up your run, managing your resources, and preparing for the first major badge challenges.
+
+<Steps>
+  <Step num="1" title="Password Initialization">
+    Enter your chosen passwords during the opening train sequence. Activating `hardcap` prevents accidental overleveling, while `fullivs` guarantees that all wild encounters and gift Pokémon generate with perfect individual values, matching the stats of opposing boss teams.
+  </Step>
+  <Step num="2" title="Starter Selection">
+    Choose a starter that offers immediate early-game utility. While all Gen 1-9 starters are viable, those with early access to status moves, high natural bulk, or setup capabilities provide a much higher safety margin during the first three chapters.
+  </Step>
+  <Step num="3" title="Encounter Routing">
+    Maximize your encounter pool by visiting every accessible sub-area in East Gearen City and Route 2 before fighting the first Gym Leader. Delaying certain encounters until you have access to better Poké Balls or specific weather conditions can yield much stronger team members.
+  </Step>
+  <Step num="4" title="Field Effect Scanning">
+    Before entering any major arena, check the Field Effect tooltip in your game menu. Identify which moves are boosted, which types receive defensive buffs, and whether any of your current team members will take passive damage at the end of each turn.
+  </Step>
+</Steps>
+
+Managing the strict level caps is essential. Each chapter imposes a hard ceiling on your team's levels, matching the ace Pokémon of the next major boss. Use this breakdown of early-game milestones to plan your training and team compositions accordingly.
+
+| Chapter | Gym Leader / Major Boss | Level Cap | Active Field Effect | Recommended Counter Type |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chapter 1** | First Gym Leader | **Level 20** | Electric Terrain | Ground, Grass, Electric |
+| **Chapter 2** | Sheridan Arena | **Level 25** | Fighting Field | Flying, Psychic, Fairy |
+| **Chapter 3** | Goldenleaf Theatre | **Level 30** | Ghost-focused Field | Dark, Normal (Immunity) |
+| **Chapter 4** | Coastal Bosses | **Level 35** | Water/Rift Terrain | Electric, Grass, Poison |
+
+<Callout type="tip" title="Utility Password Recommendation">
+Consider activating the `easyhms` password. This prevents you from needing to teach utility moves like Cut and Rock Smash to your main combat team, preserving your highly valuable offensive and defensive move slots for actual battles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Starter & Encounter Tier List for Nuzlocke Runs">
+
+In a standard playthrough, offensive sweepers are highly favored. In a **pokemon rejuvenation nuzlocke**, however, defensive utility, typing, and pivot capabilities are what keep your run alive. A Pokémon that can safely absorb a super-effective hit, lower the opponent's stats, or pivot out via Volt Switch or U-turn is infinitely more valuable than a fragile glass cannon.
+
+The following framework categorizes starters and early-game encounters based on their survival value, consistency, and ability to handle major boss fights under adverse Field Effects.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier (Run Carries)">
+    - **Speed Boost Blaziken**: Invaluable for sweeping mid-game fights.
+    - **Swampert**: Incredible typing with only one weakness; a premier defensive pivot.
+    - **Gyarados**: Intimidate utility combined with natural bulk and Dragon Dance.
+  </Card>
+  <Card title="A-Tier (Highly Reliable)">
+    - **Venusaur**: Exceptional bulk, sleep utility, and terrain-manipulation options.
+    - **Contrary Serperior**: Strong late-game potential once Leaf Storm is unlocked.
+    - **Crobat**: High speed, reliable poison status, and excellent defensive typing.
+  </Card>
+  <Card title="B-Tier (Niche Specialists)">
+    - **Incineroar**: Great utility but slow; requires careful positioning.
+    - **Greninja**: Incredible offensive coverage but highly fragile in Rift battles.
+    - **Meowstic**: Prankster screens are useful but drop off in effectiveness late-game.
+  </Card>
+</CardGrid>
+
+When choosing your starter, evaluate how its typing and movepool interact with the early gyms. While Fire-types generally struggle in water-heavy regions, their ability to melt frozen fields or burn physical attackers makes them incredibly valuable pivots.
+
+| Starter Pokémon | Nuzlocke Tier | Key Ability | Early-Game Value | Late-Game Viability |
+| :--- | :--- | :--- | :--- | :--- |
+| **Torchic** | **S-Tier** | Speed Boost | High (Sweeps early gyms) | Excellent (Mega form available) |
+| **Mudkip** | **S-Tier** | Torrent / Damp | Excellent (Bulky typing) | Excellent (Great defensive pivot) |
+| **Snivy** | **A-Tier** | Contrary | Moderate (Needs Leaf Storm) | High (Great utility and setup) |
+| **Froakie** | **A-Tier** | Protean | Low (Fragile early on) | High (Incredible coverage late) |
+| **Chimchar** | **B-Tier** | Iron Fist | High (Great offensive pressure) | Moderate (Fragile in late-game Rifts) |
+
+<Callout type="success" title="The Power of Bulky Pivots">
+Never underestimate bulky, defensive encounters. A single Water/Ground or Grass/Poison type can safely absorb critical hits and status conditions, allowing you to reposition your offensive sweepers without risking a permanent death.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Boss Strategies & Survival Checklist">
+
+Every major boss encounter in Pokémon Rejuvenation is a puzzle designed around a specific Field Effect. To win without losing key team members, you must either exploit the field to boost your own damage, or use specific moves to alter or completely destroy the field terrain.
+
+Rift Pokémon are particularly dangerous. These corrupted bosses possess massive stat boosts, multiple HP bars, and custom shields that reduce incoming damage. Traditional sweeping strategies rarely work against them; instead, you must rely on status conditions, protection moves, and defensive stalling.
+
+| Boss Encounter | Chapter | Dangerous Moves | Field Hazard | Best Counter Measures |
+| :--- | :--- | :--- | :--- | :--- |
+| **Keta** | Chapter 2 | High-damage Fighting STAB | Fighting Arena boost | **Pidgeotto**, **Spritzee**, Intimidate pivots |
+| **Angie** | Chapter 7 | Blizzard, Freeze Dry | Cold-themed hazard | Fire-types, **Thick Fat** users, Melt-Down moves |
+| **Rift Pokémon** | Various | Corrupted signature attacks | Rift-themed stat boosts | Toxic stall, Protect scouting, bulk setups |
+
+Before entering any major dungeon climax or gym arena, walk through this survival checklist to ensure you have minimized the risk of a wipe.
+
+<Checklist
+  id="pre-boss-prep"
+  title="Pre-Boss Preparation Checklist:"
+  items={[
+    "Verify all team members are fully trained up to the current level cap",
+    "Equip optimal held items, focusing on berry-based status cures and type-resist berries",
+    "Analyze the active Field Effect and note which moves can alter or destroy it",
+    "Identify the opponent's leading Pokémon and secure a safe lead matchup",
+    "Set up a secondary backup save file in case of an irreversible tactical error"
+  ]}
+/>
+
+<Callout type="info" title="Rift Battle Mechanics">
+Rift Pokémon are immune to several standard status conditions depending on their active shield phase. Always test your status moves carefully and maintain a healthy reserve of defensive pivots to stall out their most dangerous phases.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you successfully navigate your run, here are answers to the most common questions faced by players attempting this extreme challenge.
+
+<FAQ items={[
+  {
+    question: "What is the single best starter for a pokemon rejuvenation nuzlocke?",
+    answer: "Mudkip is widely considered the best overall starter. Its evolution, Swampert, possesses an incredible Water/Ground typing with only one weakness (Grass), exceptional natural bulk, and access to powerful STAB moves that perform consistently well across almost all 16 chapters."
+  },
+  {
+    question: "Should I play on Lite Mode or Standard difficulty for a Nuzlocke?",
+    answer: "If this is your first attempt, playing on Lite Mode is highly recommended. Standard difficulty features highly optimized competitive teams with perfect EVs/IVs and advanced held items, which can make a Nuzlocke run incredibly frustrating without extensive game knowledge."
+  },
+  {
+    question: "Are gift Pokémon and static encounters allowed in this run?",
+    answer: "Yes. Most players utilize the 'Pinwheel Clause,' which treats static encounters, trade gifts, and mystery eggs as separate encounters from standard wild grass encounters. This helps diversify your team options and provides essential utility tools."
+  },
+  {
+    question: "What should I do if a critical team member faints during a major battle?",
+    answer: "Under strict Nuzlocke rules, that Pokémon must be permanently boxed or released. To prevent a single loss from cascading into a full team wipe, always train a diverse bench of backup encounters that can immediately fill the vacant role on your team."
+  }
+]} />
+
+<Callout type="tip" title="Final Survival Advice">
+Accept that losses are an inevitable part of the learning process. Keep detailed notes on which boss teams gave you trouble, analyze your positioning mistakes, and use your backup saves to test alternative tactical approaches for your next attempt.
+</Callout>
+
+</Section>

@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation EV Training: Fast Stat Maxing Guide",
+  description: "Master Pokemon Rejuvenation EV training with our 2026 guide to West Gearen EV rooms, power items, and friendship berry resets for competitive teams.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=EV+Training+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pokemon Rejuvenation EV training** allows you to allocate 510 total points to enhance your Pokemon's stats.
+- **West Gearen EV Rooms** provide the fastest training method using specialized key cards.
+- **Power Items** add +8 EVs per defeat, significantly accelerating the growth process.
+- **Friendship Berries** are essential for resetting unwanted EVs and refining competitive builds.
+- **Summary Page** in-game provides a clear view of both IVs (left) and EVs (right) for every Pokemon.
+</Callout>
+
+<Section icon={Map} title="Fundamentals of Pokemon Rejuvenation EV Training">
+
+Understanding **pokemon rejuvenation ev training** is the cornerstone of overcoming the game's notorious difficulty spikes. Effort Values (EVs) are hidden points that directly increase a Pokemon's stats. Unlike experience points which level up the Pokemon, EVs allow for specialized growth, turning a standard attacker into a lethal sweeper or a fragile defender into an immovable wall.
+
+In Pokemon Rejuvenation, every Pokemon can earn a total of **510 EVs**. However, there is a cap of **252 EVs** per individual stat. For every 4 EVs invested in a specific stat, that stat increases by 1 point at level 100. This means a fully trained stat can be up to 63 points higher than an untrained one, which often dictates the outcome of high-stakes gym battles.
+
+| Stat Metric | Maximum Value | Conversion Rate | Total Limit |
+| :--- | :--- | :--- | :--- |
+| **Individual Stat** | 252 EVs | 4 EVs = 1 Stat Point | N/A |
+| **Total Pokemon Limit** | 510 EVs | 127 Total Stat Points | 510 EVs |
+| **Common Spread** | 252 / 252 / 6 | Max 2 Stats + 1 Minor | 510 EVs |
+
+The game makes tracking these values easy. By navigating to the "IVs and EVs" page in the Pokemon Summary, you can see your progress in real-time. The values on the right represent your current EV investment.
+
+<Callout type="info" title="Stat Calculation Tip">
+Because 510 is not perfectly divisible by 4, you will always have 2 "wasted" EVs if you max out two stats at 252 (252+252=504). Most players put the remaining 6 points into HP or Speed to ensure every possible point is utilized.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="West Gearen EV Rooms: The Ultimate Farming Method">
+
+The most efficient way to handle **pokemon rejuvenation ev training** is through the dedicated EV Rooms. Located within the **West Gearen City Pokemon Center**, these rooms contain specific wild Pokemon encounters that yield high amounts of EVs for a single stat. However, access is not free; you must prove your worth by earning Achievement Points (AP).
+
+To unlock these rooms, you must visit the **AP Center** located inside the **Chrisola Hotel** in West Gearen. Here, you can exchange your hard-earned AP for Key Cards. Each Key Card corresponds to one of the six primary stats.
+
+<Steps>
+  <Step num="1" title="Earn Achievement Points">
+    Complete side quests, find hidden items, or defeat specific trainers to accumulate AP. Check your trainer card to see your current balance.
+  </Step>
+  <Step num="2" title="Purchase Key Cards">
+    Head to the Chrisola Hotel in West Gearen. Speak to the AP vendor and buy the Key Cards for the stats you wish to train (e.g., Speed and Attack).
+  </Step>
+  <Step num="3" title="Access the EV Rooms">
+    Return to the West Gearen Pokemon Center. Use the Key Cards on the locked doors in the back to enter the specialized training zones.
+  </Step>
+  <Step num="4" title="Defeat Specialized Pokemon">
+    Battle the wild Pokemon inside. Every encounter in these rooms is guaranteed to provide EVs for the stat associated with that room.
+  </Step>
+</Steps>
+
+| Key Card Type | Targeted Stat | Purchase Location | Cost |
+| :--- | :--- | :--- | :--- |
+| **HP Key Card** | Health Points | Chrisola Hotel AP Center | 50 AP |
+| **Atk Key Card** | Physical Attack | Chrisola Hotel AP Center | 50 AP |
+| **Def Key Card** | Physical Defense | Chrisola Hotel AP Center | 50 AP |
+| **SpA Key Card** | Special Attack | Chrisola Hotel AP Center | 50 AP |
+| **SpD Key Card** | Special Defense | Chrisola Hotel AP Center | 50 AP |
+| **Spe Key Card** | Speed | Chrisola Hotel AP Center | 50 AP |
+
+<Callout type="tip" title="Efficiency Boost">
+While in the EV rooms, ensure your Pokemon is holding a **Power Item**. This combines the room's high yield with the item's flat bonus, allowing you to max out a stat in just a few minutes of battling.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Power Items and Traditional Training">
+
+If you haven't reached West Gearen or prefer traditional methods, **pokemon rejuvenation ev training** can be done anywhere wild Pokemon appear. Every Pokemon you defeat yields a specific number of EVs based on its species. For example, defeating a Pidgey usually grants 1 Speed EV, while a Machop grants 1 Attack EV.
+
+To make this viable, you must use **Power Items**. These held items grant a flat **+8 EVs** in a specific stat every time the holder earns experience from a battle, regardless of what Pokemon was defeated.
+
+<CardGrid cols={3}>
+  <Card title="Power Weight">
+    - **Stat**: HP
+    - **Bonus**: +8 HP EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+  <Card title="Power Bracer">
+    - **Stat**: Attack
+    - **Bonus**: +8 Attack EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+  <Card title="Power Belt">
+    - **Stat**: Defense
+    - **Bonus**: +8 Defense EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+  <Card title="Power Lens">
+    - **Stat**: Sp. Atk
+    - **Bonus**: +8 Sp. Atk EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+  <Card title="Power Band">
+    - **Stat**: Sp. Def
+    - **Bonus**: +8 Sp. Def EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+  <Card title="Power Anklet">
+    - **Stat**: Speed
+    - **Bonus**: +8 Speed EVs
+    - **Penalty**: Halves Speed in battle
+  </Card>
+</CardGrid>
+
+| Item Name | EV Yield Calculation | Best Usage |
+| :--- | :--- | :--- |
+| **Power Item Only** | Base (1-3) + 8 = 9-11 | Early game farming |
+| **Macho Brace** | Base (1-3) x 2 = 2-6 | If Power Items are unavailable |
+| **Pokerus** | (Base + Power Item) x 2 | Extreme speed training |
+
+<Callout type="warning" title="Speed Reduction">
+Remember that Power Items halve the holder's Speed stat during combat. If you are training a fragile sweeper against wild Pokemon that might outspeed and faint it, consider using the Exp. Share to train it from the bench.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resetting Stats with Friendship Berries">
+
+Mistakes happen, or perhaps you caught a high-level Pokemon that already has "messy" EVs from random battles. In **pokemon rejuvenation ev training**, you aren't stuck with these suboptimal stats. You can use specific **Friendship Berries** to reduce EVs by 10 points per berry.
+
+These berries serve a dual purpose: they increase the Pokemon's happiness (Friendship) while lowering a specific EV. They are vital for fine-tuning builds or completely re-purposing a Pokemon for a different role, such as turning a Physical Tank into a Special Wall.
+
+| Berry Name | EV Reduced (-10) | Secondary Effect |
+| :--- | :--- | :--- |
+| **Pomeg Berry** | HP | Increases Friendship |
+| **Kelpsy Berry** | Attack | Increases Friendship |
+| **Qualot Berry** | Defense | Increases Friendship |
+| **Hondew Berry** | Sp. Attack | Increases Friendship |
+| **Grepa Berry** | Sp. Defense | Increases Friendship |
+| **Tamato Berry** | Speed | Increases Friendship |
+
+<Callout type="success" title="Inventory Management">
+You can purchase these berries in bulk from specific vendors in larger cities like GDC or West Gearen. Always keep a stack of 20-30 of each berry in your bag so you can quickly adjust your team's stats before a major boss fight.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimal EV Spreads for Competitive Rejuvenation">
+
+Deciding where to put your points is just as important as the training itself. Because Pokemon Rejuvenation features unique Field Effects that can boost certain stats or types, your **pokemon rejuvenation ev training** strategy should account for these environmental factors.
+
+For instance, in a Trick Room field, you might actually want to avoid Speed EVs entirely and focus on HP and Attack. Conversely, in a field that boosts Electric moves, investing in Special Defense for your non-Ground types could be the difference between a sweep and a wipe.
+
+<Checklist
+  id="training-checklist"
+  title="Pre-Training Checklist:"
+  items={[
+    "Identify the Pokemon's best base stats",
+    "Check the Summary page for existing 'messy' EVs",
+    "Use Friendship Berries to clear unwanted points",
+    "Equip the correct Power Item for the first stat",
+    "Ensure you have the Key Card for the West Gearen rooms"
+  ]}
+/>
+
+| Archetype | Recommended Spread | Primary Goal |
+| :--- | :--- | :--- |
+| **Physical Sweeper** | 252 Atk / 252 Spe / 6 HP | Outspeed and OHKO physical targets |
+| **Special Wall** | 252 HP / 252 SpD / 6 Def | Absorb powerful Special Attacks |
+| **Bulky Attacker** | 252 HP / 252 Atk / 6 Def | Survive hits while dealing massive damage |
+| **Glass Cannon** | 252 SpA / 252 Spe / 6 SpD | Maximum speed and special damage output |
+
+<Callout type="info" title="Expert Strategy">
+For late-game bosses, consider "Mixed Spreads." For example, investing enough Speed EVs to outspeed a specific Gym Leader's ace Pokemon, then putting the rest into bulk. This is more effective than blindly maxing two stats.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I check my progress in pokemon rejuvenation ev training?",
+    answer: "Open your Pokemon's Summary and toggle through the pages until you see 'IVs and EVs'. The numbers on the right side of the screen show your current EV investment for each of the six stats."
+  },
+  {
+    question: "Where can I get more Achievement Points (AP) for Key Cards?",
+    answer: "AP is earned by completing side quests found on Help Boards, finding hidden items with the Itemfinder, and achieving specific milestones in the game. The AP Center in Chrisola Hotel is where you spend them."
+  },
+  {
+    question: "Can I max out all stats to 252?",
+    answer: "No, you are limited to a total of 510 EVs across all stats. This means you can only fully max out two stats (252 each), with a tiny bit left over for a third stat."
+  },
+  {
+    question: "Do Power Items work if the Pokemon isn't in battle?",
+    answer: "Yes, if the Pokemon is holding a Power Item and you have the Exp. Share active, the Pokemon on the bench will still receive the +8 EV bonus from the Power Item whenever the active Pokemon wins a battle."
+  }
+]} />
+
+<Callout type="tip" title="Final Note">
+Mastering EV training is the single biggest advantage you can give yourself in Pokemon Rejuvenation. Take the time to farm the AP for Key Cards early; it will save you hours of grinding in the long run.
+</Callout>
+
+</Section>

@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pilule Talent Pokémon Rejuvenation : Guide d'obtention V14",
+  description: "Découvrez comment trouver et utiliser la Pilule Talent dans Pokémon Rejuvenation V14. Emplacements des boutiques, Patchs Talent Caché et optimisation d'équipe.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/5AE2F6?text=Ability+Capsule+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Utilité principale** : La **pilule talent de Pokémon Rejuvenation** permet aux joueurs d'alterner entre les talents standard d'un Pokémon (Talent 1 et Talent 2).
+- **Accès anticipé** : Peut être achetée au **Grand Magasin de Gearen Est** une fois que vous avez obtenu assez de tampons, ou trouvée en tant qu'objet caché sur les premières routes.
+- **Talents Cachés** : Les pilules standards ne débloquent pas les Talents Cachés ; vous devez utiliser un **Patch Talent** ou une **Pilule Talent Caché** pour ces emplacements spécifiques.
+- **Importance stratégique** : Essentiel pour s'adapter aux **Effets de Terrain** où certains talents comme Lévitation ou Torche offrent des avantages tactiques massifs.
+- **Disponibilité V14** : Dans la dernière mise à jour, les pilules sont plus accessibles via l'**Échange de PA** (Points d'Accomplissement) et les hubs de fin de jeu comme **Grand Dream City**.
+</Callout>
+
+<Section icon={Target} title="Comprendre les Pilules Talent dans la V14">
+
+Dans le monde exigeant d'Aevium, la **pilule talent de Pokémon Rejuvenation** est bien plus qu'un simple confort ; c'est un outil de survie indispensable. Contrairement aux jeux officiels où la difficulté est souvent négligeable, Pokémon Rejuvenation V14 exige des joueurs qu'ils optimisent chaque aspect de leur équipe pour vaincre les Champions d'Arène et les cadres de la Team Xen qui utilisent des stratégies de niveau compétitif.
+
+La Pilule Talent permet de basculer un Pokémon entre ses deux emplacements de talents naturels. Si une espèce ne possède qu'un seul talent naturel, la pilule n'aura aucun effet. Il est important de distinguer ces objets des **Patchs Talent**, qui sont des objets plus rares utilisés spécifiquement pour faire passer un Pokémon d'un talent standard à son Talent Caché (TC).
+
+| Type d'objet | Fonction principale | Rareté | Réversibilité |
+| :--- | :--- | :--- | :--- |
+| **Pilule Talent** | Alterne entre le Talent naturel 1 et 2 | Commun (Fin de jeu) | Entièrement réversible |
+| **Patch Talent** | Débloque l'emplacement du Talent Caché | Rare | Nécessite un autre Patch pour revenir en arrière |
+| **Pilule Talent Caché** | Alterne entre plusieurs Talents Cachés (si applicable) | Très rare | Limitée |
+
+<Callout type="tip" title="Stratégie de Pro">
+Avant d'utiliser une pilule, vérifiez l'**Effet de Terrain** du boss à venir. Un talent comme **Peau Sèche** peut être un handicap dans un combat standard mais devient de rang S sur un terrain pluvieux ou aquatique.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Où trouver des Pilules Talent">
+
+Trouver une **pilule talent de Pokémon Rejuvenation** dépend de votre progression actuelle à travers les 16 chapitres de la V14. En début de partie, ces objets sont disséminés au sol sous forme d'objets brillants cachés ou offerts en récompense pour avoir accompli des quêtes secondaires spécifiques aux **Bureaux d'Aide**.
+
+À mesure que vous progressez vers le milieu du jeu, en particulier lorsque vous atteignez **Grand Dream City (GDC)** ou améliorez le **Grand Magasin de Gearen Est**, elles deviennent facilement disponibles à l'achat.
+
+### Méthodes d'obtention principales
+
+| Emplacement | Méthode | Condition | Prix / Coût |
+| :--- | :--- | :--- | :--- |
+| **Grand Magasin de Gearen Est** | Achat auprès d'un PNJ | 4+ Tampons de Grand Magasin | 5 000 Pokédollars |
+| **Grand Dream City** | Grand Magasin / Boutiques spécialisées | Atteindre le Chapitre 9 | 5 000 Pokédollars |
+| **Comptoir d'échange de PA** | Échange de Points d'Accomplissement | Gagner des PA via des quêtes/combats | 50 PA |
+| **Route 2 / Grotte Améthyste** | Objet caché | Exploration / Cherch'Objet | Gratuit |
+| **Village de Sheridan** | Récompense de quête secondaire | Terminer la requête locale du Bureau d'Aide | Gratuit |
+
+<Callout type="warning" title="Gestion du budget">
+Au début de la V14, 5 000 Pokédollars représentent un investissement important. N'utilisez des pilules que pour les membres clés de votre équipe avant les combats majeurs comme l'Arène de Sheridan ou le Théâtre de Goldenleaf.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sélection stratégique des talents pour les Effets de Terrain">
+
+La mécanique emblématique de Pokémon Rejuvenation est le système d'**Effets de Terrain**. Une seule **pilule talent de Pokémon Rejuvenation** peut complètement changer la façon dont un Pokémon interagit avec son environnement. Dans la V14, de nombreux terrains ont été mis à jour pour interagir avec les talents de la 9e génération.
+
+<CardGrid cols={2}>
+  <Card title="Adaptation défensive">
+    Utilisez des pilules pour obtenir **Lévitation** ou **Torche** lorsque vous entrez sur des terrains volcaniques ou sujets aux séismes. Cela peut transformer un K.O. garanti en une immunité totale.
+  </Card>
+  <Card title="Synergie offensive">
+    Passez à **Glissade** ou **Chlorophylle** si le terrain du Champion d'Arène active automatiquement la météo. Cela vous permet de dépasser en vitesse les équipes optimisées de l'IA sans avoir besoin d'un Mouchoir Choix.
+  </Card>
+  <Card title="Transformation de terrain">
+    Certains talents comme **Crachin** ou **Sécheresse** (généralement cachés) ou **Brise-Barrière** peuvent altérer ou supprimer complètement les terrains désavantageux.
+  </Card>
+  <Card title="Contrôle des statuts">
+    Sur les terrains qui appliquent automatiquement le Sommeil ou le Poison, passer à **Insomnie** ou **Vaccin** via une pilule peut vous faire économiser plusieurs tours de soin.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Note de mise à jour V14">
+La version 14 introduit davantage de Pokémon de la 9e génération. Beaucoup d'entre eux possèdent des talents hautement spécialisés qui ne sont utiles que dans des régions spécifiques d'Aevium. Gardez un stock de pilules prêt pour vos coéquipiers de Paldea.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Étape par étape : Comment utiliser la Pilule Talent">
+
+L'utilisation de la **pilule talent de Pokémon Rejuvenation** est simple, mais il y a quelques prérequis pour s'assurer de ne pas gaspiller l'objet sur un Pokémon qui ne peut pas changer de caractéristiques.
+
+<Steps>
+  <Step num="1" title="Vérifier les emplacements de talents">
+    Ouvrez la page du résumé de votre Pokémon. Vérifiez en ligne ou dans le Pokédex si l'espèce possède un second talent naturel. S'il n'en a qu'un seul (ex: Lévitation de Libégon), la pilule ne fonctionnera pas.
+  </Step>
+  <Step num="2" title="Accéder à la poche Médicaments">
+    Ouvrez votre Sac et accédez à la poche **Médicaments** ou **Général** (selon vos paramètres d'interface V14). Locate the Ability Capsule.
+  </Step>
+  <Step num="3" title="Appliquer au Pokémon">
+    Sélectionnez 'Utiliser' et choisissez le Pokémon cible. Un message apparaîtra vous demandant si vous souhaitez changer de talent. Confirmez la sélection.
+  </Step>
+  <Step num="4" title="Confirmer le changement">
+    Examinez à nouveau la page du résumé. Le nouveau talent devrait être actif immédiatement. Ce changement est permanent jusqu'à ce qu'une autre pilule soit utilisée.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Avertissement sur les Talents Cachés">
+Si vous utilisez une Pilule Talent standard sur un Pokémon doté d'un **Talent Caché**, il reviendra à l'un de ses deux **Talents Standards**. Vous aurez besoin d'un **Patch Talent** pour récupérer le Talent Caché.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimiser votre aventure V14">
+
+Pour tirer le meilleur parti de vos ressources dans Pokémon Rejuvenation V14, vous devriez chercher à collecter autant de pilules que possible avant le pic de difficulté de fin de jeu au Chapitre 13.
+
+<Checklist
+  id="ability-optimization"
+  title="Objectifs de gestion des talents :"
+  items={[
+    "Obtenir le Cherch'Objet à Gearen Est pour localiser les pilules cachées",
+    "Collecter au moins 5 tampons de Grand Magasin pour un accès permanent",
+    "Économiser les Points d'Accomplissement (PA) spécifiquement pour les Patchs Talent (rares) plutôt que pour les Pilules (achetables)",
+    "Identifier les talents 'Brise-Terrain' pour votre rotation principale",
+    "Sauvegarder votre partie avant d'utiliser des Patchs Talent rares"
+  ]}
+/>
+
+| Tranche de chapitres | Stock de pilules recommandé | Source principale |
+| :--- | :--- | :--- |
+| **Chapitres 1-4** | 1-2 | Objets cachés / Quêtes secondaires |
+| **Chapitres 5-8** | 3-5 | Échange de PA / Exploration de Terajuma |
+| **Chapitres 9-12** | 10+ | Grand Magasin de GDC |
+| **Chapitres 13-16** | Illimité | Achat en gros à GDC / Hubs de fin de jeu |
+
+<Callout type="tip" title="Astuce pour le New Game+">
+Si vous jouez en **New Game+**, certains mots de passe peuvent rendre les Pilules et Patchs Talent disponibles beaucoup plus tôt dans l'histoire. Consultez la liste des mots de passe de la V14 pour 'freeability' ou des codes de confort similaires.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je utiliser une Pilule Talent pour obtenir un Talent Caché ?",
+    answer: "Non. Les Pilules Talent standards permettent uniquement d'alterner entre les deux talents naturels. Pour débloquer un Talent Caché, vous devez utiliser un Patch Talent ou une Pilule Talent Caché."
+  },
+  {
+    question: "Où se trouve le premier endroit pour acheter des Pilules Talent dans la V14 ?",
+    answer: "La source constante la plus précoce est le Grand Magasin de Gearen Est, à condition d'avoir collecté suffisamment de tampons pour accéder aux étages supérieurs. Sinon, vous pouvez en trouver en tant qu'objets cachés dans la Grotte Améthyste."
+  },
+  {
+    question: "Les Pilules Talent fonctionnent-elles sur les Pokémon Légendaires ?",
+    answer: "La plupart des Pokémon Légendaires dans Rejuvenation n'ont qu'un seul talent fixe (comme Pression ou Intimidation). S'ils n'ont pas de second emplacement de talent répertorié dans la base de données de la 9e génération, la pilule n'aura aucun effet."
+  },
+  {
+    question: "Que se passe-t-il si j'utilise une pilule sur un Pokémon qui n'a qu'un seul talent ?",
+    answer: "Le jeu affichera un message indiquant que l'objet n'aura aucun effet, et la Pilule Talent restera dans votre sac. Elle n'est pas consommée si le changement est impossible."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Crests de Pokémon Rejuvenation: Tier List 2026 e Guia de Localização",
+  description: "Domine o poder dos Crests de Pokémon Rejuvenation com o nosso guia detalhado de 2026. Aprenda localizações, mecânicas e os melhores itens para cada espécie.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Crest+Mechanics+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **Crests de Pokémon Rejuvenation** são itens para segurar (held items) exclusivos que concedem aumentos massivos de atributos ou novas habilidades a espécies específicas.
+- **Mecânicas de não-remoção** garantem que esses itens não possam ser perdidos por meio de movimentos como Knock Off (Desarmar) ou Trick (Truque) durante a batalha.
+- O **escalonamento estratégico** permite que Pokémon mais fracos continuem viáveis mesmo nos desafios de fim de jogo de 2026.
+- Os **métodos de obtenção** variam de antigos rituais Garufanos no Castelo Zygara a missões secundárias modernas e trocas com NPCs.
+- A **Troca de Atributos (Stat Swapping)** é uma mecânica central para certos Crests, alterando efetivamente como os EVs e IVs funcionam para aquele Pokémon.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo as Mecânicas dos Crests de Pokémon Rejuvenation">
+
+Os **Crests de Pokémon Rejuvenation** representam um sistema de itens revolucionário dentro do fan-game, projetado para dar nova vida a Pokémon que normalmente têm dificuldades em ambientes competitivos ou de alta dificuldade. Diferente de itens padrão como a Choice Band (Faixa Escolha) ou Life Orb (Esfera de Vida), um Crest é programado especificamente para uma espécie (ou suas formas regionais). Quando equipado pelo Pokémon correto, ele ativa uma variedade de efeitos que vão desde simples multiplicadores de atributos até mecânicas totalmente personalizadas que alteram o funcionamento do Pokémon em batalha.
+
+Um de some dos aspectos mais críticos desses itens é a sua permanência em combate. Nas batalhas difíceis encontradas ao longo da versão de 2026 do jogo, perder um item equipado pode ser uma sentença de morte. No entanto, os Crests são protegidos por uma mecânica única de "adesão". Embora um movimento como Knock Off ainda cause seu dano aumentado, o Crest em si nunca será removido do usuário. Da mesma forma, movimentos como Trick ou Switcheroo (Troca de Itens) simplesmente falharão se qualquer um dos Pokémon estiver segurando um Crest correspondente.
+
+| Mecânica | Efeito em Batalha | Notas |
+| :--- | :--- | :--- |
+| **Knock Off** | O dano é causado, mas o item **não** é removido. | O multiplicador de dano do Knock Off ainda se aplica. |
+| **Trick / Switcheroo** | O movimento falha completamente se usado em um portador de Crest. | Evita estratégias de perturbação do inimigo. |
+| **Indicador de Interface** | Um ícone específico de Crest aparece na interface de batalha. | Ajuda os jogadores a identificar os efeitos ativos imediatamente. |
+| **Bloqueio de Espécie** | Funciona apenas para a espécie pretendida. | Usuários que se transformam (como Ditto) podem ativar o efeito. |
+
+<Callout type="warning" title="Aviso de Troca de Atributos">
+Os Crests que trocam atributos (como o Crest de Magcargo) fazem isso **após** a aplicação de todos os cálculos de IVs, EVs e Natures. Por exemplo, se o seu Magcargo tiver EVs altos em Defesa, eles se tornarão efetivamente EVs de Velocidade quando o Crest estiver ativo. No entanto, os aumentos de atributos em batalha vindos de movimentos como Harden (Endurecer) ainda se aplicarão ao atributo original (Defesa) em vez do atributo trocado.
+</Callout>
+
+A flexibilidade desses itens é demonstrada ainda mais pela interação com "Transform" (Transformação). Se um Pokémon usar Transform (como Ditto ou Mew) e se transformar em uma espécie cujo Crest ele está segurando no momento, ele ganhará todos os benefícios desse Crest. Por outro lado, se um Pokémon segurando seu próprio Crest se transformar em outra coisa, os efeitos do Crest são desativados imediatamente até que ele retorne à sua forma original.
+
+</Section>
+
+<Section icon={Map} title="As Origens Sombrias e a Lore da Magia Garufana">
+
+A história dos **Crests de Pokémon Rejuvenation** está profundamente enraizada na lore antiga e muitas vezes macabra da região de Aevium. A maioria desses artefatos poderosos não foi criada por meio de tecnologia moderna, mas sim pela magia Garufana proibida, praticada em tempos antigos. O epicentro dessa criação foi o Castelo Zygara, onde o Rei Ieisel realizava rituais sobre os quais se sussurra com medo na era moderna.
+
+O processo de criação envolvia uma torre central dentro do Castelo Zygara, onde um poço profundo servia como altar. Sugere-se fortemente que o poder dentro dos Crests antigos venha das almas de humanos e Pokémon sacrificados durante esses rituais. Aqueles jogados no poço desapareciam, e o material mágico refinado necessário para o Crest subia das profundezas. Esse histórico sombrio adiciona uma camada de peso narrativo aos itens que você usa para fortalecer sua equipe.
+
+<CardGrid cols={3}>
+  <Card title="Rituais Antigos">
+    Criados no Castelo Zygara pelo Rei Ieisel usando magia Garufana e sacrifícios.
+  </Card>
+  <Card title="Recriações Fracassadas">
+    Personagens como Karen tentaram replicar a magia, o que levou à loucura.
+  </Card>
+  <Card title="Inovação Moderna">
+    Alguns Crests agora são criados por meio de TMs ambientais e pesquisas de Rangers.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Detalhe da Lore">
+Embora a maioria dos Crests seja antiga, alguns mais recentes, como o Crest de Castform, provam que a região de Aevium está encontrando maneiras mais seguras e sem sacrifícios de canalizar esse poder em 2026.
+</Callout>
+
+Na linha do tempo moderna de Pokémon Rejuvenation, pesquisadores e certos NPCs encontraram maneiras de contornar os rituais de sangue. Por exemplo, o Crest de Castform é o resultado do estudo ambiental de um Ranger na Selva de Terajuma, exigindo apenas o conhecimento de TMs de mudança climática, em vez da antiga magia de almas.
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Como Obter o Crest de Castform">
+
+Para ajudar você a entender como os **Crests modernos de Pokémon Rejuvenation** são adquiridos, detalhamos o processo específico para obter o Crest de Castform, que é essencial para equipes baseadas em clima no meio do jogo.
+
+<Steps>
+  <Step num="1" title="Chegue à Selva de Terajuma">
+    Viaje para a Selva de Terajuma durante os capítulos do meio do jogo. Certifique-se de ter acesso à estação Ranger.
+  </Step>
+  <Step num="2" title="Colete os TMs de Clima">
+    Você deve possuir os TMs para **Hail** (Granizo), **Sunny Day** (Dia de Sol) e **Rain Dance** (Dança da Chuva). Eles são encontrados em várias missões secundárias de Aevium.
+  </Step>
+  <Step num="3" title="Localize o Ranger de Terajuma">
+    Encontre o NPC Ranger específico localizado no fundo da selva que está estudando o ecossistema local.
+  </Step>
+  <Step num="4" title="Troque Conhecimento">
+    Fale com o Ranger com os TMs em sua mochila. Ele irá "estudá-los" e lhe concederá o Crest de Castform como recompensa por sua ajuda.
+  </Step>
+</Steps>
+
+| Requisito | Localização / Origem | Importância |
+| :--- | :--- | :--- |
+| **TM Hail** | Cold Storage (Câmara Fria) / Missão | Alta - Garante a precisão de Blizzard. |
+| **TM Sunny Day** | Magma Drift | Alta - Fortalece movimentos do tipo Fogo. |
+| **TM Rain Dance** | Costa de Terajuma | Alta - Aumenta o poder de movimentos de Água. |
+| **Castform** | Ovo Misterioso / Evento | Essencial - Portador do item. |
+
+<Callout type="success" title="Dica para Completacionistas">
+Sempre verifique cemitérios e locais históricos. For exemplo, o Crest de Ampharos de Aevium está escondido no cemitério do Distrito da Esperança de GDC, mas apenas após completar as linhas de missão PictoZumi e Xenogene.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Efeitos e Localizações Completas dos Crests de 2026">
+
+A tabela a seguir fornece dados sobre alguns dos **Crests de Pokémon Rejuvenation** mais populares disponíveis na versão atual de 2026 do jogo. Observe que a disponibilidade geralmente está atrelada a capítulos específicos ou missões secundárias complexas.
+
+| Crest | Disponibilidade | Descrição do Efeito | Localização Principal |
+| :--- | :--- | :--- | :--- |
+| **Ampharos de Aevium** | Arquivos .Karma | +50% de poder no 1º slot de movimento (não-Elétrico/Gelo), -30% de dano super efetivo recebido. | Distrito da Esperança de GDC |
+| **Ariados** | Capítulo 14 | +50% de Velocidade. Críticos garantidos em oponentes lentos ou envenenados. | Rota 6 Subaquática |
+| **Magcargo** | Meio do Jogo | Troca completamente os atributos de Defesa e Velocidade. | Burning Mountain (Montanha Ardente) |
+| **Empoleon** | Pós-Jogo | Aumenta o Ataque Especial e a Velocidade sob Granizo (Hail) ou Chuva (Rain). | Alto-Mar de Aevium |
+| **Silvally** | v13.5+ | Funciona a partir da Mochila. Os efeitos variam dependendo da Memory segurada. | Atualmente Inobtível |
+| **Infernape** | Fim do Jogo | Aumenta a prioridade de movimentos baseados em socos. | Estrada da Vitória |
+
+A filosofia por trás desses itens é o equilíbrio. Você notará que muitos Pokémon "fortes", como os iniciais de Sinnoh, recebem Crests para mantê-los competitivos contra os brutais Pokémon Chefes do jogo, enquanto insetos mais fracos, como Ariados, recebem bônus massivos de velocidade e acertos críticos para torná-los varredores (sweepers) viáveis.
+
+<Callout type="info" title="Caso Especial do Silvally">
+O Crest de Silvally é único porque é o único que fornece seus benefícios direto da sua Mochila. Você não precisa fazer com que Silvally o segure, permitindo que o Pokémon segure uma Memory (Memória) e ainda receba os bônus adaptativos do Crest.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List Estratégica: Melhores Crests para sua Equipe">
+
+Ao montar uma equipe em torno dos **Crests de Pokémon Rejuvenation**, você deve considerar a função que cada Pokémon desempenha. Alguns Crests transformam tanques defensivos em atacantes rápidos, enquanto outros fornecem a sustentabilidade necessária.
+
+<CardGrid cols={2}>
+  <Card title="Melhores Crests Ofensivos">
+    - **Ariados**: Perfeito para estratégias com Toxic Thread (Fio Tóxico).
+    - **Typhlosion**: Aumentos massivos no poder do Eruption (Erupção).
+    - **Ampharos de Aevium**: Versatilidade inigualável no primeiro slot de movimento.
+  </Card>
+  <Card title="Melhores Crests Utilitários/Defensivos">
+    - **Bastiodon**: Transforma a Defesa em pressão ofensiva.
+    - **Meganium**: Fornece cura para toda a equipe sob condições específicas.
+    - **Magcargo**: Manipulação única de velocidade para Trick Room (Espaço Truque) ou varredura (sweep).
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sinergia Estratégica">
+Combine o Crest de Ariados com um parceiro de equipe que possa colocar Sticky Web (Teia Pegajosa) ou Toxic Spikes (Espinhos Tóxicos). Como o Crest garante acertos críticos contra alvos lentos ou envenenados, Ariados se torna um finalizador aterrorizante no fim do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dominando a Coleção de Crests">
+
+Para o completacionista definitivo, coletar cada um dos **Crests de Pokémon Rejuvenation** é uma tarefa monumental que abrange toda a região de Aevium. Use esta lista de verificação para acompanhar seu progresso pelos itens mais essenciais.
+
+<Checklist
+  id="crest-hunt-2026"
+  title="Metas Essenciais de Coleção de Crests:"
+  items={[
+    "Obter o Crest de Ariados no Arquivo Subaquático da Rota 6",
+    "Completar a missão PictoZumi para obter o Crest de Ampharos de Aevium",
+    "Desbloquear o Crest de Castform baseado no clima em Terajuma",
+    "Adquirir o Crest de Magcargo para ativar a troca de Defesa-Velocidade",
+    "Localizar os Crests do trio de iniciais (Empoleon/Infernape) no fim do jogo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Posso usar um Crest em um Pokémon diferente para obter um bônus menor?",
+    answer: "Não. Os Crests de Pokémon Rejuvenation fornecem benefícios apenas para as espécies específicas que levam seu nome. Em qualquer outro Pokémon, eles agem como um item equipado inútil e sem efeito."
+  },
+  {
+    question: "O Knock Off ainda causa dano extra a um portador de Crest?",
+    answer: "Sim, o Knock Off causará seu bônus de dano de 1,5x porque o alvo está segurando um item, mas o Crest permanecerá equipado e ativo."
+  },
+  {
+    question: "Por que Samurott tem um Crest e Serperior não?",
+    answer: "A distribuição dos Crests é baseada nas necessidades de equilíbrio dos desenvolvedores. Embora muitos grupos, como os iniciais, eventualmente os recebam, Samurott foi priorizado para ajudá-lo a acompanhar o aumento de poder (power creep) do jogo."
+  },
+  {
+    question: "Existem Crests que atualmente não podem ser obtidos?",
+    answer: "Até as atualizações mais recentes de 2026, os crests de Silvally e Beheeyem estão no código do jogo, mas não podem ser obtidos legalmente pelo jogador através do jogo normal."
+  }
+]} />
+
+</Section>

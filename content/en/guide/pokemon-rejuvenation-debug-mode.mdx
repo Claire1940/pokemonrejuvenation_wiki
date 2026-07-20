@@ -1,0 +1,174 @@
+import { Settings, Terminal, Key, ShieldAlert, Wand2, Map, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Debug Mode: V14 Activation & Codes",
+  description: "Learn how to enable and use the Pokemon Rejuvenation debug mode in V14. Access hidden menus, use passwords for QoL, and manage Aevium story routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Debug+Mode+Guide",
+  date: "2026-07-21",
+  author: "pokemon rejuvenation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Method**: Access **pokemon rejuvenation debug mode** via the built-in Password System for a safe, integrated experience.
+- **Technical Menu**: Advanced users can enable the full developer menu by modifying game script files, though this carries higher save corruption risks.
+- **V14 Features**: Use specific chapter passwords to skip to Act 2 or Chapter 9, perfect for testing different Paragon and Renegade story outcomes.
+- **Key Functions**: Debug allows for instant healing, warping across the Aevium region, adding any item/Pokémon, and toggling specific story flags.
+- **Safety First**: Always create a manual backup of your V14 save folder before attempting any file-level debug modifications.
+</Callout>
+
+<Section icon={Settings} title="Understanding Pokemon Rejuvenation Debug Mode">
+
+The **pokemon rejuvenation debug mode** is a powerful suite of developer tools and built-in shortcuts designed to help players customize their experience in the massive Aevium region. In the latest V14 update, which covers Chapters 1 through 16, the complexity of the story routes—specifically the Paragon and Renegade paths—makes debug tools almost essential for players looking to explore every narrative branch without replaying 100+ hours of content.
+
+Whether you are looking for the "Lite" version via the in-game password system or the full developer menu used by the creators, understanding the limitations is vital. The V14 build is a standalone package that does not require an emulator, meaning the debug environment is native to the RPG Maker XP engine it was built on.
+
+<Callout type="tip" title="Pro Tip">
+If you are new to the game, start with the Password System before trying to hack the internal scripts. Most "cheats" players want, like infinite money or perfect IVs, are already officially supported through passwords.
+</Callout>
+
+| Debug Type | Accessibility | Risk Level | Primary Use Case |
+| :--- | :--- | :--- | :--- |
+| **Password System** | High (In-game) | **Low** | QoL, Level Caps, IV/EV management |
+| **Script Modification** | Medium (File Edit) | **High** | Warping, Flag Toggling, Asset Testing |
+| **Chapter Passwords** | High (New Game) | **Low** | Story Branch Testing (Act 2 / Ch 9) |
+| **External Mods** | Low (Third-party) | **Medium** | Custom UI, Sandbox Battle Testing |
+
+</Section>
+
+<Section icon={Terminal} title="Step-by-Step: Enabling the Debug Menu">
+
+For those who need more than just passwords, enabling the full **pokemon rejuvenation debug mode** menu requires a small modification to the game's internal files. This menu grants you the "God Mode" of Aevium, allowing you to walk through walls, set your own weather, and manipulate relationship values with NPCs like Melia or Ren.
+
+Follow these steps carefully to ensure you don't break your V14 installation.
+
+<Steps>
+  <Step num="1" title="Backup Your Save Files">
+    Before touching any game data, locate your save folder (usually in `C:\Users\[User]\Saved Games\Pokemon Rejuvenation`). Copy the entire folder to a separate drive. V14 saves are not compatible with older V13.5 scripts, so ensure your backup is current.
+  </Step>
+  <Step num="2" title="Locate the Scripts File">
+    Navigate to your main Pokemon Rejuvenation V14 directory. Open the `Data` folder. You are looking for a file named `Scripts.rxdata`. Note that in some versions, this might be bundled or hidden; if so, you may need a dedicated "Debug Enabler" script provided by the community on the Reborn Evolved forums.
+  </Step>
+  <Step num="3" title="Apply the Debug Edit">
+    Using a script editor or a pre-modified debug script file, you must set the `$DEBUG` variable to `true`. Alternatively, many players use the "Modular Workshop" mod which adds a toggleable Debug option directly into the game's Options menu without manual file editing.
+  </Step>
+  <Step num="4" title="Verify in Game">
+    Launch the game. Open your main menu (where you see Pokémon, Bag, Save). If successful, a new "Debug" option will appear at the bottom of the list. You can also press F9 while in the overworld to open the Quick Debug menu.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Warning: Save Integrity">
+Using the "Warp" function to enter areas before the story triggers them can permanently break your save file. If you warp into a Chapter 16 area while on Chapter 2, the game may fail to load essential NPC scripts.
+</Callout>
+
+</Section>
+
+<Section icon={Key} title="The Official 'Debug' Password Database">
+
+If you prefer a safer route, the V14 Password System acts as an integrated **pokemon rejuvenation debug mode**. These codes are entered during the opening sequence of a new game or at the password PC found in various hubs. They allow you to bypass the grind of Gen 1-9 mechanics and focus on the story or competitive team building.
+
+<CardGrid cols={2}>
+  <Card title="Stat & Growth Codes">
+    - **fullivs**: All caught Pokémon have 31 IVs in every stat.
+    - **freeexpall**: Grants the Exp. All item immediately.
+    - **hardcap**: Strictly enforces level caps to prevent over-leveling.
+  </Card>
+  <Card title="Convenience & Exploration">
+    - **easyhms**: Use HM moves without teaching them to your team.
+    - **unrealtime**: Control the in-game clock for time-based events.
+    - **weathermod**: Manually set the weather in any Aevium route.
+  </Card>
+</CardGrid>
+
+| Password | Category | V14 Effect Description |
+| :--- | :--- | :--- |
+| `freemegaz` | Items | Early access to Mega Stones and Z-Crystals |
+| `litemode` | Difficulty | Reduces AI optimization for a story-focused run |
+| `noitems` | Challenge | Disables bag item use in trainer battles |
+| `fieldfrenzy` | Mechanics | Amplifies the impact of Field Effects |
+| `moneyhacks` | Economy | Provides a significant starting budget (Varies) |
+
+<Callout type="success" title="V14 Update">
+V14 introduced new chapter-skip passwords. For example, using specific codes provided in the official dev logs allows players to jump directly to the start of Act 2 or Chapter 9, which is incredibly useful for testing the Paragon vs. Renegade route differences.
+</Callout>
+
+</Section>
+
+<Section icon={Wand2} title="Key Debug Menu Functions">
+
+Once you have enabled the full **pokemon rejuvenation debug mode**, you will have access to hundreds of commands. For most players, only a few are actually necessary for day-to-day gameplay.
+
+### Overworld Commands
+- **Warp**: Teleport to any map ID in the game. Note that Aevium is divided into many sub-maps (Grand Dream City has dozens).
+- **Set Metadata**: Change your player character's appearance or name on the fly.
+- **Switches & Variables**: This is the most powerful tool. You can manually toggle "Switch 001" to tell the game you have already defeated a specific Gym Leader or met a specific NPC.
+
+### Pokémon Management
+- **Add Pokémon**: Generate any Pokémon from Gen 1 to Gen 9, including Aevian Forms.
+- **Fill Pokédex**: Instantly complete your local and national dex entries.
+- **Modify Party**: Change levels, abilities, movesets, and even "Shiny" status with a single click.
+
+<Callout type="info" title="Note on Aevian Forms">
+When using debug to add Pokémon, remember that Aevian Forms have unique internal IDs. Searching for "Aevian" in the debug search bar is the fastest way to locate them.
+</Callout>
+
+| Command | Usage | Recommended For |
+| :--- | :--- | :--- |
+| **Heal Party** | Instant full restore | Long dungeon crawls like Valor Mountain |
+| **Give Item** | Add any TM, Crest, or Key Item | Recovering missable items in GDC |
+| **Toggle Wall** | Walk through obstacles | Fixing "stuck" character glitches |
+| **Relationship** | View/Edit NPC affinity | Ensuring you hit the Paragon route requirements |
+
+</Section>
+
+<Section icon={ShieldAlert} title="Safety Checklist for Debug Users">
+
+Using the **pokemon rejuvenation debug mode** is like playing with fire; it can make your life easier or burn your 100-hour save file to the ground. Before you go crazy adding 999 Master Balls or warping to the final boss, go through this checklist.
+
+<Checklist
+  id="debug-safety"
+  title="Safe Debugging Checklist:"
+  items={[
+    "Always maintain three separate save slots: One 'Clean', one 'Current', and one 'Pre-Debug'.",
+    "Never warp into a building you haven't unlocked via the story.",
+    "Avoid toggling story switches unless you have a specific guide for that flag.",
+    "Do not use debug to add 'Key Items' that are supposed to be triggered by cutscenes.",
+    "If the game crashes after a debug edit, immediately revert to your 'Clean' backup."
+  ]}
+/>
+
+<Callout type="warning" title="Renegade Route Warning">
+The Renegade route in V14 is highly sensitive to "Karma" variables. Manually editing these values can lead to "Dead Ends" where the story fails to progress because the game expects a specific sequence of events that you bypassed.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I use pokemon rejuvenation debug mode on JoiPlay?",
+    answer: "Yes, but it is more difficult. You must edit the scripts on a PC first and then transfer the modified files to your Android device, or use a plugin-based mod loader compatible with the RPG Maker plugin for JoiPlay."
+  },
+  {
+    question: "Will using debug mode disable achievements or New Game+?",
+    answer: "Generally, no. Pokemon Rejuvenation does not have a 'cheat detection' system that locks you out of content. However, using certain passwords will mark your save file as 'Assisted' in community challenges."
+  },
+  {
+    question: "How do I fix a black screen after enabling debug?",
+    answer: "A black screen usually means a script error. This happens if you use a script file from an older version (like V13.5) on the V14 engine. Ensure your debug enabler is specifically updated for the July 2026 V14 build."
+  },
+  {
+    question: "Can I add the new Gen 9 Pokémon using the debug menu?",
+    answer: "Yes! V14 fully supports Gen 1-9. You can use the 'Add Pokémon' command and scroll to the end of the list or search by name to find Paldean species."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Efectos de Campo en Pokémon Rejuvenation: Guía de Mecánicas y Estrategia",
+  description: "Domina los 48 efectos de campo únicos de Pokémon Rejuvenation. Aprende sobre la superposición de campos, aumentos por transformación y movimientos estratégicos como Domain Shift.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Field+Effects+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los efectos de campo de Pokémon Rejuvenation** son una mecánica de combate principal que cuenta con 48 entornos únicos a partir de la v13.5.
+- **El Sistema de Superposición** permite apilar múltiples campos; cuando la capa superior termina, el campo subyacente se activa.
+- **El Aumento por Transformación** proporciona un incremento de potencia de 1.3x a los movimientos de daño que cambian con éxito el campo.
+- **Los Movimientos Globales** como Steel Roller y Splintered Stormshards pueden alterar o desactivar de manera confiable la mayoría de los campos activos.
+- **Las Capas Estratégicas** se pueden crear mediante movimientos de Terreno (Eléctrico, de Hierba, etc.) para superponerse temporalmente a los campos existentes.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas Básicas de los Efectos de Campo">
+
+En el complejo mundo de Aevium, el entorno juega un papel mucho más importante que en cualquier región tradicional. **Los efectos de campo de Pokémon Rejuvenation** amplían las mecánicas de terreno estándar de la serie principal, creando un sistema dinámico donde el propio suelo que pisas puede dictar el rumbo del combate. A diferencia de los Terrenos estándar, estos efectos suelen ser permanentes a menos que se sobrescriban o se terminen específicamente mediante interacciones de movimientos.
+
+Comprender cómo interactúan estos campos marca la diferencia entre una derrota aplastante y una victoria táctica. A partir de la actualización v13.5, existen 48 campos distintos, que van desde paisajes naturales como Montañas y Desiertos hasta entornos sintéticos como Campos de Glitch y Suelos de Fábrica.
+
+| Mecánica | Descripción | Bonificación/Efecto |
+| :--- | :--- | :--- |
+| **Campo Activo** | Solo puede haber un campo activo a la vez. | Dicta los aumentos/reducciones de movimientos |
+| **Superposición (Layering)** | Los campos se pueden apilar unos sobre otros en capas. | Las capas inferiores se reactivan más tarde |
+| **Superposición de Terreno** | Los Terrenos estándar (de Hierba/Niebla) se superponen a los campos activos. | Efectos reducidos para el terreno |
+| **Transformación** | Cambiar un campo con un movimiento de daño. | Aumento de 1.3x en la Potencia Base |
+| **Sin Campo (Fieldless)** | Ocurre cuando todas las capas se terminan con éxito. | Condiciones de combate estándar |
+
+<Callout type="tip" title="Consejo Pro: El Poder de la Transformación">
+Si sabes que tu movimiento transformará el campo (por ejemplo, usar un movimiento de Fuego en un Campo de Hierba para crear un Campo en Llamas), ese movimiento recibe un aumento significativo de potencia de 1.3x. Esto suele ser la clave para superar la estrategia defensiva de un Líder de Gimnasio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Métodos para Alterar y Desactivar Campos">
+
+Aunque muchos campos están vinculados a ubicaciones específicas, un entrenador hábil puede manipular el entorno a su favor. Algunos movimientos tienen efectos universales en casi todos los **efectos de campo de Pokémon Rejuvenation**, lo que te permite reiniciar el campo de batalla cuando la ventaja del oponente es demasiado grande.
+
+La capacidad de despejar un campo es especialmente vital en combates de alto riesgo contra los 18 Líderes de Gimnasio, quienes casi siempre utilizan un campo que complementa su especialidad de tipo específica.
+
+| Movimiento/Objeto | Tipo de Interacción | Duración/Efecto |
+| :--- | :--- | :--- |
+| **Steel Roller** | Desactivación de Campo | Desactiva el campo durante 5 turnos |
+| **Splintered Stormshards** | Transformación | Cambia el campo a Campo Rocoso (2 turnos) |
+| **Domain Shift** | Transformación Aleatoria | Campo aleatorio basado en la Ruta (Paragon/Renegade) |
+| **Terrenos Estándar** | Superposición | Superpone el campo actual con mejoras reducidas |
+
+<Callout type="warning" title="Variación de Domain Shift">
+El Movimiento Z Interceptor "Domain Shift" es muy impredecible. El conjunto de campos potenciales en los que puede transformarse depende de tu ruta de historia actual (Paragon o Renegade). Por ejemplo, los jugadores en la ruta Renegade podrían ver Campos Infernales, mientras que los de la ruta Paragon verán Campos Benditos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Clasificaciones y Categorías de Campos">
+
+Los 48 campos del juego se categorizan en cuatro grupos principales. Cada grupo comparte ciertos elementos temáticos y a menudo responde de manera similar a tipos de movimientos específicos. Reconocer la categoría de los **efectos de campo de Pokémon Rejuvenation** en el que estás luchando ayuda a predecir cómo reaccionará el entorno a tus ataques.
+
+<CardGrid cols={2}>
+  <Card title="Elemental y Mágico">
+    - **Elemental**: Se centra en el clima y los tipos básicos (Eléctrico, Helado, Volcánico).
+    - **Mágico**: Entornos etéreos (Arcoíris, Cuento de Hadas, Arena de Luz Estelar).
+    - **Consejo Clave**: A menudo potenciado por movimientos de tipo Psíquico, Hada o Dragón.
+  </Card>
+  <Card title="Sintético y Telúrico">
+    - **Sintético**: Artificial o hecho por el hombre (Tablero de Ajedrez, Fábrica, Glitch).
+    - **Telúrico**: Basado en la tierra y natural (Cueva, Desierto, Bosque, Pantano).
+    - **Consejo Clave**: Alta interacción con movimientos de tipo Acero, Tierra y Veneno.
+  </Card>
+</CardGrid>
+
+A continuación se muestra un desglose detallado de las clasificaciones de campos que se encuentran en la región de Aevium:
+
+| Categoría | Campos Representativos |
+| :--- | :--- |
+| **Elemental** | Eléctrico, De Hierba, Volcánico, Helado, Superficie del Agua, Cielo, Guarida del Dragón |
+| **Mágico** | Arcoíris, Caverna de Cristal, Bendito, Cuento de Hadas, Nuevo Mundo, Encantado |
+| **Sintético** | Fábrica, Cortocircuito, Glitch, Arena de Espejos, Coliseo, Ciudad |
+| **Telúrico** | Pantano, Corrosivo, Desierto, Rocoso, Bosque, Yermo, Cueva, Tierra Profunda |
+
+<Callout type="info" title="Mecánicas Específicas de Campo">
+Cada uno de estos campos tiene una página dedicada en la Wiki oficial de Rejuvenation que detalla cada interacción de movimiento, cambio de habilidad y modificación de estadísticas. Comprueba siempre los detalles específicos del campo antes de un combate importante contra un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Dominar la Manipulación de Campos">
+
+Dominar el uso de los **efectos de campo de Pokémon Rejuvenation** requiere un enfoque paso a paso para la creación de equipos y la toma de decisiones en combate. No puedes confiar simplemente en la fuerza bruta; debes usar el entorno como tu sexto miembro del equipo.
+
+<Steps>
+  <Step num="1" title="Analiza el Entorno">
+    Antes de que comience el combate, identifica el campo activo. Observa qué tipos están potenciados (generalmente indicados por animaciones específicas del campo) y qué movimientos podrían desencadenar una transformación.
+  </Step>
+  <Step num="2" title="Equipa Movimientos de Alteración de Campo">
+    Asegúrate de que al menos un Pokémon de tu equipo lleve un movimiento como Steel Roller o un movimiento que establezca un Terreno (como Campo Eléctrico). Esto te permite "sobrescribir" la ventaja de campo del oponente.
+  </Step>
+  <Step num="3" title="Calcula los Riesgos de Superposición">
+    Si usas un movimiento de Terreno, recuerda que solo se superpone al campo. Una vez que terminen los 5 u 8 turnos del Terreno, el campo original, que a menudo es más peligroso, volverá. Planifica tus debilitaciones dentro de esa ventana de tiempo.
+  </Step>
+  <Step num="4" title="Desencadena Transformaciones Beneficiosas">
+    Usa movimientos que transformen el campo en algo que beneficie a tu equipo más que al del oponente. Por ejemplo, convertir un Campo Corrosivo en un Yermo puede despojar a un líder de tipo Veneno de su recuperación pasiva.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia: El Reinicio con Steel Roller">
+Steel Roller is one of the most consistent ways to handle oppressive fields. While it requires a field to be active to work, it effectively resets the battle to a "fieldless" state for 5 turns, giving you a neutral playing field to execute your strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el Dominio de Campos">
+
+Para asegurarte de estar completamente preparado para los diversos entornos de Pokémon Rejuvenation, utiliza esta lista de verificación para auditar la preparación de tu equipo.
+
+<Checklist
+  id="field-readiness"
+  title="Lista de Verificación de Preparación para el Combate:"
+  items={[
+    "Consulta la Wiki para ver los potenciadores de movimientos del campo actual",
+    "Identifica qué movimientos pueden transformar el campo activo",
+    "Verifica si algún miembro del equipo tiene habilidades inmunes al campo",
+    "Prepara un movimiento de 'Reinicio de Campo' (Steel Roller o Movimiento Z)",
+    "Calcula si el aumento de transformación de 1.3x asegura un K.O."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Pueden estar activos varios efectos de campo a la vez?",
+    answer: "Solo un campo está activo a la vez, pero se pueden superponer. Si generas un Terreno como Campo de Hierba, este se superpone al campo actual. Una vez que el Terreno expira, el campo original debajo de él se activa de nuevo."
+  },
+  {
+    question: "¿Cómo funciona el aumento por transformación de 1.3x?",
+    answer: "Si un movimiento de daño cambia el campo actual por uno diferente (por ejemplo, Ventisca cambiando una Superficie del Agua a un Campo Helado), la potencia base de ese movimiento específico se multiplica por 1.3x."
+  },
+  {
+    question: "¿Cuál es el mejor movimiento para deshacerse de un campo?",
+    answer: "Steel Roller es el movimiento más confiable para desactivar los efectos de campo de Pokémon Rejuvenation durante 5 turnos. Alternativamente, Splintered Stormshards puede forzar una transformación en un Campo Rocoso neutral."
+  },
+  {
+    question: "¿Son transformables todos los campos?",
+    answer: "La mayoría de los campos se pueden transformar mediante interacciones de movimientos específicas. Sin embargo, algunos campos únicos de salas de jefes pueden tener restricciones. Consulta siempre las reglas del campo específico en la Wiki de Rejuvenation."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El sistema de campos es lo que distingue a Pokémon Rejuvenation de otros fangames. Al aprender las interacciones de estos 48 campos, conviertes el entorno de un obstáculo en un arma poderosa.
+</Callout>
+
+</Section>

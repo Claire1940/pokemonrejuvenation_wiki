@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Effets de Terrain dans Pokémon Rejuvenation : Guide Mécanique & Stratégie",
+  description: "Maîtrisez les 48 effets de terrain uniques de Pokémon Rejuvenation. Découvrez la superposition des terrains, les bonus de transformation et les capacités stratégiques comme Domain Shift.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Field+Effects+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **effets de terrain de Pokémon Rejuvenation** sont une mécanique de combat essentielle proposant 48 environnements uniques depuis la version 13.5.
+- Le **système de superposition** permet de cumuler plusieurs terrains ; lorsque la couche supérieure disparaît, le terrain sous-jacent s'active.
+- Le **bonus de transformation** augmente de 1,3x la puissance des capacités offensives qui parviennent à modifier le terrain.
+- Les **capacités globales** comme Steel Roller et Splintered Stormshards peuvent modifier ou désactiver de manière fiable la plupart des terrains actifs.
+- Des **couches stratégiques** peuvent être créées par des capacités de terrain (Électrik, Herbu, etc.) pour recouvrir temporairement les terrains existants.
+</Callout>
+
+<Section icon={Sparkles} title="Mécaniques de Base des Effets de Terrain">
+
+Dans le monde complexe d'Aevium, l'environnement joue un rôle bien plus important que dans n'importe quelle région traditionnelle. Les **effets de terrain de Pokémon Rejuvenation** enrichissent les mécaniques de terrain classiques de la série principale, créant un système dynamique où le sol sous vos pieds peut décider de l'issue du combat. Contrairement aux terrains standards, ces effets sont souvent permanents à moins d'être remplacés ou spécifiquement annulés par des interactions de capacités.
+
+Comprendre comment ces terrains interagissent fait toute la différence entre une défaite cuisante et une victoire tactique. Depuis la mise à jour v13.5, il existe 48 terrains distincts, allant de paysages naturels comme les Montagnes et les Déserts à des environnements synthétiques comme les Glitch Fields et les Factory Floors.
+
+| Mécanique | Description | Bonus/Effet |
+| :--- | :--- | :--- |
+| **Terrain Actif** | Un seul terrain peut être actif à la fois. | Détermine les bonus/malus des capacités |
+| **Superposition** | Les terrains peuvent se superposer en plusieurs couches. | Les couches inférieures se réactivent plus tard |
+| **Recouvrement de Terrain** | Les terrains standards (Herbu/Brumeux) recouvrent les terrains actifs. | Effets réduits pour le terrain supérieur |
+| **Transformation** | Modifier un terrain à l'aide d'une capacité offensive. | Bonus de 1,3x de la puissance de base |
+| **Sans Terrain** | Se produit lorsque toutes les couches sont supprimées. | Conditions de combat standards |
+
+<Callout type="tip" title="Astuce de Pro : Le Pouvoir de la Transformation">
+Si vous savez que votre capacité va transformer le terrain (par exemple, utiliser une capacité Feu sur un Terrain Herbu pour créer un Terrain Brûlant), cette capacité reçoit un bonus de puissance significatif de 1,3x. C'est souvent la clé pour percer les défenses d'un Champion d'Arène.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Méthodes pour Modifier et Désactiver les Terrains">
+
+Bien que de nombreux terrains soient liés à des lieux spécifiques, un dresseur habile peut manipuler l'environnement à son avantage. Certaines capacités ont des effets universels sur presque tous les **effets de terrain de Pokémon Rejuvenation**, vous permettant de réinitialiser le champ de bataille lorsque l'avantage de l'adversaire devient trop important.
+
+La capacité à nettoyer un terrain est particulièrement vitale dans les combats à enjeux élevés contre les 18 Champions d'Arène, qui utilisent presque toujours un terrain complétant leur spécialité de type.
+
+| Capacité/Objet | Type d'Interaction | Durée/Effet |
+| :--- | :--- | :--- |
+| **Steel Roller** | Désactivation du terrain | Désactive le terrain pendant 5 tours |
+| **Splintered Stormshards** | Transformation | Transforme le terrain en Rocky Field (2 tours) |
+| **Domain Shift** | Transformation aléatoire | Terrain aléatoire selon la route (Parangon/Renégat) |
+| **Terrains Standards** | Recouvrement | Recouvre le terrain actuel avec des bonus réduits |
+
+<Callout type="warning" title="Variabilité de Domain Shift">
+La capacité Z d'interception "Domain Shift" est extrêmement imprévisible. La liste des terrains potentiels en lesquels elle peut se transformer dépend de votre route scénaristique actuelle (Parangon ou Renégat). Par exemple, les joueurs sur la route Renégat pourraient voir apparaître des Infernal Fields, tandis que les joueurs Parangon verront des Blessed Fields.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Classifications et Catégories de Terrains">
+
+Les 48 terrains du jeu sont classés en quatre groupes principaux. Chaque groupe partage certains éléments thématiques et réagit souvent de manière similaire à des types de capacités spécifiques. Reconnaître la catégorie de l'**effet de terrain de Pokémon Rejuvenation** sur lequel vous combattez aide à prédire comment l'environnement réagira à vos attaques.
+
+<CardGrid cols={2}>
+  <Card title="Élémentaire & Magique">
+    - **Élémentaire** : Se concentre sur la météo et les types de base (Électrik, Glace, Volcanique).
+    - **Magique** : Environnements éthérés (Arc-en-ciel, Conte de Fées, Starlight Arena).
+    - **Conseil Clé** : Souvent renforcé par les capacités de type Psy, Fée ou Dragon.
+  </Card>
+  <Card title="Synthétique & Tellurique">
+    - **Synthétique** : Artificiel ou créé par l'homme (Échiquier, Usine, Glitch).
+    - **Tellurique** : Terrestre et naturel (Grotte, Désert, Forêt, Marais).
+    - **Conseil Clé** : Forte interaction avec les capacités d'Acier, de Sol et de Poison.
+  </Card>
+</CardGrid>
+
+Voici une répartition détaillée des classifications de terrains trouvées dans la région d'Aevium :
+
+| Catégorie | Terrains Représentatifs |
+| :--- | :--- |
+| **Élémentaire** | Electric, Grassy, Volcanic, Icy, Water Surface, Sky, Dragon's Den |
+| **Magique** | Rainbow, Crystal Cavern, Blessed, Fairy Tale, New World, Haunted |
+| **Synthétique** | Factory, Short-Circuit, Glitch, Mirror Arena, Colosseum, City |
+| **Tellurique** | Swamp, Corrosive, Desert, Rocky, Forest, Wasteland, Cave, Deep Earth |
+
+<Callout type="info" title="Mécaniques Spécifiques aux Terrains">
+Chacun de ces terrains dispose d'une page dédiée sur le Wiki officiel de Rejuvenation détaillant chaque interaction de capacité, changement de talent et modification de statistiques. Vérifiez toujours les détails spécifiques du terrain avant un combat de boss majeur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment Maîtriser la Manipulation du Terrain">
+
+Maîtriser l'utilisation des **effets de terrain de Pokémon Rejuvenation** nécessite une approche étape par étape pour la construction de l'équipe et la prise de décision en combat. Vous ne pouvez pas simplement vous reposer sur la force brute ; vous devez utiliser l'environnement comme un sixième membre de votre équipe.
+
+<Steps>
+  <Step num="1" title="Analyser l'Environnement">
+    Avant le début du combat, identifiez le terrain actif. Notez quels types sont renforcés (généralement indiqués par des animations spécifiques au terrain) et quelles capacités pourraient déclencher une transformation.
+  </Step>
+  <Step num="2" title="Équiper des Capacités de Modification de Terrain">
+    Assurez-vous qu'au moins un Pokémon de votre équipe possède une capacité comme Steel Roller ou une capacité créant un terrain (comme Champ Électrik). Cela vous permet de « remplacer » l'avantage du terrain adverse.
+  </Step>
+  <Step num="3" title="Calculer les Risques de Superposition">
+    Si vous utilisez une capacité de terrain, n'oubliez pas qu'elle ne fait que recouvrir le terrain actuel. Une fois les 5 à 8 tours de terrain écoulés, le terrain d'origine, souvent plus dangereux, réapparaîtra. Planifiez vos K.O. durant cette fenêtre de tir.
+  </Step>
+  <Step num="4" title="Déclencher des Transformations Bénéfiques">
+    Utilisez des capacités qui transforment le terrain en quelque chose de plus avantageux pour votre équipe que pour celle de l'adversaire. Par exemple, transformer un Corrosive Field en Wasteland peut priver un champion de type Poison de sa régénération passive.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stratégie : La Réinitialisation avec Steel Roller">
+Steel Roller est l'un des moyens les plus fiables de gérer les terrains oppressants. Bien qu'elle nécessite qu'un terrain soit actif pour fonctionner, elle réinitialise efficacement le combat à un état « sans terrain » pendant 5 tours, vous offrant un terrain de jeu neutre pour exécuter votre stratégie.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle pour Maîtriser les Terrains">
+
+Pour vous assurer que vous êtes pleinement préparé aux divers environnements de Pokémon Rejuvenation, utilisez cette liste de contrôle pour évaluer l'état de préparation de votre équipe.
+
+<Checklist
+  id="field-readiness"
+  title="Liste de Préparation au Combat :"
+  items={[
+    "Consulter le Wiki pour connaître les bonus de capacités du terrain actuel",
+    "Identifier quelles capacités peuvent transformer le terrain actif",
+    "Vérifier si des membres de l'équipe ont des talents immunisant aux effets du terrain",
+    "Préparer une capacité de réinitialisation (Steel Roller ou capacité Z)",
+    "Calculer si le bonus de transformation de 1,3x garantit un K.O."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Plusieurs effets de terrain peuvent-ils être actifs en même temps ?",
+    answer: "Un seul terrain est actif à la fois, mais ils peuvent être superposés. Si vous générez un terrain comme le Champ Herbu, il recouvre le terrain actuel. Une fois que ce terrain expire, le terrain d'origine situé en dessous redevient actif."
+  },
+  {
+    question: "Comment fonctionne le bonus de transformation de 1,3x ?",
+    answer: "Si une capacité offensive transforme le terrain actuel en un autre (e.g., Blizzard transformant une Water Surface en un Icy Field), la puissance de base de cette capacité spécifique est multipliée par 1,3."
+  },
+  {
+    question: "Quelle est la meilleure capacité pour se débarrasser d'un terrain ?",
+    answer: "Steel Roller est la capacité la plus fiable pour désactiver les effets de terrain de Pokémon Rejuvenation pendant 5 tours. Alternativement, Splintered Stormshards peut forcer une transformation en un Rocky Field neutre."
+  },
+  {
+    question: "Tous les terrains sont-ils transformables ?",
+    answer: "La plupart des terrains peuvent être transformés grâce à des interactions de capacités spécifiques. Cependant, certains terrains uniques de salles de boss peuvent présenter des restrictions. Vérifiez toujours les règles spécifiques du terrain sur le Wiki de Rejuvenation."
+  }
+]} />
+
+<Callout type="info" title="Note Finale">
+Le système de terrain est ce qui distingue Pokémon Rejuvenation des autres fan-games. En apprenant les interactions de ces 48 terrains, vous transformez l'environnement d'un obstacle en une arme puissante.
+</Callout>
+
+</Section>

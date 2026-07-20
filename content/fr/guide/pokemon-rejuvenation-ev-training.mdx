@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Entraînement des EV dans Pokémon Rejuvenation : Guide de maximisation rapide des stats",
+  description: "Maîtrisez l'entraînement des EV dans Pokémon Rejuvenation avec notre guide 2026 sur les salles d'EV de West Gearen, les objets de pouvoir et les baies de réinitialisation pour vos équipes stratégiques.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=EV+Training+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- L'**entraînement des EV dans Pokémon Rejuvenation** vous permet de répartir un total de 510 points pour améliorer les statistiques de vos Pokémon.
+- Les **salles d'EV de West Gearen** offrent la méthode d'entraînement la plus rapide grâce à des cartes d'accès spécialisées.
+- Les **objets de pouvoir** ajoutent +8 EV par défaite, accélérant considérablement le processus de croissance.
+- Les **baies d'amitié** sont essentielles pour réinitialiser les EV indésirables et affiner vos builds stratégiques.
+- La **page de résumé** en jeu offre une vue claire des IV (à gauche) et des EV (à droite) pour chaque Pokémon.
+</Callout>
+
+<Section icon={Map} title="Bases de l'entraînement des EV dans Pokémon Rejuvenation">
+
+Comprendre l'**entraînement des EV dans Pokémon Rejuvenation** est la clé de voûte pour surmonter les pics de difficulté notoires du jeu. Les valeurs d'effort (EV) sont des points cachés qui augmentent directement les statistiques d'un Pokémon. Contrairement aux points d'expérience qui font monter de niveau, les EV permettent une croissance spécialisée, transformant un attaquant standard en un sweeper redoutable ou un défenseur fragile en un mur inébranlable.
+
+Dans Pokémon Rejuvenation, chaque Pokémon peut accumuler un total de **510 EV**. Cependant, il y a une limite de **252 EV** par statistique individuelle. Pour chaque tranche de 4 EV investis dans une statistique spécifique, celle-ci augmente de 1 point au niveau 100. Cela signifie qu'une statistique entièrement entraînée peut être jusqu'à 63 points plus élevée qu'une statistique non entraînée, ce qui dicte souvent l'issue des combats d'arène à enjeux élevés.
+
+| Métrique de Stat | Valeur Maximale | Taux de Conversion | Limite Totale |
+| :--- | :--- | :--- | :--- |
+| **Statistique Individuelle** | 252 EV | 4 EV = 1 Point de Stat | N/A |
+| **Limite Totale par Pokémon** | 510 EV | 127 Points de Stat au Total | 510 EV |
+| **Répartition Courante** | 252 / 252 / 6 | Max 2 Stats + 1 Mineure | 510 EV |
+
+Le jeu facilite le suivi de ces valeurs. En vous rendant sur la page « IV et EV » dans le résumé du Pokémon, vous pouvez voir votre progression en temps réel. Les valeurs de droite représentent votre investissement actuel en EV.
+
+<Callout type="info" title="Conseil de calcul des stats">
+Comme 510 n'est pas parfaitement divisible par 4, vous aurez toujours 2 EV « perdus » si vous maximisez deux statistiques à 252 (252+252=504). La plupart des joueurs placent les 6 points restants en PV ou en Vitesse pour s'assurer que chaque point possible est utilisé.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Les salles d'EV de West Gearen : La méthode de farm ultime">
+
+La façon la plus efficace de gérer l'**entraînement des EV dans Pokémon Rejuvenation** est d'utiliser les salles d'EV dédiées. Situées dans le **Centre Pokémon de West Gearen**, ces salles contiennent des rencontres de Pokémon sauvages spécifiques qui rapportent de grandes quantités d'EV pour une seule statistique. Cependant, l'accès n'est pas gratuit ; vous devez prouver votre valeur en gagnant des points d'accomplissement (AP).
+
+Pour déverrouiller ces salles, vous devez vous rendre au **Centre AP** situé à l'intérieur de l'**Hôtel Chrisola** à West Gearen. Ici, vous pouvez échanger vos AP durement gagnés contre des cartes d'accès (Key Cards). Chaque carte correspond à l'une des six statistiques principales.
+
+<Steps>
+  <Step num="1" title="Gagner des points d'accomplissement">
+    Accomplissez des quêtes secondaires, trouvez des objets cachés ou battez des dresseurs spécifiques pour accumuler des AP. Consultez votre carte de dresseur pour voir votre solde actuel.
+  </Step>
+  <Step num="2" title="Acheter des cartes d'accès">
+    Rendez-vous à l'Hôtel Chrisola à West Gearen. Parlez au vendeur d'AP et achetez les cartes d'accès pour les statistiques que vous souhaitez entraîner (par exemple, Vitesse et Attaque).
+  </Step>
+  <Step num="3" title="Accéder aux salles d'EV">
+    Retournez au Centre Pokémon de West Gearen. Utilisez les cartes d'accès sur les portes verrouillées à l'arrière pour entrer dans les zones d'entraînement spécialisées.
+  </Step>
+  <Step num="4" title="Battre des Pokémon spécialisés">
+    Combattez les Pokémon sauvages à l'intérieur. Chaque rencontre dans ces salles est garantie de fournir des EV pour la statistique associée à cette salle.
+  </Step>
+</Steps>
+
+| Type de Carte d'Accès | Statistique Ciblée | Lieu d'Achat | Coût |
+| :--- | :--- | :--- | :--- |
+| **Carte PV** | Points de Vie | Centre AP de l'Hôtel Chrisola | 50 AP |
+| **Carte Attaque** | Attaque Physique | Centre AP de l'Hôtel Chrisola | 50 AP |
+| **Carte Défense** | Défense Physique | Centre AP de l'Hôtel Chrisola | 50 AP |
+| **Carte Att. Spé.** | Attaque Spéciale | Centre AP de l'Hôtel Chrisola | 50 AP |
+| **Carte Déf. Spé.** | Défense Spéciale | Centre AP de l'Hôtel Chrisola | 50 AP |
+| **Carte Vitesse** | Vitesse | Centre AP de l'Hôtel Chrisola | 50 AP |
+
+<Callout type="tip" title="Boost d'efficacité">
+Lorsque vous êtes dans les salles d'EV, assurez-vous que votre Pokémon tient un **objet de pouvoir**. Cela combine le rendement élevé de la salle avec le bonus fixe de l'objet, vous permettant de maximiser une statistique en seulement quelques minutes de combat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Objets de pouvoir et entraînement traditionnel">
+
+Si vous n'avez pas encore atteint West Gearen ou si vous préférez les méthodes traditionnelles, l'**entraînement des EV dans Pokémon Rejuvenation** peut se faire partout où des Pokémon sauvages apparaissent. Chaque Pokémon que vous battez rapporte un nombre spécifique d'EV en fonction de son espèce. Par exemple, battre un Roucool donne généralement 1 EV Vitesse, tandis qu'un Machoc donne 1 EV Attaque.
+
+Pour rendre cela viable, vous devez utiliser des **objets de pouvoir**. Ces objets tenus accordent un bonus fixe de **+8 EV** dans une statistique spécifique chaque fois que le porteur gagne de l'expérience lors d'un combat, quel que soit le Pokémon vaincu.
+
+<CardGrid cols={3}>
+  <Card title="Poids Pouvoir">
+    - **Statistique** : PV
+    - **Bonus** : +8 EV PV
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+  <Card title="Poignet Pouvoir">
+    - **Statistique** : Attaque
+    - **Bonus** : +8 EV Attaque
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+  <Card title="Ceinture Pouvoir">
+    - **Statistique** : Défense
+    - **Bonus** : +8 EV Défense
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+  <Card title="Lentille Pouvoir">
+    - **Statistique** : Att. Spé.
+    - **Bonus** : +8 EV Att. Spé.
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+  <Card title="Bandeau Pouvoir">
+    - **Statistique** : Déf. Spé.
+    - **Bonus** : +8 EV Déf. Spé.
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+  <Card title="Chaîne Pouvoir">
+    - **Statistique** : Vitesse
+    - **Bonus** : +8 EV Vitesse
+    - **Pénalité** : Divise la Vitesse par deux en combat
+  </Card>
+</CardGrid>
+
+| Nom de l'Objet | Calcul du Gain d'EV | Meilleure Utilisation |
+| :--- | :--- | :--- |
+| **Objet de Pouvoir Seul** | Base (1-3) + 8 = 9-11 | Farm en début de jeu |
+| **Brace. Macho** | Base (1-3) x 2 = 2-6 | Si les objets de pouvoir ne sont pas disponibles |
+| **Pokérus** | (Base + Objet de Pouvoir) x 2 | Entraînement ultra-rapide |
+
+<Callout type="warning" title="Réduction de Vitesse">
+N'oubliez pas que les objets de pouvoir divisent par deux la statistique de Vitesse du porteur pendant le combat. Si vous entraînez un sweeper fragile contre des Pokémon sauvages qui pourraient le dépasser et le mettre KO, pensez à utiliser le Multi Exp pour l'entraîner depuis le banc.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Réinitialiser les statistiques avec les baies d'amitié">
+
+Des erreurs peuvent arriver, ou peut-être avez-vous capturé un Pokémon de haut niveau qui a déjà des EV « désordonnés » à cause de combats aléatoires. Dans l'**entraînement des EV de Pokémon Rejuvenation**, vous n'êtes pas coincé avec ces statistiques sous-optimales. Vous pouvez utiliser des **baies d'amitié** spécifiques pour réduire les EV de 10 points par baie.
+
+Ces baies ont un double objectif : elles augmentent le bonheur du Pokémon (Amitié) tout en réduisant un EV spécifique. Elles sont indispensables pour peaufiner des builds ou réorienter complètement un Pokémon vers un rôle différent, comme transformer un Tank Physique en un Mur Spécial.
+
+| Nom de la Baie | EV Réduits (-10) | Effet Secondaire |
+| :--- | :--- | :--- |
+| **Baie Grena** | PV | Augmente l'Amitié |
+| **Baie Alga** | Attaque | Augmente l'Amitié |
+| **Baie Qualot** | Défense | Augmente l'Amitié |
+| **Baie Lonme** | Att. Spé. | Augmente l'Amitié |
+| **Baie Résina** | Déf. Spé. | Augmente l'Amitié |
+| **Baie Tamato** | Vitesse | Augmente l'Amitié |
+
+<Callout type="success" title="Gestion de l'inventaire">
+Vous pouvez acheter ces baies en grande quantité auprès de vendeurs spécifiques dans les grandes villes comme GDC ou West Gearen. Gardez toujours un stock de 20 à 30 baies de chaque type dans votre sac afin de pouvoir ajuster rapidement les statistiques de votre équipe avant un combat de boss majeur.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Répartitions d'EV optimales pour la stratégie dans Rejuvenation">
+
+Décider où attribuer vos points est tout aussi important que l'entraînement lui-même. Comme Pokémon Rejuvenation propose des effets de terrain uniques qui peuvent booster certaines statistiques ou types, votre stratégie d'**entraînement des EV dans Pokémon Rejuvenation** doit prendre en compte ces facteurs environnementaux.
+
+Par exemple, sur un terrain de Distorsion (Trick Room), vous voudrez peut-être éviter complètement les EV en Vitesse et vous concentrer sur les PV et l'Attaque. À l'inverse, sur un terrain qui booste les capacités Électrik, investir en Défense Spéciale pour vos types non-Sol pourrait faire la différence entre une victoire écrasante et une défaite totale.
+
+<Checklist
+  id="training-checklist"
+  title="Check-list de pré-entraînement :"
+  items={[
+    "Identifier les meilleures statistiques de base du Pokémon",
+    "Vérifier la page de résumé pour détecter d'éventuels EV 'désordonnés'",
+    "Utiliser des baies d'amitié pour effacer les points indésirables",
+    "Équiper l'objet de pouvoir approprié pour la première statistique",
+    "S'assurer d'avoir la carte d'accès pour les salles de West Gearen"
+  ]}
+/>
+
+| Archétype | Répartition Recommandée | Objectif Principal |
+| :--- | :--- | :--- |
+| **Sweeper Physique** | 252 Atk / 252 Spe / 6 PV | Dépasser et OHKO les cibles physiques |
+| **Mur Spécial** | 252 PV / 252 SpD / 6 Def | Absorber de puissantes attaques spéciales |
+| **Attaquant Bulky** | 252 PV / 252 Atk / 6 Def | Survivre aux coups tout en infligeant d'énormes dégâts |
+| **Glass Cannon** | 252 SpA / 252 Spe / 6 SpD | Vitesse et dégâts spéciaux maximaux |
+
+<Callout type="info" title="Stratégie d'expert">
+Pour les boss de fin de jeu, envisagez des « répartitions mixtes ». Par exemple, investir juste assez d'EV en Vitesse pour dépasser le Pokémon phare d'un champion d'arène spécifique, puis mettre le reste en PV ou défenses. C'est bien plus efficace que de maximiser aveuglément deux statistiques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je vérifier ma progression dans l'entraînement des EV dans Pokémon Rejuvenation ?",
+    answer: "Ouvrez le résumé de votre Pokémon et faites défiler les pages jusqu'à voir 'IV et EV'. Les chiffres sur le côté droit de l'écran indiquent votre investissement actuel en EV pour chacune des six statistiques."
+  },
+  {
+    question: "Où puis-je obtenir plus de points d'accomplissement (AP) pour les cartes d'accès ?",
+    answer: "Les AP sont gagnés en accomplissant des quêtes secondaires sur les panneaux d'aide, en trouvant des objets cachés avec le Cherch'Objet et en atteignant des objectifs spécifiques dans le jeu. Vous pouvez les dépenser au Centre AP de l'Hôtel Chrisola."
+  },
+  {
+    question: "Puis-je maximiser toutes les statistiques à 252 ?",
+    answer: "Non, vous êtes limité à un total de 510 EV toutes statistiques confondues. Cela signifie que vous ne pouvez maximiser entièrement que deux statistiques (252 chacune), avec un tout petit reste pour une troisième statistique."
+  },
+  {
+    question: "Les objets de pouvoir fonctionnent-ils si le Pokémon ne combat pas ?",
+    answer: "Oui, si le Pokémon tient un objet de pouvoir et que le Multi Exp est activé, le Pokémon sur le banc recevra tout de même le bonus de +8 EV de l'objet de pouvoir chaque fois que le Pokémon actif remporte un combat."
+  }
+]} />
+
+<Callout type="tip" title="Note finale">
+Maîtriser l'entraînement des EV est le plus grand avantage que vous puissiez vous offrir dans Pokémon Rejuvenation. Prenez le temps de farmer les AP pour obtenir les cartes d'accès dès le début ; cela vous évitera des heures de farm fastidieux à long terme.
+</Callout>
+
+</Section>

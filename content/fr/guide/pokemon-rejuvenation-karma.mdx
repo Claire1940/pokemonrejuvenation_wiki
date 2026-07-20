@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Karma de Pokémon Rejuvenation : Guide des Routes Parangon et Renégat",
+  description: "Maîtrisez le système de karma de Pokémon Rejuvenation dans la V14. Découvrez comment vos choix influencent les routes Parangon et Renégat, les points de relation et les issues du Chapitre 16.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/fff?text=Karma+and+Routes+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Le **karma de Pokémon Rejuvenation** est une mesure cachée qui suit vos choix narratifs et détermine votre chemin vers les fins Parangon ou Renégat.
+- La **Route Parangon** nécessite un Karma positif élevé et des valeurs de relation fortes avec les alliés clés pour préserver l'avenir d'Aevium.
+- La **Route Renégat** est déclenchée par un Karma négatif, des décisions cruelles spécifiques et le fait de ne pas soutenir vos alliés lors des moments critiques de l'histoire.
+- Le **Chapitre 16** sert de point de bifurcation ultime où vos décisions précédentes culminent dans des lieux et des combats exclusifs à chaque route.
+- Les **Points de Relation** agissent comme une couche secondaire, influençant la survie individuelle des personnages et débloquant des scènes de dialogue uniques.
+</Callout>
+
+<Section icon={Zap} title="Comprendre le Système de Karma de Pokémon Rejuvenation">
+
+Dans la narration complexe d'Aevium, vos actions ont un poids qui dépasse largement de simples choix de dialogue. Le système de **karma de Pokémon Rejuvenation** est le moteur invisible qui régit l'histoire arborescente du jeu. Contrairement aux RPG classiques où le « bien » et le « mal » sont clairement identifiés, Rejuvenation cache souvent l'impact de vos choix jusqu'à plusieurs chapitres plus tard. Dans la V14, ce système a été affiné pour garantir que votre progression vers les fins Parangon ou Renégat soit méritée à travers un comportement cohérent.
+
+<CardGrid cols={3}>
+  <Card title="Voie Parangon">
+    - **Focus** : Altruisme et soutien des alliés
+    - **Résultat** : Préserve les personnages et cherche une résolution pleine d'espoir
+    - **Difficulté** : Défis de boss standards
+  </Card>
+  <Card title="Voie Renégat">
+    - **Focus** : Impitoyabilité et destruction
+    - **Résultat** : Thèmes plus sombres avec des combats exclusifs de haute difficulté
+    - **Difficulté** : IA optimisée et affrontements brutaux
+  </Card>
+  <Card title="État Neutre">
+    - **Focus** : Choix incohérents ou modérés
+    - **Résultat** : Se rabat généralement sur une expérience Parangon modifiée
+    - **Difficulté** : Progression standard
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Décisions irréversibles">
+De nombreux choix modifiant le Karma se produisent dans les cinq premiers chapitres. Bien que le mode Nouveau Jeu+ permette une réinitialisation, une partie standard nécessite une planification minutieuse dès le départ si vous visez la route Renégat.
+</Callout>
+
+Le Karma s'obtient en aidant les PNJ, en faisant preuve de clémence envers les antagonistes et en donnant la priorité à la sécurité du groupe. À l'inverse, le Karma négatif s'accumule par l'égoïsme, la violence inutile ou l'abandon d'alliés en détresse. Cette valeur est souvent vérifiée lors des périodes d'« Intermission » ou des moments forts des chapitres majeurs pour déterminer la version de la scène à laquelle vous assistez.
+
+</Section>
+
+<Section icon={Target} title="Impact des Choix Majeurs et Valeurs de Karma">
+
+Chaque arc majeur de la V14 contient au moins un « Choix Critique » qui modifie considérablement votre niveau de Karma. Ces moments sont souvent marqués par une brève pause ou un message vous demandant de confirmer. Vous trouverez ci-dessous un aperçu des décisions les plus marquantes des chapitres du début et du milieu de jeu d'Aevium.
+
+| Chapitre | Lieu | Contexte du choix | Impact sur le Karma |
+| :--- | :--- | :--- | :--- |
+| **Chapitre 2** | Village Sheridan | Gérer la situation de Keta | **Positif** : Faire preuve de clémence / **Négatif** : Hostilité |
+| **Chapitre 3** | Ville de Goldenleaf | Enquête surnaturelle | **Positif** : Aider les habitants / **Négatif** : Ignorer leur détresse |
+| **Chapitre 8** | Île de Terajuma | Gérer les agents de la Team Xen | **Positif** : Épargner / **Négatif** : Exécuter ou abandonner |
+| **Chapitre 11** | Grand Dream City | Conflit de factions (Bladestar) | **Positif** : Arbitrer / **Négatif** : Escalader la violence |
+| **Chapitre 15** | Zone Zéro | Préparatifs finaux pour le C16 | **Positif** : Test de Karma élevé / **Négatif** : Test de Karma bas |
+
+<Callout type="tip" title="Vérifications Cachées">
+Certains changements de Karma ne sont pas annoncés. Si vous trouvez un PNJ demandant une petite faveur ou si un choix semble purement cosmétique (« flavor only »), il contribue probablement tout de même à +/- 1 à votre score total de Karma.
+</Callout>
+
+Au-delà des choix binaires, le jeu suit les « Points de Relation » (PR) pour chaque compagnon majeur. Alors que le Karma détermine la route globale, les PR déterminent qui reste à vos côtés au sein de cette route. Un PR élevé peut parfois compenser un score de Karma légèrement inférieur, vous permettant de rester sur la voie Parangon même après quelques erreurs.
+
+</Section>
+
+<Section icon={Heart} title="Points de Relation et Synergie des Alliés">
+
+Si le **karma de Pokémon Rejuvenation** dicte le destin du monde, les Points de Relation dictent vos connexions personnelles. Dans la V14, avoir un PR élevé avec des personnages spécifiques comme Melia, Ren ou Venam débloque des objets uniques, des Méga-Gemmes, et permet même d'éviter certaines « Mauvaises Fins » pour ces personnages.
+
+| Personnage | Moyen principal d'augmenter les PR | Récompense / Impact |
+| :--- | :--- | :--- |
+| **Melia** | Soutenir ses décisions de leadership | Scènes d'histoire uniques et soutien en fin de jeu |
+| **Ren** | Comprendre sa perspective à GDC | Influencer son alignement de faction au C16 |
+| **Venam** | Prioriser sa sécurité dans les premiers chapitres | Accès à des objets/bonus spécifiques de type Poison |
+| **Aelita** | L'aider pendant l'arc de Sheridan | Survie lors d'événements de l'histoire à haute tension |
+
+<Callout type="info" title="Seuils de PR">
+Au Chapitre 16, le jeu effectue un « Test de Loyauté ». Si votre PR avec un personnage est inférieur à un certain seuil, il peut vous abandonner ou ne pas intervenir lors d'un combat de boss, quel que soit votre Karma.
+</Callout>
+
+Pour maximiser vos PR, vous devriez interagir avec vos compagnons pendant les périodes de « temps libre » dans les hôtels ou les hubs. Ces conversations facultatives offrent souvent +1 ou +2 PR et fournissent des détails plus profonds sur l'histoire d'Aevium et la menace de la Team Xen.
+
+</Section>
+
+<Section icon={Map} title="Chapitre 16 : Entrer dans les Routes Parangon ou Renégat">
+
+Le Chapitre 16 est la séparation définitive dans l'histoire de la V14. À ce stade, le jeu évalue votre **karma de Pokémon Rejuvenation** total ainsi que des déclencheurs de drapeaux (flags) spécifiques pour vous verrouiller dans l'une des deux voies principales. Il est fortement recommandé de conserver une sauvegarde de secours à la fin du Chapitre 15 avant de continuer.
+
+<Steps>
+  <Step num="1" title="L'Évaluation du Karma">
+    Le jeu vérifie si votre Karma est supérieur (Parangon) ou inférieur (Renégat) au seuil requis. Des « drapeaux de cruauté » spécifiques des arcs de Terajuma et de GDC sont également pris en compte ici.
+  </Step>
+  <Step num="2" title="Le Point de Non-Retour">
+    Vous ferez face à un message final dans un lieu historique ou une installation de la Team Xen. Confirmer votre intention ici verrouille le fichier de sauvegarde dans la route choisie.
+  </Step>
+  <Step num="3" title="Lieux Exclusifs à la Route">
+    Les joueurs Parangon se dirigeront vers des lieux axés sur la restauration, tandis que les joueurs Renégat exploreront des versions altérées et plus sombres de la carte d'Aevium.
+  </Step>
+  <Step num="4" title="Climax des Boss">
+    Préparez-vous à des listes de boss entièrement différentes. Les boss Renégat disposent souvent d'équipes « corrompues » avec des limites de niveau 100+ et des objets tenus optimisés pour la compétition.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Avantages du Nouveau Jeu+">
+Terminer d'abord la route Parangon est recommandé par les développeurs. Cela débloque des fonctionnalités de Nouveau Jeu+ qui facilitent l'obtention des prérequis de la route Renégat lors d'une deuxième partie.
+</Callout>
+
+La route Renégat est nettement plus difficile et est destinée aux joueurs chevronnés. Elle propose des rencontres uniques de Pokémon Rifts et des révélations de l'histoire qui ne sont pas présentes dans la voie Parangon. Cependant, c'est aussi la voie de la « Mauvaise Fin », entraînant la perte de nombreux personnages appréciés.
+
+</Section>
+
+<Section icon={Checklist} title="Checklist de Préparation de la Route">
+
+Utilisez cette checklist pour vous assurer que vous êtes sur la bonne voie pour obtenir la fin souhaitée dans la V14. Manquer un seul événement majeur peut parfois bloquer l'accès à la route Renégat.
+
+<Checklist
+  id="karma-route-checklist"
+  title="Tâches de Cohérence de la Route :"
+  items={[
+    "Conserver plusieurs emplacements de sauvegarde au début de chaque nouveau chapitre",
+    "Vérifier les Points de Relation avec Melia et Ren avant d'entrer à GDC",
+    "Terminer toutes les quêtes du Centre d'Aide d'une région avant que l'histoire ne progresse",
+    "Décider de votre objectif de route (Parangon/Renégat) avant le Chapitre 8",
+    "Consulter votre niveau de Karma en parlant à des PNJ « Voyants » spécifiques si disponibles",
+    "Collecter tous les Blasons et CT exclusifs à la route avant le verrouillage du Chapitre 16"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur le Karma et les Routes">
+
+<FAQ items={[
+  {
+    question: "Puis-je passer de Renégat à Parangon en cours de partie ?",
+    answer: "En général, non. Une fois que vous avez accumulé suffisamment de Karma négatif et déclenché des drapeaux de cruauté spécifiques, l'histoire bascule définitivement. Seul un Nouveau Jeu+ ou le chargement d'une très ancienne sauvegarde peut annuler cela."
+  },
+  {
+    question: "Le réglage de la difficulté affecte-t-il mon Karma ?",
+    answer: "Non. La difficulté (Facile, Normale, Intense) affecte uniquement l'IA des dresseurs, les niveaux et les Effets de Terrain. Vous pouvez jouer la route Renégat en mode Facile si vous ne voulez que le contenu de l'histoire."
+  },
+  {
+    question: "Y a-t-il des Pokémon exclusifs pour chaque route ?",
+    answer: "Oui. Certaines rencontres statiques, formes d'Aevium et événements légendaires sont liés à votre niveau de Karma et à la route spécifique que vous empruntez au Chapitre 16."
+  },
+  {
+    question: "Comment puis-je vérifier ma valeur exacte de Karma ?",
+    answer: "Le jeu n'affiche pas de valeur numérique de Karma au joueur. Vous devez juger de votre statut en fonction des réactions des personnages et de la disponibilité de certaines options de dialogue."
+  }
+]} />
+
+</Section>

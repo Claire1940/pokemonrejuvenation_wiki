@@ -1,0 +1,185 @@
+import { Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Nuzlocke: Regras, Estratégias e Tier List",
+  description: "Domine o desafio supremo em Aevium. Aprenda as regras de Pokémon Rejuvenation Nuzlocke padrão e hardcore, tiers de iniciais, limites de nível e estratégias contra chefes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/191023/5ae2f6?text=Nuzlocke+Survival+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Desafio definitivo**: O Nuzlocke de Pokémon Rejuvenation exige adesão estrita aos limites de nível e regras de morte permanente.
+- **Senhas essenciais**: Ative `hardcap` e `fullivs` durante a configuração para garantir uma competição justa e sem a necessidade de grind excessivo.
+- **Consciência de campo**: Nunca entre em uma batalha importante sem ler a dica do Efeito de Campo primeiro.
+- **Seleção de inicial**: Iniciais do tipo Fogo e Água fornecem os pivôs defensivos e varreduras ofensivas mais confiáveis no início do jogo.
+- **Domínio de pivôs**: O sucesso depende da utilização de encontros resistentes para absorver ataques inimigos altamente otimizados.
+</Callout>
+
+<Section icon={Shield} title="Regras e Mecânicas Principais do Pokémon Rejuvenation Nuzlocke">
+
+Um **Pokémon Rejuvenation Nuzlocke** é amplamente considerado um dos desafios de fan-game mais exigentes em toda a comunidade de batalhas de monstros. Ao contrário dos jogos originais, Pokémon Rejuvenation V14 apresenta IA inimiga altamente otimizada, conjuntos de movimentos competitivos, itens Crest personalizados e Efeitos de Campo complexos que podem transformar instantaneamente uma vantagem de tipo favorável em uma derrota total da equipe. Para sobreviver à jornada pela região de Aevium, você deve estabelecer um conjunto claro de regras e entender como as mecânicas únicas do jogo alteram as estratégias tradicionais de Nuzlocke.
+
+As regras padrão de Nuzlocke se aplicam, mas vários ajustes personalizados são altamente recomendados para equilibrar a imensa dificuldade do jogo. Abaixo está uma comparação de como estruturar seu conjunto de regras dependendo do seu nível de desafio preferido.
+
+| Tipo de Regra | Nuzlocke Padrão | Nuzlocke Hardcore | Recomendação Rejuvenation V14 |
+| :--- | :--- | :--- | :--- |
+| **Desmaio** | Box/liberação permanente | Box/liberação permanente | **Liberação estrita** para evitar tentações |
+| **Encontros** | Primeiro por rota | Primeiro por rota | Cláusula Pinwheel permitida para presentes estáticos |
+| **Limites de Nível** | Limite flexível | Limite estrito | **Obrigatório** usando a senha `hardcap` |
+| **Itens** | Itens de cura permitidos | Sem itens em batalha | **Apenas itens segurados** para igualar a IA otimizada |
+| **Treinamento de EV** | Permitido | Permitido | Altamente recomendado para igualar a escala dos chefes |
+
+O uso do sistema de senhas integrado do jogo é praticamente obrigatório para uma run justa. As senhas sancionadas pelos desenvolvedores não diminuem a conquista; em vez disso, elas eliminam o grind tedioso e garantem que tanto sua equipe quanto os chefes adversários compitam em condições de igualdade.
+
+<Callout type="warning" title="Perigo do Limite de Nível">
+Se você não usar a senha `hardcap`, o aumento acidental de nível fará com que seus Pokémon ignorem comandos em batalha. Essa penalidade mecânica pode facilmente arruinar uma luta de ginásio e encerrar toda a sua run prematuramente.
+</Callout>
+
+Crests personalizados são outra mecânica definidora do jogo para ficar atento. Esses itens segurados exclusivos fornecem aumentos de atributos massivos e personalizados e mudanças mecânicas para Pokémon específicos que, de outra forma, seriam fracos. Ao planejar seus encontros nas rotas, fique de olho nos locais dos Crests, pois eles podem elevar um encontro de tier baixo a um pivô defensivo ou varredor ofensivo de elite.
+
+</Section>
+
+<Section icon={Target} title="Sobrevivência no Início do Jogo e Gerenciamento de Limite de Nível">
+
+As primeiras horas de um **Pokémon Rejuvenation Nuzlocke** — especificamente os Capítulos 1 a 4 — são onde a grande maioria das runs falha. Seu pool de encontros é limitado, sua equipe carece de opções de cobertura avançadas e os primeiros chefes utilizam Efeitos de Campo punitivos que aumentam seu dano para níveis letais.
+
+Para navegar nesta fase crítica, siga uma abordagem sistemática para configurar sua run, gerenciar seus recursos e se preparar para os primeiros grandes desafios de insígnia.
+
+<Steps>
+  <Step num="1" title="Inicialização de Senhas">
+    Insira as senhas escolhidas durante a sequência inicial no trem. Ativar `hardcap` evita o aumento acidental de nível, enquanto `fullivs` garante que todos os encontros selvagens e Pokémon de presente gerem com valores individuais perfeitos, igualando os atributos das equipes dos chefes.
+  </Step>
+  <Step num="2" title="Seleção de Inicial">
+    Escolha um inicial que ofereça utilidade imediata no início do jogo. Embora todos os iniciais das Gerações 1-9 sejam viáveis, aqueles com acesso antecipado a movimentos de status, alta resistência natural ou capacidades de configuração fornecem uma margem de segurança muito maior durante os três primeiros capítulos.
+  </Step>
+  <Step num="3" title="Roteamento de Encontros">
+    Maximize seu pool de encontros visitando todas as subáreas acessíveis em East Gearen City e na Rota 2 antes de lutar contra o primeiro Líder de Ginásio. Adiar certos encontros até ter acesso a melhores Poké Bolas ou condições climáticas específicas pode render membros de equipe muito mais fortes.
+  </Step>
+  <Step num="4" title="Escaneamento de Efeito de Campo">
+    Antes de entrar em qualquer arena importante, verifique a dica do Efeito de Campo no menu do jogo. Identifique quais movimentos são fortalecidos, quais tipos recebem bônus defensivos e se algum dos membros da sua equipe atual sofrerá dano passivo no final de cada turno.
+  </Step>
+</Steps>
+
+Gerenciar os limites estritos de nível é essencial. Cada capítulo impõe um teto rígido aos níveis da sua equipe, correspondendo ao Pokémon principal do próximo grande chefe. Use este detalhamento dos marcos iniciais para planejar seu treinamento e composições de equipe de acordo.
+
+| Capítulo | Líder de Ginásio / Chefe Principal | Limite de Nível | Efeito de Campo Ativo | Tipo de Contra-ataque Recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Capítulo 1** | Primeiro Líder de Ginásio | **Nível 20** | Campo Elétrico | Terrestre, Planta, Elétrico |
+| **Capítulo 2** | Arena Sheridan | **Nível 25** | Campo de Luta | Voador, Psíquico, Fada |
+| **Capítulo 3** | Teatro Goldenleaf | **Nível 30** | Campo focado em Fantasmas | Sombrio, Normal (Imunidade) |
+| **Capítulo 4** | Chefes Costeiros | **Nível 35** | Terreno de Água/Fenda | Elétrico, Planta, Venenoso |
+
+<Callout type="tip" title="Recomendação de Senha de Utilidade">
+Considere ativar a senha `easyhms`. Isso evita que você precise ensinar movimentos utilitários como Cut e Rock Smash para sua equipe de combate principal, preservando seus valiosos slots de movimentos ofensivos e defensivos para batalhas reais.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Iniciais e Encontros para Runs de Nuzlocke">
+
+Em uma jogada padrão, varredores ofensivos são altamente favorecidos. Em um **Pokémon Rejuvenation Nuzlocke**, no entanto, a utilidade defensiva, a tipagem e a capacidade de pivô são o que mantém sua run viva. Um Pokémon que pode absorver com segurança um golpe super efetivo, diminuir os atributos do oponente ou sair de campo via Volt Switch ou U-turn é infinitamente mais valioso do que um "glass cannon" frágil.
+
+A estrutura a seguir categoriza iniciais e encontros do início do jogo com base em seu valor de sobrevivência, consistência e habilidade de lidar com lutas de chefes importantes sob Efeitos de Campo adversos.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier (Carregadores da Run)">
+    - **Blaziken (Speed Boost)**: Inestimável para varrer lutas no meio do jogo.
+    - **Swampert**: Tipagem incrível com apenas uma fraqueza; um pivô defensivo de primeira classe.
+    - **Gyarados**: Utilidade de Intimidate combinada com resistência natural e Dragon Dance.
+  </Card>
+  <Card title="A-Tier (Altamente Confiáveis)">
+    - **Venusaur**: Resistência excepcional, utilidade de sono e opções de manipulação de terreno.
+    - **Serperior (Contrary)**: Forte potencial no fim do jogo assim que Leaf Storm é desbloqueado.
+    - **Crobat**: Alta velocidade, status de veneno confiável e excelente tipagem defensiva.
+  </Card>
+  <Card title="B-Tier (Especialistas de Nicho)">
+    - **Incineroar**: Ótima utilidade, mas lento; requer posicionamento cuidadoso.
+    - **Greninja**: Incrível cobertura ofensiva, mas altamente frágil em batalhas de Fenda (Rift).
+    - **Meowstic**: Telas de Prankster são úteis, mas perdem eficácia no fim do jogo.
+  </Card>
+</CardGrid>
+
+Ao escolher seu inicial, avalie como sua tipagem e movepool interagem com os primeiros ginásios. Embora os tipos Fogo geralmente tenham dificuldades em regiões com muita água, sua capacidade de derreter campos congelados ou queimar atacantes físicos os torna pivôs incrivelmente valiosos.
+
+| Pokémon Inicial | Tier de Nuzlocke | Habilidade Chave | Valor no Início do Jogo | Viabilidade no Fim do Jogo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Torchic** | **S-Tier** | Speed Boost | Alto (Varre primeiros ginásios) | Excelente (Mega forma disponível) |
+| **Mudkip** | **S-Tier** | Torrent / Damp | Excelente (Tipagem resistente) | Excelente (Ótimo pivô defensivo) |
+| **Snivy** | **A-Tier** | Contrary | Moderado (Precisa de Leaf Storm) | Alto (Ótima utilidade e setup) |
+| **Froakie** | **A-Tier** | Protean | Baixo (Frágil no início) | Alto (Incrível cobertura no fim) |
+| **Chimchar** | **B-Tier** | Iron Fist | Alto (Ótima pressão ofensiva) | Moderado (Frágil em Fendas tardias) |
+
+<Callout type="success" title="O Poder dos Pivôs Resistentes">
+Nunca subestime encontros defensivos e resistentes. Um único tipo Água/Terrestre ou Planta/Venenoso pode absorver golpes críticos e condições de status com segurança, permitindo que você reposicione seus varredores ofensivos sem arriscar uma morte permanente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias Táticas contra Chefes e Checklist de Sobrevivência">
+
+Cada encontro com um chefe principal em Pokémon Rejuvenation é um quebra-cabeça projetado em torno de um Efeito de Campo específico. Para vencer sem perder membros importantes da equipe, você deve explorar o campo para aumentar seu próprio dano ou usar movimentos específicos para alterar ou destruir completamente o terreno do campo.
+
+Pokémon de Fenda (Rift) são particularmente perigosos. Esses chefes corrompidos possuem aumentos massivos de atributos, múltiplas barras de HP e escudos personalizados que reduzem o dano recebido. Estratégias tradicionais de varredura raramente funcionam contra eles; em vez disso, você deve confiar em condições de status, movimentos de proteção e enrolação defensiva (stalling).
+
+| Encontro com Chefe | Capítulo | Golpes Perigosos | Perigo de Campo | Melhores Contra-medidas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Keta** | Capítulo 2 | STAB Lutador de alto dano | Bônus da Arena de Luta | **Pidgeotto**, **Spritzee**, pivôs com Intimidate |
+| **Angie** | Capítulo 7 | Blizzard, Freeze Dry | Perigo temático de gelo | Tipos Fogo, usuários de **Thick Fat**, movimentos de derretimento |
+| **Pokémon de Fenda** | Vários | Ataques de assinatura corrompidos | Bônus de atributos de Fenda | Toxic stall, Protect scouting, setups resistentes |
+
+Antes de entrar em qualquer clímax de masmorra ou arena de ginásio, percorra este checklist de sobrevivência para garantir que você minimizou o risco de uma derrota total.
+
+<Checklist
+  id="pre-boss-prep"
+  title="Checklist de Preparação Pré-Chefe:"
+  items={[
+    "Verifique se todos os membros da equipe estão totalmente treinados até o limite de nível atual",
+    "Equipe itens segurados ideais, focando em curas de status baseadas em frutas e frutas de resistência a tipos",
+    "Analise o Efeito de Campo ativo e observe quais movimentos podem alterá-lo ou destruí-lo",
+    "Identifique o Pokémon líder do oponente e garanta uma partida inicial segura",
+    "Configure um arquivo de salvamento de backup secundário em caso de um erro tático irreversível"
+  ]}
+/>
+
+<Callout type="info" title="Mecânicas de Batalha de Fenda">
+Pokémon de Fenda são imunes a várias condições de status padrão, dependendo da fase ativa de seu escudo. Sempre teste seus movimentos de status com cuidado e mantenha uma reserva saudável de pivôs defensivos para enrolar suas fases mais perigosas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudá-lo a navegar com sucesso em sua run, aqui estão as respostas para as perguntas mais comuns enfrentadas por jogadores que tentam este desafio extremo.
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor inicial único para um Pokémon Rejuvenation Nuzlocke?",
+    answer: "Mudkip é amplamente considerado o melhor inicial geral. Sua evolução, Swampert, possui uma tipagem Água/Terrestre incrível com apenas uma fraqueza (Planta), resistência natural excepcional e acesso a movimentos STAB poderosos que funcionam consistentemente bem em quase todos os 16 capítulos."
+  },
+  {
+    question: "Devo jogar no Modo Lite ou na dificuldade Padrão para um Nuzlocke?",
+    answer: "Se esta for sua primeira tentativa, jogar no Modo Lite é altamente recomendado. A dificuldade Padrão apresenta equipes competitivas altamente otimizadas com EVs/IVs perfeitos e itens segurados avançados, o que pode tornar uma run de Nuzlocke incrivelmente frustrante sem um conhecimento extenso do jogo."
+  },
+  {
+    question: "Pokémon de presente e encontros estáticos são permitidos nesta run?",
+    answer: "Sim. A maioria dos jogadores utiliza a 'Cláusula Pinwheel', que trata encontros estáticos, presentes de troca e ovos misteriosos como encontros separados dos encontros padrão na grama selvagem. Isso ajuda a diversificar suas opções de equipe e fornece ferramentas utilitárias essenciais."
+  },
+  {
+    question: "O que devo fazer se um membro crítico da equipe desmaiar durante uma batalha importante?",
+    answer: "Sob as regras estritas de Nuzlocke, esse Pokémon deve ser permanentemente colocado na box ou liberado. Para evitar que uma única perda se transforme em uma derrota total da equipe, sempre treine um banco diversificado de encontros de reserva que possam preencher imediatamente a função vaga em sua equipe."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final de Sobrevivência">
+Aceite que as perdas são uma parte inevitável do processo de aprendizado. Mantenha notas detalhadas sobre quais equipes de chefes lhe causaram problemas, analise seus erros de posicionamento e use seus salvamentos de backup para testar abordagens táticas alternativas para sua próxima tentativa.
+</Callout>
+
+</Section>

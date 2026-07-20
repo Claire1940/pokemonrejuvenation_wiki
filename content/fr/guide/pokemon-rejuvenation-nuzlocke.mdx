@@ -1,0 +1,186 @@
+import { Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Nuzlocke de Pokémon Rejuvenation : Règles, Stratégies & Tier List",
+  description: "Maîtrisez le défi ultime d'Aevium. Découvrez les règles standard et hardcore du Nuzlocke de Pokémon Rejuvenation, le classement des starters, les limites de niveau et les stratégies de boss.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/191023/5ae2f6?text=Nuzlocke+Survival+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Pokémon Rejuvenation",
+  keywords: "pokemon rejuvenation, nuzlocke, règles, stratégies, tier list, starters, limites de niveau, aevium"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Défi ultime** : Le Nuzlocke de Pokémon Rejuvenation exige un respect strict des limites de niveau et des règles de mort permanente.
+- **Mots de passe essentiels** : Activez `hardcap` et `fullivs` lors de la configuration pour garantir une compétition équitable et sans grind.
+- **Analyse du terrain** : N'entrez jamais dans un combat majeur sans avoir lu au préalable la description de l'Effet de Terrain.
+- **Choix du starter** : Les starters de type Feu et Eau offrent les pivots défensifs et les sweepers offensifs les plus fiables en début de partie.
+- **Maîtrise des pivots** : Le succès dépend de l'utilisation de Pokémon robustes pour absorber les attaques hautement optimisées des adversaires.
+</Callout>
+
+<Section icon={Shield} title="Règles & Mécaniques de Base du Nuzlocke de Pokémon Rejuvenation">
+
+Un **Nuzlocke de Pokémon Rejuvenation** est largement considéré comme l'un des défis de fan-game les plus exigeants de toute la communauté des jeux de capture de monstres. Contrairement aux jeux officiels, Pokémon Rejuvenation V14 propose une IA ennemie hautement optimisée, des ensembles de capacités compétitifs, des objets Crest uniques et des Effets de Terrain complexes qui peuvent instantanément transformer un avantage de type favorable en une défaite totale de l'équipe. Pour survivre au voyage à travers la région d'Aevium, vous devez établir un ensemble de règles clair et comprendre comment les mécaniques uniques du jeu modifient les stratégies traditionnelles du Nuzlocke.
+
+Les règles standard du Nuzlocke s'appliquent, mais plusieurs ajustements personnalisés sont fortement recommandés pour équilibrer l'immense difficulté du jeu. Voici une comparaison de la structure de vos règles en fonction du niveau de défi souhaité.
+
+| Type de règle | Nuzlocke Standard | Nuzlocke Hardcore | Recommandation Rejuvenation V14 |
+| :--- | :--- | :--- | :--- |
+| **K.O.** | Boîte permanente/libération | Boîte permanente/libération | **Libération stricte** pour éviter la tentation |
+| **Rencontres** | Premier par route | Premier par route | Clause Pinwheel autorisée pour les cadeaux statiques |
+| **Limites de niveau** | Limite souple | Limite stricte | **Obligatoire** en utilisant le mot de passe `hardcap` |
+| **Objets** | Objets de soin autorisés | Aucun objet en combat | **Objets tenus uniquement** pour correspondre à l'IA optimisée |
+| **Entraînement des EV** | Autorisé | Autorisé | Très fortement recommandé pour s'adapter à la progression des boss |
+
+L'utilisation du système de mots de passe intégré au jeu est pratiquement obligatoire pour une partie équitable. Les mots de passe approuvés par les développeurs ne diminuent en rien l'accomplissement ; au contraire, ils éliminent le grind fastidieux et garantissent que votre équipe et les boss adverses s'affrontent sur un pied d'égalité.
+
+<Callout type="warning" title="Danger des limites de niveau">
+Si vous n'utilisez pas le mot de passe `hardcap`, un dépassement de niveau accidentel fera que vos Pokémon ignoreront vos ordres en combat. Cette pénalité mécanique peut facilement gâcher un combat d'arène et mettre fin prématurément à votre partie.
+</Callout>
+
+Les Crests personnalisés sont une autre mécanique déterminante du jeu à surveiller. Ces objets tenus uniques offrent des bonus de statistiques massifs et des changements mécaniques à des Pokémon spécifiques qui seraient autrement sous-puissants. Lors de la planification de vos rencontres de route, gardez un œil sur l'emplacement des Crests, car ils peuvent transformer une rencontre de bas niveau en un pivot défensif ou un sweeper offensif de premier ordre.
+
+</Section>
+
+<Section icon={Target} title="Survie en Début de Partie & Gestion des Limites de Niveau">
+
+Les premières heures d'un **Nuzlocke de Pokémon Rejuvenation** — en particulier les chapitres 1 à 4 — sont le moment où la grande majorité des tentatives échouent. Votre vivier de rencontres est limité, votre équipe manque d'options de couverture avancées, et les premiers boss utilisent des Effets de Terrain punitifs qui augmentent leurs dégâts à des niveaux mortels. 
+
+Pour traverser cette phase critique, suivez une approche systématique pour configurer votre partie, gérer vos ressources et vous préparer aux premiers grands défis d'arène.
+
+<Steps>
+  <Step num="1" title="Initialisation des Mots de Passe">
+    Saisissez les mots de passe de votre choix pendant la séquence d'ouverture dans le train. L'activation de `hardcap` empêche le dépassement de niveau accidentel, tandis que `fullivs` garantit que toutes les rencontres sauvages et les Pokémon offerts sont générés avec des valeurs individuelles parfaites (IV), correspondant aux statistiques des équipes de boss adverses.
+  </Step>
+  <Step num="2" title="Sélection du Starter">
+    Choisissez un starter qui offre une utilité immédiate en début de partie. Bien que tous les starters des générations 1 à 9 soient viables, ceux qui ont un accès rapide à des capacités de statut, une grande robustesse naturelle ou des capacités de boost offrent une marge de sécurité bien plus élevée pendant les trois premiers chapitres.
+  </Step>
+  <Step num="3" title="Planification des Rencontres">
+    Maximisez votre vivier de rencontres en visitant chaque sous-zone accessible d'East Gearen City et de la Route 2 avant de combattre le premier Champion d'Arène. Retarder certaines rencontres jusqu'à ce que vous ayez accès à de meilleures Poké Balls ou à des conditions météorologiques spécifiques peut vous permettre d'obtenir des membres d'équipe bien plus puissants.
+  </Step>
+  <Step num="4" title="Analyse des Effets de Terrain">
+    Avant d'entrer dans une arène majeure, vérifiez la description de l'Effet de Terrain dans le menu de votre jeu. Identifiez quelles capacités sont renforcées, quels types reçoivent des bonus défensifs, et si certains de vos membres d'équipe actuels subiront des dégâts passifs à la fin de chaque tour.
+  </Step>
+</Steps>
+
+La gestion des limites de niveau strictes est essentielle. Chaque chapitre impose un plafond rigide aux niveaux de votre équipe, correspondant au Pokémon as du prochain boss majeur. Utilisez ce récapitulatif des étapes du début de partie pour planifier votre entraînement et la composition de votre équipe en conséquence.
+
+| Chapitre | Champion d'Arène / Boss Majeur | Limite de niveau | Effet de Terrain Actif | Type de contre recommandé |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chapitre 1** | Premier Champion d'Arène | **Niveau 20** | Terrain Électrique | Sol, Plante, Électrik |
+| **Chapitre 2** | Arène de Sheridan | **Niveau 25** | Terrain de Combat | Vol, Psy, Fée |
+| **Chapitre 3** | Théâtre de Goldenleaf | **Niveau 30** | Terrain orienté Spectre | Ténèbres, Normal (Immunité) |
+| **Chapitre 4** | Boss Côtiers | **Niveau 35** | Terrain Eau/Rift | Électrik, Plante, Poison |
+
+<Callout type="tip" title="Recommandation de mot de passe utilitaire">
+Pensez à activer le mot de passe `easyhms`. Cela vous évite d'avoir à enseigner des capacités utilitaires comme Coupe et Éclate-Roc à votre équipe de combat principale, préservant ainsi vos précieux emplacements de capacités offensives et défensives pour les vrais combats.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List des Starters & Rencontres pour les parties Nuzlocke">
+
+Dans une partie standard, les sweepers offensifs sont très appréciés. Dans un **Nuzlocke de Pokémon Rejuvenation**, en revanche, l'utilité défensive, le double type et les capacités de pivot sont ce qui maintient votre partie en vie. Un Pokémon capable d'absorber en toute sécurité une attaque super efficace, de baisser les statistiques de l'adversaire ou de pivoter avec Change-Éclair ou Demi-Tour est infiniment plus précieux qu'un canon de verre fragile.
+
+La structure suivante catégorise les starters et les rencontres de début de partie en fonction de leur valeur de survie, de leur régularité et de leur capacité à gérer les combats de boss majeurs sous des Effets de Terrain défavorables.
+
+<CardGrid cols={3}>
+  <Card title="Rang S (Piliers de l'équipe)">
+    - **Braségali Turbo** : Inestimable pour balayer les combats de milieu de partie.
+    - **Laggron** : Un double type incroyable avec une seule faiblesse ; un pivot défensif de premier ordre.
+    - **Léviator** : L'utilité d'Intimidation combinée à une robustesse naturelle et Danse Draco.
+  </Card>
+  <Card title="Rang A (Très Fiables)">
+    - **Florizarre** : Robustesse exceptionnelle, utilité de l'endormissement et options de manipulation du terrain.
+    - **Majaspic Contestation** : Fort potentiel en fin de partie une fois Tempête Verte débloquée.
+    - **Nostenfer** : Vitesse élevée, empoisonnement fiable et excellent double type défensif.
+  </Card>
+  <Card title="Rang B (Spécialistes de niche)">
+    - **Félinferno** : Excellente utilité mais lent ; nécessite un placement prudent.
+    - **Amphinobi** : Incroyable couverture offensive mais très fragile dans les combats Rift.
+    - **Mystigrix** : Les écrans avec Farceur sont utiles mais perdent en efficacité en fin de partie.
+  </Card>
+</CardGrid>
+
+Lorsque vous choisissez votre starter, évaluez comment son type et ses capacités interagissent avec les premières arènes. Bien que les types Feu éprouvent généralement des difficultés dans les régions riches en eau, leur capacité à faire fondre les terrains gelés ou à brûler les attaquants physiques en fait des pivots incroyablement précieux.
+
+| Pokémon Starter | Rang Nuzlocke | Talent Clé | Valeur en début de partie | Viabilité en fin de partie |
+| :--- | :--- | :--- | :--- | :--- |
+| **Poussifeu** | **Rang S** | Turbo | Élevée (Balaie les premières arènes) | Excellente (Forme Méga disponible) |
+| **Gobou** | **Rang S** | Torrent / Moiteur | Excellente (Double type robuste) | Excellente (Excellent pivot défensif) |
+| **Vipélierre** | **Rang A** | Contestation | Modérée (Nécessite Tempête Verte) | Élevée (Grande utilité et boost) |
+| **Grenousse** | **Rang A** | Protéen | Faible (Fragile au début) | Élevée (Incroyable couverture tardive) |
+| **Ouisticram** | **Rang B** | Poing de Fer | Élevée (Grande pression offensive) | Modérée (Fragile dans les combats Rift tardifs) |
+
+<Callout type="success" title="La puissance des pivots robustes">
+Ne sous-estimez jamais les rencontres défensives et robustes. Un simple type Eau/Sol ou Plante/Poison peut absorber en toute sécurité des coups critiques et des altérations d'état, vous permettant de repositionner vos sweepers offensifs sans risquer une mort permanente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies Tactiques de Boss & Liste de Contrôle de Survie">
+
+Chaque combat de boss majeur dans Pokémon Rejuvenation est une énigme conçue autour d'un Effet de Terrain spécifique. Pour gagner sans perdre de membres clés de l'équipe, vous devez soit exploiter le terrain pour augmenter vos propres dégâts, soit utiliser des capacités spécifiques pour modifier ou détruire complètement le terrain.
+
+Les Pokémon Rift sont particulièrement dangereux. Ces boss corrompus possèdent des bonus de statistiques massifs, plusieurs barres de PV et des boucliers personnalisés qui réduisent les dégâts subis. Les stratégies de balayage traditionnelles fonctionnent rarement contre eux ; vous devez plutôt vous appuyer sur les altérations d'état, les capacités de protection et le stall défensif.
+
+| Combat de Boss | Chapitre | Capacités Dangereuses | Danger de Terrain | Meilleures Contre-mesures |
+| :--- | :--- | :--- | :--- | :--- |
+| **Keta** | Chapitre 2 | STAB Combat à gros dégâts | Boost de l'Arène de Combat | **Roucoups**, **Fluvetin**, pivots avec Intimidation |
+| **Angie** | Chapitre 7 | Blizzard, Lyophilisation | Danger lié au froid | Types Feu, utilisateurs d'**Isograisse**, capacités de fonte |
+| **Pokémon Rift** | Divers | Attaques signatures corrompues | Boosts de statistiques du Rift | Stall Toxik, Abri pour scout, placements robustes |
+
+Avant d'entrer dans le dénouement d'un donjon majeur ou dans une arène, passez en revue cette liste de contrôle de survie pour vous assurer de minimiser le risque d'une défaite totale.
+
+<Checklist
+  id="pre-boss-prep"
+  title="Liste de préparation avant un boss :"
+  items={[
+    "Vérifier que tous les membres de l'équipe sont entraînés jusqu'à la limite de niveau actuelle",
+    "Équiper les meilleurs objets tenus, en se concentrant sur les baies de soin d'état et les baies de résistance aux types",
+    "Analyser l'Effet de Terrain actif et noter quelles capacités peuvent le modifier ou le détruire",
+    "Identifier le Pokémon de tête de l'adversaire et assurer un premier duel favorable",
+    "Créer une sauvegarde de secours secondaire en cas d'erreur tactique irréversible"
+  ]}
+/>
+
+<Callout type="info" title="Mécaniques de Combat Rift">
+Les Pokémon Rift sont immunisés contre plusieurs altérations d'état standard selon la phase active de leur bouclier. Testez toujours vos capacités de statut avec prudence et conservez une bonne réserve de pivots défensifs pour temporiser leurs phases les plus dangereuses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+Pour vous aider à mener à bien votre tentative, voici les réponses aux questions les plus fréquemment posées par les joueurs qui se lancent dans ce défi extrême.
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur starter absolu pour un Nuzlocke de Pokémon Rejuvenation ?",
+    answer: "Gobou est largement considéré comme le meilleur starter global. Son évolution, Laggron, possède un incroyable double type Eau/Sol avec une seule faiblesse (Plante), une robustesse naturelle exceptionnelle et un accès à de puissantes capacités STAB qui fonctionnent de manière constante à travers presque les 16 chapitres."
+  },
+  {
+    question: "Devrais-je jouer en Mode Lite ou en difficulté Standard pour un Nuzlocke ?",
+    answer: "S'il s'agit de votre première tentative, il est fortement recommandé de jouer en Mode Lite. La difficulté Standard propose des équipes compétitives hautement optimisées avec des EV/IV parfaits et des objets tenus avancés, ce qui peut rendre une partie Nuzlocke incroyablement frustrante sans une connaissance approfondie du jeu."
+  },
+  {
+    question: "Les Pokémon offerts et les rencontres statiques sont-ils autorisés dans cette partie ?",
+    answer: "Oui. La plupart des joueurs utilisent la 'Clause Pinwheel', qui traite les rencontres statiques, les cadeaux d'échange et les œufs mystères comme des rencontres distinctes des herbes sauvages standard. Cela permet de diversifier les options de votre équipe et fournit des outils utilitaires essentiels."
+  },
+  {
+    question: "Que dois-je faire si un membre essentiel de l'équipe tombe K.O. lors d'un combat majeur ?",
+    answer: "Selon les règles strictes du Nuzlocke, ce Pokémon doit être définitivement mis au PC ou libéré. Pour éviter qu'une seule perte n'entraîne l'élimination complète de votre équipe, entraînez toujours un banc diversifié de Pokémon de réserve capables de remplir immédiatement le rôle vacant."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil de survie">
+Acceptez que les pertes fassent inévitablement partie du processus d'apprentissage. Prenez des notes détaillées sur les équipes de boss qui vous ont posé problème, analysez vos erreurs de placement et utilisez vos sauvegardes de secours pour tester d'autres approches tactiques lors de votre prochaine tentative.
+</Callout>
+
+</Section>

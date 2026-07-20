@@ -1,0 +1,174 @@
+import { Settings, Terminal, Key, ShieldAlert, Wand2, Map, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Debug de Pokémon Rejuvenation: Activación y Códigos de la V14",
+  description: "Aprende a activar y usar el modo debug de Pokémon Rejuvenation en la V14. Accede a menús ocultos, usa contraseñas de calidad de vida y gestiona las rutas de la historia de Aevium.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Debug+Mode+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Método principal**: Accede al **modo debug de Pokémon Rejuvenation** a través del sistema de contraseñas integrado para una experiencia segura y fluida.
+- **Menú técnico**: Los usuarios avanzados pueden activar el menú de desarrollador completo modificando los archivos de script del juego, aunque esto conlleva un mayor riesgo de corromper la partida guardada.
+- **Características de la V14**: Usa contraseñas de capítulo específicas para saltar al Acto 2 o al Capítulo 9, ideal para probar los diferentes desenlaces de las rutas Paragon y Renegade.
+- **Funciones clave**: El modo debug permite curación instantánea, teletransporte por la región de Aevium, añadir cualquier objeto/Pokémon y activar interruptores específicos de la historia.
+- **La seguridad es lo primero**: Crea siempre una copia de seguridad manual de tu carpeta de guardado de la V14 antes de intentar cualquier modificación de archivos a nivel de script.
+</Callout>
+
+<Section icon={Settings} title="Comprendiendo el modo debug de Pokémon Rejuvenation">
+
+El **modo debug de Pokémon Rejuvenation** es un potente conjunto de herramientas de desarrollo y atajos integrados diseñados para ayudar a los jugadores a personalizar su experiencia en la enorme región de Aevium. En la última actualización V14, que abarca los capítulos 1 al 16, la complejidad de las rutas de la historia (específicamente los caminos Paragon y Renegade) hace que las herramientas de debug sean casi esenciales para los jugadores que buscan explorar cada bifurcación narrativa sin tener que volver a jugar más de 100 horas de contenido.
+
+Ya sea que busques la versión "Lite" a través del sistema de contraseñas del juego o el menú de desarrollador completo utilizado por los creadores, comprender las limitaciones es vital. La versión V14 es un paquete independiente que no requiere un emulador, lo que significa que el entorno de debug es nativo del motor RPG Maker XP sobre el que fue desarrollado.
+
+<Callout type="tip" title="Consejo profesional">
+Si eres nuevo en el juego, comienza con el sistema de contraseñas antes de intentar hackear los scripts internos. La mayoría de los "trucos" que los jugadores buscan, como dinero infinito o IVs perfectos, ya están admitidos oficialmente a través de contraseñas.
+</Callout>
+
+| Tipo de debug | Accesibilidad | Nivel de riesgo | Caso de uso principal |
+| :--- | :--- | :--- | :--- |
+| **Sistema de contraseñas** | Alta (En el juego) | **Bajo** | Calidad de vida, límites de nivel, gestión de IVs/EVs |
+| **Modificación de scripts** | Media (Editar archivo) | **Alto** | Teletransporte, activar interruptores, pruebas de recursos |
+| **Contraseñas de capítulo** | Alta (Partida nueva) | **Bajo** | Pruebas de bifurcaciones de historia (Acto 2 / Cap 9) |
+| **Mods externos** | Baja (Terceros) | **Medio** | Interfaz personalizada, pruebas de combate en entorno de pruebas |
+
+</Section>
+
+<Section icon={Terminal} title="Paso a paso: Cómo activar el menú debug">
+
+Para aquellos que necesitan algo más que contraseñas, activar el menú completo del **modo debug de Pokémon Rejuvenation** requiere una pequeña modificación en los archivos internos del juego. Este menú te otorga el "Modo Dios" de Aevium, permitiéndote atravesar paredes, ajustar el clima a tu antojo y manipular los niveles de amistad con NPCs como Melia o Ren.
+
+Sigue estos pasos con cuidado para asegurarte de no estropear tu instalación de la V14.
+
+<Steps>
+  <Step num="1" title="Crea una copia de seguridad de tus partidas">
+    Antes de tocar cualquier dato del juego, localiza tu carpeta de guardado (normalmente en `C:\Users\[Usuario]\Saved Games\Pokemon Rejuvenation`). Copia toda la carpeta en otra unidad. Las partidas guardadas de la V14 no son compatibles con los scripts antiguos de la V13.5, así que asegúrate de que tu copia de seguridad esté al día.
+  </Step>
+  <Step num="2" title="Localiza el archivo de scripts">
+    Dirígete al directorio principal de tu Pokémon Rejuvenation V14. Abre la carpeta `Data`. Debes buscar un archivo llamado `Scripts.rxdata`. Ten en cuenta que en algunas versiones este archivo podría estar empaquetado u oculto; si es así, es posible que necesites un script específico para activar el debug facilitado por la comunidad en los foros de Reborn Evolved.
+  </Step>
+  <Step num="3" title="Aplica la edición de debug">
+    Usando un editor de scripts o un archivo de script de debug ya modificado, debes establecer la variable `$DEBUG` en `true`. Como alternativa, muchos jugadores utilizan el mod "Modular Workshop", el cual añade una opción de Debug activable directamente en el menú de opciones del juego sin necesidad de editar archivos manualmente.
+  </Step>
+  <Step num="4" title="Verifica en el juego">
+    Inicia el juego. Abre tu menú principal (donde ves Pokémon, Mochila, Guardar). Si lo has hecho correctamente, aparecerá una nueva opción llamada "Debug" al final de la lista. También puedes pulsar F9 mientras estás en el mapa para abrir el menú de debug rápido.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia: Integridad de la partida guardada">
+Usar la función "Warp" (Teletransporte) para entrar a zonas antes de que la historia las desbloquee puede dañar de forma permanente tu partida guardada. Si te teletransportas a una zona del Capítulo 16 estando en el Capítulo 2, es posible que el juego no cargue scripts esenciales de los NPCs.
+</Callout>
+
+</Section>
+
+<Section icon={Key} title="La base de datos oficial de contraseñas 'Debug'">
+
+Si prefieres una ruta más segura, el sistema de contraseñas de la V14 actúa como un **modo debug de Pokémon Rejuvenation** integrado. Estos códigos se introducen durante la secuencia inicial de una nueva partida o en el PC de contraseñas que se encuentra en varios centros del juego. Te permiten saltarte el farmeo de las mecánicas de las generaciones 1 a 9 y centrarte en la historia o en la creación de equipos de competición.
+
+<CardGrid cols={2}>
+  <Card title="Códigos de estadísticas y crecimiento">
+    - **fullivs**: Todos los Pokémon capturados tendrán 31 IVs en cada estadística.
+    - **freeexpall**: Otorga el objeto Repartir Exp. de inmediato.
+    - **hardcap**: Aplica estrictamente los límites de nivel para evitar el sobreentrenamiento.
+  </Card>
+  <Card title="Comodidad y exploración">
+    - **easyhms**: Usa movimientos de MO sin tener que enseñárselos a tu equipo.
+    - **unrealtime**: Controla el reloj interno del juego para eventos basados en la hora.
+    - **weathermod**: Ajusta manualmente el clima en cualquier ruta de Aevium.
+  </Card>
+</CardGrid>
+
+| Contraseña | Categoría | Descripción del efecto en la V14 |
+| :--- | :--- | :--- |
+| `freemegaz` | Objetos | Acceso anticipado a Megapiedras y Cristales Z |
+| `litemode` | Dificultad | Reduce la optimización de la IA para una partida centrada en la historia |
+| `noitems` | Desafío | Desactiva el uso de objetos de la mochila en combates contra entrenadores |
+| `fieldfrenzy` | Mecánicas | Amplifica el impacto de los efectos de campo |
+| `moneyhacks` | Economía | Proporciona un presupuesto inicial significativo (Varía) |
+
+<Callout type="success" title="Actualización V14">
+La V14 introdujo nuevas contraseñas para saltar capítulos. Por ejemplo, el uso de ciertos códigos proporcionados en los diarios de desarrollo oficiales permite a los jugadores saltar directamente al inicio del Acto 2 o del Capítulo 9, lo cual resulta increíblemente útil para probar las diferencias entre las rutas Paragon y Renegade.
+</Callout>
+
+</Section>
+
+<Section icon={Wand2} title="Funciones clave del menú debug">
+
+Una vez activado el **modo debug de Pokémon Rejuvenation** completo, tendrás acceso a cientos de comandos. Para la mayoría de los jugadores, solo unos pocos son realmente necesarios para el día a día.
+
+### Comandos del mapa (Overworld)
+- **Warp** (Teletransporte): Teletranspórtate a cualquier ID de mapa del juego. Ten en cuenta que Aevium se divide en muchos submapas (Grand Dream City tiene docenas).
+- **Set Metadata** (Definir metadatos): Cambia la apariencia o el nombre de tu personaje sobre la marcha.
+- **Switches & Variables** (Interruptores y variables): Esta es la herramienta más potente. Puedes activar manualmente el "Interruptor 001" para indicarle al juego que ya has derrotado a un líder de gimnasio específico o conocido a un NPC concreto.
+
+### Gestión de Pokémon
+- **Add Pokémon** (Añadir Pokémon): Genera cualquier Pokémon desde la 1.ª hasta la 9.ª generación, incluyendo las Formas de Aevium.
+- **Fill Pokédex** (Completar Pokédex): Completa de forma instantánea las entradas de tu Pokédex local y nacional.
+- **Modify Party** (Modificar equipo): Cambia niveles, habilidades, movimientos e incluso el estado variocolor (Shiny) con un solo clic.
+
+<Callout type="info" title="Nota sobre las Formas de Aevium">
+Al usar el modo debug para añadir Pokémon, recuerda que las Formas de Aevium tienen IDs internos únicos. Buscar "Aevian" en la barra de búsqueda de debug es la forma más rápida de localizarlas.
+</Callout>
+
+| Comando | Uso | Recomendado para |
+| :--- | :--- | :--- |
+| **Heal Party** (Curar equipo) | Restauración completa instantánea | Mazmorras largas como Valor Mountain |
+| **Give Item** (Dar objeto) | Añade cualquier MT, Blasón u Objeto clave | Recuperar objetos perdidos en GDC |
+| **Toggle Wall** (Atravesar paredes) | Camina a través de obstáculos | Solucionar bloqueos de personajes atascados |
+| **Relationship** (Relación) | Ver/Editar afinidad con NPCs | Asegurarse de cumplir los requisitos de la ruta Paragon |
+
+</Section>
+
+<Section icon={ShieldAlert} title="Lista de seguridad para usuarios del modo debug">
+
+Usar el **modo debug de Pokémon Rejuvenation** es como jugar con fuego; puede facilitarte la vida o reducir a cenizas tu partida guardada de 100 horas. Antes de volverte loco añadiendo 999 Master Balls o teletransportándote al jefe final, repasa esta lista de comprobación.
+
+<Checklist
+  id="debug-safety"
+  title="Lista de comprobación para un debug seguro:"
+  items={[
+    "Mantén siempre tres ranuras de guardado independientes: una 'limpia', una 'actual' y otra 'previa al debug'.",
+    "Nunca te teletransportes al interior de un edificio que no hayas desbloqueado a través de la historia.",
+    "Evita activar interruptores de la historia a menos que tengas una guía específica para ese indicador.",
+    "No utilices el modo debug para añadir 'Objetos clave' que se supone que deben activarse mediante escenas de la historia.",
+    "Si el juego se cierra inesperadamente tras una edición de debug, vuelve inmediatamente a tu copia de seguridad 'limpia'."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia sobre la ruta Renegade">
+La ruta Renegade en la V14 es muy sensible a las variables de "Karma". Editar manualmente estos valores puede llevar a "callejones sin salida" donde la historia no avanza porque el juego espera una secuencia de eventos específica que te has saltado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar el modo debug de Pokémon Rejuvenation en JoiPlay?",
+    answer: "Sí, pero es más difícil. Primero debes editar los scripts en un PC y luego transferir los archivos modificados a tu dispositivo Android, o usar un cargador de mods basado en complementos compatible con el plugin de RPG Maker para JoiPlay."
+  },
+  {
+    question: "¿Desactivará el modo debug los logros o el modo Nueva partida+ (New Game+)?",
+    answer: "Por lo general, no. Pokémon Rejuvenation no tiene un sistema de 'detección de trampas' que te bloquee el acceso al contenido. Sin embargo, el uso de ciertas contraseñas marcará tu archivo de guardado como 'Asistido' en los desafíos de la comunidad."
+  },
+  {
+    question: "¿Cómo soluciono una pantalla negra tras activar el modo debug?",
+    answer: "Una pantalla negra suele indicar un error de script. Esto ocurre si utilizas un archivo de script de una versión anterior (como la V13.5) en el motor de la V14. Asegúrate de que tu activador de debug esté actualizado específicamente para la versión V14 de julio de 2026."
+  },
+  {
+    question: "¿Puedo añadir los nuevos Pokémon de la 9.ª generación usando el menú de debug?",
+    answer: "¡Sí! La V14 es totalmente compatible con las generaciones 1 a 9. Puedes usar el comando 'Add Pokémon' y desplazarte hasta el final de la lista o buscar por nombre para encontrar especies de Paldea."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Crianza en Pokémon Rejuvenation: Guía de desbloqueo de la Guardería de la Ruta 3 y Movimientos Huevo en V14",
+  description: "Domina la crianza en Pokémon Rejuvenation V14. Aprende a desbloquear la Guardería de la Ruta 3, obtener a Ditto, heredar movimientos huevo y usar la contraseña fullivs.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/191023/fff?text=Breeding+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación Principal**: La Guardería se desbloquea en la **Ruta 3** tras completar una misión de rescate específica.
+- **Movimientos Huevo**: Cruciales para conjuntos de movimientos personalizados que permiten superar los estrictos límites de nivel de la V14 y los difíciles líderes de gimnasio.
+- **Optimización de Estadísticas**: Usa la contraseña **fullivs** durante la creación de la partida para saltarte por completo la tediosa crianza por IVs.
+- **Disponibilidad de Ditto**: Muy restringida hasta el final del juego, lo que hace que emparejar grupos huevo sea esencial para el éxito al principio del juego.
+</Callout>
+
+<Section icon={Map} title="Desbloqueo y configuración de la Guardería de la Ruta 3">
+
+En Aevium, optimizar tu equipo no es solo un lujo; es una necesidad para sobrevivir a los brutales picos de dificultad introducidos en la V14. Utilizar el sistema de **crianza de Pokémon Rejuvenation** te permite construir equipos altamente especializados capaces de manipular los Efectos del Campo y superar a los Líderes de Gimnasio. Antes de que puedas empezar a eclosionar huevos, primero debes localizar y desbloquear a la pareja de la Guardería, que ha desaparecido debido a la interferencia del Team Xen.
+
+La Guardería está situada en la Ruta 3, una zona a la que accederás durante los capítulos intermedios-tempranos del juego. Sin embargo, el edificio está inicialmente cerrado. Debes completar una misión de rescate para traer de vuelta a la pareja de la Guardería a su tienda. 
+
+| Paso | Objetivo | Ubicación | Requisitos |
+|---|---|---|---|
+| 1 | Llegar a la Ruta 3 | Ruta 3 | Derrotar al Líder de Gimnasio de Goldenleaf |
+| 2 | Iniciar misión de rescate | Guardería de la Ruta 3 | Hablar con el NPC fuera del edificio cerrado |
+| 3 | Localizar a la pareja de la Guardería | Pradera Secreta | Derrotar a los reclutas del Team Xen que los custodian |
+| 4 | Reabrir la Guardería | Guardería de la Ruta 3 | Regresar al edificio para acceder a los servicios de crianza |
+
+Una vez desbloqueada, la Guardería funciona de manera similar a los juegos tradicionales, cobrando una pequeña tarifa en Pokédólares para depositar a tus Pokémon. Sin embargo, a diferencia de los juegos oficiales, la ganancia de experiencia en la Guardería está limitada para evitar que tus Pokémon suban de nivel accidentalmente más allá de tu límite de nivel de medalla actual.
+
+<Callout type="warning" title="Advertencia de Límite de Nivel">
+Los Pokémon depositados seguirán ganando experiencia mientras caminas. Si un Pokémon alcanza el límite de nivel activo, dejará de ganar experiencia para evitar la desobediencia en combate. ¡Vigila de cerca a tus unidades depositadas!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias avanzadas de crianza en Pokémon Rejuvenation">
+
+La crianza en la V14 se puede abordar de dos maneras distintas: el progreso tradicional o la ruta optimizada mediante contraseñas. Durante la creación de tu archivo de guardado, tienes la opción de introducir contraseñas personalizadas. La contraseña más influyente para los entusiastas de la crianza es **fullivs**. 
+
+Cuando la contraseña **fullivs** está activa, se garantiza que cada Pokémon salvaje, Pokémon de regalo y huevo eclosionado se generará con Valores Individuales (IVs) perfectos de 31 en las seis estadísticas. Esto elimina por completo la necesidad de criar por IVs, permitiéndote concentrarte puramente en Naturalezas, Habilidades y Movimientos Huevo. Si prefieres una partida clásica sin modificaciones, tendrás que confiar en las mecánicas estándar del Lazo Destino y la Piedra Eterna.
+
+| Objeto | Utilidad de Crianza | Ubicación en el juego | Capítulo más temprano |
+|---|---|---|---|
+| Piedra Eterna | Hereda la Naturaleza del portador (100% de probabilidad) | Centro Comercial de Ciudad Gearen / Roggenrola salvaje | Capítulo 1 |
+| Lazo Destino | Hereda 5 IVs aleatorios de ambos padres | Grandes Almacenes de Ciudad Ensueño | Capítulo 9 |
+| Pesa Recia | Hereda el IV de PS del portador | Vendedor de AP de Ciudad Gearen | Capítulo 4 |
+| Brazal Recio | Hereda el IV de Ataque del portador | Vendedor de AP de Ciudad Gearen | Capítulo 4 |
+
+Para ayudarte a decidir tu enfoque de crianza, considera estas tres estrategias principales según la configuración de juego elegida:
+
+<CardGrid cols={3}>
+  <Card title="Priorizar Movimientos Huevo">
+    - **Objetivo**: Heredar movimientos poderosos
+    - **Ideal para**: Partidas en dificultad extrema
+    - **Padre clave**: Smeargle macho
+  </Card>
+  <Card title="Cadena de IVs Tradicional">
+    - **Objetivo**: Optimización manual de estadísticas
+    - **Ideal para**: Partidas sin contraseñas
+    - **Padre clave**: Ditto con IVs altos
+  </Card>
+  <Card title="Preservación de Formas Aevian">
+    - **Objetivo**: Mantener los tipos regionales
+    - **Ideal para**: Equipos temáticos personalizados
+    - **Padre clave**: Portador de Piedra Eterna
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Utilidad de Smeargle">
+Atrapa un Smeargle macho en las Cloacas de Gearen. Haz que use Esquema para copiar los movimientos exactos que quieres heredar, luego críalo con un Pokémon hembra compatible del Grupo Huevo Campo para transferir fácilmente movimientos huevo complejos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para la crianza de Movimientos Huevo">
+
+Heredar Movimientos Huevo es la forma más efectiva de darle a tu equipo una ventaja táctica. Muchos Pokémon en Rejuvenation aprenden poderosos movimientos de cobertura, opciones de recuperación o movimientos de mejora exclusivamente a través de la crianza. Sigue este proceso paso a paso para criar con éxito un Pokémon listo para el combate con su conjunto de movimientos óptimo.
+
+<Steps>
+  <Step num="1" title="Identificar el objetivo y el padre">
+    Determina el Pokémon hembra de la especie que quieres criar. Luego, busca un Pokémon macho compatible del mismo Grupo Huevo que aprenda de forma natural el Movimiento Huevo deseado.
+  </Step>
+  <Step num="2" title="Equipar los objetos de crianza">
+    Dale una Piedra Eterna al progenitor que tenga la Naturaleza deseada. Si no estás jugando con la contraseña fullivs, equipa al progenitor con los mejores IVs con un Lazo Destino.
+  </Step>
+  <Step num="3" title="Depositar y generar huevos">
+    Deposita a ambos progenitores en la Guardería de la Ruta 3. Camina o corre afuera hasta que el encargado de la Guardería cambie de posición, lo que indica que se ha encontrado un Huevo. Mantén un espacio libre en tu equipo para recibir el Huevo.
+  </Step>
+  <Step num="4" title="Eclosionar y verificar">
+    Camina con el Huevo en tu equipo. Una vez que eclosione, abre la pantalla de datos para verificar que el Pokémon recién nacido haya heredado los Movimientos Huevo, la Naturaleza y la Habilidad correctas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimización de la eclosión">
+Mantén siempre un Pokémon con la habilidad **Cuerpo Llama** o **Escudo Magma** (como Litwick o Slugma) al frente de tu equipo. Esto reduce a la mitad el número de pasos necesarios para eclosionar cualquier Huevo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Formas Aevian y reglas especiales de crianza">
+
+Aevium cuenta con variantes regionales únicas conocidas como Formas Aevian. Estos Pokémon poseen tipos, habilidades y conjuntos de movimientos distintos en comparación con sus contrapartes estándar. Criarlos requiere cumplir con reglas específicas para asegurarte de no eclosionar accidentalmente una forma estándar.
+
+Para conservar una Forma Aevian durante la crianza, el progenitor Aevian **debe** llevar una Piedra Eterna. Si crías una Forma Aevian sin una Piedra Eterna, la cría resultante volverá a su forma estándar no Aevian al eclosionar.
+
+| Progenitor A (Hembra) | Progenitor B (Macho) | Objeto equipado (Piedra Eterna) | Resultado de la crianza |
+|---|---|---|---|
+| Forma Aevian | Macho compatible | Equipado en la hembra | Cría de Forma Aevian |
+| Forma Estándar | Forma Aevian | Equipado en el macho | Cría de Forma Estándar |
+| Forma Aevian | Ditto | Equipado en el Aevian | Cría de Forma Aevian |
+| Forma Aevian | Macho compatible | Ninguno equipado | Cría de Forma Estándar |
+
+<Checklist
+  id="breeding-prep"
+  title="Lista de preparación previa a la crianza:"
+  items={[
+    "Verificar que ambos progenitores pertenezcan a Grupos Huevo compatibles",
+    "Equipar la Piedra Eterna al progenitor con la Naturaleza deseada",
+    "Colocar un Pokémon con Cuerpo Llama en el primer espacio de tu equipo",
+    "Asegurarte de tener suficientes Pokédólares para la tarifa de depósito de la Guardería",
+    "Verificar que los movimientos huevo objetivo sean compatibles con las mecánicas de la Gen 8/9"
+  ]}
+/>
+
+<Callout type="info" title="Obtención de Ditto">
+Ditto es muy valioso para la crianza, pero no está disponible en estado salvaje durante la fase inicial del juego. Puedes obtener un Ditto completando una larga misión secundaria en Ciudad Ensueño o utilizando códigos misteriosos específicos al comienzo de tu aventura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Para ayudar a aclarar los matices de los sistemas de **crianza de Pokémon Rejuvenation**, hemos recopilado respuestas a las preguntas más comunes que los jugadores encuentran durante sus partidas de la V14.
+
+<FAQ items={[
+  {
+    question: "¿Puedo criar Formas Aevian con un Ditto estándar?",
+    answer: "Sí. Siempre que el progenitor con Forma Aevian lleve una Piedra Eterna, criarlo con un Ditto estándar siempre dará como resultado una cría con Forma Aevian."
+  },
+  {
+    question: "¿Cómo afecta la contraseña fullivs a los huevos eclosionados?",
+    answer: "La contraseña fullivs garantiza que cada huevo eclosionado en tu juego tenga automáticamente 31 IVs en las seis estadísticas, eliminando por completo la necesidad de la crianza manual de IVs."
+  },
+  {
+    question: "¿Dónde puedo encontrar el Lazo Destino en V14?",
+    answer: "El Lazo Destino está disponible para su compra en los Grandes Almacenes de Ciudad Ensueño a partir del Capítulo 9, o como una recompensa rara de misiones secundarias específicas al final del juego."
+  },
+  {
+    question: "¿Por qué la pareja de la Guardería no genera huevos?",
+    answer: "Asegúrate de que los dos Pokémon depositados sean compatibles comprobando sus Grupos Huevo. Si el hombre de la Guardería dice que 'no se gustan mucho', los huevos se generarán lentamente. Si dice que 'prefieren jugar con otros Pokémon', son incompatibles."
+  }
+]} />
+
+<Callout type="tip" title="Recursos de la Comunidad">
+Si tienes dificultades para encontrar un progenitor específico para los movimientos huevo, considera visitar el servidor oficial de Discord de Reborn Evolved. La comunidad cuenta con canales de intercambio dedicados donde los jugadores suelen compartir crías sobrantes de alta calidad.
+</Callout>
+
+</Section>

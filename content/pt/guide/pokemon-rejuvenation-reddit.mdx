@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Reddit: Equipes S-Tier & Dicas da V14",
+  description: "Explore as melhores estratégias do Reddit de Pokémon Rejuvenation, guias de build da V14, recomendações de equipes S-tier e dicas essenciais de desempenho do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/22d3ee?text=Reddit+V14+Community+Guides",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Fonte principal**: A comunidade do **reddit de Pokémon Rejuvenation** recomenda fazer backup dos saves da V13.5 antes de atualizar para o patch V14.
+- **Mecânica chave**: Priorize a **sinergia de Efeito de Campo** em vez de atributos brutos para superar os limites estritos de nível do jogo.
+- **Melhor estratégia**: Use **senhas personalizadas** como hardcap e easyhms durante a criação de personagem para agilizar a exploração.
+- **Dica crítica**: Complete a **rota Paragon** primeiro para entender completamente a história complexa antes de tentar a Renegade.
+</Callout>
+
+Ao explorar o desafiador mundo de Aevium, os jogadores frequentemente recorrem à comunidade do **reddit de Pokémon Rejuvenation** para otimizar suas jornadas, solucionar problemas de instalação e compartilhar composições de equipe altamente eficazes. Pokémon Rejuvenation é amplamente reconhecido como um RPG de fãs altamente exigente e focado na história, que recompensa a preparação tática em vez do simples treinamento de nível (grinding). Com o lançamento da massiva atualização V14, que cobre os Capítulos 1 a 16 e introduz o conteúdo da Geração 9, entender as mecânicas principais é mais crítico do que nunca. Este guia compila as estratégias mais eficazes, instruções de configuração e estruturas de montagem de equipe obtidas diretamente de discussões de veteranos da comunidade.
+
+<Section icon={Map} title="Pokémon Rejuvenation Reddit: Guia de Configuração da V14 da Comunidade">
+
+Configurar a V14 corretamente é o primeiro passo para garantir uma jornada tranquila por Aevium. Como Pokémon Rejuvenation é um jogo independente criado no RPG Maker XP, ele não requer um emulador externo ou arquivo ROM. A comunidade no Reddit aconselha fortemente o download do pacote oficial diretamente de fontes verificadas, evitando mirrors de terceiros que possam conter arquivos corrompidos.
+
+| Plataforma | Passos de Configuração Recomendados | Nota Crítica |
+|:---|:---|:---|
+| **Windows** | Extraia o arquivo ZIP em uma nova pasta e inicie o Game.exe. | Evite instalar em pastas protegidas do sistema, como Arquivos de Programas. |
+| **macOS** | Mova o aplicativo extraído para a pasta Aplicativos e ignore o Gatekeeper se estiver bloqueado. | Clique com o botão direito e selecione Abrir para conceder permissões de segurança. |
+| **Linux** | Conceda permissões de executável ao script de inicialização via terminal. | Mantenha todas as pastas de dados padrão no mesmo diretório. |
+| **JoiPlay** | Instale o JoiPlay junto com o plugin do RPG Maker e importe o executável do Windows. | O desempenho varia muito dependendo do hardware do celular. |
+
+Para garantir que você não perca dezenas de horas de progresso ao fazer a transição de versões anteriores, migrar seu arquivo de save corretamente é primordial. Siga estes passos aprovados pela comunidade para proteger seus dados.
+
+<Steps>
+  <Step num="1" title="Localize o Diretório do seu Save">
+    Navegue até a pasta de jogos salvos do seu sistema. No Windows, ela geralmente é encontrada no diretório Saved Games (Jogos Salvos) sob o seu Perfil de Usuário.
+  </Step>
+  <Step num="2" title="Crie um Backup Seguro">
+    Copie toda a pasta de save de Pokémon Rejuvenation para um diretório completamente separado em sua área de trabalho ou armazenamento em nuvem.
+  </Step>
+  <Step num="3" title="Instalação Limpa da V14">
+    Extraia os arquivos da V14 em uma pasta totalmente nova. Não substitua ou mescle os arquivos da V14 diretamente em um diretório existente da V13.5.
+  </Step>
+  <Step num="4" title="Inicie e Verifique">
+    Inicie o executável da V14. O jogo deve detectar automaticamente seus arquivos de save existentes e iniciar o processo de conversão com segurança.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risco de Corrupção do Arquivo de Save">
+Nunca interrompa o jogo enquanto ele estiver convertendo seu arquivo de save antigo para o formato V14. Fazer isso pode corromper permanentemente seu progresso, tornando a etapa de backup absolutamente obrigatória.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando por Aevium: Marcos Essenciais de Capítulos">
+
+A narrativa de Pokémon Rejuvenation se estende por 16 capítulos massivos, levando os jogadores das ruas movimentadas de East Gearen City aos picos traiçoeiros da Valor Mountain. A comunidade frequentemente discute o ritmo distinto de cada capítulo, observando que zonas específicas apresentam picos acentuados de dificuldade.
+
+| Grupo de Capítulos | Região Principal | Foco nos Chefes Principais | Elementos Perdíveis |
+|:---|:---|:---|:---|
+| **Capítulos 1-4** | East Gearen & Sheridan | Keta & Líderes de Ginásio iniciais | Missões secundárias iniciais e pontos de relacionamento |
+| **Capítulos 5-8** | Ilha Terajuma | Ameaças vulcânicas & Angie | Pedidos do Centro de Ajuda de Terajuma |
+| **Capítulos 9-12** | Grand Dream City | Líderes da facção Bladestar | Recompensas da loja de departamentos & eventos de distrito |
+| **Capítulos 13-16** | Fim de jogo de Aevium | Chefes de clímax específicos de rota | Crests finais e requisitos do New Game+ |
+
+Ao se preparar para esses marcos, os jogadores devem fazer escolhas que influenciam sua reputação com o elenco principal. O jogo apresenta dois caminhos narrativos principais: a Rota Paragon e a Rota Renegade.
+
+A Rota Paragon foca em preservar suas alianças, manter altos valores de relacionamento e buscar uma resolução mais esperançosa para a crise de Aevium. Por outro lado, a Rota Renegade é um caminho mais sombrio, desencadeado por escolhas negativas, Karma baixo e decisões específicas no final do jogo. Veteranos do Reddit recomendam fortemente completar a Rota Paragon primeiro para estabelecer uma compreensão sólida da história antes de explorar os ramos trágicos da Rota Renegade.
+
+<Callout type="success" title="Recomendação da Rota Paragon">
+Mantenha múltiplos backups de save antes de entrar no Capítulo 16. Isso permite que você explore ambas as rotas da história sem precisar reiniciar o jogo inteiro a partir do Capítulo 1.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Avaliação de Iniciais e Estrutura de Sinergia de Equipe">
+
+Ao contrário dos jogos tradicionais de Pokémon, onde um único inicial com nível excessivo pode carregar você até o Hall da Fama, Pokémon Rejuvenation exige uma equipe totalmente rotacionada de seis ou mais combatentes competitivos. O limite estrito de nível baseado em insígnias impede vencer batalhas na força bruta, tornando a sinergia de tipos e a manipulação de Efeitos de Campo as verdadeiras chaves para a vitória.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Controladores de Campo">
+    - **Alta prioridade** na montagem da equipe
+    - Podem mudar ou destruir campos prejudiciais
+    - Exemplos: Conjuradores de clima e modificadores de terreno
+  </Card>
+  <Card title="A-Tier: Pivôs & Tanks de Utilidade">
+    - **Excelente longevidade** em lutas contra chefes
+    - Absorvem ataques STAB poderosos facilmente
+    - Fornecem suporte de status e controle de perigos (hazards)
+  </Card>
+  <Card title="B-Tier: Especialistas em Varredura de Nicho">
+    - **Altamente eficazes** em confrontos específicos
+    - Dependem de Efeitos de Campo específicos para brilhar
+    - Requerem suporte para se preparar com segurança
+  </Card>
+</CardGrid>
+
+Sua escolha de inicial define o tom para a sua experiência no início do jogo. Todos os iniciais das Gerações 1 a 9 são obtíveis, e cada um traz vantagens únicas para as primeiras batalhas de ginásio.
+
+| Tipo de Inicial | Desempenho no Início do Jogo | Desempenho no Fim do Jogo | Sinergia Recomendada |
+|:---|:---|:---|:---|
+| **Tipo Planta** | Moderado; sofre contra Veneno no início | Forte; excelente utilidade e cura | Pivôs do tipo Fogo para lidar com fraquezas de Gelo |
+| **Tipo Fogo** | Forte; derrete zonas iniciais de Planta e Inseto | Alto; enorme poder ofensivo | Tanks do tipo Água para absorver ataques de Pedra |
+| **Tipo Água** | Excelente; altamente confiável em cavernas iniciais | Versátil; ótimas opções de resistência (bulk) e velocidade | Parceiros do tipo Planta para contra-atacar Elétrico |
+
+Ao montar sua equipe, não ignore as Formas Aevianas (Aevian Forms) exclusivas espalhadas pela região. Essas variantes regionais personalizadas apresentam tipos, habilidades e conjuntos de movimentos modificados, projetados para prosperar sob as duras condições de combate de Aevium.
+
+<Callout type="tip" title="Domínio de Efeitos de Campo">
+Sempre leia as descrições dos Efeitos de Campo no menu da sua Pokédex. Um movimento que normalmente é fraco pode receber um aumento massivo de poder sob as condições ambientais corretas, virando completamente o rumo da batalha.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalizando a Gameplay com Senhas da V14">
+
+Para acomodar diferentes estilos de jogo, a V14 apresenta um Sistema de Senhas incrivelmente robusto. Esses códigos podem ser inseridos durante a criação do personagem ou acessados por meio dos menus do jogo para ajustar a dificuldade, modificar a disponibilidade de itens ou implementar melhorias de qualidade de vida.
+
+<Checklist
+  id="essential-passwords"
+  title="Senhas Recomendadas pela Comunidade:"
+  items={[
+    "hardcap - Impede ultrapassar o limite de nível da insígnia atual",
+    "easyhms - Permite a travessia ambiental sem a necessidade de ensinar movimentos HM",
+    "freeexpall - Concede acesso antecipado ao sistema Exp. Share (Exp. All)",
+    "unrealtime - Oferece controle total sobre o relógio do jogo"
+  ]}
+/>
+
+Essas senhas não desativam conquistas nem bloqueiam o conteúdo da história; em vez disso, permitem que você adapte a dificuldade do jogo às suas preferências pessoais. Por exemplo, jogadores que buscam um desafio puramente tático sem a necessidade de treinamento repetitivo frequentemente ativam senhas que maximizam os Valores Individuais (IVs) de seus Pokémon automaticamente.
+
+| Senha | Categoria | Efeito no Jogo |
+|:---|:---|:---|
+| **hardcap** | Regras de Nível | Interrompe o ganho de experiência assim que você atinge o limite da insígnia ativa. |
+| **easyhms** | Qualidade de Vida | Permite o uso de movimentos HM sem desperdiçar espaços de movimentos. |
+| **freeexpall** | Item de Recompensa | Fornece o item Exp. All imediatamente no Capítulo 1. |
+| **unrealtime** | Configurações de Tempo | Permite ajustar manualmente a hora do dia para eventos. |
+
+Além das senhas, rastrear itens exclusivos como Crests, Technical Machines (TMs) e Mega Stones é vital para o sucesso no fim do jogo. As Crests, em particular, são itens de segurar exclusivos que fornecem aumentos massivos de atributos ou efeitos de utilidade para Pokémon específicos e frequentemente subutilizados.
+
+| Tipo de Item | Método de Aquisição Principal | Valor Estratégico |
+|:---|:---|:---|
+| **Crests** | Baús ocultos e recompensas de missões secundárias | Revitaliza espécies de tier mais baixo com melhorias exclusivas. |
+| **TMs** | Vitórias em ginásios e exploração | Expande as opções de cobertura para contra-atacar equipes de chefes. |
+| **Mega Stones** | Eventos de fim de jogo e soluções de quebra-cabeças | Desbloqueia picos de poder massivos para membros-chave da equipe. |
+
+<Callout type="info" title="Flexibilidade de Senhas">
+Você pode ativar ou desativar a maioria das senhas de qualidade de vida a qualquer momento do seu jogo usando o terminal de computador dentro de qualquer Centro Pokémon.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para jogadores que buscam respostas rápidas para problemas comuns, a comunidade compilou soluções para as dúvidas mais frequentes.
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar as dicas de solução de problemas mais confiáveis para a V14?",
+    answer: "A comunidade do reddit de Pokémon Rejuvenation é o melhor lugar para encontrar soluções rápidas para telas pretas, arquivos de áudio ausentes e erros de inicialização específicos de cada plataforma."
+  },
+  {
+    question: "É possível mudar da Rota Renegade para a Rota Paragon no meio do caminho?",
+    answer: "Não, uma vez que você se compromete com as decisões críticas da história que desencadeiam a Rota Renegade nos capítulos posteriores, você não pode voltar atrás sem carregar um arquivo de save muito mais antigo."
+  },
+  {
+    question: "Os Pokémon da Geração 9 estão totalmente integrados ao início do jogo na V14?",
+    answer: "Sim, as espécies da Geração 9 estão distribuídas naturalmente por toda a região de Aevium, começando logo nas primeiras rotas fora de East Gearen City."
+  },
+  {
+    question: "O que devo fazer se meu jogo apresentar travamentos (lag) extremos no JoiPlay?",
+    answer: "Reduza a resolução da tela, desative o áudio de alta qualidade nas opções do jogo e certifique-se de usar a versão estável mais recente do plugin do RPG Maker."
+  }
+]} />
+
+<Callout type="tip" title="Suporte da Comunidade">
+Se você encontrar um bug exclusivo ou um bloqueador de progresso, postar seu arquivo de save diretamente nos fóruns oficiais ou no subreddit da comunidade geralmente resultará em uma correção manual rápida por parte de membros prestativos da comunidade.
+</Callout>
+
+</Section>

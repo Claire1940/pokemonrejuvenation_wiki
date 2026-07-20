@@ -6,12 +6,24 @@
         "file": "pokemon-rejuvenation-aelita"
       },
       {
+        "slug": "pokemon-rejuvenation-amber",
+        "file": "pokemon-rejuvenation-amber"
+      },
+      {
+        "slug": "pokemon-rejuvenation-angie",
+        "file": "pokemon-rejuvenation-angie"
+      },
+      {
         "slug": "pokemon-rejuvenation-ariana",
         "file": "pokemon-rejuvenation-ariana"
       },
       {
         "slug": "pokemon-rejuvenation-axel",
         "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-erin",
+        "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
@@ -42,6 +54,10 @@
         "file": "pokemon-rejuvenation-current-version"
       },
       {
+        "slug": "pokemon-rejuvenation-download-android",
+        "file": "pokemon-rejuvenation-download-android"
+      },
+      {
         "slug": "pokemon-rejuvenation-download",
         "file": "pokemon-rejuvenation-download"
       },
@@ -60,8 +76,40 @@
     ],
     "guide": [
       {
+        "slug": "pokemon-rejuvenation-ability-capsule",
+        "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-breeding",
+        "file": "pokemon-rejuvenation-breeding"
+      },
+      {
         "slug": "pokemon-rejuvenation-controls",
         "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crests",
+        "file": "pokemon-rejuvenation-crests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-debug-mode",
+        "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-eggs",
+        "file": "pokemon-rejuvenation-eggs"
+      },
+      {
+        "slug": "pokemon-rejuvenation-encounter-list",
+        "file": "pokemon-rejuvenation-encounter-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ev-training",
+        "file": "pokemon-rejuvenation-ev-training"
+      },
+      {
+        "slug": "pokemon-rejuvenation-field-effects",
+        "file": "pokemon-rejuvenation-field-effects"
       },
       {
         "slug": "pokemon-rejuvenation-guide",
@@ -72,8 +120,44 @@
         "file": "pokemon-rejuvenation-gym-leaders"
       },
       {
+        "slug": "pokemon-rejuvenation-karma",
+        "file": "pokemon-rejuvenation-karma"
+      },
+      {
+        "slug": "pokemon-rejuvenation-legendaries",
+        "file": "pokemon-rejuvenation-legendaries"
+      },
+      {
         "slug": "pokemon-rejuvenation-level-caps",
         "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-relearner",
+        "file": "pokemon-rejuvenation-move-relearner"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-tutor",
+        "file": "pokemon-rejuvenation-move-tutor"
+      },
+      {
+        "slug": "pokemon-rejuvenation-nuzlocke",
+        "file": "pokemon-rejuvenation-nuzlocke"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokedex",
+        "file": "pokemon-rejuvenation-pokedex"
+      },
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-list",
+        "file": "pokemon-rejuvenation-tm-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
       },
       {
         "slug": "pokemon-rejuvenation-walkthrough",
@@ -86,12 +170,28 @@
         "file": "pokemon-rejuvenation-aevian-pokemon"
       },
       {
+        "slug": "pokemon-rejuvenation-amethyst-cave",
+        "file": "pokemon-rejuvenation-amethyst-cave"
+      },
+      {
         "slug": "pokemon-rejuvenation-amulet-coin-location",
         "file": "pokemon-rejuvenation-amulet-coin-location"
       },
       {
+        "slug": "pokemon-rejuvenation-aquamarine-cave",
+        "file": "pokemon-rejuvenation-aquamarine-cave"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blacksteeple-castle",
+        "file": "pokemon-rejuvenation-blacksteeple-castle"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mega-stones",
+        "file": "pokemon-rejuvenation-mega-stones"
       },
       {
         "slug": "pokemon-rejuvenation-occa-berry",
@@ -108,9 +208,17 @@
       {
         "slug": "pokemon-rejuvenation-where-to-get-type-null",
         "file": "pokemon-rejuvenation-where-to-get-type-null"
+      },
+      {
+        "slug": "pokemon-rejuvenation-z-crystals",
+        "file": "pokemon-rejuvenation-z-crystals"
       }
     ],
     "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-briefcase-codes",
+        "file": "pokemon-rejuvenation-briefcase-codes"
+      },
       {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
@@ -138,6 +246,10 @@
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-hidden-library",
+        "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
         "file": "pokemon-rejuvenation-make-your-own-employee"
       },
@@ -150,6 +262,10 @@
         "file": "pokemon-rejuvenation-quests"
       },
       {
+        "slug": "pokemon-rejuvenation-side-quests",
+        "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
         "file": "pokemon-rejuvenation-wall-of-shame-quest"
       }
@@ -158,6 +274,10 @@
       {
         "slug": "pokemon-rejuvenation-best-starter",
         "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-team",
+        "file": "pokemon-rejuvenation-best-team"
       },
       {
         "slug": "pokemon-rejuvenation-best-teams",
@@ -184,12 +304,24 @@
         "file": "pokemon-rejuvenation-aelita"
       },
       {
+        "slug": "pokemon-rejuvenation-amber",
+        "file": "pokemon-rejuvenation-amber"
+      },
+      {
+        "slug": "pokemon-rejuvenation-angie",
+        "file": "pokemon-rejuvenation-angie"
+      },
+      {
         "slug": "pokemon-rejuvenation-ariana",
         "file": "pokemon-rejuvenation-ariana"
       },
       {
         "slug": "pokemon-rejuvenation-axel",
         "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-erin",
+        "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
@@ -220,6 +352,10 @@
         "file": "pokemon-rejuvenation-current-version"
       },
       {
+        "slug": "pokemon-rejuvenation-download-android",
+        "file": "pokemon-rejuvenation-download-android"
+      },
+      {
         "slug": "pokemon-rejuvenation-download",
         "file": "pokemon-rejuvenation-download"
       },
@@ -238,8 +374,40 @@
     ],
     "guide": [
       {
+        "slug": "pokemon-rejuvenation-ability-capsule",
+        "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-breeding",
+        "file": "pokemon-rejuvenation-breeding"
+      },
+      {
         "slug": "pokemon-rejuvenation-controls",
         "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crests",
+        "file": "pokemon-rejuvenation-crests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-debug-mode",
+        "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-eggs",
+        "file": "pokemon-rejuvenation-eggs"
+      },
+      {
+        "slug": "pokemon-rejuvenation-encounter-list",
+        "file": "pokemon-rejuvenation-encounter-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ev-training",
+        "file": "pokemon-rejuvenation-ev-training"
+      },
+      {
+        "slug": "pokemon-rejuvenation-field-effects",
+        "file": "pokemon-rejuvenation-field-effects"
       },
       {
         "slug": "pokemon-rejuvenation-guide",
@@ -250,8 +418,44 @@
         "file": "pokemon-rejuvenation-gym-leaders"
       },
       {
+        "slug": "pokemon-rejuvenation-karma",
+        "file": "pokemon-rejuvenation-karma"
+      },
+      {
+        "slug": "pokemon-rejuvenation-legendaries",
+        "file": "pokemon-rejuvenation-legendaries"
+      },
+      {
         "slug": "pokemon-rejuvenation-level-caps",
         "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-relearner",
+        "file": "pokemon-rejuvenation-move-relearner"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-tutor",
+        "file": "pokemon-rejuvenation-move-tutor"
+      },
+      {
+        "slug": "pokemon-rejuvenation-nuzlocke",
+        "file": "pokemon-rejuvenation-nuzlocke"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokedex",
+        "file": "pokemon-rejuvenation-pokedex"
+      },
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-list",
+        "file": "pokemon-rejuvenation-tm-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
       },
       {
         "slug": "pokemon-rejuvenation-walkthrough",
@@ -264,12 +468,28 @@
         "file": "pokemon-rejuvenation-aevian-pokemon"
       },
       {
+        "slug": "pokemon-rejuvenation-amethyst-cave",
+        "file": "pokemon-rejuvenation-amethyst-cave"
+      },
+      {
         "slug": "pokemon-rejuvenation-amulet-coin-location",
         "file": "pokemon-rejuvenation-amulet-coin-location"
       },
       {
+        "slug": "pokemon-rejuvenation-aquamarine-cave",
+        "file": "pokemon-rejuvenation-aquamarine-cave"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blacksteeple-castle",
+        "file": "pokemon-rejuvenation-blacksteeple-castle"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mega-stones",
+        "file": "pokemon-rejuvenation-mega-stones"
       },
       {
         "slug": "pokemon-rejuvenation-occa-berry",
@@ -286,9 +506,17 @@
       {
         "slug": "pokemon-rejuvenation-where-to-get-type-null",
         "file": "pokemon-rejuvenation-where-to-get-type-null"
+      },
+      {
+        "slug": "pokemon-rejuvenation-z-crystals",
+        "file": "pokemon-rejuvenation-z-crystals"
       }
     ],
     "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-briefcase-codes",
+        "file": "pokemon-rejuvenation-briefcase-codes"
+      },
       {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
@@ -316,6 +544,10 @@
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-hidden-library",
+        "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
         "file": "pokemon-rejuvenation-make-your-own-employee"
       },
@@ -328,6 +560,10 @@
         "file": "pokemon-rejuvenation-quests"
       },
       {
+        "slug": "pokemon-rejuvenation-side-quests",
+        "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
         "file": "pokemon-rejuvenation-wall-of-shame-quest"
       }
@@ -336,6 +572,10 @@
       {
         "slug": "pokemon-rejuvenation-best-starter",
         "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-team",
+        "file": "pokemon-rejuvenation-best-team"
       },
       {
         "slug": "pokemon-rejuvenation-best-teams",
@@ -362,12 +602,24 @@
         "file": "pokemon-rejuvenation-aelita"
       },
       {
+        "slug": "pokemon-rejuvenation-amber",
+        "file": "pokemon-rejuvenation-amber"
+      },
+      {
+        "slug": "pokemon-rejuvenation-angie",
+        "file": "pokemon-rejuvenation-angie"
+      },
+      {
         "slug": "pokemon-rejuvenation-ariana",
         "file": "pokemon-rejuvenation-ariana"
       },
       {
         "slug": "pokemon-rejuvenation-axel",
         "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-erin",
+        "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
@@ -398,6 +650,10 @@
         "file": "pokemon-rejuvenation-current-version"
       },
       {
+        "slug": "pokemon-rejuvenation-download-android",
+        "file": "pokemon-rejuvenation-download-android"
+      },
+      {
         "slug": "pokemon-rejuvenation-download",
         "file": "pokemon-rejuvenation-download"
       },
@@ -416,8 +672,40 @@
     ],
     "guide": [
       {
+        "slug": "pokemon-rejuvenation-ability-capsule",
+        "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-breeding",
+        "file": "pokemon-rejuvenation-breeding"
+      },
+      {
         "slug": "pokemon-rejuvenation-controls",
         "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crests",
+        "file": "pokemon-rejuvenation-crests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-debug-mode",
+        "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-eggs",
+        "file": "pokemon-rejuvenation-eggs"
+      },
+      {
+        "slug": "pokemon-rejuvenation-encounter-list",
+        "file": "pokemon-rejuvenation-encounter-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ev-training",
+        "file": "pokemon-rejuvenation-ev-training"
+      },
+      {
+        "slug": "pokemon-rejuvenation-field-effects",
+        "file": "pokemon-rejuvenation-field-effects"
       },
       {
         "slug": "pokemon-rejuvenation-guide",
@@ -428,8 +716,44 @@
         "file": "pokemon-rejuvenation-gym-leaders"
       },
       {
+        "slug": "pokemon-rejuvenation-karma",
+        "file": "pokemon-rejuvenation-karma"
+      },
+      {
+        "slug": "pokemon-rejuvenation-legendaries",
+        "file": "pokemon-rejuvenation-legendaries"
+      },
+      {
         "slug": "pokemon-rejuvenation-level-caps",
         "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-relearner",
+        "file": "pokemon-rejuvenation-move-relearner"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-tutor",
+        "file": "pokemon-rejuvenation-move-tutor"
+      },
+      {
+        "slug": "pokemon-rejuvenation-nuzlocke",
+        "file": "pokemon-rejuvenation-nuzlocke"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokedex",
+        "file": "pokemon-rejuvenation-pokedex"
+      },
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-list",
+        "file": "pokemon-rejuvenation-tm-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
       },
       {
         "slug": "pokemon-rejuvenation-walkthrough",
@@ -442,12 +766,28 @@
         "file": "pokemon-rejuvenation-aevian-pokemon"
       },
       {
+        "slug": "pokemon-rejuvenation-amethyst-cave",
+        "file": "pokemon-rejuvenation-amethyst-cave"
+      },
+      {
         "slug": "pokemon-rejuvenation-amulet-coin-location",
         "file": "pokemon-rejuvenation-amulet-coin-location"
       },
       {
+        "slug": "pokemon-rejuvenation-aquamarine-cave",
+        "file": "pokemon-rejuvenation-aquamarine-cave"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blacksteeple-castle",
+        "file": "pokemon-rejuvenation-blacksteeple-castle"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mega-stones",
+        "file": "pokemon-rejuvenation-mega-stones"
       },
       {
         "slug": "pokemon-rejuvenation-occa-berry",
@@ -464,9 +804,17 @@
       {
         "slug": "pokemon-rejuvenation-where-to-get-type-null",
         "file": "pokemon-rejuvenation-where-to-get-type-null"
+      },
+      {
+        "slug": "pokemon-rejuvenation-z-crystals",
+        "file": "pokemon-rejuvenation-z-crystals"
       }
     ],
     "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-briefcase-codes",
+        "file": "pokemon-rejuvenation-briefcase-codes"
+      },
       {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
@@ -494,6 +842,10 @@
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-hidden-library",
+        "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
         "file": "pokemon-rejuvenation-make-your-own-employee"
       },
@@ -506,6 +858,10 @@
         "file": "pokemon-rejuvenation-quests"
       },
       {
+        "slug": "pokemon-rejuvenation-side-quests",
+        "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
         "file": "pokemon-rejuvenation-wall-of-shame-quest"
       }
@@ -514,6 +870,10 @@
       {
         "slug": "pokemon-rejuvenation-best-starter",
         "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-team",
+        "file": "pokemon-rejuvenation-best-team"
       },
       {
         "slug": "pokemon-rejuvenation-best-teams",
@@ -540,12 +900,24 @@
         "file": "pokemon-rejuvenation-aelita"
       },
       {
+        "slug": "pokemon-rejuvenation-amber",
+        "file": "pokemon-rejuvenation-amber"
+      },
+      {
+        "slug": "pokemon-rejuvenation-angie",
+        "file": "pokemon-rejuvenation-angie"
+      },
+      {
         "slug": "pokemon-rejuvenation-ariana",
         "file": "pokemon-rejuvenation-ariana"
       },
       {
         "slug": "pokemon-rejuvenation-axel",
         "file": "pokemon-rejuvenation-axel"
+      },
+      {
+        "slug": "pokemon-rejuvenation-erin",
+        "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
@@ -576,6 +948,10 @@
         "file": "pokemon-rejuvenation-current-version"
       },
       {
+        "slug": "pokemon-rejuvenation-download-android",
+        "file": "pokemon-rejuvenation-download-android"
+      },
+      {
         "slug": "pokemon-rejuvenation-download",
         "file": "pokemon-rejuvenation-download"
       },
@@ -594,8 +970,40 @@
     ],
     "guide": [
       {
+        "slug": "pokemon-rejuvenation-ability-capsule",
+        "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-breeding",
+        "file": "pokemon-rejuvenation-breeding"
+      },
+      {
         "slug": "pokemon-rejuvenation-controls",
         "file": "pokemon-rejuvenation-controls"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crests",
+        "file": "pokemon-rejuvenation-crests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-debug-mode",
+        "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-eggs",
+        "file": "pokemon-rejuvenation-eggs"
+      },
+      {
+        "slug": "pokemon-rejuvenation-encounter-list",
+        "file": "pokemon-rejuvenation-encounter-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-ev-training",
+        "file": "pokemon-rejuvenation-ev-training"
+      },
+      {
+        "slug": "pokemon-rejuvenation-field-effects",
+        "file": "pokemon-rejuvenation-field-effects"
       },
       {
         "slug": "pokemon-rejuvenation-guide",
@@ -606,8 +1014,44 @@
         "file": "pokemon-rejuvenation-gym-leaders"
       },
       {
+        "slug": "pokemon-rejuvenation-karma",
+        "file": "pokemon-rejuvenation-karma"
+      },
+      {
+        "slug": "pokemon-rejuvenation-legendaries",
+        "file": "pokemon-rejuvenation-legendaries"
+      },
+      {
         "slug": "pokemon-rejuvenation-level-caps",
         "file": "pokemon-rejuvenation-level-caps"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-relearner",
+        "file": "pokemon-rejuvenation-move-relearner"
+      },
+      {
+        "slug": "pokemon-rejuvenation-move-tutor",
+        "file": "pokemon-rejuvenation-move-tutor"
+      },
+      {
+        "slug": "pokemon-rejuvenation-nuzlocke",
+        "file": "pokemon-rejuvenation-nuzlocke"
+      },
+      {
+        "slug": "pokemon-rejuvenation-pokedex",
+        "file": "pokemon-rejuvenation-pokedex"
+      },
+      {
+        "slug": "pokemon-rejuvenation-reddit",
+        "file": "pokemon-rejuvenation-reddit"
+      },
+      {
+        "slug": "pokemon-rejuvenation-tm-list",
+        "file": "pokemon-rejuvenation-tm-list"
+      },
+      {
+        "slug": "pokemon-rejuvenation-vs-reborn",
+        "file": "pokemon-rejuvenation-vs-reborn"
       },
       {
         "slug": "pokemon-rejuvenation-walkthrough",
@@ -620,12 +1064,28 @@
         "file": "pokemon-rejuvenation-aevian-pokemon"
       },
       {
+        "slug": "pokemon-rejuvenation-amethyst-cave",
+        "file": "pokemon-rejuvenation-amethyst-cave"
+      },
+      {
         "slug": "pokemon-rejuvenation-amulet-coin-location",
         "file": "pokemon-rejuvenation-amulet-coin-location"
       },
       {
+        "slug": "pokemon-rejuvenation-aquamarine-cave",
+        "file": "pokemon-rejuvenation-aquamarine-cave"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blacksteeple-castle",
+        "file": "pokemon-rejuvenation-blacksteeple-castle"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
+      },
+      {
+        "slug": "pokemon-rejuvenation-mega-stones",
+        "file": "pokemon-rejuvenation-mega-stones"
       },
       {
         "slug": "pokemon-rejuvenation-occa-berry",
@@ -642,9 +1102,17 @@
       {
         "slug": "pokemon-rejuvenation-where-to-get-type-null",
         "file": "pokemon-rejuvenation-where-to-get-type-null"
+      },
+      {
+        "slug": "pokemon-rejuvenation-z-crystals",
+        "file": "pokemon-rejuvenation-z-crystals"
       }
     ],
     "passwords": [
+      {
+        "slug": "pokemon-rejuvenation-briefcase-codes",
+        "file": "pokemon-rejuvenation-briefcase-codes"
+      },
       {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
@@ -672,6 +1140,10 @@
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-hidden-library",
+        "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
         "file": "pokemon-rejuvenation-make-your-own-employee"
       },
@@ -684,6 +1156,10 @@
         "file": "pokemon-rejuvenation-quests"
       },
       {
+        "slug": "pokemon-rejuvenation-side-quests",
+        "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
         "file": "pokemon-rejuvenation-wall-of-shame-quest"
       }
@@ -692,6 +1168,10 @@
       {
         "slug": "pokemon-rejuvenation-best-starter",
         "file": "pokemon-rejuvenation-best-starter"
+      },
+      {
+        "slug": "pokemon-rejuvenation-best-team",
+        "file": "pokemon-rejuvenation-best-team"
       },
       {
         "slug": "pokemon-rejuvenation-best-teams",

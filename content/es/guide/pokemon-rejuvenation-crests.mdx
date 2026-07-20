@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Crestas de Pokémon Rejuvenation: Tier List 2026 y Guía de Ubicaciones",
+  description: "Domina el poder de las crestas de Pokémon Rejuvenation con nuestra guía detallada de 2026. Conoce ubicaciones, mecánicas y los mejores objetos para cada especie.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Crest+Mechanics+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Pokémon Rejuvenation",
+  keywords: "crestas, Pokémon Rejuvenation, guía, ubicaciones, tier list"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las crestas de Pokémon Rejuvenation** son objetos equipables únicos que proporcionan aumentos masivos de estadísticas o nuevas habilidades a especies específicas.
+- **Mecánicas de inamovilidad** aseguran que estos objetos no se pierdan mediante movimientos como Desarme (Knock Off) o Truco (Trick) durante la batalla.
+- **Escalado estratégico** permite que los Pokémon más débiles sigan siendo viables incluso en los desafíos del juego tardío de 2026.
+- **Métodos de obtención** varían desde antiguos rituales Garufa en el Castillo Zygara hasta misiones secundarias modernas e intercambios con NPCs.
+- **Intercambio de Estadísticas** es una mecánica central para ciertas crestas, cambiando efectivamente cómo funcionan los EVs e IVs para ese Pokémon.
+</Callout>
+
+<Section icon={Sparkles} title="Entendiendo las Mecánicas de las Crestas en Pokémon Rejuvenation">
+
+**Las crestas de Pokémon Rejuvenation** representan un sistema de objetos revolucionario dentro del fan-game, diseñado para dar nueva vida a los Pokémon que suelen tener dificultades en entornos competitivos o de alta dificultad. A diferencia de los objetos estándar como la Cinta Elección o la Vidaesfera, una Cresta está vinculada por código a una especie específica (o sus formas regionales). Cuando la lleva el Pokémon correcto, activa una variedad de efectos que van desde simples multiplicadores de estadísticas hasta mecánicas completamente personalizadas que alteran el funcionamiento del Pokémon en batalla.
+
+Uno de los aspectos más críticos de estos objetos es su permanencia en combate. En las difíciles batallas que se encuentran a lo largo de la versión 2026 del juego, perder un objeto equipado puede ser una sentencia de muerte. Sin embargo, las Crestas están protegidas por una mecánica única de "adherencia". Aunque un movimiento como Desarme seguirá infligiendo su daño aumentado, la Cresta en sí nunca será eliminada del usuario. Del mismo modo, movimientos como Truco o Trapicheo simplemente fallarán si alguno de los Pokémon lleva una Cresta correspondiente.
+
+| Mecánica | Efecto en Batalla | Notas |
+| :--- | :--- | :--- |
+| **Desarme** | Se inflige daño, pero el objeto **no** es eliminado. | El multiplicador de daño de Desarme sigue aplicándose. |
+| **Truco / Trapicheo** | El movimiento falla por completo si se usa contra un portador de Cresta. | Evita estrategias de interrupción enemigas. |
+| **Indicador de IU** | Aparece un icono de Cresta específico en la interfaz de batalla. | Ayuda a los jugadores a identificar efectos activos de inmediato. |
+| **Bloqueo de Especie** | Solo funciona para la especie destinada. | Los usuarios que se transforman (como Ditto) pueden activar el efecto. |
+
+<Callout type="warning" title="Advertencia de Intercambio de Estadísticas">
+Las crestas que intercambian estadísticas (como la Cresta de Magcargo) lo hacen **después** de que se apliquen todos los cálculos de IVs, EVs y Naturalezas. Por ejemplo, si tu Magcargo tiene EVs altos en Defensa, estos se convertirán efectivamente en EVs de Velocidad cuando la Cresta esté activa. Sin embargo, los aumentos de estadísticas en batalla por movimientos como Fortaleza seguirán aplicándose a la estadística original (Defensa) en lugar de a la intercambiada.
+</Callout>
+
+La flexibilidad de estos objetos se demuestra además por la interacción con "Transformación". Si un Pokémon usa Transformación (como Ditto o Mew) y se convierte en una especie cuya Cresta lleva equipada actualmente, obtendrá todos los beneficios de esa Cresta. Por el contrario, si un Pokémon que lleva su propia Cresta se transforma en otra cosa, los efectos de la Cresta se desactivan inmediatamente hasta que vuelva a su forma original.
+
+</Section>
+
+<Section icon={Map} title="Los Orígenes Oscuros y el Lore de la Magia Garufa">
+
+La historia de las **crestas de Pokémon Rejuvenation** está profundamente arraigada en el antiguo y a menudo macabro lore de la región de Aevium. La mayoría de estos poderosos artefactos no fueron creados mediante tecnología moderna, sino a través de la magia prohibida Garufa practicada en tiempos antiguos. El epicentro de esta creación fue el Castillo Zygara, donde el Rey Ieisel realizaba rituales que aún hoy se mencionan con temor.
+
+El proceso de creación involucraba una torre central dentro del Castillo Zygara, donde un pozo profundo servía como altar. Se sugiere fuertemente que el poder de las crestas antiguas proviene de las almas de humanos y Pokémon sacrificados durante estos rituales. Aquellos lanzados al pozo desaparecían, y el material mágico refinado necesario para la Cresta surgía de las profundidades. Este trasfondo oscuro añade una capa de peso narrativo a los objetos que usas para potenciar a tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="Rituales Antiguos">
+    Creadas en el Castillo Zygara por el Rey Ieisel usando magia Garufa y sacrificios.
+  </Card>
+  <Card title="Recreaciones Fallidas">
+    Personajes como Karen intentaron replicar la magia, lo que los llevó a la locura.
+  </Card>
+  <Card title="Innovación Moderna">
+    Algunas crestas se crean ahora mediante MT ambientales e investigación Ranger.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Detalle del Lore">
+Aunque la mayoría de las crestas son antiguas, algunas más nuevas como la Cresta de Castform demuestran que la región de Aevium está encontrando formas más seguras y sin sacrificios de canalizar este poder en 2026.
+</Callout>
+
+In la línea de tiempo moderna de Pokémon Rejuvenation, investigadores y ciertos NPCs han encontrado formas de eludir los rituales de sangre. Por ejemplo, la Cresta de Castform es el resultado del estudio ambiental de un Ranger en la Selva Terajuma, requiriendo solo el conocimiento de las MT que cambian el clima en lugar de la antigua magia de almas.
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Cómo Obtener la Cresta de Castform">
+
+Para ayudarte a entender cómo se adquieren las **crestas modernas de Pokémon Rejuvenation**, hemos detallado el proceso específico para obtener la Cresta de Castform, la cual es esencial para equipos basados en el clima a mitad del juego.
+
+<Steps>
+  <Step num="1" title="Llega a la Selva Terajuma">
+    Viaja a la Selva Terajuma durante los capítulos de mitad del juego. Asegúrate de tener acceso a la estación Ranger.
+  </Step>
+  <Step num="2" title="Colecciona las MT de Clima">
+    Debes poseer las MT de **Granizo**, **Día Soleado** y **Danza Lluvia**. Estas se encuentran a lo largo de varias misiones secundarias de Aevium.
+  </Step>
+  <Step num="3" title="Localiza al Ranger de Terajuma">
+    Encuentra al NPC Ranger específico ubicado en las profundidades de la selva que está estudiando el ecosistema local.
+  </Step>
+  <Step num="4" title="Intercambia Conocimientos">
+    Habla con el Ranger teniendo las MT en tu mochila. Él las "estudiará" y te otorgará la Cresta de Castform como recompensa por tu ayuda.
+  </Step>
+</Steps>
+
+| Requisito | Ubicación / Fuente | Importancia |
+| :--- | :--- | :--- |
+| **MT Granizo** | Almacén Frío / Misión | Alta - Permite precisión de Ventisca. |
+| **MT Día Soleado** | Deriva de Magma | Alta - Potencia movimientos de Fuego. |
+| **MT Danza Lluvia** | Costa de Terajuma | Alta - Aumenta el poder del Agua. |
+| **Castform** | Huevo Misterioso / Evento | Esencial - Portador del objeto. |
+
+<Callout type="success" title="Consejo para Coleccionistas">
+Revisa siempre los cementerios y sitios históricos. Por ejemplo, la Cresta de Ampharos de Aevia está escondida en el cementerio del Distrito de la Esperanza de GDC, pero solo después de completar las misiones de PictoZumi y Xenogene.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Efectos y Ubicaciones Completas de las Crestas 2026">
+
+La siguiente tabla proporciona datos sobre algunas de las **crestas de Pokémon Rejuvenation** más populares disponibles en la versión actual de 2026 del juego. Ten en cuenta que la disponibilidad suele estar ligada a capítulos específicos o misiones secundarias complejas.
+
+| Cresta | Disponibilidad | Descripción del Efecto | Ubicación Principal |
+| :--- | :--- | :--- | :--- |
+| **Ampharos de Aevia** | Archivos .Karma | 1er espacio de movimiento +50% poder (no Elec/Hielo), -30% daño SE recibido. | Distrito de la Esperanza de GDC |
+| **Ariados** | Capítulo 14 | +50% de Velocidad. Críticos garantizados contra enemigos ralentizados o envenenados. | Ruta 6 Subacuática |
+| **Magcargo** | Mitad del Juego | Intercambia completamente las estadísticas de Defensa y Velocidad. | Montaña Ardiente |
+| **Empoleon** | Post-juego | Aumenta el Ataque Especial y la Velocidad bajo Granizo o Lluvia. | Alta Mar de Aevium |
+| **Silvally** | v13.5+ | Funciona desde la Mochila. Los efectos varían según el Disco equipado. | Actualmente Inobténible |
+| **Infernape** | Juego Tardío | Aumenta la prioridad de los movimientos basados en puñetazos. | Calle Victoria |
+
+La filosofía detrás de estos objetos es el equilibrio. Notarás que muchos Pokémon "fuertes" como los iniciales de Sinnoh reciben Crestas para mantenerse competitivos contra los brutales Pokémon Jefes del juego, mientras que bichos más débiles como Ariados reciben mejoras masivas de velocidad y críticos para convertirlos en sweepers viables.
+
+<Callout type="info" title="Caso Especial de Silvally">
+La Cresta de Silvally es única porque es la única que proporciona sus beneficios mientras está en tu mochila. No necesitas que Silvally la lleve equipada, lo que permite al Pokémon llevar un Disco y seguir recibiendo las mejoras adaptativas de la Cresta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List Estratégica: Mejores Crestas para tu Equipo">
+
+Al construir un equipo alrededor de las **crestas de Pokémon Rejuvenation**, debes considerar el papel que desempeña cada Pokémon. Algunas Crestas convierten tanques defensivos en atacantes rápidos, mientras que otras proporcionan una sostenibilidad muy necesaria.
+
+<CardGrid cols={2}>
+  <Card title="Mejores Crestas Ofensivas">
+    - **Ariados**: Perfecta para estrategias con Hilo Tóxico.
+    - **Typhlosion**: Aumentos masivos al poder de Estallido.
+    - **Ampharos de Aevia**: Versatilidad inigualable en el primer espacio de movimiento.
+  </Card>
+  <Card title="Mejores Crestas de Utilidad/Defensivas">
+    - **Bastiodon**: Convierte la Defensa en presión ofensiva.
+    - **Meganium**: Proporciona curación a todo el equipo bajo condiciones específicas.
+    - **Magcargo**: Manipulación única de la velocidad para Trick Room o sweep.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sinergia Estratégica">
+Combina la Cresta de Ariados con un compañero que pueda colocar Red Viscosa o Púas Tóxicas. Dado que la Cresta garantiza golpes críticos contra objetivos ralentizados o envenenados, Ariados se convierte en un "cleaner" aterrador en el juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dominando la Colección de Crestas">
+
+Para el coleccionista definitivo, reunir cada una de las **crestas de Pokémon Rejuvenation** es una tarea monumental que abarca toda la región de Aevium. Usa esta lista para seguir tu progreso a través de los objetos más esenciales.
+
+<Checklist
+  id="crest-hunt-2026"
+  title="Objetivos Esenciales de la Colección de Crestas:"
+  items={[
+    "Obtén la Cresta de Ariados del Archivo Subacuático de la Ruta 6",
+    "Completa la misión de PictoZumi para la Cresta de Ampharos de Aevia",
+    "Desbloquea la Cresta de Castform basada en el clima en Terajuma",
+    "Adquiere la Cresta de Magcargo para habilitar el intercambio Defensa-Velocidad",
+    "Localiza las crestas del trío inicial (Empoleon/Infernape) en el juego tardío"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar una Cresta en un Pokémon diferente para obtener un aumento menor?",
+    answer: "No. Las crestas de Pokémon Rejuvenation solo proporcionan beneficios a la especie específica que les da nombre. En cualquier otro Pokémon, actúan como un objeto equipado inútil sin efecto."
+  },
+  {
+    question: "¿Desarme sigue haciendo daño extra a un portador de Cresta?",
+    answer: "Sí, Desarme infligirá su bonificación de daño de 1.5x porque el objetivo lleva un objeto, pero la Cresta permanecerá equipada y activa."
+  },
+  {
+    question: "¿Por qué Samurott tiene una Cresta pero Serperior no?",
+    answer: "La distribución de crestas se basa en las necesidades de equilibrio del desarrollador. Aunque muchos grupos como los iniciales eventualmente las reciben, se priorizó a Samurott para ayudarlo a mantenerse al día con el aumento de poder (power creep) del juego."
+  },
+  {
+    question: "¿Hay alguna Cresta que sea actualmente inobténible?",
+    answer: "A partir de las últimas actualizaciones de 2026, las crestas de Silvally y Beheeyem están en el código del juego pero no pueden ser obtenidas legalmente por el jugador a través del juego normal."
+  }
+]} />
+
+</Section>

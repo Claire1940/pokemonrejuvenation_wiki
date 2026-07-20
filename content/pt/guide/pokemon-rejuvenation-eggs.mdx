@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ovos de Pokémon Rejuvenation: Guia Completo de Obtenção 2026",
+  description: "Domine a arte de obter ovos raros e criaturas de evento em Pokémon Rejuvenation com nosso detalhamento especializado de locais e requisitos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Pokemon+Rejuvenation+Eggs",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ovos de Pokémon Rejuvenation** e criaturas exclusivas de eventos são vitais para construir uma equipe poderosa.
+- **Encontros no overworld** e **Mystery Eggs** oferecem maneiras únicas de expandir sua Pokédex além dos spawns selvagens.
+- **Gourmet Treats** e **Spice Powders** são itens essenciais para ativar batalhas de eventos específicas.
+- **Missões do Help Plaza** fornecem acesso confiável a Pokémon raros por meio de tarefas estruturadas.
+- Sempre verifique **condições baseadas no tempo**, como o período da noite, ou insígnias específicas para garantir spawns bem-sucedidos.
+</Callout>
+
+<Section icon={Map} title="Compreendendo as Mecânicas de Pokémon de Evento">
+
+Em Pokémon Rejuvenation, obter criaturas raras geralmente exige mais do que apenas caminhar pela grama alta. Ao contrário dos títulos padrão, este jogo depende muito de gatilhos baseados em eventos, interações assistidas por itens e marcos específicos da história. Quer você esteja caçando ovos raros ou encontros estáticos, a preparação é a chave.
+
+**Destaques do Vídeo:**
+- Identificar locais confiáveis de spawn no overworld.
+- Usar itens especializados para ativar encontros ocultos.
+- Rastrear eventos bloqueados pela história para obter Pokémon exclusivos.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Guia de Eventos de Pokémon Rejuvenation" />
+
+A tabela a seguir destaca os principais métodos para adquirir Pokémon não padronizados ao longo de sua jornada na região de Aevium.
+
+| Método | Requisito | Resultado Típico |
+| --- | --- | --- |
+| Gourmet Treats | Comprar de vendedores | Batalha/Captura |
+| Spice Powders | Vendedores da Ilha Terajuma | Batalha/Captura |
+| Esconde-Esconde | Múltiplos encontros no mapa | Batalha/Captura |
+| Mystery Egg | Atribuído aleatoriamente no início | Pokémon Raro |
+
+<Callout type="tip" title="Conselho Estratégico">
+Sempre mantenha um estoque de Gourmet Treats e Spice Powders em seu inventário. Muitos encontros raros são eventos únicos, e não ter o item necessário pode resultar na perda de um membro exclusivo para sua equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mystery Egg e Spawns Fixos">
+
+O Mystery Egg encontrado na Rota 3 é um dos recursos mais empolgantes do início do jogo. O Pokémon específico dentro dele é determinado quando você inicia um novo arquivo de salvamento, tornando cada jornada única. Abaixo estão alguns dos resultados potenciais que você pode encontrar.
+
+<CardGrid cols={3}>
+  <Card title="Azurill">
+    - **Tipo**: Normal/Fada
+    - **Disponibilidade**: Procriável
+    - **Notas**: Encontrado em várias áreas adjacentes à água.
+  </Card>
+  <Card title="Aron">
+    - **Tipo**: Aço/Pedra
+    - **Disponibilidade**: Prêmio do Cassino
+    - **Notas**: Alto potencial de defesa para o início do jogo.
+  </Card>
+  <Card title="Potencial Misterioso">
+    - **Tipo**: Variável
+    - **Disponibilidade**: Específico do Save
+    - **Notas**: Verifique a wiki local para ver a lista completa.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Condição Importante">
+O conteúdo do Mystery Egg é definido no início do seu jogo. Você não pode dar soft-reset no ovo para alterar o resultado depois de já ter iniciado sua jornada.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Fluxo de Trabalho de Aquisição">
+
+Siga esta abordagem sistemática para garantir que você não perca Pokémon de evento críticos conforme avança na história.
+
+<Steps>
+  <Step num="1" title="Progressão de Insígnias">
+    Priorize a obtenção da 1ª Insígnia de Ginásio com Venam, pois isso desbloqueia o acesso ao Feebas de Aevium no Laboratório Gearen.
+  </Step>
+  <Step num="2" title="Coleta de Recursos">
+    Visite o Vendedor Faixa-Preta no Berry Emporium para estocar itens essenciais como Poké Bolas e Gourmet Treats.
+  </Step>
+  <Step num="3" title="Exploração do Mapa">
+    Conclua os eventos da história no Oceana Pier e no Chrisola Hotel para ativar encontros de esconde-esconde de Pokémon como Nidoran e Minccino.
+  </Step>
+  <Step num="4" title="Troca de Shards">
+    Assim que ganhar acesso à Montanha Carotos, use suas Shards Azuis e Amarelas no Mercado Negro para adquirir espécies raras como Happiny ou Joltik.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Tarefas Essenciais">
+
+Antes de se mudar para uma nova região, certifique-se de ter concluído essas tarefas para maximizar a eficiência da sua coleção.
+
+<Checklist
+  id="event-checklist"
+  title="Prioridades de Pokémon de Evento:"
+  items={[
+    "Comprar Gourmet Treats dos vendedores de East Gearen",
+    "Concluir a missão 'Dangerous Pokemon!' no Help Plaza",
+    "Verificar o Cassino para obter Pokémon de alto valor como Seel e Spoink",
+    "Interagir com o Pachirisu no Velvet Building durante a noite",
+    "Trocar pelo Smoochum na Hospedaria de Sheridan Village"
+  ]}
+/>
+
+<Callout type="success" title="Estratégia Profissional">
+Focar nas missões do Help Plaza é a maneira mais confiável de obter Pokémon que, de outra forma, estariam bloqueados por condições difíceis ou obscuras. Sempre verifique o balcão após concluir os principais marcos da história.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso obter todos os Pokémon do Mystery Egg em um único save?",
+    answer: "Não, o Mystery Egg contém um de 21 Pokémon possíveis, determinado no início do seu arquivo de salvamento específico."
+  },
+  {
+    question: "Os Gourmet Treats funcionam em todos os Pokémon?",
+    answer: "Apenas Pokémon de eventos específicos exibirão o diálogo 'Gostaria de dar um Gourmet Treat para o Pokémon?'."
+  },
+  {
+    question: "Onde posso encontrar Spice Powders?",
+    answer: "Os Spice Powders são vendidos principalmente por vendedores localizados na Ilha Terajuma."
+  },
+  {
+    question: "Os Pokémon de evento reaparecem?",
+    answer: "Alguns encontros, como os que envolvem Spice Powders, são repetíveis, enquanto outros são spawns únicos e limitados."
+  }
+]} />
+
+</Section>
