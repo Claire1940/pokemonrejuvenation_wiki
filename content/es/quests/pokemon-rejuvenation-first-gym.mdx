@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Guía del Primer Gimnasio de Pokémon Rejuvenación",
+  description: "Una guía exhaustiva para navegar por el primer gimnasio en Pokémon Rejuvenación, incluyendo consejos y estrategias para el éxito.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=First+Gym+Guide",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Pokémon Rejuvenación"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Primer Gimnasio de Pokémon Rejuvenación
+- **Mecánica clave**: Entender el diseño del gimnasio y los entrenadores
+- **Mejor estrategia**: Priorizar a los entrenadores y los artículos para un progreso eficiente
+- **Consejo crucial**: Mantén los ojos abiertos para los artículos ocultos y las habitaciones secretas
+- **Elección superior**: Composición óptima del equipo para el desafío del gimnasio
+</Callout>
+
+<Section icon={Map} title="Diseño del Gimnasio y Mecánicas">
+
+El Gimnasio East Gearen en Pokémon Rejuvenación está diseñado para desafiar a los jugadores con una serie de habitaciones llenas de Parches Trampa y entrenadores. Para navegar con éxito por el gimnasio, los jugadores deben activar dos monitores al atravesar las habitaciones e interactuar con los Parches Trampa. Una vez que se hayan activado ambos monitores, los jugadores pueden llamar a Venam al escenario para la batalla final.
+
+**Diseño del Gimnasio:**
+- **Sala Principal**: Contiene el primer conjunto de Parches Trampa y entrenadores.
+- **Segunda Sala**: Más Parches Trampa y entrenadores, que llevan al primer monitor.
+- **Tercera Sala**: Últimos Parches Trampa y entrenadores, que llevan al segundo monitor.
+
+**Parches Trampa:**
+- **Daño**: Hace daño a los Pokémon.
+- **Teletransporte**: Mueve a los jugadores a diferentes ubicaciones.
+- **Sonido**: Reproduce un efecto de sonido.
+- **Batalla salvaje**: Inicia una batalla salvaje con un Pokémon salvaje.
+- **Direccional**: Mueve a los jugadores en una dirección específica.
+
+**Monitores:**
+- **Primer Monitor**: Situado en la segunda sala, requiere una combinación de números específica para activarse.
+- **Segundo Monitor**: Situado en la tercera sala, requiere una combinación de números diferente para activarse.
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Entrenadores y Pokémon">
+
+**Ubicaciones de los Entrenadores:**
+- **Enthusiast Luca**: Situado en la Sala Principal, recompensa 90 Pokémon Dollars y Bellsprout.
+- **Venonat**: Situado en la Sala Principal, recompensa 99 Pokémon Dollars y Bellsprout.
+- **Enthusiast Luca**: Situado en la segunda sala, recompensa 99 Pokémon Dollars y Bellsprout.
+- **Venonat**: Situado en la segunda sala, recompensa 99 Pokémon Dollars y Bellsprout.
+
+**Mejor Estrategia:**
+- Prioriza derrotar a los entrenadores en la Sala Principal primero para obtener los artículos necesarios para los monitores.
+- Guarda a los entrenadores en la segunda sala para más adelante, ya que pueden ser un desafío.
+- Mantén los ojos abiertos para los artículos ocultos, como la Gema Psíquica, que se puede encontrar en la Sala Principal.
+
+</Section>
+
+<Section icon={Trophy} title="Artículos y Recompensas">
+
+**Artículos:**
+- **Gema Psíquica**: Situada en la Sala Principal, detrás del escritorio en el cubo de basura.
+- **TM102 Sweep Veneno**: Se otorga después de derrotar a Venam.
+
+**Recompensas:**
+- **Pokémon Dollars**: Ganados derrotando a los entrenadores.
+- **Artículos**: Ganados derrotando a los entrenadores y completando el desafío del gimnasio.
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Activar los Monitores">
+
+1. **Sala Principal**: Derrota a los entrenadores en la Sala Principal para obtener los artículos necesarios para los monitores.
+2. **Segunda Sala**: Traverse los Parches Trampa y los entrenadores para llegar al primer monitor. Usa la combinación de números 2 332 para activar el monitor.
+3. **Tercera Sala**: Traverse los Parches Trampa y los entrenadores para llegar al segundo monitor. Usa la combinación de números 4 332 para activar el monitor.
+4. **Batalla Final**: Llama a Venam al escenario para la batalla final.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo los monitores en el gimnasio?",
+    answer: "Derrota a los entrenadores en las habitaciones y usa las combinaciones de números específicas en los Parches Trampa para activar los monitores."
+  },
+  {
+    question: "¿Qué artículos necesito para activar los monitores?",
+    answer: "Necesitas los artículos obtenidos derrotando a los entrenadores en la Sala Principal."
+  },
+  {
+    question: "¿Cuál es la mejor composición de equipo para el desafío del gimnasio?",
+    answer: "Se recomienda un equipo con una mezcla de Pokémon ofensivos y defensivos."
+  }
+]} />
+
+</Section>

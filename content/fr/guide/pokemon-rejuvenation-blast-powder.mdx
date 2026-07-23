@@ -1,0 +1,161 @@
+import { Callout } from '@/components/mdx/Callout'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Blast Powder",
+  description: "Chaque article doit utiliser au moins une fois tous les composants suivants :",
+}
+
+## 🚨 Obligations obligatoires (à respecter en priorité - priorité la plus élevée)
+
+### Obligations de composants
+Chaque article doit utiliser au moins une fois tous les composants suivants :
+- ✅ **Section** - Chaque chapitre principal (obligatoire, généralement 4-6 sections)
+- ✅ **Callout** - Au moins 2-3 (en utilisant différents types : tip/warning/info/success)
+  - **Important** : Chaque section doit au moins utiliser une fois le composant Callout
+- ✅ **CardGrid/Card** - Au moins 1 ensemble (3-4 cartes, affichage en liste)
+- ✅ **Steps** - Au moins 1 processus de étapes (3-5 étapes)
+- ✅ **Checklist** - Au moins 1 liste (3-5 éléments)
+- ✅ **FAQ** - Au moins 1 (3-4 questions-réponses)
+- ✅ **Tableau** - Au moins 2-5
+
+### Règles obligatoires sur la vidéo
+- ⚠️ **La même vidéo ne peut être utilisée qu'une seule fois**. Il est interdit de multiplier l'insertion de la même vidéo dans un article.
+- Ne intégrez que des vidéos fortement liées aux mots-clés principaux (1-2 les plus pertinentes).
+- Si toutes les vidéos ne sont pas pertinentes, ne intégrez aucune vidéo.
+
+### Règles d'utilisation du composant Callout
+- **Chaque section doit au moins utiliser une fois le composant Callout**
+- Utilisez différents types de type : tip, warning, info, success
+- Utilisé pour mettre en avant des conseils importants, des informations d'avertissement, des conseils professionnels
+
+---
+
+## 📝 Guide de rédaction de l'article
+
+### Règles de génération de mots-clés et de titres
+- Utilisez merged_data.keyword comme mot-clé principal (Mot-clé principal)
+- Générer le titre de l'article : format : mot-clé principal : description spécifique
+- Longueur contrôlée à 50-60 caractères
+- La partie de description doit utiliser des mots spécifiques de contenu
+- Si la temporalité doit être reflétée, l'année doit être intégrée dans la description
+- Interdire l'utilisation de mots vagues
+
+### Style d'écriture
+- **Écrire sous le point de vue du rédacteur en chef**
+- **Règles de source de contenu**
+- **Éviter des expressions catégoriques**
+- **Principe de priorité des tableaux**
+
+### Utilisation des sources Web
+- Le contenu Web peut être utilisé comme référence de contenu et comme lien d'autorité
+- Format de citation : texte descriptif + URL du site Web
+- Priorité : site officiel > Wiki > média de jeu
+- Ne引用相关内容
+
+### Règles d'intégration de la vidéo
+- **Critères de sélection**
+- **Emplacement de la vidéo**
+- **Format d'intégration**
+
+---
+
+## 📝 Contenu de l'article
+
+### En-tête du fichier
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Poudre d'Explosion - Pokémon Rejuvenation Wikia - Fandom",
+  description: "Découvrez tout sur la Poudre d'Explosion dans Pokémon Rejuvenation. Apprenez son emplacement, son utilisation et comment l'obtenir dans le jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Poudre+d'Explosion+Guide",
+  date: "2026-07-23",
+  author: "Équipe de Wiki Pokémon Rejuvenation"
+}
+```
+
+### Partie TL;DR
+
+```jsx
+<Callout type="info" title="Guide Rapide">
+- **Emplacement** : Disponible à la 7ème Rue, à la Bibliothèque Beryl ou au Ward Obsidia
+- **Utilisation** : Utilisée pour extraire la base d'une Roche d'Extraction
+- **Obtention** : Début du jeu par le biais de la fonction Pick-up ou d'un membre d'une bande
+- **Important** : Peut être utilisé pour enlever les Roches d'Extraction bloquant l'accès aux articles
+</Callout>
+```
+
+### Première section
+
+```jsx
+<Section icon={Map} title="Aperçu de la Poudre d'Explosion">
+
+<Callout type="info" title="Emplacement">
+La Poudre d'Explosion peut être trouvée à la 7ème Rue, à la Bibliothèque Beryl ou au Ward Obsidia. Ces emplacements sont au début du jeu, ce qui rend leur obtention et utilisation faciles.
+</Callout>
+
+<Callout type="tip" title="Conseils d'utilisation">
+L'utilisation de la Poudre d'Explosion vous permet d'extraire la base d'une Roche d'Extraction, ce qui peut être crucial pour accéder à certains articles ou pour éliminer des obstacles.
+</Callout>
+
+</Section>
+```
+
+### Section des étapes
+
+```jsx
+<Section icon={Swords} title="Comment obtenir la Poudre d'Explosion">
+
+<Steps>
+  <Step num="1" title="Démarrer le jeu">
+    Commencez votre aventure dans Pokémon Rejuvenation.
+  </Step>
+  <Step num="2" title="Accéder à Pick-up">
+    Recherchez l'option Pick-up dans le menu du jeu.
+  </Step>
+  <Step num="3" title="Obtenir la Poudre d'Explosion">
+    La Poudre d'Explosion sera disponible pour Pick-up dès le début du jeu.
+  </Step>
+  <Step num="4" title="Rejoindre une bande">
+    Vous pouvez également rejoindre une bande pour acheter la Poudre d'Explosion auprès d'un membre.
+  </Step>
+</Steps>
+
+</Section>
+```
+
+### Section FAQ
+
+```jsx
+<Section icon={Target} title="Questions Fréquentes">
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver la Poudre d'Explosion ?",
+    answer: "La Poudre d'Explosion peut être trouvée à la 7ème Rue, à la Bibliothèque Beryl ou au Ward Obsidia."
+  },
+  {
+    question: "À quoi sert la Poudre d'Explosion ?",
+    answer: "La Poudre d'Explosion est utilisée pour extraire la base d'une Roche d'Extraction, ce qui peut être crucial pour accéder à certains articles ou pour éliminer des obstacles."
+  },
+  {
+    question: "Comment puis-je obtenir la Poudre d'Explosion ?",
+    answer: "La Poudre d'Explosion peut être obtenue dès le début du jeu par le biais de la fonction Pick-up ou en rejoignant une bande et en l'achetant auprès d'un membre."
+  }
+]} />
+
+</Section>
+```
+
+### Conclusion
+
+Les éléments ci-dessus constituent le contenu de l'article basé sur les informations et les directives fournies. Veuillez ajuster et完善 la structure de l'article en fonction des besoins réels, en vous assurant de la pertinence et de l'exactitude du contenu.

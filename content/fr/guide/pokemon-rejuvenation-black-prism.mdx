@@ -1,0 +1,63 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide du Prisme Noir de Pokémon Rejuvenation",
+  description: "Découvrez comment obtenir et utiliser le Prisme Noir dans Pokémon Rejuvenation avec notre guide complet.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guide+du+Prisme+Noir",
+  date: "2026-07-23",
+  author: "Équipe de Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mots-clés principaux** : Prisme Noir
+- **Effet** : Donne une aura arc-en-ciel aux Pokémon
+- **Obtention** : Pokémon sauvages, mines de roches, batailles d'âme
+- **Vente** : Mr. Luck pour divers articles
+</Callout>
+
+<Section icon={Map} title="Introduction au Prisme Noir">
+Le Prisme Noir est un objet unique dans Pokémon Rejuvenation qui confère à un Pokémon une aura arc-en-ciel. Ce guide couvre ses effets, les méthodes d'obtention et la manière d'en vendre à Mr. Luck pour obtenir des récompenses.
+</Section>
+
+<Section icon={Swords} title="Effets du Prisme Noir">
+Quand un Pokémon tient un Prisme Noir, il gagne un +2 Omniboost au début du combat. Le prisme ne peut pas non plus être retiré comme un Pierre Mégalithe ou un Cristal Z, ce qui en fait un article permanent pour le Pokémon.
+</Section>
+
+<Section icon={Target} title="Obtention du Prisme Noir">
+Vous pouvez obtenir un Prisme Noir de plusieurs manières :
+- **Pokémon sauvages** : Il y a une chance sur 100 de trouver un Prisme Noir lors de l'encounter d'un Pokémon sauvage.
+- **Minerai de roches** : Les minerai de roches peuvent donner un Prisme Noir, mais c'est un drop rare.
+- **Batailles d'âme** : Participer aux batailles d'âme augmente vos chances d'obtenir un Prisme Noir.
+- **Boules d'objets** : Certaines coffres contiennent un Prisme Noir comme drop rare.
+</Section>
+
+<Section icon={Trophy} title="Vente du Prisme Noir à Mr. Luck">
+Vous pouvez vendre un Prisme Noir à Mr. Luck pour divers articles et effets. Cela peut être un bon moyen d'obtenir des articles rares ou d'améliorer les capacités de vos Pokémon.
+</Section>
+
+<Section icon={Sparkles} title="Conclusion">
+Le Prisme Noir est un article précieux dans Pokémon Rejuvenation, offrant des avantages uniques aux Pokémon. Que vous cherchiez à améliorer les performances de combat de vos Pokémon ou à collecter des articles rares, le Prisme Noir est un incontournable pour tout joueur.
+</Section>
+
+<FAQ items={[
+  {
+    question: "Comment puis-je obtenir un Prisme Noir dans Pokémon Rejuvenation ?",
+    answer: "Vous pouvez obtenir un Prisme Noir en rencontrant des Pokémon sauvages, en minant des roches, en participant à des batailles d'âme ou en le trouvant dans des boules d'objets."
+  },
+  {
+    question: "Puis-je retirer le Prisme Noir d'un Pokémon ?",
+    answer: "Non, le Prisme Noir est un article permanent et ne peut pas être retiré une fois qu'un Pokémon l'a."
+  },
+  {
+    question: "Que puis-je obtenir en vendant le Prisme Noir à Mr. Luck ?",
+    answer: "Vendre le Prisme Noir à Mr. Luck peut vous rapporter divers articles et effets, ce qui en fait un échange valable."
+  }
+]} />

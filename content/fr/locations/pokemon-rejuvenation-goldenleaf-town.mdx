@@ -1,0 +1,114 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide de la ville de Goldenleaf de Pokémon Rejuvenation",
+  description: "Découvrez les secrets de la ville de Goldenleaf dans Pokémon Rejuvenation avec notre guide complet.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guide+de+la+ville+de+Goldenleaf",
+  date: "2026-07-23",
+  author: "Équipe de Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Emplacement de la ville de Goldenleaf**: Point central dans le jeu
+- **Caractéristiques clés**: Théâtre, Centre, Maison de Narcissa, Ruines Floues
+- **Mouvements enseignés**: Spite, Trick
+- **Articles disponibles**: Great Ball, Super Potion, Gourmet Treat, Repel
+- **Pokémon**: Phanpy, Goldeen, Finneon, Misdreavus, Snubbull
+</Callout>
+
+<Section icon={Map} title="Aperçu de la ville de Goldenleaf">
+
+La ville de Goldenleaf est un point central dans le monde de Pokémon Rejuvenation. Elle sert de point de rencontre pour les joueurs et abrite plusieurs lieux et services clés.
+
+</Section>
+
+<Section icon={Swords} title="Lieux d'intérêt">
+
+### Théâtre de Goldenleaf
+Le Théâtre de Goldenleaf est un lieu culturel où les joueurs peuvent apprécier diverses représentations et événements.
+
+### Centre de Goldenleaf
+Le Centre de Goldenleaf est le point central de la ville, offrant une variété de services et de magasins.
+
+### Maison de Narcissa
+La Maison de Narcissa est une zone résidentielle où les joueurs peuvent rencontrer des PNJ et participer à des quêtes secondaires.
+
+### Ruines Floues
+Les Ruines Floues sont un site ancien rempli de secrets et de défis.
+
+</Section>
+
+<Section icon={Target} title="Mouvements enseignés à l'enseignant">
+
+| Enseignant de mouvements | Mouvement | Type | Catégorie | Prix |
+| --- | --- | --- | --- | --- |
+| Enseignant de la ville de Goldenleaf | Spite | Spectre | Statut | 2 Éclats jaunes |
+| Enseignant de la ville de Goldenleaf | Trick | Psychique | Statut | 3 Éclats bleus |
+
+</Section>
+
+<Section icon={Trophy} title="Articles du Poké Mart">
+
+| Article | Description | Prix |
+| --- | --- | --- |
+| Great Ball | Utilisé pour capturer des Pokémon | 600 Dollars Pokémon |
+| Super Potion | Guérit 50 PV | 700 Dollars Pokémon |
+| Gourmet Treat | Augmente le taux de capture | 1500 Dollars Pokémon |
+| Repel | Éloigne les Pokémon sauvages | 350 Dollars Pokémon |
+
+</Section>
+
+<Section icon={Sparkles} title="Pokémon disponibles">
+
+| Pokémon | Lieu | Niveaux | Taux |
+| --- | --- | --- | --- |
+| Phanpy | Ville de Goldenleaf | 30, 32 | 32% |
+| Goldeen | Pêche et Surf | 21, 23 | 65% |
+| Finneon | Surf | 24 | 25% |
+| Misdreavus | Attirer avec Gourmet Treat | 25 | 1 |
+| Snubbull | Cadeau | 15 | 1 |
+
+</Section>
+
+<Section icon={Shield} title="Entraîneurs et récompenses">
+
+| Entraîneur | Pokémon | Récompense |
+| --- | --- | --- |
+| Fillette fantôme Sariah | Trevenant | 372 Dollars Pokémon |
+| Élève Julie | Teddiursa | 435 Dollars Pokémon |
+| Équipe Xen Helain | Dusclops | 324 Dollars Pokémon |
+
+</Section>
+
+<Section icon={Target} title="Quêtes secondaires et défis">
+
+La ville de Goldenleaf offre diverses quêtes secondaires et défis pour les joueurs à entreprendre. Ces quêtes peuvent fournir des récompenses précieuses et aider les joueurs à progresser dans le jeu.
+
+</Section>
+
+<Section icon={FAQ} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je aller à la ville de Goldenleaf?",
+    answer: "La ville de Goldenleaf est située dans la partie centrale du monde de jeu. Les joueurs peuvent y voyager en utilisant la carte du jeu."
+  },
+  {
+    question: "Qu'est-ce qui est connu des Ruines Floues?",
+    answer: "Les Ruines Floues sont connues pour leur architecture ancienne et leurs trésors cachés. Les joueurs peuvent y trouver des objets rares et des Pokémon."
+  },
+  {
+    question: "Où puis-je trouver le Centre Pokémon?",
+    answer: "Le Centre Pokémon est situé dans le Centre de Goldenleaf. Il offre divers services tels que la guérison des Pokémon et les échanges."
+  }
+]} />
+
+</Section>

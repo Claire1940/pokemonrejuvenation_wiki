@@ -1,0 +1,114 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Goldenleaf Town en Pokémon Rejuvenation",
+  description: "Descubre los secretos de Goldenleaf Town en Pokémon Rejuvenation con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Goldenleaf+Town+Guide",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación de Goldenleaf Town**: Núcleo central del juego
+- **Características Clave**: Teatro, Centro, Casa de Narcissa, Ruinas Nebulosas
+- **Movimientos Enseñados**: Spite, Trick
+- **Ítems Disponibles**: Gran Bolita, Super Poción, Gourmet Treat, Repel
+- **Pokémon**: Phanpy, Goldeen, Finneon, Misdreavus, Snubbull
+</Callout>
+
+<Section icon={Map} title="Resumen de Goldenleaf Town">
+
+Goldenleaf Town es un núcleo central en el mundo de Pokémon Rejuvenation. Sirve como punto de reunión para los jugadores y es hogar de varios lugares y servicios clave.
+
+</Section>
+
+<Section icon={Swords} title="Lugares de Interés">
+
+### Teatro Goldenleaf
+El Teatro Goldenleaf es un hito cultural donde los jugadores pueden disfrutar de diversas actuaciones y eventos.
+
+### Centro Goldenleaf
+El Centro Goldenleaf es el núcleo central de la ciudad, ofreciendo una variedad de servicios y tiendas.
+
+### Casa de Narcissa
+La Casa de Narcissa es una zona residencial donde los jugadores pueden conocer a NPC y participar en misiones secundarias.
+
+### Ruinas Nebulosas
+Las Ruinas Nebulosas son un sitio antiguo lleno de secretos y desafíos.
+
+</Section>
+
+<Section icon={Target} title="Movimientos Enseñados en el Tutor">
+
+| Tutor de Movimientos | Movimiento | Tipo | Categoría | Precio |
+| --- | --- | --- | --- | --- |
+| Tutor de Goldenleaf Town | Spite | Fantasma | Estado | 2 Peces Amarillos |
+| Tutor de Goldenleaf Town | Trick | Psíquico | Estado | 3 Peces Azules |
+
+</Section>
+
+<Section icon={Trophy} title="Ítems del Poké Mart">
+
+| Ítem | Descripción | Precio |
+| --- | --- | --- |
+| Gran Bolita | Usado para capturar Pokémon | 600 Dólares Pokémon |
+| Super Poción | cura 50 HP | 700 Dólares Pokémon |
+| Gourmet Treat | Aumenta la tasa de captura | 1500 Dólares Pokémon |
+| Repel | Mantiene alejados a los Pokémon salvajes | 350 Dólares Pokémon |
+
+</Section>
+
+<Section icon={Sparkles} title="Pokémon Disponibles">
+
+| Pokémon | Lugar | Niveles | Tasa |
+| --- | --- | --- | --- |
+| Phanpy | Goldenleaf Town | 30, 32 | 32% |
+| Goldeen | Pescar y Surf | 21, 23 | 65% |
+| Finneon | Surf | 24 | 25% |
+| Misdreavus | Atrayendo con Gourmet Treat | 25 | 1 |
+| Snubbull | Regalo | 15 | 1 |
+
+</Section>
+
+<Section icon={Shield} title="Entrenadores y Recompensas">
+
+| Entrenador | Pokémon | Recompensa |
+| --- | --- | --- |
+| Chica Fantasma Sariah | Trevenant | 372 Dólares Pokémon |
+| Chica Escuela Julie | Teddiursa | 435 Dólares Pokémon |
+| Equipo Xen Helain | Dusclops | 324 Dólares Pokémon |
+
+</Section>
+
+<Section icon={Target} title="Misiones Secundarias y Desafíos">
+
+Goldenleaf Town ofrece diversas misiones secundarias y desafíos para que los jugadores se adentren. Estas misiones pueden proporcionar recompensas valiosas y ayudar a los jugadores a progresar en el juego.
+
+</Section>
+
+<Section icon={FAQ} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo llego a Goldenleaf Town?",
+    answer: "Goldenleaf Town se encuentra en la parte central del mundo de juego. Los jugadores pueden viajar allí usando el mapa del juego."
+  },
+  {
+    question: "¿Qué es lo que se conoce de las Ruinas Nebulosas?",
+    answer: "Las Ruinas Nebulosas son conocidas por su arquitectura antigua y tesoros ocultos. Los jugadores pueden encontrar artículos y Pokémon raros allí."
+  },
+  {
+    question: "¿Dónde puedo encontrar el Centro Pokémon?",
+    answer: "El Centro Pokémon se encuentra en el Centro Goldenleaf. Ofrece varios servicios como curar Pokémon y comercio."
+  }
+]} />
+
+</Section>

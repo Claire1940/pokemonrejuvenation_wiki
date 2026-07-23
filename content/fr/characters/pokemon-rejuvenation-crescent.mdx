@@ -1,0 +1,110 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation Crescent: Guide Complet du Wiki de la Renaissance",
+  description: "Explorez le monde de Pokémon Rejuvenation et découvrez tout sur Crescent, un dresseur avec un passé mystérieux et une détermination à protéger le protagoniste. Ce guide complet inclut des conseils, des stratégies et une analyse approfondie de son histoire et de ses capacités.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guide+de+Pokémon+Rejuvenation+Crescent",
+  date: "2026-07-23",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Origine de Crescent** : Découvrez son origine et les règles qui régissent son village.
+- **Personnalité et Capacités** : Comprenez les traits de personnalité de Crescent et ses capacités uniques en combat.
+- **Pokémon Compagnons** : Découvrez les Pokémon qui accompagnent Crescent dans son voyage.
+- **Combinaison de Mouvements de Crescent** : Analysez sa combinaison de mouvements et découvrez quels mouvements sont les plus efficaces.
+- **Combats et Stratégies** : Obtenez des conseils sur la façon de vaincre Crescent en combat et les stratégies à utiliser.
+</Callout>
+
+<Section icon={Map} title="Origine de Crescent et les Règles de Son Village">
+
+L'histoire de Crescent commence dans un village éloigné de la région de Miera, qui était tourmenté par un démon pendant de nombreuses années. Cresselia, un Pokémon puissant, est descendu sur le village et a banni le démon, gagnant la révérence du village. Deux règles principales ont été établies pour honorer Cresselia : aucun enfant ne pouvait naître pendant le mois de la Lune Croissante, et personne ne pouvait se marier avec quelqu'un en dehors de la tribu sans permission spécifique. La mère de Crescent a brisé les deux règles, ce qui a conduit à son ostracisme et à l'exécution de Crescent et de sa famille. Malgré cela, Crescent a réussi à s'échapper avec son frère, Mün, et a commencé son voyage.
+
+<Callout type="tip" title="Faits Intéressants">
+Le nom de Crescent est un rappel constant de sa naissance maudite, et sa famille a été bannie par la tribu.
+
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Personnalité et Capacités de Crescent">
+
+Crescent est connue pour sa détermination à protéger le protagoniste à tout prix. Elle n'a pas peur de blesser les autres pour atteindre son objectif, et son compagnon de voyage est un Gothitelle. La personnalité de Crescent est complexe, et elle a un fort sens de la justice et de la loyauté.
+
+<Callout type="warning" title="Conseil de Combat Important">
+Crescent utilise Chthonic Malady lorsqu'elle envoie son Gothitelle, donc soyez prêt à affronter une attaque puissante.
+
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pokémon Compagnons">
+
+Le compagnon de voyage de Crescent est un Gothitelle, un Pokémon connu pour son élégance et son intelligence. Gothitelle est un bon Pokémon de soutien qui peut fournir des effets bénéfiques en combat.
+
+<Callout type="info" title="Capacités de Gothitelle">
+Gothitelle a la capacité d'augmenter l'attaque de ses alliés et peut également refléter les attaques spéciales.
+
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Combinaison de Mouvements de Crescent">
+
+La combinaison de mouvements de Crescent est puissante et polyvalente, lui permettant de gérer une variété de situations en combat. Ses mouvements clés incluent :
+
+| Mouvement | Type | Puissance | Précision |
+|-----------|------|-----------|-----------|
+| Chthonic Malady | Spectre | 70 | 100% |
+| Dark Pulse | Spectre | 80 | 100% |
+| Shadow Ball | Spectre | 80 | 100% |
+| Ghostly Lock | Spectre | — | 100% |
+
+<Callout type="tip" title="Mouvements Efficaces">
+Pour maximiser les dégâts, envisagez d'utiliser Chthonic Malady en combinaison avec Dark Pulse ou Shadow Ball.
+
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combats et Stratégies">
+
+Lorsque vous affrontez Crescent en combat, il est important d'être conscient de ses mouvements puissants et des effets de son Gothitelle. Voici quelques stratégies à envisager :
+
+- Évitez d'utiliser des Pokémon avec des stats défensives faibles.
+- Soyez prêt à affronter une attaque Spectre puissante.
+- Utilisez des mouvements d'état pour affaiblir Crescent avant d'engager le combat.
+
+<Callout type="success" title="Conseil Pro">
+Utilisez une équipe qui peut gérer de grandes quantités de dégâts et avoir de bonnes stats défensives pour contrer Crescent efficacement.
+
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "D'où vient le nom de Crescent ?",
+    answer: "Le nom de Crescent est un rappel constant de sa naissance maudite, car sa mère a brisé les règles établies pour honorer Cresselia."
+  },
+  {
+    question: "Quel est le Pokémon principal qui accompagne Crescent ?",
+    answer: "Le Pokémon principal qui accompagne Crescent est un Gothitelle, un Pokémon connu pour son élégance et son intelligence."
+  },
+  {
+    question: "Qu'est-ce que le mouvement le plus puissant de Crescent ?",
+    answer: "Le mouvement le plus puissant de Crescent est Chthonic Malady, une attaque Spectre qui peut infliger des dégâts importants."
+  }
+]} />
+
+</Section>

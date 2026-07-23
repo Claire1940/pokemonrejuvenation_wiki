@@ -1,0 +1,161 @@
+import { Callout } from '@/components/mdx/Callout'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Blast Powder",
+  description: "Cada artigo deve usar pelo menos uma vez todos os seguintes componentes:",
+}
+
+## 🚨 Requisitos Obrigatórios (Deve ser rigorosamente seguido - Prioridade Máxima)
+
+### Requisitos de Uso de Componentes
+Cada artigo deve usar pelo menos uma vez todos os seguintes componentes:
+- ✅ **Seção** - Cada seção principal (obrigatório, geralmente 4-6 seções)
+- ✅ **Chamada de Atenção** - Pelo menos 2-3 (usando diferentes tipos: dica/aviso/info/sucesso)
+  - **Importante**: Cada Seção deve usar pelo menos uma vez um componente Chamada de Atenção
+- ✅ **CardGrid/Card** - Pelo menos 1 grupo (3-4 cartões, mostrando comparações paralelas)
+- ✅ **Passos** - Pelo menos 1 fluxo de passos (3-5 passos)
+- ✅ **Lista de Verificação** - Pelo menos 1 (3-5 itens)
+- ✅ **Perguntas Frequentes** - Pelo menos 1 (3-4 perguntas e respostas)
+- ✅ **Tabela** - Pelo menos 2-5
+
+### Regras de Uso de Vídeos
+- ⚠️ **O mesmo vídeo pode ser usado apenas uma vez**, proibindo o uso repetido do mesmo vídeo no artigo
+- Somente vídeos altamente relevantes para a palavra-chave principal devem ser incluídos (1-2 mais relevantes)
+- Se todos os vídeos forem irrelevantes, nenhum vídeo deve ser incluído
+
+### Regras de Uso do Componente Chamada de Atenção
+- **Cada Seção deve usar pelo menos uma vez um componente Chamada de Atenção**
+- Usar diferentes tipos de tipo: dica, aviso, info, sucesso
+- Usado para destacar dicas importantes, avisos e sugestões profissionais
+
+---
+
+## 📝 Guia de Escrita de Artigos
+
+### Requisitos de Geração de Palavras-chave e Títulos
+- Usar merged_data.keyword como palavras-chave principais (Palavras-chave Principais)
+- Gerar títulos de artigo: Formato: Palavras-chave Principais: Descrição específica
+- O comprimento deve ser controlado em 50-60 caracteres
+- A descrição deve usar palavras específicas do tipo de conteúdo
+- Se for necessário mostrar a atualidade, o ano deve ser incluído na descrição
+- Proibido usar palavras vãs
+
+### Estilo de Escrita
+- **Escrever com a perspectiva do editor-chefe**
+- **Regras de origem do conteúdo**
+- **Evitar expressões absolutas**
+- **Princípio da tabela**
+
+### Uso de Conteúdo de Páginas da Web
+- O conteúdo da página da web pode ser usado como referência de conteúdo e link de autoridade
+- Formato de citação: texto descritivo + URL da página da web
+- Prioridade: Site oficial > Wiki > Mídia de jogo
+- Somente citar conteúdo relevante
+
+### Regras de Uso de Vídeos
+- **Critérios de seleção**
+- **Posição do vídeo**
+- **Formato de embedding**
+
+---
+
+## 📝 Conteúdo do Artigo
+
+### Cabeçalho do Arquivo
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pó de Explosão - Pokémon Rejuvenação Wikia - Fandom",
+  description: "Descubra tudo sobre Pó de Explosão em Pokémon Rejuvenação. Aprenda sua localização, uso e como obtê-lo no jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Pó+de+Explosão+Guia",
+  date: "2026-07-23",
+  author: "Equipe de Wiki da Pokémon Rejuvenação"
+}
+```
+
+### Parte TL;DR
+
+```jsx
+<Callout type="info" title="Guia Rápido">
+- **Localização**: Disponível em 7th Street, Biblioteca Beryl ou Ward Obsidia
+- **Uso**: Usado para minerar a base de uma Rocha de Mineração
+- **Obtenção**: No início do jogo através de Pickup ou de um membro de gangue
+- **Importante**: Pode ser usado para remover Rochas de Mineração bloqueando o acesso a itens
+</Callout>
+```
+
+### Primeira Seção
+
+```jsx
+<Section icon={Map} title="Visão Geral do Pó de Explosão">
+
+<Callout type="info" title="Localização">
+O Pó de Explosão pode ser encontrado em 7th Street, Biblioteca Beryl ou Ward Obsidia. Essas localizações estão no início do jogo, tornando fácil de obter e usar.
+</Callout>
+
+<Callout type="dica" title="Dicas de Uso">
+O uso do Pó de Explosão permite que você mine a base de uma Rocha de Mineração, o que pode ser crucial para acessar certos itens ou remover obstáculos.
+</Callout>
+
+</Section>
+```
+
+### Seção de Passos
+
+```jsx
+<Section icon={Swords} title="Como Obter Pó de Explosão">
+
+<Steps>
+  <Step num="1" title="Inicie o Jogo">
+    Comece sua aventura em Pokémon Rejuvenação.
+  </Step>
+  <Step num="2" title="Acesse Pickup">
+    Procure a opção Pickup no menu do jogo.
+  </Step>
+  <Step num="3" title="Obtenha Pó de Explosão">
+    O Pó de Explosão estará disponível para Pickup no início do jogo.
+  </Step>
+  <Step num="4" title="Junte-se a uma Gangue">
+    Alternativamente, você pode se juntar a uma gangue para comprar Pó de Explosão de um membro.
+  </Step>
+</Steps>
+
+</Section>
+```
+
+### Seção de Perguntas Frequentes
+
+```jsx
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar Pó de Explosão?",
+    answer: "Pó de Explosão pode ser encontrado em 7th Street, Biblioteca Beryl ou Ward Obsidia."
+  },
+  {
+    question: "Para que serve Pó de Explosão?",
+    answer: "Pó de Explosão é usado para minerar a base de uma Rocha de Mineração, o que pode ser crucial para acessar certos itens ou remover obstáculos."
+  },
+  {
+    question: "Como eu obtenho Pó de Explosão?",
+    answer: "Pó de Explosão pode ser obtido no início do jogo através de Pickup ou juntando-se a uma gangue e comprando de um membro."
+  }
+]} />
+
+</Section>
+```
+
+### Conclusão
+
+O conteúdo do artigo acima foi escrito com base nas informações e guias fornecidos. Ajuste e refine a estrutura do artigo conforme necessário para garantir a relevância e a precisão do conteúdo.

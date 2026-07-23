@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia do Primeiro Ginásio do Pokémon Rejuvenation",
+  description: "Um guia completo para navegar pelo primeiro ginásio do Pokémon Rejuvenation, incluindo dicas e estratégias para o sucesso.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Primeiro+Ginásio+Guide",
+  date: "2026-07-23",
+  author: "Equipe de Wiki do Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Primeiro Ginásio do Pokémon Rejuvenation
+- **Mecânica-chave**: Entender o layout do ginásio e os treinadores
+- **Melhor estratégia**: Priorizar treinadores e itens para progressão eficiente
+- **Dica crucial**: Fique atento aos itens escondidos e às salas secretas
+- **Escolha top**: Composição de equipe ótima para o desafio do ginásio
+</Callout>
+
+<Section icon={Map} title="Layout e Mecânica do Ginásio">
+
+O Ginásio East Gearen no Pokémon Rejuvenation foi projetado para desafiar os jogadores com uma série de salas cheias de Pisos de Trapa e treinadores. Para navegar com sucesso pelo ginásio, os jogadores devem ativar dois monitores ao atravessar as salas e interagir com os Pisos de Trapa. Uma vez que ambos os monitores forem ativados, os jogadores podem chamar Venam para o palco para a batalha final.
+
+**Layout do Ginásio:**
+- **Sala Principal**: Contém o primeiro conjunto de Pisos de Trapa e treinadores.
+- **Segunda Sala**: Mais Pisos de Trapa e treinadores, levando ao primeiro monitor.
+- **Terceira Sala**: Últimos Pisos de Trapa e treinadores, levando ao segundo monitor.
+
+**Pisos de Trapa:**
+- **Dano**: Causar dano aos Pokémon.
+- **Teleporte**: Mover jogadores para diferentes locais.
+- **Som**: Reproduzir um efeito sonoro.
+- **Batalha Selvagem**: Iniciar uma batalha selvagem com um Pokémon selvagem.
+- **Direcional**: Mover jogadores em uma direção específica.
+
+**Monitores:**
+- **Primeiro Monitor**: Localizado na segunda sala, requer uma combinação de números específica para ativar.
+- **Segundo Monitor**: Localizado na terceira sala, requer uma combinação de números diferente para ativar.
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Treinadores e Pokémon">
+
+**Localização dos Treinadores:**
+- **Enthusiast Luca**: Localizado na Sala Principal, recompensa 90 Pokémon Dollars e Bellsprout.
+- **Venonat**: Localizado na Sala Principal, recompensa 99 Pokémon Dollars e Bellsprout.
+- **Enthusiast Luca**: Localizado na segunda sala, recompensa 99 Pokémon Dollars e Bellsprout.
+- **Venonat**: Localizado na segunda sala, recompensa 99 Pokémon Dollars e Bellsprout.
+
+**Melhor Estratégia:**
+- Priorize a derrota dos treinadores na Sala Principal primeiro para obter os itens necessários para os monitores.
+- Salve os treinadores na segunda sala para mais tarde, pois podem ser um desafio.
+- Fique atento aos itens escondidos, como o Gemma Psíquica, que pode ser encontrado na Sala Principal.
+
+</Section>
+
+<Section icon={Trophy} title="Itens e Recompensas">
+
+**Itens:**
+- **Gemma Psíquica**: Localizada na Sala Principal, atrás da mesa na lixeira.
+- **TM102 Varredura Veneno**: Concedida após derrotar Venam.
+
+**Recompensas:**
+- **Pokémon Dollars**: Ganhados ao derrotar treinadores.
+- **Itens**: Ganhados ao derrotar treinadores e completar o desafio do ginásio.
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Ativar os Monitores">
+
+1. **Sala Principal**: Derrote os treinadores na Sala Principal para obter os itens necessários para os monitores.
+2. **Segunda Sala**: Atravesse os Pisos de Trapa e treinadores para alcançar o primeiro monitor. Use a combinação de números 2 332 para ativar o monitor.
+3. **Terceira Sala**: Atravesse os Pisos de Trapa e treinadores para alcançar o segundo monitor. Use a combinação de números 4 332 para ativar o monitor.
+4. **Batalha Final**: Chame Venam para o palco para a batalha final.
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como ativar os monitores no ginásio?",
+    answer: "Derrote os treinadores nas salas e use as combinações de números específicas nos Pisos de Trapa para ativar os monitores."
+  },
+  {
+    question: "Quais itens preciso para ativar os monitores?",
+    answer: "Você precisa dos itens obtidos ao derrotar os treinadores na Sala Principal."
+  },
+  {
+    question: "Qual é a melhor composição de equipe para o desafio do ginásio?",
+    answer: "Uma equipe com uma mistura de Pokémon ofensivos e defensivos é recomendada."
+  }
+]} />
+
+</Section>

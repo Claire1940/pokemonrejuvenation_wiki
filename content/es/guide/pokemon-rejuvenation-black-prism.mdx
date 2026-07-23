@@ -1,0 +1,63 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del Prisma Negro de Pokémon Rejuvenación",
+  description: "Descubre cómo obtener y usar el Prisma Negro en Pokémon Rejuvenación con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Guía+Prisma+Negro",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Pokémon Rejuvenación"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Prisma Negro
+- **Efecto**: Da a los Pokémon un aura de arcoíris
+- **Obtención**: Pokémon salvajes, Minado de Rocas, Batallas de Almas
+- **Venta**: Mr. Luck por varios artículos
+</Callout>
+
+<Section icon={Map} title="Introducción al Prisma Negro">
+El Prisma Negro es un artículo único en Pokémon Rejuvenación que otorga a los Pokémon una aura de arcoíris. Esta guía cubrirá sus efectos, métodos de obtención y cómo venderlo a Mr. Luck por recompensas.
+</Section>
+
+<Section icon={Swords} title="Efectos del Prisma Negro">
+Cuando un Pokémon sostiene un Prisma Negro, obtiene un +2 Omniboost al inicio de cada batalla. El prisma también no puede ser quitado como un Mega Piedra o Z-Crystal, haciendo que sea un artículo permanente para el Pokémon.
+</Section>
+
+<Section icon={Target} title="Obtención del Prisma Negro">
+Puedes obtener un Prisma Negro de varias maneras:
+- **Pokémon salvajes**: Hay una oportunidad de 1/100 de encontrar un Prisma Negro al encontrar Pokémon salvajes.
+- **Minado de Rocas**: Minar Rocas puede dar un Prisma Negro, pero es un depósito raro.
+- **Batallas de Almas**: Participar en Batallas de Almas aumenta tus oportunidades de obtener un Prisma Negro.
+- **Bolas de Objetos**: Algunas cajas contienen un Prisma Negro como un depósito raro.
+</Section>
+
+<Section icon={Trophy} title="Venta del Prisma Negro a Mr. Luck">
+Puedes vender un Prisma Negro a Mr. Luck por varios artículos y efectos. Esto puede ser una buena manera de obtener artículos raros o mejorar las habilidades de tus Pokémon.
+</Section>
+
+<Section icon={Sparkles} title="Conclusión">
+El Prisma Negro es un artículo valioso en Pokémon Rejuvenación, ofreciendo beneficios únicos a los Pokémon. Ya sea que busques mejorar el rendimiento de batalla de tus Pokémon o recopilar artículos raros, el Prisma Negro es un artículo obligatorio para cualquier jugador.
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo obtener un Prisma Negro en Pokémon Rejuvenación?",
+    answer: "Puedes obtener un Prisma Negro encontrando Pokémon salvajes, minando rocas, participando en batallas de almas o encontrándolo en bolas de objetos."
+  },
+  {
+    question: "¿Puedo quitar el Prisma Negro de un Pokémon?",
+    answer: "No, el Prisma Negro es un artículo permanente y no puede ser quitado una vez que un Pokémon lo sostiene."
+  },
+  {
+    question: "¿Qué puedo obtener vendiendo el Prisma Negro a Mr. Luck?",
+    answer: "Vender el Prisma Negro a Mr. Luck puede obtener varios artículos y efectos, haciendo que sea un intercambio valioso."
+  }
+]} />

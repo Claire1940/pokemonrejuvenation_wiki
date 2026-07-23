@@ -1,0 +1,161 @@
+import { Callout } from '@/components/mdx/Callout'
+
+export const metadata = {
+  title: "Pokemon Rejuvenation Blast Powder",
+  description: "Cada artículo debe usar al menos una vez cada uno de los siguientes componentes:",
+}
+
+## 🚨 Requisitos Obligatorios (deben cumplirse estrictamente - prioridad máxima)
+
+### Requisitos de Uso de Componentes
+Cada artículo debe usar al menos una vez cada uno de los siguientes componentes:
+- ✅ **Section** - Cada sección principal (obligatorio, generalmente 4-6 secciones)
+- ✅ **Callout** - Al menos 2-3 (usar diferentes tipos: tip/warning/info/success)
+  - **Importante**: Cada Section debe tener al menos un Callout dentro de ella
+- ✅ **CardGrid/Card** - Al menos 1 grupo (3-4 tarjetas, comparación en paralelo)
+- ✅ **Steps** - Al menos 1 flujo de pasos (3-5 pasos)
+- ✅ **Checklist** - Al menos 1 lista (3-5 proyectos)
+- ✅ **FAQ** - Al menos 1 (3-4 preguntas y respuestas)
+- ✅ **Tabla** - Al menos 2-5
+
+### Reglas de Uso de Vídeos
+- ⚠️ **El mismo video solo se puede usar una vez**, no se permite el uso repetido del mismo video en el artículo
+- Solo se pueden insertar videos altamente relevantes para las palabras clave principales (1-2 más relevantes)
+- Si todos los videos no son relevantes, no se inserta ningún video
+
+### Reglas de Uso del Componente Callout
+- **Cada Section debe tener al menos un Callout dentro de ella**
+- Usar diferentes tipos de tipo: tip, warning, info, success
+- Usado para resaltar consejos importantes, información de advertencia, sugerencias profesionales
+
+---
+
+## 📝 Guía de Escritura de Artículos
+
+### Requisitos de Generación de Palabras Clave y Títulos
+- Usar merged_data.keyword como palabra clave principal (Palabra Clave Principal)
+- Generar el título del artículo: formato: Palabra Clave Principal: Descripción específica
+- Longitud控制在 50-60 caracteres
+- La parte de la descripción debe usar palabras específicas del tipo de contenido
+- Si es necesario reflejar la temporalidad, el año debe integrarse en la descripción
+- Prohibido usar palabras vacías
+
+### Estilo de Escritura
+- **Escribir desde la perspectiva del editor**
+- **Reglas de origen del contenido**
+- **Evitar expresiones absolutas**
+- **Principio de prioridad de las tablas**
+
+### Uso de Contenido de Páginas Web
+- El contenido de la página web puede ser una referencia de contenido y un enlace autorizado
+- Formato de cita: texto descriptivo + URL de la página web
+- Prioridad: sitio web oficial > Wiki > medios de juegos
+- Solo se deben citar contenido relevante
+
+### Reglas de Uso de Vídeos
+- **Criterio de selección**
+- **Ubicación del video**
+- **Formato de inserción**
+
+---
+
+## 📝 Contenido del Artículo
+
+### Encabezado del Archivo
+
+```jsx
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Blast Powder - Pokémon Rejuvenación Wikia - Fandom",
+  description: "Descubre todo sobre Blast Powder en Pokémon Rejuvenación. Aprende su ubicación, uso y cómo obtenerlo en el juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Blast+Powder+Guide",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Pokémon Rejuvenación"
+}
+```
+
+### Parte TL;DR
+
+```jsx
+<Callout type="info" title="Guía Rápida">
+- **Ubicación**: Disponible en la 7ª Avenida, Biblioteca Beryl o Barrio Obsidia
+- **Uso**: Usado para extraer la base de una Roca de Minado
+- **Obtención**: A principios del juego a través de Pickup o de un miembro de pandilla
+- **Importante**: Puede usarse para quitar Roca de Minado que bloquea el acceso a objetos
+</Callout>
+```
+
+### Primera Sección
+
+```jsx
+<Section icon={Map} title="Resumen de Blast Powder">
+
+<Callout type="info" title="Ubicación">
+Blast Powder se puede encontrar en la 7ª Avenida, Biblioteca Beryl o Barrio Obsidia. Estas ubicaciones están en las primeras etapas del juego, lo que facilita su obtención y uso.
+</Callout>
+
+<Callout type="tip" title="Consejos de Uso">
+El uso de Blast Powder permite extraer la base de una Roca de Minado, lo que puede ser crucial para acceder a ciertos objetos o despejar obstáculos.
+</Callout>
+
+</Section>
+```
+
+### Sección de Pasos
+
+```jsx
+<Section icon={Swords} title="Cómo Obtener Blast Powder">
+
+<Steps>
+  <Step num="1" title="Comienza el Juego">
+    Empieza tu aventura en Pokémon Rejuvenación.
+  </Step>
+  <Step num="2" title="Accede a Pickup">
+    Busca la opción Pickup en el menú del juego.
+  </Step>
+  <Step num="3" title="Obtén Blast Powder">
+    Blast Powder estará disponible para Pickup a principios del juego.
+  </Step>
+  <Step num="4" title="Únete a una Pandilla">
+    Alternativamente, puedes unirte a una pandilla para comprar Blast Powder a un miembro.
+  </Step>
+</Steps>
+
+</Section>
+```
+
+### Sección de Preguntas Frecuentes
+
+```jsx
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar Blast Powder?",
+    answer: "Blast Powder se puede encontrar en la 7ª Avenida, Biblioteca Beryl o Barrio Obsidia."
+  },
+  {
+    question: "Para qué se usa Blast Powder?",
+    answer: "Blast Powder se usa para extraer la base de una Roca de Minado, lo que puede ser crucial para acceder a ciertos objetos o despejar obstáculos."
+  },
+  {
+    question: "¿Cómo obtengo Blast Powder?",
+    answer: "Blast Powder se puede obtener a principios del juego a través de Pickup o uniéndose a una pandilla y comprándolo a un miembro."
+  }
+]} />
+
+</Section>
+```
+
+### Conclusión
+
+Los puntos anteriores son el contenido del artículo basado en la información y la guía proporcionada. Ajusta y mejora la estructura del artículo según sea necesario para asegurar la relevancia y precisión del contenido.

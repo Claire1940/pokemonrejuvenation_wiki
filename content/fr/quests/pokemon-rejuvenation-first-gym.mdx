@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide du Premier Gym de Pokémon Rejuvenation",
+  description: "Un guide complet pour naviguer dans le premier gymnase de Pokémon Rejuvenation, y compris des conseils et des stratégies pour le succès.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=First+Gym+Guide",
+  date: "2026-07-23",
+  author: "Équipe Wiki de Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mots-clés principaux** : Premier Gym de Pokémon Rejuvenation
+- **Mécanique clé** : Comprendre la disposition du gymnase et les entraîneurs
+- **Meilleure stratégie** : Prioriser les entraîneurs et les objets pour une progression efficace
+- **Conseil crucial** : Restez vigilant à l'égard des objets cachés et des salles secrètes
+- **Choix supérieur** : Composition d'équipe optimale pour le défi du gymnase
+</Callout>
+
+<Section icon={Map} title="Disposition et Mécanismes du Gymnase">
+
+Le Gymnase East Gearen dans Pokémon Rejuvenation est conçu pour défier les joueurs avec une série de salles remplies de Tuiles Piège et d'entraîneurs. Pour naviguer avec succès dans le gymnase, les joueurs doivent activer deux moniteurs en traversant les salles et en interagissant avec les Tuiles Piège. Une fois que les deux moniteurs sont activés, les joueurs peuvent appeler Venam sur la scène pour la bataille finale.
+
+**Disposition du Gymnase :**
+- **Salle Principale** : Contient le premier ensemble de Tuiles Piège et d'entraîneurs.
+- **Deuxième Salle** : Plus de Tuiles Piège et d'entraîneurs, menant au premier moniteur.
+- **Troisième Salle** : Dernières Tuiles Piège et d'entraîneurs, menant au second moniteur.
+
+**Tuiles Piège :**
+- **Dommage** : Inflige des dégâts aux Pokémon.
+- **Transport** : Déplace les joueurs vers différents endroits.
+- **Son** : Joue un effet sonore.
+- **Bataille Sauvage** : Démarre une bataille sauvage avec un Pokémon sauvage.
+- **Directionnel** : Déplace les joueurs dans une direction spécifique.
+
+**Moniteurs :**
+- **Premier Moniteur** : Situé dans la deuxième salle, nécessite une combinaison de nombres spécifique pour être activé.
+- **Deuxième Moniteur** : Situé dans la troisième salle, nécessite une autre combinaison de nombres pour être activé.
+
+</Section>
+
+<Section icon={Swords} title="Stratégie des Entraîneurs et des Pokémon">
+
+**Emplacements des Entraîneurs :**
+- **Enthusiast Luca** : Situé dans la Salle Principale, récompense 90 Dollars Pokémon et Bellsprout.
+- **Venonat** : Situé dans la Salle Principale, récompense 99 Dollars Pokémon et Bellsprout.
+- **Enthusiast Luca** : Situé dans la deuxième salle, récompense 99 Dollars Pokémon et Bellsprout.
+- **Venonat** : Situé dans la deuxième salle, récompense 99 Dollars Pokémon et Bellsprout.
+
+**Meilleure Stratégie :**
+- Prioriser la défaite des entraîneurs dans la Salle Principale pour obtenir les objets nécessaires pour les moniteurs.
+- Sauvegarder les entraîneurs de la deuxième salle pour plus tard, car ils peuvent être un défi.
+- Restez vigilant à l'égard des objets cachés, tels que la Géode Psychique, qui peut être trouvée dans la Salle Principale.
+
+</Section>
+
+<Section icon={Trophy} title="Objets et Récompenses">
+
+**Objets :**
+- **Géode Psychique** : Située dans la Salle Principale, derrière le bureau dans la poubelle.
+- **TM102 Balayage Poison** : Récompensé après la défaite de Venam.
+
+**Récompenses :**
+- **Dollars Pokémon** : Gagnés en battant les entraîneurs.
+- **Objets** : Gagnés en battant les entraîneurs et en complétant le défi du gymnase.
+
+</Section>
+
+<Section icon={Target} title="Guide Étape par Étape pour Activer les Moniteurs">
+
+1. **Salle Principale** : Défiez les entraîneurs dans la Salle Principale pour obtenir les objets nécessaires pour les moniteurs.
+2. **Deuxième Salle** : Traversez les Tuiles Piège et les entraîneurs pour atteindre le premier moniteur. Utilisez la combinaison de nombres 2 332 pour activer le moniteur.
+3. **Troisième Salle** : Traversez les Tuiles Piège et les entraîneurs pour atteindre le second moniteur. Utilisez la combinaison de nombres 4 332 pour activer le moniteur.
+4. **Bataille Finale** : Appellez Venam sur la scène pour la bataille finale.
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment activer les moniteurs dans le gymnase ?",
+    answer: "Défiez les entraîneurs dans les salles et utilisez les combinaisons de nombres spécifiques sur les Tuiles Piège pour activer les moniteurs."
+  },
+  {
+    question: "Quels objets ai-je besoin pour activer les moniteurs ?",
+    answer: "Vous avez besoin des objets obtenus en battant les entraîneurs dans la Salle Principale."
+  },
+  {
+    question: "Quelle est la meilleure composition d'équipe pour le défi du gymnase ?",
+    answer: "Une équipe avec un mélange de Pokémon offensifs et défensifs est recommandée."
+  }
+]} />
+
+</Section>

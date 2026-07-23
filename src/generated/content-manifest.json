@@ -22,12 +22,24 @@
         "file": "pokemon-rejuvenation-axel"
       },
       {
+        "slug": "pokemon-rejuvenation-characters",
+        "file": "pokemon-rejuvenation-characters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crescent",
+        "file": "pokemon-rejuvenation-crescent"
+      },
+      {
         "slug": "pokemon-rejuvenation-erin",
         "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
         "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-jan",
+        "file": "pokemon-rejuvenation-jan"
       },
       {
         "slug": "pokemon-rejuvenation-melia",
@@ -78,6 +90,10 @@
       {
         "slug": "pokemon-rejuvenation-ability-capsule",
         "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-black-prism",
+        "file": "pokemon-rejuvenation-black-prism"
       },
       {
         "slug": "pokemon-rejuvenation-breeding",
@@ -186,6 +202,14 @@
         "file": "pokemon-rejuvenation-blacksteeple-castle"
       },
       {
+        "slug": "pokemon-rejuvenation-gearen-city",
+        "file": "pokemon-rejuvenation-gearen-city"
+      },
+      {
+        "slug": "pokemon-rejuvenation-goldenleaf-town",
+        "file": "pokemon-rejuvenation-goldenleaf-town"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
       },
@@ -244,6 +268,10 @@
       {
         "slug": "pokemon-rejuvenation-classified-information-quest",
         "file": "pokemon-rejuvenation-classified-information-quest"
+      },
+      {
+        "slug": "pokemon-rejuvenation-first-gym",
+        "file": "pokemon-rejuvenation-first-gym"
       },
       {
         "slug": "pokemon-rejuvenation-hidden-library",
@@ -308,6 +336,10 @@
         "file": "pokemon-rejuvenation-amber"
       },
       {
+        "slug": "pokemon-rejuvenation-ana",
+        "file": "pokemon-rejuvenation-ana"
+      },
+      {
         "slug": "pokemon-rejuvenation-angie",
         "file": "pokemon-rejuvenation-angie"
       },
@@ -320,12 +352,28 @@
         "file": "pokemon-rejuvenation-axel"
       },
       {
+        "slug": "pokemon-rejuvenation-characters",
+        "file": "pokemon-rejuvenation-characters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crescent",
+        "file": "pokemon-rejuvenation-crescent"
+      },
+      {
         "slug": "pokemon-rejuvenation-erin",
         "file": "pokemon-rejuvenation-erin"
       },
       {
         "slug": "pokemon-rejuvenation-griselda",
         "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-jan",
+        "file": "pokemon-rejuvenation-jan"
+      },
+      {
+        "slug": "pokemon-rejuvenation-lost-castle",
+        "file": "pokemon-rejuvenation-lost-castle"
       },
       {
         "slug": "pokemon-rejuvenation-melia",
@@ -364,6 +412,10 @@
         "file": "pokemon-rejuvenation-mods"
       },
       {
+        "slug": "pokemon-rejuvenation-on-iphone",
+        "file": "pokemon-rejuvenation-on-iphone"
+      },
+      {
         "slug": "pokemon-rejuvenation-update",
         "file": "pokemon-rejuvenation-update"
       },
@@ -376,6 +428,18 @@
       {
         "slug": "pokemon-rejuvenation-ability-capsule",
         "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-black-prism",
+        "file": "pokemon-rejuvenation-black-prism"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blast-powder",
+        "file": "pokemon-rejuvenation-blast-powder"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blue-moon-ice-cream",
+        "file": "pokemon-rejuvenation-blue-moon-ice-cream"
       },
       {
         "slug": "pokemon-rejuvenation-breeding",
@@ -392,6 +456,10 @@
       {
         "slug": "pokemon-rejuvenation-debug-mode",
         "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-discord",
+        "file": "pokemon-rejuvenation-discord"
       },
       {
         "slug": "pokemon-rejuvenation-eggs",
@@ -484,6 +552,22 @@
         "file": "pokemon-rejuvenation-blacksteeple-castle"
       },
       {
+        "slug": "pokemon-rejuvenation-gearen-city",
+        "file": "pokemon-rejuvenation-gearen-city"
+      },
+      {
+        "slug": "pokemon-rejuvenation-goldenleaf-town",
+        "file": "pokemon-rejuvenation-goldenleaf-town"
+      },
+      {
+        "slug": "pokemon-rejuvenation-karma-points",
+        "file": "pokemon-rejuvenation-karma-points"
+      },
+      {
+        "slug": "pokemon-rejuvenation-kimono-girl-locations",
+        "file": "pokemon-rejuvenation-kimono-girl-locations"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
       },
@@ -518,6 +602,10 @@
         "file": "pokemon-rejuvenation-briefcase-codes"
       },
       {
+        "slug": "pokemon-rejuvenation-hospital-of-hope-password",
+        "file": "pokemon-rejuvenation-hospital-of-hope-password"
+      },
+      {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
       },
@@ -540,12 +628,32 @@
     ],
     "quests": [
       {
+        "slug": "pokemon-rejuvenation-ancient-teachings",
+        "file": "pokemon-rejuvenation-ancient-teachings"
+      },
+      {
         "slug": "pokemon-rejuvenation-classified-information-quest",
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-first-gym-puzzle",
+        "file": "pokemon-rejuvenation-first-gym-puzzle"
+      },
+      {
+        "slug": "pokemon-rejuvenation-first-gym",
+        "file": "pokemon-rejuvenation-first-gym"
+      },
+      {
+        "slug": "pokemon-rejuvenation-help-center",
+        "file": "pokemon-rejuvenation-help-center"
+      },
+      {
         "slug": "pokemon-rejuvenation-hidden-library",
         "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hoenn-trip",
+        "file": "pokemon-rejuvenation-hoenn-trip"
       },
       {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
@@ -556,12 +664,20 @@
         "file": "pokemon-rejuvenation-pictozumi-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-quest-guide",
+        "file": "pokemon-rejuvenation-quest-guide"
+      },
+      {
         "slug": "pokemon-rejuvenation-quests",
         "file": "pokemon-rejuvenation-quests"
       },
       {
         "slug": "pokemon-rejuvenation-side-quests",
         "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough-v14",
+        "file": "pokemon-rejuvenation-walkthrough-v14"
       },
       {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
@@ -580,6 +696,14 @@
       {
         "slug": "pokemon-rejuvenation-best-teams",
         "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gible",
+        "file": "pokemon-rejuvenation-gible"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hisuian-samurott",
+        "file": "pokemon-rejuvenation-hisuian-samurott"
       },
       {
         "slug": "pokemon-rejuvenation-starters",
@@ -606,6 +730,10 @@
         "file": "pokemon-rejuvenation-amber"
       },
       {
+        "slug": "pokemon-rejuvenation-ana",
+        "file": "pokemon-rejuvenation-ana"
+      },
+      {
         "slug": "pokemon-rejuvenation-angie",
         "file": "pokemon-rejuvenation-angie"
       },
@@ -618,12 +746,32 @@
         "file": "pokemon-rejuvenation-axel"
       },
       {
+        "slug": "pokemon-rejuvenation-characters",
+        "file": "pokemon-rejuvenation-characters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crescent",
+        "file": "pokemon-rejuvenation-crescent"
+      },
+      {
         "slug": "pokemon-rejuvenation-erin",
         "file": "pokemon-rejuvenation-erin"
       },
       {
+        "slug": "pokemon-rejuvenation-flora",
+        "file": "pokemon-rejuvenation-flora"
+      },
+      {
         "slug": "pokemon-rejuvenation-griselda",
         "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-jan",
+        "file": "pokemon-rejuvenation-jan"
+      },
+      {
+        "slug": "pokemon-rejuvenation-lost-castle",
+        "file": "pokemon-rejuvenation-lost-castle"
       },
       {
         "slug": "pokemon-rejuvenation-melia",
@@ -662,6 +810,10 @@
         "file": "pokemon-rejuvenation-mods"
       },
       {
+        "slug": "pokemon-rejuvenation-on-iphone",
+        "file": "pokemon-rejuvenation-on-iphone"
+      },
+      {
         "slug": "pokemon-rejuvenation-update",
         "file": "pokemon-rejuvenation-update"
       },
@@ -674,6 +826,18 @@
       {
         "slug": "pokemon-rejuvenation-ability-capsule",
         "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-black-prism",
+        "file": "pokemon-rejuvenation-black-prism"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blast-powder",
+        "file": "pokemon-rejuvenation-blast-powder"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blue-moon-ice-cream",
+        "file": "pokemon-rejuvenation-blue-moon-ice-cream"
       },
       {
         "slug": "pokemon-rejuvenation-breeding",
@@ -690,6 +854,10 @@
       {
         "slug": "pokemon-rejuvenation-debug-mode",
         "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-discord",
+        "file": "pokemon-rejuvenation-discord"
       },
       {
         "slug": "pokemon-rejuvenation-eggs",
@@ -782,6 +950,22 @@
         "file": "pokemon-rejuvenation-blacksteeple-castle"
       },
       {
+        "slug": "pokemon-rejuvenation-gearen-city",
+        "file": "pokemon-rejuvenation-gearen-city"
+      },
+      {
+        "slug": "pokemon-rejuvenation-goldenleaf-town",
+        "file": "pokemon-rejuvenation-goldenleaf-town"
+      },
+      {
+        "slug": "pokemon-rejuvenation-karma-points",
+        "file": "pokemon-rejuvenation-karma-points"
+      },
+      {
+        "slug": "pokemon-rejuvenation-kimono-girl-locations",
+        "file": "pokemon-rejuvenation-kimono-girl-locations"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
       },
@@ -816,6 +1000,10 @@
         "file": "pokemon-rejuvenation-briefcase-codes"
       },
       {
+        "slug": "pokemon-rejuvenation-hospital-of-hope-password",
+        "file": "pokemon-rejuvenation-hospital-of-hope-password"
+      },
+      {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
       },
@@ -838,12 +1026,32 @@
     ],
     "quests": [
       {
+        "slug": "pokemon-rejuvenation-ancient-teachings",
+        "file": "pokemon-rejuvenation-ancient-teachings"
+      },
+      {
         "slug": "pokemon-rejuvenation-classified-information-quest",
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-first-gym-puzzle",
+        "file": "pokemon-rejuvenation-first-gym-puzzle"
+      },
+      {
+        "slug": "pokemon-rejuvenation-first-gym",
+        "file": "pokemon-rejuvenation-first-gym"
+      },
+      {
+        "slug": "pokemon-rejuvenation-help-center",
+        "file": "pokemon-rejuvenation-help-center"
+      },
+      {
         "slug": "pokemon-rejuvenation-hidden-library",
         "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hoenn-trip",
+        "file": "pokemon-rejuvenation-hoenn-trip"
       },
       {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
@@ -854,12 +1062,20 @@
         "file": "pokemon-rejuvenation-pictozumi-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-quest-guide",
+        "file": "pokemon-rejuvenation-quest-guide"
+      },
+      {
         "slug": "pokemon-rejuvenation-quests",
         "file": "pokemon-rejuvenation-quests"
       },
       {
         "slug": "pokemon-rejuvenation-side-quests",
         "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough-v14",
+        "file": "pokemon-rejuvenation-walkthrough-v14"
       },
       {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
@@ -878,6 +1094,14 @@
       {
         "slug": "pokemon-rejuvenation-best-teams",
         "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gible",
+        "file": "pokemon-rejuvenation-gible"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hisuian-samurott",
+        "file": "pokemon-rejuvenation-hisuian-samurott"
       },
       {
         "slug": "pokemon-rejuvenation-starters",
@@ -904,6 +1128,10 @@
         "file": "pokemon-rejuvenation-amber"
       },
       {
+        "slug": "pokemon-rejuvenation-ana",
+        "file": "pokemon-rejuvenation-ana"
+      },
+      {
         "slug": "pokemon-rejuvenation-angie",
         "file": "pokemon-rejuvenation-angie"
       },
@@ -916,12 +1144,32 @@
         "file": "pokemon-rejuvenation-axel"
       },
       {
+        "slug": "pokemon-rejuvenation-characters",
+        "file": "pokemon-rejuvenation-characters"
+      },
+      {
+        "slug": "pokemon-rejuvenation-crescent",
+        "file": "pokemon-rejuvenation-crescent"
+      },
+      {
         "slug": "pokemon-rejuvenation-erin",
         "file": "pokemon-rejuvenation-erin"
       },
       {
+        "slug": "pokemon-rejuvenation-flora",
+        "file": "pokemon-rejuvenation-flora"
+      },
+      {
         "slug": "pokemon-rejuvenation-griselda",
         "file": "pokemon-rejuvenation-griselda"
+      },
+      {
+        "slug": "pokemon-rejuvenation-jan",
+        "file": "pokemon-rejuvenation-jan"
+      },
+      {
+        "slug": "pokemon-rejuvenation-lost-castle",
+        "file": "pokemon-rejuvenation-lost-castle"
       },
       {
         "slug": "pokemon-rejuvenation-melia",
@@ -960,6 +1208,10 @@
         "file": "pokemon-rejuvenation-mods"
       },
       {
+        "slug": "pokemon-rejuvenation-on-iphone",
+        "file": "pokemon-rejuvenation-on-iphone"
+      },
+      {
         "slug": "pokemon-rejuvenation-update",
         "file": "pokemon-rejuvenation-update"
       },
@@ -972,6 +1224,18 @@
       {
         "slug": "pokemon-rejuvenation-ability-capsule",
         "file": "pokemon-rejuvenation-ability-capsule"
+      },
+      {
+        "slug": "pokemon-rejuvenation-black-prism",
+        "file": "pokemon-rejuvenation-black-prism"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blast-powder",
+        "file": "pokemon-rejuvenation-blast-powder"
+      },
+      {
+        "slug": "pokemon-rejuvenation-blue-moon-ice-cream",
+        "file": "pokemon-rejuvenation-blue-moon-ice-cream"
       },
       {
         "slug": "pokemon-rejuvenation-breeding",
@@ -988,6 +1252,10 @@
       {
         "slug": "pokemon-rejuvenation-debug-mode",
         "file": "pokemon-rejuvenation-debug-mode"
+      },
+      {
+        "slug": "pokemon-rejuvenation-discord",
+        "file": "pokemon-rejuvenation-discord"
       },
       {
         "slug": "pokemon-rejuvenation-eggs",
@@ -1080,6 +1348,22 @@
         "file": "pokemon-rejuvenation-blacksteeple-castle"
       },
       {
+        "slug": "pokemon-rejuvenation-gearen-city",
+        "file": "pokemon-rejuvenation-gearen-city"
+      },
+      {
+        "slug": "pokemon-rejuvenation-goldenleaf-town",
+        "file": "pokemon-rejuvenation-goldenleaf-town"
+      },
+      {
+        "slug": "pokemon-rejuvenation-karma-points",
+        "file": "pokemon-rejuvenation-karma-points"
+      },
+      {
+        "slug": "pokemon-rejuvenation-kimono-girl-locations",
+        "file": "pokemon-rejuvenation-kimono-girl-locations"
+      },
+      {
         "slug": "pokemon-rejuvenation-link-heart",
         "file": "pokemon-rejuvenation-link-heart"
       },
@@ -1114,6 +1398,10 @@
         "file": "pokemon-rejuvenation-briefcase-codes"
       },
       {
+        "slug": "pokemon-rejuvenation-hospital-of-hope-password",
+        "file": "pokemon-rejuvenation-hospital-of-hope-password"
+      },
+      {
         "slug": "pokemon-rejuvenation-lavender-password",
         "file": "pokemon-rejuvenation-lavender-password"
       },
@@ -1136,12 +1424,28 @@
     ],
     "quests": [
       {
+        "slug": "pokemon-rejuvenation-ancient-teachings",
+        "file": "pokemon-rejuvenation-ancient-teachings"
+      },
+      {
         "slug": "pokemon-rejuvenation-classified-information-quest",
         "file": "pokemon-rejuvenation-classified-information-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-first-gym-puzzle",
+        "file": "pokemon-rejuvenation-first-gym-puzzle"
+      },
+      {
+        "slug": "pokemon-rejuvenation-first-gym",
+        "file": "pokemon-rejuvenation-first-gym"
+      },
+      {
         "slug": "pokemon-rejuvenation-hidden-library",
         "file": "pokemon-rejuvenation-hidden-library"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hoenn-trip",
+        "file": "pokemon-rejuvenation-hoenn-trip"
       },
       {
         "slug": "pokemon-rejuvenation-make-your-own-employee",
@@ -1152,12 +1456,20 @@
         "file": "pokemon-rejuvenation-pictozumi-quest"
       },
       {
+        "slug": "pokemon-rejuvenation-quest-guide",
+        "file": "pokemon-rejuvenation-quest-guide"
+      },
+      {
         "slug": "pokemon-rejuvenation-quests",
         "file": "pokemon-rejuvenation-quests"
       },
       {
         "slug": "pokemon-rejuvenation-side-quests",
         "file": "pokemon-rejuvenation-side-quests"
+      },
+      {
+        "slug": "pokemon-rejuvenation-walkthrough-v14",
+        "file": "pokemon-rejuvenation-walkthrough-v14"
       },
       {
         "slug": "pokemon-rejuvenation-wall-of-shame-quest",
@@ -1176,6 +1488,14 @@
       {
         "slug": "pokemon-rejuvenation-best-teams",
         "file": "pokemon-rejuvenation-best-teams"
+      },
+      {
+        "slug": "pokemon-rejuvenation-gible",
+        "file": "pokemon-rejuvenation-gible"
+      },
+      {
+        "slug": "pokemon-rejuvenation-hisuian-samurott",
+        "file": "pokemon-rejuvenation-hisuian-samurott"
       },
       {
         "slug": "pokemon-rejuvenation-starters",

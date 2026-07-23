@@ -1,0 +1,77 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokémon Rejuvenation: Guide de la ville d'East Gearen",
+  description: "Explorez la ville d'East Gearen dans Pokémon Rejuvenation avec notre guide complet.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Guide+de+la+ville+d'East+Gearen",
+  date: "2026-07-23",
+  author: "Équipe du Wiki Pokémon Rejuvenation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Lieu**: Région d'Aevium
+- **Caractéristiques Notables**: Laboratoire Gearen, Gym de type Poison, Multiples itinéraires
+- **Accès**: Train vers la Route 1, Route 2, Parc Gearen, Quai Oceana, Pont de Junction
+- **Restauration**: Devient Neo East Gearen City après avoir visité la ville de Grand Dream
+</Callout>
+
+<Section icon={Map} title="Aperçu de la Ville">
+
+La ville d'East Gearen est une ville importante de la région d'Aevium, connue pour son Laboratoire Gearen et le Gym de type Poison. La ville est divisée en deux côtés et offre de multiples itinéraires pour l'exploration. Elle abrite également le leader de Gym de type Poison, Venam.
+
+</Section>
+
+<Section icon={Swords} title="Leader de Gym: Venam">
+
+Venam est le leader de Gym de type Poison de la ville d'East Gearen. Elle se spécialise dans les Pokémon de type Poison et offre le badge Cœur de Poison après sa défaite. Son Gym est situé sur la partie est de la ville.
+
+</Section>
+
+<Section icon={Target} title="Laboratoire Gearen">
+
+Le Laboratoire Gearen est un lieu crucial dans la ville d'East Gearen. C'est là que les joueurs peuvent recevoir leurs Pokémon de départ de la part du Professeur Jenner et de l'exploratrice de ligue Amanda. Le laboratoire est situé dans le sud-ouest de la ville.
+
+</Section>
+
+<Section icon={Trophy} title="Points d'Intérêt">
+
+**Gym d'East Gearen**: Le Gym officiel de la ville d'East Gearen, dirigé par Venam.
+
+**Bibliothèque Magnolia**: Contient des informations sur les Pokémon d'ombre et leurs méthodes de purification.
+
+**hôtel Chrisola**: Un hôtel de luxe avec un coin jeux et un centre AP.
+
+**Appartements Gearen**: Zone résidentielle avec un accès restreint à certains bâtiments.
+
+**Centre des Parcs et des Loisirs**: Accès pendant la quête des Parcs et des Wrecks.
+
+</Section>
+
+<Section icon={Sparkles} title="Restauration en Neo East Gearen City">
+
+Après avoir visité la ville de Grand Dream, la ville d'East Gearen subit une restauration et devient Neo East Gearen City, offrant de nouvelles expériences et défis.
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "Comment puis-je accéder à la ville d'East Gearen?",
+    answer: "La ville d'East Gearen peut être atteinte par train depuis la Route 1 et la Route 2, et en visitant le Parc Gearen, le Quai Oceana et le Pont de Junction."
+  },
+  {
+    question: "Pourquoi est-ce que le Laboratoire Gearen est-il connu?",
+    answer: "Le Laboratoire Gearen est connu pour être le point de départ pour les nouveaux dresseurs de Pokémon, où ils peuvent recevoir leurs Pokémon de départ."
+  },
+  {
+    question: "Qui est le leader de Gym de la ville d'East Gearen?",
+    answer: "Le leader de Gym de la ville d'East Gearen est Venam, qui se spécialise dans les Pokémon de type Poison."
+  }
+]} />

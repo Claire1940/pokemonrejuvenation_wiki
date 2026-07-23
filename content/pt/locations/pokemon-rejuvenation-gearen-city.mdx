@@ -1,0 +1,77 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pokémon Rejuvenação: Guia da Cidade de East Gearen",
+  description: "Explore a Cidade de East Gearen em Pokémon Rejuvenação com nosso guia completo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=East+Gearen+City+Guide",
+  date: "2026-07-23",
+  author: "Equipe de Wiki do Pokémon Rejuvenação"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Localização**: Região de Aevium
+- **Características Notáveis**: Laboratório Gearen, Ginásio de Tipo Veneno, Várias rotas
+- **Acessibilidade**: Trem para Rota 1, Rota 2, Parque Gearen, Perto de Oceana, Ponte de Entroncamento
+- **Restauração**: Transforma-se na Neo Cidade de East Gearen após visitar a Cidade Grand Dream
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Cidade">
+
+A Cidade de East Gearen é uma cidade significativa na Região de Aevium, conhecida pelo seu Laboratório Gearen e o Ginásio de Tipo Veneno. A cidade é dividida em duas partes e oferece várias rotas para exploração. Também é lar do Líder do Ginásio de Tipo Veneno, Venam.
+
+</Section>
+
+<Section icon={Swords} title="Líder do Ginásio: Venam">
+
+Venam é o Líder do Ginásio de Tipo Veneno da Cidade de East Gearen. Ela se especializa em Pokémon de Tipo Veneno e oferece o Selo do Coração de Veneno após a derrota. Seu Ginásio está situado no lado leste da cidade.
+
+</Section>
+
+<Section icon={Target} title="Laboratório Gearen">
+
+O Laboratório Gearen é uma localização crucial na Cidade de East Gearen. É onde os jogadores podem receber seus Pokémon de início do Professor Jenner e da caçadora de equipe Amanda. O laboratório está situado na parte sudoeste da cidade.
+
+</Section>
+
+<Section icon={Trophy} title="Pontos de Interesse">
+
+**Ginásio de East Gearen**: O Ginásio oficial da Cidade de East Gearen, liderado por Venam.
+
+**Biblioteca de Magnólia**: Contém informações sobre Pokémon da Sombra e seus métodos de purificação.
+
+**Hotel Chrisola**: Um hotel luxuoso com um Cantinho de Jogos e Centro de AP.
+
+**Apartamentos Gearen**: Área residencial com acesso restrito a certos edifícios.
+
+**Centro de Parques e Recreação**: Acessível durante a missão Parques e Desmoronamentos.
+
+</Section>
+
+<Section icon={Sparkles} title="Restauração para Neo Cidade de East Gearen">
+
+Após visitar a Cidade Grand Dream, a Cidade de East Gearen passa por uma restauração e se transforma na Neo Cidade de East Gearen, oferecendo novas experiências e desafios.
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "Como eu consigo até a Cidade de East Gearen?",
+    answer: "A Cidade de East Gearen pode ser acessada através do trem das Rotas 1 e 2, e visitando o Parque Gearen, Perto de Oceana e Ponte de Entroncamento."
+  },
+  {
+    question: "O que o Laboratório Gearen é conhecido por?",
+    answer: "O Laboratório Gearen é conhecido por ser o ponto de partida para novos Treinadores de Pokémon, onde eles podem receber seus Pokémon de início."
+  },
+  {
+    question: "Quem é o Líder do Ginásio da Cidade de East Gearen?",
+    answer: "O Líder do Ginásio da Cidade de East Gearen é Venam, que se especializa em Pokémon de Tipo Veneno."
+  }
+]} />
